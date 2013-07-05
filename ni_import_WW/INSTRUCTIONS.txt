@@ -1,0 +1,23 @@
+These are the steps for generating the FRx .txt file
+1) In FRx generate report - 61.9H (filename:  TB CO Home-NI)
+2) select AWR Corporation
+3) Export file:  File - Export - ASCII - comma delimited
+4) Save to C:\dane\NI_import_WW
+5) File name = 61.9HYYYY-MM
+6) Export selection:  Financial report; Entire tree; X only print headings
+
+These are the steps for generating the NI import template
+
+1) make sure "account_map.txt" is up to date
+
+2) Drag the 61-9 .txt file on top of the "RUN_ME.bat"
+3) Check log file
+	Number of lines - this is the total output lines (around 700 to 800)
+	Sum of all output - this should = 0
+	Number of companies processed = total number of AWR entities
+
+4) Double-click on output.csv (it should open in excel)
+
+5) In the same excel open the "AWR JE Template_upload" file
+
+6) Copy values only from output.csv to the upload template

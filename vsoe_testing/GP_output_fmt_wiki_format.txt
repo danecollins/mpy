@@ -1,0 +1,128 @@
+====== 4/4/2008 - Alta Engineering ======
+  * invoice number = 5512MD
+  * MWO-225-MLW (1 seat(s))
+  * list price = 4050, discount = 2025 ( 50.0%)
+  * **enter explanation here**
+
+  * VSS-350-MLW (1 seat(s))
+  * list price = 3600, discount = 1800 ( 50.0%)
+  * **enter explanation here**
+
+====== 5/4/2008 - Infineon ======
+  * invoice number = 3925MI(3)
+  * MWO-205-MFW (3 seat(s))
+  * list price = 3822, discount = 764.4 ( 20.0%)
+  * **enter explanation here**
+
+  * MWO-225-MFW (1 seat(s))
+  * list price = 4368, discount = 873.6 ( 20.0%)
+  * **enter explanation here**
+
+====== 5/9/2008 - Alcatel Italia ======
+  * invoice number = 5576MI
+  * MWO-225-MFW (4 seat(s))
+  * list price = 4914, discount = 1720 ( 35.0%)
+  * **enter explanation here**
+
+====== 5/25/2008 - National Instruments ======
+  * invoice number = 5600MD
+  * FIL-100-M3W (2 seat(s))
+  * list price = 1950, discount = 450 ( 23.1%)
+  * **enter explanation here**
+
+====== 5/25/2008 - Thales Alenia Space France ======
+  * invoice number = 5601MI
+  * MWO-100-MFW (4 seat(s))
+  * list price = 1873.08, discount = 374.62 ( 20.0%)
+  * **enter explanation here**
+
+  * MWO-100-MFW (2 seat(s))
+  * list price = 1248.72, discount = 249.74 ( 20.0%)
+  * **enter explanation here**
+
+====== 5/25/2008 - National Instruments ======
+  * invoice number = 5600MD
+  * MWO-225-M3W (2 seat(s))
+  * list price = 7020, discount = 2220 ( 31.6%)
+  * **enter explanation here**
+
+====== 5/25/2008 - Thales Alenia Space France ======
+  * invoice number = 5601MI
+  * MWO-228-MFW (3 seat(s))
+  * list price = 11238.48, discount = 2247.7 ( 20.0%)
+  * **enter explanation here**
+
+====== 5/25/2008 - National Instruments ======
+  * invoice number = 5600MD
+  * VSS-350-M3W (1 seat(s))
+  * list price = 6240, discount = 1440 ( 23.1%)
+  * **enter explanation here**
+
+====== 5/25/2008 - Thales Alenia Space France ======
+  * invoice number = 5601MI
+  * WIZ-100-MFW (1 seat(s))
+  * list price = 9365.4, discount = 1873.08 ( 20.0%)
+  * **enter explanation here**
+
+====== 5/31/2008 - Northrop Grumman ======
+  * invoice number = 3896MD(3)
+  * HSP-100-MFW (3 seat(s))
+  * list price = 2790, discount = 1000 ( 35.8%)
+  * **enter explanation here**
+
+====== 6/6/2008 - Luong Consulting ======
+  * invoice number = 5651MD
+  * MWO-225-MLW (1 seat(s))
+  * list price = 4050, discount = 2025 ( 50.0%)
+  * **enter explanation here**
+
+====== 6/20/2008 - CAP Wireless, Inc ======
+  * invoice number = 3866MD(3).
+  * MWO-225-MLW (3 seat(s))
+  * list price = 3348, discount = 833.33 ( 24.9%)
+  * **enter explanation here**
+
+  * VSS-350-MLW (1 seat(s))
+  * list price = 3348, discount = 833.34 ( 24.9%)
+  * **enter explanation here**
+
+====== 7/10/2008 - ShortWave Ventures ======
+  * invoice number = 5716MD
+  * MWO-225-MLW (1 seat(s))
+  * list price = 4050, discount = 2025 ( 50.0%)
+  * **enter explanation here**
+
+====== 7/25/2008 - Centre of Development of Advanced Computing ======
+  * invoice number = 5727MI
+  * MWO-225-MLW (1 seat(s))
+  * list price = 5265, discount = 2787.35 ( 52.9%)
+  * **enter explanation here**
+
+  * VSS-350-MLW (1 seat(s))
+  * list price = 4680, discount = 2477.65 ( 52.9%)
+  * **enter explanation here**
+
+====== 7/30/2008 - Princeton Microwave Technolgy, Inc. ======
+  * invoice number = 5735MD
+  * MWO-228-MLW (1 seat(s))
+  * list price = 5400, discount = 3493 ( 64.7%)
+  * **enter explanation here**
+
+====== 10/6/2008 - Defense Sciense and Technology ======
+  * invoice number = 5892MI
+  * HSP-100-MFW (3 seat(s))
+  * list price = 3744, discount = 624 ( 16.7%)
+  * **enter explanation here**
+
+====== 10/17/2008 - Defense Sciense and Technology ======
+  * invoice number = 5904MI
+  * HSP-100-MLW (3 seat(s))
+  * list price = 2808, discount = 468 ( 16.7%)
+  * **enter explanation here**
+
+====== 11/7/2008 - National Instruments ======
+  * invoice number = 5950MD
+  * MWO-225-M3W (1 seat(s))
+  * list price = 7020, discount = 1620 ( 23.1%)
+  * **enter explanation here**
+

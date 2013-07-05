@@ -1,0 +1,13 @@
+"Cash - Operating","0001100??, /Y",3787247.13118101
+"Interco US / UK","0001302??, /Y",-0.013603999977931
+"Investment in AWR-Aplac, OY","0001730??, /Y",2625556.89
+"Common Stock AWR Aplac","0003130??, /Y",-131344.633392
+"Additional PIC AWR Corp.","0003400?? -(000340099), /Y",-17456509.13
+"Additional PIC AWR Aplac","0003430??, /Y",-2494212.255408
+"Accum other comprehensive income","TRAN",-244774.110202987
+"Retained Earnings  000-3900","",13423042.3465788
+"Allocations In - G&A","400-6900-??",100.0
+"Airfare","400-7500-??",2757.219072
+"Total Net Income","",-1706213.93834041
+"Total Assets","",24792040.490237
+"Total Liabilities and Equity","",24792040.490237

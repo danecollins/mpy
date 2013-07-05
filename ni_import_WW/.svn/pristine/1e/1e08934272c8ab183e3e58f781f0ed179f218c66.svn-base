@@ -1,0 +1,171 @@
+
+import shutil
+import sys
+import utilities
+import readmap
+import math
+
+
+### Fixed NI fields
+Upl = 'O'
+Co = '71'
+Sub = '171'
+PL = '00'
+Proj = '000000'
+
+def getAcctNumber(awr2ni,x):
+    x = x.replace('-','')
+    x = x.replace('"','')
+    x = x.replace('?','')
+    dept = x[0:3]
+    acct = x[3:7]
+    key = dept + acct
+    if (not awr2ni.has_key(key)):
+        ni_acct = '0000'
+        ni_dept = '0000'
+    else:
+        (ni_dept,ni_acct) = awr2ni[key]
+
+
+    return([dept,acct,ni_dept,ni_acct])
+
+def readInputFile():
+    awr2ni = readmap.readAccountMap()
+    print "awr2ni file read.  ", len(awr2ni), "entries found"
+
+    file=open(sys.argv[1])
+    of = open('output.csv','w')
+    ## Initialize Counters
+    linecount=0
+    skipNextLines=0
+    S8=0
+    S9=0
+    assets=0
+    liabilities=0
+    expenses=0
+    total=0
+    xx=0
+    inCompany=0
+    filedate='"October 31, 2012",'
+
+    #for i in range(12):
+    #    line = file.readline() ## skip dummy lines
+    #linecount += 12
+
+    for line in file.readlines():
+        linecount += 1
+        line = utilities.striplf(line)
+        if (inCompany == 0):
+            if ( line == filedate ):
+                inCompany = 1
+            print >> of, line
+        else:
+            ##print "|",line,"|"
+            ### line contains desc, acct string, dummy, balance
+            items = utilities.parseExcelTxtFileLine(line)
+
+            if (line <> '' and items[0] <> ''):
+
+                desc = items[0]
+                acctString = items[1]
+                ### hacks here to handle inconsistency of format of 'Accum other comprehensive income' line
+                if (desc[0:11]=='Accum other'):
+                    dept = '000'
+                    acct = 'na'
+                    ni_cc = '0000'
+                    ni_acct = '39091'
+                    skipNextLines=0 # no longer need to skip lines
+                elif (desc[0:17]=='Retained Earnings'):
+                    dept = '000'
+                    acct = '3900'
+                    ni_cc = '0000'
+                    ni_acct = '35001'
+                elif (desc[0:5]=='Total'):
+                    next
+                else:
+                    (dept,acct,ni_cc,ni_acct) = getAcctNumber(awr2ni,acctString)
+
+                ### Error checking to make sure there are the right number of items
+                if (len(items) <> 3 and len(items)<>4):
+                    print '**** Wrong number of items on the following line ****'
+                    print 'There are',len(items),'instead of 4 or 5 items'
+                    print line
+                ### The report formats are different before and after march so the
+                ### balance is in different columns
+                if (len(items) == 3):
+                    balance = items[2]
+                else:
+                    balance = items[3]
+
+                balance = utilities.striplf(balance)
+                balance = utilities.excelToNumber(balance)
+
+                if (ni_acct[0] <> '0' and ni_acct <> '99999' and ni_acct <> '99998'):
+                    #print Upl,Co,ni_cc,ni_acct,Sub,PL,Proj,balance,0,desc
+
+
+                    ### Oracle can't handle '0' in the data so print the missing D/C as empty
+                    if (balance[0] == '-'):
+                        print >> of, 'O,%s,%s,%s,%s,%s,%s,,%s,%s' % (Co,ni_cc,ni_acct,Sub,PL,Proj,balance[1:],desc)
+                    else:
+                        print >> of, 'O,%s,%s,%s,%s,%s,%s,%s,,%s' % (Co,ni_cc,ni_acct,Sub,PL,Proj,balance,desc)
+
+                    ## now update counters
+                    balance = float(balance)
+                    total += balance
+                    if (ni_acct[0] == '1'):
+                        assets += balance
+                    elif (ni_acct[0] == '2'):
+                        liabilities += balance
+                    else:
+                        expenses += balance
+                else:
+                    if (ni_acct == '99999'):
+                        S9 += float(balance)
+                    elif (ni_acct == '99998'):
+                        S8 += float(balance)
+                    else:
+                        print 'Unmapped account #', dept, acct,',', balance
+            else:
+                if (inCompany == 1):
+                    inCompany = 0
+                    if (S8 < 0):
+                        print >> of, 'O,%s,%s,%s,%s,%s,%s,%s,0,%s' % (Co,'9095','90999','171','0','0',abs(S8),'Other expenses')
+                    else:
+                        print >> of, 'O,%s,%s,%s,%s,%s,%s,0,%s,%s' % (Co,'9095','90999','171','0','0',abs(S8),'Other expenses')
+                    total = total - S8
+                    if (total < 0):
+                        print >> of, 'O,%s,%s,%s,%s,%s,%s,%s,0,%s' % (Co,'0000','10001','171','0','0',abs(total),'Petty Cash')
+                    else:
+                        print >> of, 'O,%s,%s,%s,%s,%s,%s,0,%s,%s' % (Co,'0000','10001','171','0','0',abs(total),'Petty Cash')
+                    S8=0
+                    S9=0
+                    total=0
+                    balance=0
+                    assets=0
+                    liabilities=0
+                    expenses=0
+                else:
+                    print >> of, line
+
+
+
+
+
+    file.close()
+    of.close()
+    print '\nStatistics on processed file'
+    print '   Number of lines: ', linecount
+    print '   Sum of all output =', total
+    print '   Sum of all 99998 =', S8
+    print '   Sum of all 99999 =', S9
+    print ''
+
+
+def testReadInputFile():
+    readInputFile()
+
+
+if __name__ == "__main__":
+
+    testReadInputFile()

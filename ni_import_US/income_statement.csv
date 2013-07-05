@@ -1,0 +1,148 @@
+REVENUE
+,40010,"  2,107,771.13",Revenue
+,64010,"    -39,674.95",Reseller commissions
+,Total,"2,068,096.18"
+
+EXPENSES
+, General and Administrative
+,60001,"     93,893.34",Base Wages
+,60015,"     -1,474.52",Vacation
+,60016,"           0.0",Variable Compensation
+,60095,"      15,313.0",Miscellaneous compensation
+,61011,"      8,796.14",Payroll Tax
+,61021,"     86,260.42",Group Insurance
+,61029,"      3,229.84",Disability Insurance
+,61031,"        460.94",Workers Compensation
+,61045,"       1,815.0",Legal-Immigration
+,61095,"         340.5",Other Employee Benefits
+,61096,"    -89,532.29",Other benefits
+,62007,"      1,262.62",Ground Transport
+,62010,"       1,529.7",Airfare
+,62020,"      1,328.16",Lodging
+,62030,"      2,537.06",Employee Meals
+,62032,"        815.06",Parking & Tolls
+,62061,"           0.0",Mileage Reimbursement
+,62081,"        339.23",Gifts - Deductible
+,62090,"          28.0",Other T&E
+,63011,"         119.0",Books & Subscriptions
+,64007,"        428.13",Consultants
+,64031,"        139.12",Printing
+,65041,"     25,914.44",Audit
+,65044,"      3,426.73",Bookkeeping
+,65095,"        330.56",Recruiter Fees
+,66010,"      1,919.91",Postage & Delivery
+,67001,"     51,314.79",Rent - Colorado
+,67053,"      1,363.67",Maintenance & Repairs
+,67095,"    -59,688.19",Misc building
+,68001,"        182.99",Utilities
+,68021,"      9,539.53",Telephone - Land
+,68029,"        515.65",Telephone - Cell
+,68031,"      5,432.76",Internet Connectivity
+,69031,"           0.0",Hardware Maintenance Contracts
+,69032,"         32.61",Software Maintenance Contracts
+,69043,"      3,311.16",Computer Hardware Expense
+,69047,"          82.9",Computer Software Expense
+,69082,"     10,479.91",Depreciation
+,70001,"      3,258.88",Office Supplies
+,70095,"        584.75",Other Office
+,82071,"        713.46",Attendance Fees
+,90001,"      2,375.45",Bank Charges
+,90023,"           0.0",Bad Debt
+,90999,"        278.29",Other expenses
+,91003,"        376.29",Directors & Officers
+,91009,"         91.05",Other Insurance
+,91020,"        406.45",General Liability
+,92020,"      9,558.84",Tax Planning/Preparation
+,Total,"199,431.33"
+
+, Research and Development
+,60001,"    383,793.98",Base Wages
+,60015,"      6,019.75",Vacation
+,60016,"           0.0",Variable Compensation
+,60095,"      33,906.0",Miscellaneous compensation
+,61011,"     36,477.66",Payroll Tax
+,61021,"        156.52",Group Insurance
+,61095,"     -1,358.79",Other Employee Benefits
+,61096,"     47,348.69",Other benefits
+,62007,"        320.88",Ground Transport
+,62010,"         915.0",Airfare
+,62020,"        940.66",Lodging
+,62030,"         156.2",Employee Meals
+,62032,"         296.4",Parking & Tolls
+,62061,"        159.35",Mileage Reimbursement
+,62081,"           0.0",Gifts - Deductible
+,62090,"         350.0",Other T&E
+,63011,"        625.08",Books & Subscriptions
+,63013,"      1,708.33",Corp Industry Consortiums & Associations
+,64007,"     19,977.87",Consultants
+,65095,"        217.16",Recruiter Fees
+,66010,"           0.0",Postage & Delivery
+,67001,"       2,709.5",Rent - Colorado
+,67095,"     31,565.79",Misc building
+,68021,"        153.15",Telephone - Land
+,68029,"        325.14",Telephone - Cell
+,68031,"        543.94",Internet Connectivity
+,69032,"           0.0",Software Maintenance Contracts
+,69043,"       1,235.2",Computer Hardware Expense
+,69047,"      5,168.79",Computer Software Expense
+,69082,"         92.63",Depreciation
+,69087,"           0.0",Amortization IP
+,70001,"         180.0",Office Supplies
+,70095,"         66.84",Other Office
+,82071,"           0.0",Attendance Fees
+,Total,"574,051.72"
+
+, Sales and Marketing
+,60001,"    436,623.25",Base Wages
+,60013,"           0.0",Employee Awards
+,60015,"     17,372.23",Vacation
+,60016,"     37,498.33",Variable Compensation
+,60095,"     40,942.02",Miscellaneous compensation
+,61011,"     54,222.24",Payroll Tax
+,61021,"        666.52",Group Insurance
+,61095,"     18,728.18",Other Employee Benefits
+,61096,"      42,183.6",Other benefits
+,62007,"     16,725.36",Ground Transport
+,62010,"     42,137.53",Airfare
+,62020,"     28,400.06",Lodging
+,62030,"     13,210.45",Employee Meals
+,62032,"      1,833.09",Parking & Tolls
+,62061,"      2,166.67",Mileage Reimbursement
+,62065,"      1,162.74",Company Petrol
+,62081,"      8,915.63",Gifts - Deductible
+,62090,"      7,582.59",Other T&E
+,63011,"         49.95",Books & Subscriptions
+,63013,"           0.0",Corp Industry Consortiums & Associations
+,63017,"      2,336.87",Professional Memberships
+,64007,"      5,797.46",Consultants
+,64010,"        645.04",Commissions - Sales Rep
+,64031,"           0.0",Printing
+,65095,"           0.0",Recruiter Fees
+,66006,"         81.17",Postage & Delivery
+,66010,"        216.22",Postage & Delivery
+,67001,"     11,365.52",Rent - Colorado
+,67095,"      28,122.4",Misc building
+,68021,"        691.73",Telephone - Land
+,68029,"      7,058.67",Telephone - Cell
+,68031,"      1,460.64",Internet Connectivity
+,69032,"           0.0",Software Maintenance Contracts
+,69043,"        722.74",Computer Hardware Expense
+,69047,"       1,923.3",Computer Software Expense
+,70001,"       1,148.7",Office Supplies
+,70059,"           0.0",Giveaways / prizes
+,70095,"       1,740.7",Other Office
+,73044,"      2,905.13",Web hosting
+,73060,"      6,076.33",Media - online
+,73095,"       5,007.5",Public Relations
+,76048,"     14,312.04",Media - print
+,82010,"       4,000.0",Booth Space
+,82020,"      3,154.57",Shipping & Storage
+,82030,"        189.98",Parties / catering
+,82045,"        583.74",Meeting Space
+,82071,"        446.01",Attendance Fees
+,82095,"      6,203.32",Other Tradeshow
+,90001,"        637.63",Bank Charges
+,90999,"        347.59",Other expenses
+,92020,"      1,148.38",Tax Planning/Preparation
+,Total,"878,743.82"
+

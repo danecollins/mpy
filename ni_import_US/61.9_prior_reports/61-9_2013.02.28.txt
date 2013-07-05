@@ -1,0 +1,267 @@
+"Cash - Operating","0001100??, /Y",3083454.56873993
+"Cash - JPY","0001103??, /Y",104832.04
+"Cash - Savings","0001111??, /Y",1175933.120876
+"Accounts Receivable","0001200??, /Y",5232484.78648
+"Allowance for Doubtful Accts","0001220??, /Y",-206903.95
+"Other Receivables","0001290??, /Y",22608.9483533745
+"Interco AWR/NI","0001295??, /Y",11416938.2
+"Interco US / UK","0001302??, /Y",-1.07200000202283E-02
+"Interco US / APLAC","0001303??, /Y",-2.01599999854807E-03
+"Interco US / JP","0001305??, /Y",1.03889069396246E-03
+"Prepaid Tradeshow","0001401??, /Y",82728.69
+"Prepaid Advertising","0001402??, /Y",1335.91
+"Prepaid Insurance","0001403??, /Y",34740.6951507312
+"Prepaid SW Maint Contracts","0001406??, /Y",66947.58
+"VAT Receivable","0001430??, /Y",15331.3292167696
+"Consumption Tax Paid","0001450??, /Y",1747.08048965443
+"Prepaid Other","0001490??, /Y",149894.88746455
+"Furniture & Fixtures","0001500??, /Y",142645.614370362
+"Computer Hardware","0001502??, /Y",564833.690358531
+"Computer Software","0001504??, /Y",442788.610784
+"Other Equipment","0001509??, /Y",336574.29456835
+"Leasehold Improvements","0001510??, /Y",65873.49
+"Accum Depr - F&F","0001550??, /Y",-1085796.00233041
+"Accum Depr - Comp HW","0001552??, /Y",-101152.121055705
+"Accum Depr - Comp SW","0001554??, /Y",-41616.836352
+"Accum Depr - Oth Equip","0001559??, /Y",-7048.2629214733
+"Accum Depr - Leasehold","0001560??, /Y",-44108.07
+"Federal Cur Def Tax Asset","0001600??, /Y",-743165.693424
+"Federal Non Cur Def Tax Asset","0001601??, /Y",5439180
+"Federal Valuation Reserve","0001603??, /Y",-4688912
+"State Cur Def Tax Asset","0001604??, /Y",12164
+"State Non Cur Def Tax Asset","0001605??, /Y",2331045
+"State Valuation Reserve","0001606??, /Y",-2343210
+"Investment in AWR Ltd.","0001720??, /Y",16099
+"Investment in AWR-Aplac, OY","0001730??, /Y",2625556.89
+"Investment in AWR Japan KK","0001750??, /Y",85709.36
+"Intellectual Property","0001830??, /Y",2573520
+"Accum Amort IP","0001831??, /Y",-2550587.973792
+"Goodwill","0001838??, /Y",1059502.297264
+"Security Deposits","0001900??, /Y",47868.1132
+"Accounts Payable","0002000??, /Y",-111249.006692397
+"Sale Rep & Reseller Payable","0002010??, /Y",-90462.48
+"Accrued Operating Expenses","0002020??, /Y",-104194.260980182
+"Other Credit Card","0002150??, /Y",-36419.566712
+"Income Tax Payable","0002200??, /Y",921056.532
+"Sales Tax Payable","0002210??, /Y",-8277.63
+"Sales Tax Payable - MA","0002214??, /Y",0.01
+"Sales Tax Payable - WA","0002220??, /Y",-7565.016272
+"Consumption Tax Payable","0002230??, /Y",-6761.62
+"Deferred Income Tax L/T Liability","0002260??, /Y",-442915.2
+"Accum Amort Def'd Income Tax LTL","0002261??, /Y",436953.089664
+"Accrued Tax - Other","0002290??, /Y",-9234.31011049724
+"Deferred Revenue Term License","0002300??, /Y",-7574473.069328
+"Deferred Revenue Maintenance","0002301??, /Y",-5053228.533408
+"Deferred Revenue Service","0002302??, /Y",-33825.9
+"Accrued Vacation","0002400??, /Y",-962560.918654785
+"Accrued Wages","0002401??, /Y",-17297.29
+"Accrued Bonus & Commission","0002402??, /Y",-236363.578476375
+"Pre Tax Deduction Liability","0002403??, /Y",-5644.28
+"Expense Report Clearing","0002404??, /Y",0.01
+"Accrued Payroll Tax","0002405??, /Y",-94746.6726552204
+"URSSAF - PR Tax Accrual","0002410??, /Y",-0.04
+"Accrued Pension","0002430??, /Y",-74910.77326
+"Accrued ESPP","0002435??, /Y",-36186.39
+"Other Accrued Employee Benefits","0002490??, /Y",0.04
+"NI - accruals","0002510??, /Y",-1585837
+"Acc AP & Other S/T Liabilities","0002600??, /Y",-196721.81
+"Deferred Rent","0002610??, /Y",-116315.9
+"Common Stock AWR Corp","0003100??, /Y",-1735.35
+"Common Stock AWR Ltd.","0003120??, /Y",-16099
+"Common Stock AWR Aplac","0003130??, /Y",-131344.633392
+"Common Stock AWR Japan","0003150??, /Y",-85709.3610992808
+"Warrants","0003200??, /Y",-201061
+"Additional PIC AWR Corp.","0003400?? -(000340099), /Y",-17456509.13
+"Additional PIC AWR Aplac","0003430??, /Y",-2494212.255408
+"Accreted Dividends","0003910??, /Y",170988.56
+"Accum other comprehensive income","TRAN",-213990.890347689
+"Retained Earnings  000-3900","",10777272.224952
+"Other Perpetual License","300-4000-??",-941272.9
+"MWO  Perpetual License","300-4015-??",-95553.89
+"VSS Perpetual License","300-4020-??",-77689.79
+"Other Maintenance","300-4100-??",-793188.936367
+"ANO Maintenance","300-4105-??",-12992.33
+"APL Maintenance","300-4110-??",-9889.71
+"MWO  Maintenance","300-4115-??",-561326.43
+"VSS Maintenance","300-4120-??",-108349.8
+"EM Maintenance","300-4125-??",-34910.1
+"Other Term License","300-4200-??",-839672.229188
+"ANO Term License","300-4205-??",-209686.82
+"APL Term License","300-4210-??",-7119.25
+"MWO  Term License","300-4215-??",-381803.01
+"VSS Term License","300-4220-??",-37422.64
+"EM Term License","300-4225-??",-52692.71
+"Service & Training","300-4300-??",-35171.43
+"OEM Maintenance","300-4410-??",-4991.24
+"OEM Term License","300-4420-??",-1415.79
+"Cost Plus UK","300-5120-??",-2.10099993273616E-03
+"Cost Plus Japan","300-5150-??",-7.11945284274407E-03
+"Commissions - Reseller","300-5200-??",117790.66
+"VAT-Tax Unrecoverable","300-5250-??",5076
+"Product Shipping Cost","400-5050-??",1601.146397
+"Product Shipping Invoiced","400-5051-??",382.28
+"Product COS","400-5055-??",3750
+"Third party product royalty","400-5400-??",52926.23
+"Computer Hardware Expense","400-6415-??",7994.52
+"Commissions - Sales Rep","500-5210-??",3033.79
+"Base Wages","500-6000-??",800065.496013846
+"Variable Compensation","500-6001-??",77525.1929723582
+"Miscellaneous compensation","500-6002-??",77074.6
+"NI Acquisition - PR Related","500-6009-??",165284
+"Payroll Tax","500-6010-??",112152.251252429
+"Vacation","500-6020-??",39164.030035
+"Employee Awards","500-6030-??",2024.75
+"Other Employee Benefits","500-6040-??",38620.6755562068
+"Professional Memberships","500-6045-??",390.172817662266
+"Consultants","500-6050-??",5523.63
+"Group Insurance","500-6100-??",1023.169709
+"Telephone - Cell","500-6200-??",15859.5675665831
+"Telephone - Land","500-6210-??",1439.78783979407
+"Internet Connectivity","500-6230-??",3365.06493030481
+"Rent - Corporate Office","500-6300-??",20709.157448568
+"Bank Charges","500-6400-??",1114.92219210306
+"Books & Subscriptions","500-6405-??",1115.9
+"Computer Hardware Expense","500-6415-??",605.450146
+"Computer Software Expense","500-6420-??",3824.987721
+"Office Supplies","500-6435-??",2297.71867056842
+"Other Office","500-6440-??",11581.41
+"Postage & Delivery","500-6460-??",372.241239620312
+"Allocations In - G&A","500-6900-??",116178.726234
+"Airfare","500-7500-??",84228.6810511329
+"Lodging","500-7505-??",55822.0859837866
+"Business Meals","500-7510-??",8310.86444642856
+"Employee Meals","500-7515-??",26145.5551692048
+"Ground Transport","500-7520-??",27810.5956424579
+"Parking & Tolls","500-7525-??",2332.225497
+"Mileage Reimbursement","500-7530-??",2204.70152
+"Company Petrol","500-7535-??",3415.82588
+"Attendance Fees","500-7540-??",3300.65018
+"Gifts - Deductible","500-7545-??",691.8
+"Other T&E","500-7590-??",30483.26299
+"Base Wages","600-6000-??",82688.43068
+"Miscellaneous compensation","600-6002-??",8500
+"Payroll Tax","600-6010-??",7605.907362
+"Vacation","600-6020-??",1719.117971
+"Other Employee Benefits","600-6040-??",2483.95794
+"Professional Memberships","600-6045-??",2500
+"Consultants","600-6050-??",12843.2
+"Group Insurance","600-6100-??",63.815213
+"Telephone - Cell","600-6200-??",256.86
+"Telephone - Land","600-6210-??",102.01538
+"Internet Connectivity","600-6230-??",42.59023
+"Computer Hardware Expense","600-6415-??",89.854238
+"Other Office","600-6440-??",119.115
+"Postage & Delivery","600-6460-??",22.55
+"Allocations In - G&A","600-6900-??",19603.428568
+"Public Relations","600-7000-??",9235
+"Corp Industry Consortiums & Associations","600-7100-??",2671.88
+"Web hosting","600-7140-??",2978.857831
+"Media - online","600-7200-??",14006.715
+"Media - print","600-7210-??",36679.739836
+"Booth Space","600-7300-??",2340
+"Giveaways / prizes","600-7315-??",4371.06
+"Shipping & Storage","600-7335-??",930
+"Other Tradeshow","600-7390-??",2500
+"Airfare","600-7500-??",11414.313481
+"Lodging","600-7505-??",2927.718417
+"Business Meals","600-7510-??",503.74
+"Employee Meals","600-7515-??",1024.75349
+"Ground Transport","600-7520-??",1350.56393
+"Parking & Tolls","600-7525-??",19.260919
+"Mileage Reimbursement","600-7530-??",105.09
+"Attendance Fees","600-7540-??",3959.290368
+"Other T&E","600-7590-??",-3987.76384
+"Other Expenses","600-7650-??",10810
+"Base Wages","700-6000-??",773493.620393
+"Variable Compensation","700-6001-??",10681.36
+"Miscellaneous compensation","700-6002-??",65876
+"NI Acquisition - PR Related","700-6009-??",96300
+"Payroll Tax","700-6010-??",68188.666303
+"Vacation","700-6020-??",33578.2405
+"Other Employee Benefits","700-6040-??",18857.842601
+"Consultants","700-6050-??",38143.855
+"Recruiter Fees","700-6055-??",57.74
+"Group Insurance","700-6100-??",429.451551
+"Telephone - Cell","700-6200-??",2798.38
+"Telephone - Land","700-6210-??",286.14
+"Internet Connectivity","700-6230-??",1402.38
+"Rent-Corporate Office","700-6300-??",5419
+"Books & Subscriptions","700-6405-??",1462.04
+"Computer Hardware Expense","700-6415-??",4773.45652
+"Computer Software Expense","700-6420-??",24458.74
+"Software Maintenance Contracts","700-6421-??",3885.3
+"Office Supplies","700-6435-??",496.75
+"Other Office","700-6440-??",473.51
+"Allocations In - G&A","700-6900-??",161282.151317
+"Corp Industry Consortiums & Associations","700-7100-??",3416.66
+"Airfare","700-7500-??",6867.09
+"Lodging","700-7505-??",4730.36
+"Business Meals","700-7510-??",64
+"Employee Meals","700-7515-??",6596.8495
+"Ground Transport","700-7520-??",1325.33725
+"Parking & Tolls","700-7525-??",964.2
+"Mileage Reimbursement","700-7530-??",446.4
+"Other T&E","700-7590-??",2237.60942
+"Depreciation","700-7800-??",185.26
+"Base Wages","800-6000-??",218784.955819
+"Variable Compensation","800-6001-??",-2113.75
+"Miscellaneous compensation","800-6002-??",29750
+"NI Acquisition - PR Related","800-6009-??",26750
+"Payroll Tax","800-6010-??",23457.467392
+"Vacation","800-6020-??",-14009.699024
+"Other Employee Benefits","800-6040-??",2016.139268
+"Consultants","800-6050-??",1193.76
+"Recruiter Fees","800-6055-??",44.35
+"Group Insurance","800-6100-??",171934.730292
+"Directors & Officers","800-6110-??",752.58
+"Disability Insurance","800-6120-??",9876.84
+"General Liability","800-6130-??",715.448217
+"Workers Compensation","800-6150-??",1289.29130404633
+"Other Insurance","800-6190-??",192.776831
+"Telephone - Cell","800-6200-??",1761.01
+"Telephone - Land","800-6210-??",16538.016077
+"Internet Connectivity","800-6230-??",15408.368887
+"Utilities","800-6240-??",1171.568728
+"Maintenance & Repairs","800-6250-??",4892.015847
+"Rent - Corporate Office","800-6300-??",49220.803004
+"Rent - San Jose","800-6301-??",31004
+"Rent - Colorado","800-6302-??",19213.5
+"Bank Charges","800-6400-??",2970.695113
+"Books & Subscriptions","800-6405-??",672.423321
+"Computer Hardware Expense","800-6415-??",1570.47509
+"Computer Software Expense","800-6420-??",1667.96
+"Software Maintenance Contracts","800-6421-??",38.42
+"Kitchen Supplies","800-6430-??",1571.290012
+"Office Supplies","800-6435-??",3595.65246
+"Other Office","800-6440-??",632.76
+"Other Tax / License","800-6445-??",1325.028477842
+"Payroll Service Fees","800-6450-??",2373.1835
+"Postage & Delivery","800-6460-??",1532.755188
+"Audit","800-6500-??",25078
+"Bookkeeping","800-6509-??",8533.21830329288
+"Legal-Immigration","800-6514-??",-595.46
+"Allocations In - G&A","800-6900-??",50786.471803
+"Allocations Out - G&A","800-6901-??",-347850.777922
+"Airfare","800-7500-??",3643.7
+"Lodging","800-7505-??",1701.68
+"Business Meals","800-7510-??",2767.2
+"Employee Meals","800-7515-??",4289.130711
+"Ground Transport","800-7520-??",1288.09
+"Parking & Tolls","800-7525-??",2170.179921
+"Mileage Reimbursement","800-7530-??",23.45
+"Attendance Fees","800-7540-??",3407.5582
+"Gifts - Deductible","800-7545-??",18150
+"Other T&E","800-7590-??",-3261.453743
+"Other Expenses","800-7650-??",11236.78
+"Realized Exchange Gain / Loss","800-7700-??",13078.89
+"Unrealized Exchange Gain / Loss","800-7710-??",23375.044068
+"Depreciation","800-7800-??",19805.2451671379
+"Interest Income","800-9000-??",-166.589114422189
+"Other Income","800-9010-??",-9.7
+"Management Allocations","800-9020-??",10359.25
+"Interest Expense","800-9100-??",90.867973
+"Income Tax Expense","800-9200-??",-7074.68142970604
+"Net Total - s/b zero","",-1.00582838058472E-07
+"Total Net Income","",-220254.875563208
+"Total Assets","",25319837.2757436
+"Total Liabilities and Equity","",25319837.2757436

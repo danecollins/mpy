@@ -1,0 +1,50 @@
+
+Finding orders with both term and perpetual products
+   reading expenses from  findCombinedTestInput.csv
+
+Invoice Number =  8256CTD-UP2 contains items
+     WIZ-100-TFW
+     UPG-PROD
+Invoice Number =  8256CTD-UP1 contains items
+     WIZ-100-TFW
+     UPG-PROD
+Invoice Number =  8256CTD-UP contains items
+     WIZ-100-TFW
+     UPG-PROD
+Invoice Number =  AWR01132012-RT contains items
+     ANO-449-TLW
+     APL-001-TLW
+     APL-002-TLW
+     FIL-300-T1W
+     MWO-226-T1W
+     MWO-228-PLW
+     MWO-449-PLW
+     TSW-100-T1W
+     SPC-100-TLW
+     WIQ-100-T1W
+Invoice Number =  AWR01132012 contains items
+     ACS-200-T1W
+     ANO-449-TLW
+     APL-001-TLW
+     APL-002-TLW
+     FIL-300-T1W
+     MWO-226-T1W
+     MWO-228-PLW
+     MWO-449-PLW
+     TSW-100-T1W
+     VSS-350-PLW
+     SPC-100-TLW
+     WIQ-100-T1W
+Invoice Number =  AWR01132012-COR contains items
+     ACS-200-T1W
+     ANO-449-TLW
+     APL-001-TLW
+     APL-002-TLW
+     FIL-300-T1W
+     MWO-226-T1W
+     MWO-228-PLW
+     MWO-449-PLW
+     TSW-100-T1W
+     VSS-350-PLW
+     SPC-100-TLW
+     WIQ-100-T1W

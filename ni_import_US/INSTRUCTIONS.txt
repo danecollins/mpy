@@ -1,0 +1,48 @@
+NI month-end journal entry
+
+    Use these instructions to download NI JE - without headers:
+
+    FRx - build report 61.9 TB-full acct# (Catalog ID: TB CO USD-NI)
+        select: AWR Consolidated
+
+    From menu select File - Export - ASCII - comma delimited
+        Select file name and directory - press SAVE
+
+    Export Selection window will appear:
+        Report type = Financial report
+        Export Range = Current reporting unit
+	Uncheck all the titles and headers
+
+        Press OK
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+These are the steps for generating the NI import template
+
+1) make sure "account_map.txt" is up to date
+
+2) Drag the 61-9 .txt file on top of the "RUN_ME.bat"
+3) Check log file
+	Number of lines - this is the total output lines (around 700 to 800)
+	Sum of all output - this should = 0
+	Number of companies processed = total number of AWR entities
+
+4) Double-click on output.csv (it should open in excel)
+
+5) In the same excel open the "AWR JE Template_upload" file
+
+6) Copy values only from output.csv to the upload template
+   * The output.csv file splits out the allocations out from G&A into benefits & building maintenace, per NI request
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+*If a manual split is needed, use output.csv file and perform the following:
+
+1) sort by account #; find #95005 for allocations in & out and add 12 rows to allocation 95005 to:
+	60% #61096 --> other benefits
+	40% #67095 --> misc bldg
+
+by inserting formula to calc 60% & 40% then copy paste special to eliminate formula dependency, then transfer other info and delete original 95005 rows

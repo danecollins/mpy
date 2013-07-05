@@ -1,0 +1,280 @@
+Cash - Operating	"0001100??, /Y"		4087067.93
+Cash - JPY	"0001103??, /Y"		316881.20
+Cash - Savings	"0001111??, /Y"		158635.10
+Cash - Savings/Investments	"0001140??, /Y"		292085.10
+Accounts Receivable	"0001200??, /Y"		3629786.86
+Allowance for Doubtful Accts	"0001220??, /Y"		-217233.55
+Other Receivables	"0001290??, /Y"		39356.28
+Interco AWR/NI	"0001295??, /Y"		4402683.49
+Interco US / UK	"0001302??, /Y"		0.01
+Interco US / APLAC	"0001303??, /Y"		0.01
+Interco US / FR	"0001304??, /Y"		0.00
+Interco US / JP	"0001305??, /Y"		0.00
+Prepaid Royalties	"0001400??, /Y"		31374.96
+Prepaid Tradeshow	"0001401??, /Y"		38390.47
+Prepaid Advertising	"0001402??, /Y"		6604.00
+Prepaid Insurance	"0001403??, /Y"		39488.99
+Prepaid HW Maint Contracts	"0001405??, /Y"		1183.68
+Prepaid SW Maint Contracts	"0001406??, /Y"		109027.65
+VAT Receivable	"0001430??, /Y"		21317.37
+Prepaid Misc. Tax	"0001432??, /Y"		71.94
+Consumption Tax Paid	"0001450??, /Y"		881.29
+Prepaid Other	"0001490??, /Y"		262640.83
+Furniture & Fixtures	"0001500??, /Y"		141148.93
+Computer Hardware	"0001502??, /Y"		615270.01
+Computer Software	"0001504??, /Y"		419223.29
+Other Equipment	"0001509??, /Y"		336957.68
+Leasehold Improvements	"0001510??, /Y"		65873.49
+Accum Depr - F&F	"0001550??, /Y"		-1124383.97
+Accum Depr - Comp HW	"0001552??, /Y"		-77925.98
+Accum Depr - Comp SW	"0001554??, /Y"		-36913.79
+Accum Depr - Oth Equip	"0001559??, /Y"		-6540.74
+Accum Depr - Leasehold	"0001560??, /Y"		-44108.07
+Federal Cur Def Tax Asset	"0001600??, /Y"		-461547.15
+Federal Non Cur Def Tax Asset	"0001601??, /Y"		4047342.00
+Federal Valuation Reserve	"0001603??, /Y"		-3565864.00
+State Cur Def Tax Asset	"0001604??, /Y"		40070.00
+State Non Cur Def Tax Asset	"0001605??, /Y"		1971184.00
+State Valuation Reserve	"0001606??, /Y"		-2011255.00
+Investment in STAAR	"0001710??, /Y"		1335221.24
+Investment in AWR Ltd.	"0001720??, /Y"		16099.00
+"Investment in AWR-Aplac, OY"	"0001730??, /Y"		2625556.89
+Investment in AWR France S.A.R.L.	"0001740??, /Y"		12239.00
+Investment in AWR Japan KK	"0001750??, /Y"		85709.36
+Intellectual Property	"0001830??, /Y"		2570400.00
+Accum Amort IP	"0001831??, /Y"		-2289320.81
+Goodwill	"0001838??, /Y"		1041247.10
+Security Deposits	"0001900??, /Y"		48611.43
+Accounts Payable	"0002000??, /Y"		-254719.29
+Sale Rep & Reseller Payable	"0002010??, /Y"		-65577.13
+Accrued Operating Expenses	"0002020??, /Y"		-83154.96
+Other Credit Card	"0002150??, /Y"		-24354.01
+Income Tax Payable	"0002200??, /Y"		41302.83
+Sales Tax Payable	"0002210??, /Y"		610.56
+Sales Tax Payable - MA	"0002214??, /Y"		535.72
+Sales Tax Payable - TX	"0002219??, /Y"		-194.00
+Sales Tax Payable - WA	"0002220??, /Y"		-214898.55
+Consumption Tax Payable	"0002230??, /Y"		-35008.21
+TVA to Pay	"0002242??, /Y"		-2964.91
+Deferred Income Tax L/T Liability	"0002260??, /Y"		-442104.00
+Accum Amort Def'd Income Tax LTL	"0002261??, /Y"		413440.32
+Accrued Tax - Other	"0002290??, /Y"		-13904.78
+Deferred Revenue Term License	"0002300??, /Y"		-3135655.37
+Deferred Revenue Maintenance	"0002301??, /Y"		-4250670.13
+Long Term Def Rev Term License	"0002310??, /Y"		18711.50
+Accrued Vacation	"0002400??, /Y"		-871442.59
+Accrued Wages	"0002401??, /Y"		-14868.05
+Accrued Bonus & Commission	"0002402??, /Y"		-465262.02
+Pre Tax Deduction Liability	"0002403??, /Y"		-5138.30
+Expense Report Clearing	"0002404??, /Y"		0.20
+Accrued Payroll Tax	"0002405??, /Y"		-190908.41
+URSSAF - PR Tax Accrual	"0002410??, /Y"		-0.04
+Accrued Pension	"0002430??, /Y"		1987.81
+NI - accruals	"0002510??, /Y"		-944839.00
+Acc AP & Other S/T Liabilities	"0002600??, /Y"		-124500.00
+Other Accrued Liabilities	"0002601??, /Y"		-50000.00
+Deferred Rent	"0002610??, /Y"		-77122.56
+Common Stock AWR Corp	"0003100??, /Y"		-1735.35
+Common Stock STAAR	"0003110??, /Y"		-36768.18
+Common Stock AWR Ltd.	"0003120??, /Y"		-16099.00
+Common Stock AWR Aplac	"0003130??, /Y"		-131344.63
+Common Stock AWR France	"0003140??, /Y"		-12239.00
+Common Stock AWR Japan	"0003150??, /Y"		-85709.36
+Warrants	"0003200??, /Y"		-201061.00
+Additional PIC AWR Corp.	"0003400??, /Y"		-17456509.13
+Additional PIC STAAR	"0003410??, /Y"		-1298453.36
+Additional PIC AWR Aplac	"0003430??, /Y"		-2494212.26
+Accum other comprehensive income	TRAN		-274249.60
+Retained Earnings  000-3900			13425649.61
+Accreted Dividends	"0003910??, /Y"		170988.56
+Other Perpetual License	300-4000-??		-37569.67
+APL Perpetual License	300-4010-??		-4720.20
+MWO  Perpetual License	300-4015-??		-240793.35
+VSS Perpetual License	300-4020-??		-18000.00
+EM Perpetual License	300-4025-??		-2185.71
+Other Maintenance	300-4100-??		-91409.08
+ANO Maintenance	300-4105-??		-16168.19
+APL Maintenance	300-4110-??		-10400.38
+MWO  Maintenance	300-4115-??		-473805.38
+VSS Maintenance	300-4120-??		-60213.61
+EM Maintenance	300-4125-??		-29507.44
+Other Term License	300-4200-??		-101680.31
+ANO Term License	300-4205-??		-25969.96
+APL Term License	300-4210-??		-25409.24
+MWO  Term License	300-4215-??		-388259.68
+VSS Term License	300-4220-??		-48181.54
+EM Term License	300-4225-??		-65035.72
+Service & Training	300-4300-??		-559.72
+OEM Maintenance	300-4410-??		-2563.59
+OEM Term License	300-4420-??		1951.72
+Cost Plus UK	300-5120-??		0.00
+Cost Plus Japan	300-5150-??		0.00
+Commissions - Reseller	300-5200-??		13246.86
+Product Shipping Cost	400-5050-??		1489.90
+Product Shipping Invoiced	400-5051-??		623.78
+Product COS	400-5055-??		78.28
+Subcontraced product development	400-5300-??		1687.60
+Third party product royalty	400-5400-??		21763.04
+Base Wages	400-6000-??		80972.31
+Miscellaneous compensation	400-6002-??		6000.00
+NI Acquisition - PR Related	400-6009-??		10758.00
+Payroll Tax	400-6010-??		7253.65
+Vacation	400-6020-??		3012.36
+Other Employee Benefits	400-6040-??		3044.06
+Group Insurance	400-6100-??		9.48
+Telephone - Cell	400-6200-??		159.39
+Telephone - Land	400-6210-??		100.49
+Internet Connectivity	400-6230-??		31.86
+Allocations In - G&A	400-6900-??		12882.04
+Airfare	400-7500-??		323.43
+Lodging	400-7505-??		635.37
+Business Meals	400-7510-??		224.93
+Employee Meals	400-7515-??		134.13
+Ground Transport	400-7520-??		62.24
+Parking & Tolls	400-7525-??		12.00
+Mileage Reimbursement	400-7530-??		111.00
+Company Petrol	400-7535-??		233.43
+Commissions - Sales Rep	500-5210-??		10440.72
+Base Wages	500-6000-??		302420.76
+Variable Compensation	500-6001-??		29491.97
+Miscellaneous compensation	500-6002-??		25000.00
+NI Acquisition - PR Related	500-6009-??		73368.00
+Payroll Tax	500-6010-??		36418.90
+Vacation	500-6020-??		4598.66
+Other Employee Benefits	500-6040-??		9137.89
+Professional Memberships	500-6045-??		214.04
+Consultants	500-6050-??		12861.05
+Consultants - China	500-6051-??		14763.09
+Consultants - France	500-6054-??		44301.15
+Recruiter Fees	500-6055-??		135.06
+Consultants - Korea	500-6057-??		25000.00
+Group Insurance	500-6100-??		13.06
+Telephone - Cell	500-6200-??		4965.70
+Telephone - Land	500-6210-??		840.45
+Internet Connectivity	500-6230-??		1217.87
+Rent - Corporate Office	500-6300-??		10387.81
+Bank Charges	500-6400-??		1187.16
+Books & Subscriptions	500-6405-??		430.37
+Computer Software Expense	500-6420-??		3087.50
+Office Supplies	500-6435-??		1212.41
+Other Office	500-6440-??		90.00
+Postage & Delivery	500-6460-??		162.93
+Allocations In - G&A	500-6900-??		36567.54
+Printing	500-7135-??		91.95
+Airfare	500-7500-??		16696.77
+Lodging	500-7505-??		6064.60
+Business Meals	500-7510-??		3870.64
+Employee Meals	500-7515-??		4350.46
+Ground Transport	500-7520-??		2722.38
+Parking & Tolls	500-7525-??		670.69
+Mileage Reimbursement	500-7530-??		1680.03
+Company Petrol	500-7535-??		1732.79
+Gifts - Deductible	500-7545-??		442.20
+Other T&E	500-7590-??		6092.72
+Base Wages	600-6000-??		44433.45
+Miscellaneous compensation	600-6002-??		4000.00
+Payroll Tax	600-6010-??		3378.59
+Vacation	600-6020-??		392.10
+Other Employee Benefits	600-6040-??		1947.78
+Professional Memberships	600-6045-??		750.00
+Group Insurance	600-6100-??		7.52
+Telephone - Cell	600-6200-??		234.28
+Books & Subscriptions	600-6405-??		15.00
+Allocations In - G&A	600-6900-??		8255.02
+Public Relations	600-7000-??		2320.00
+Web hosting	600-7140-??		548.79
+Media - online	600-7200-??		2316.67
+Media - print	600-7210-??		17793.31
+Giveaways / prizes	600-7315-??		5907.69
+Shipping & Storage	600-7335-??		930.00
+Sposorships	600-7350-??		2095.07
+Other Tradeshow	600-7390-??		6262.60
+Airfare	600-7500-??		955.00
+Lodging	600-7505-??		492.30
+Business Meals	600-7510-??		340.18
+Employee Meals	600-7515-??		207.16
+Ground Transport	600-7520-??		236.35
+Parking & Tolls	600-7525-??		90.00
+Attendance Fees	600-7540-??		25.03
+Other T&E	600-7590-??		660.85
+Other Expenses	600-7650-??		2990.00
+Base Wages	700-6000-??		411083.68
+Miscellaneous compensation	700-6002-??		31000.00
+NI Acquisition - PR Related	700-6009-??		35214.00
+Payroll Tax	700-6010-??		36316.24
+Vacation	700-6020-??		28268.59
+Other Employee Benefits	700-6040-??		7856.54
+Consultants	700-6050-??		19077.77
+Group Insurance	700-6100-??		7545.26
+Disability Insurance	700-6120-??		277.74
+Telephone - Cell	700-6200-??		100.00
+Telephone - Land	700-6210-??		127.99
+Internet Connectivity	700-6230-??		419.70
+Rent-Corporate Office	700-6300-??		2623.00
+Books & Subscriptions	700-6405-??		35.00
+Computer Hardware Expense	700-6415-??		663.25
+Computer Software Expense	700-6420-??		22802.98
+Office Supplies	700-6435-??		428.00
+Other Tax/License	700-6445-??		-2800.00
+Allocations In - G&A	700-6900-??		58552.60
+Airfare	700-7500-??		-910.00
+Lodging	700-7505-??		-910.00
+Depreciation	700-7800-??		652.27
+Amortization IP	700-8030-??		17083.33
+Base Wages	800-6000-??		180010.47
+Miscellaneous compensation	800-6002-??		14000.00
+NI Acquisition - PR Related	800-6009-??		-21529.51
+Payroll Tax	800-6010-??		12338.04
+Vacation	800-6020-??		6290.22
+Other Employee Benefits	800-6040-??		908.40
+Consultants	800-6050-??		765.63
+Recruiter Fees	800-6055-??		195.00
+Group Insurance	800-6100-??		71776.59
+Directors & Officers	800-6110-??		376.29
+Disability Insurance	800-6120-??		3019.47
+General Liability	800-6130-??		-3933.57
+Workers Compensation	800-6150-??		-5448.45
+Other Insurance	800-6190-??		93.39
+Telephone - Cell	800-6200-??		1299.27
+Telephone - Land	800-6210-??		3433.82
+Internet Connectivity	800-6230-??		5729.20
+Utilities	800-6240-??		-572.28
+Maintenance & Repairs	800-6250-??		1791.45
+Rent - Corporate Office	800-6300-??		24859.20
+Rent - San Jose	800-6301-??		13929.00
+Rent - Colorado	800-6302-??		8408.60
+Bank Charges	800-6400-??		1158.85
+Books & Subscriptions	800-6405-??		257.34
+Computer Hardware Expense	800-6415-??		1391.84
+Computer Software Expense	800-6420-??		1999.24
+Software Maintenance Contracts	800-6421-??		51.42
+Kitchen Supplies	800-6430-??		933.35
+Office Supplies	800-6435-??		2012.57
+Other Office	800-6440-??		1418.56
+Other Tax / License	800-6445-??		1415.81
+Payroll Service Fees	800-6450-??		3940.79
+Postage & Delivery	800-6460-??		1816.18
+Bookkeeping	800-6509-??		4905.27
+Legal-Corporate	800-6510-??		2153.43
+Legal-Immigration	800-6514-??		6110.00
+Allocations In - G&A	800-6900-??		25426.65
+Allocations Out - G&A	800-6901-??		-141683.85
+Airfare	800-7500-??		-1672.20
+Lodging	800-7505-??		-1817.05
+Business Meals	800-7510-??		70.00
+Employee Meals	800-7515-??		2993.65
+Ground Transport	800-7520-??		399.26
+Parking & Tolls	800-7525-??		930.93
+Mileage Reimbursement	800-7530-??		71.04
+Attendance Fees	800-7540-??		786.28
+Gifts - Deductible	800-7545-??		200.00
+Other T&E	800-7590-??		-1201.61
+Other Expenses	800-7650-??		-0.02
+Realized Exchange Gain / Loss	800-7700-??		3603.85
+Unrealized Exchange Gain / Loss	800-7710-??		-19599.35
+Depreciation	800-7800-??		9461.88
+Interest Income	800-9000-??		-71.96
+Income Tax Expense	800-9200-??		2509.59
+Total Net Income			227902.55
+Total Assets			18974537.53
+Total Liabilities and Equity			18974537.53

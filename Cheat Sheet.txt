@@ -1,0 +1,54 @@
+Python Cheat Sheet
+
+Define a function
+	def getAcctNumber(map,x):
+
+Open a file
+	file=open(sys.argv[1])
+	of = open('output.csv','w')
+	file.close()
+
+Looping through a file
+	for line in file.readlines():
+
+Boolean Values
+	USConsolidated = True
+
+Strings
+	x = x.replace('?','') -- replacing a character
+	dept = x[0:3]         -- substring
+
+Print to a file
+	print >> of, 'O,%s,%s,%s,%s,%s,%s,,%s,%s' % (Co,ni_cc,'61096',Sub,PL,Proj,2,'Other benefits')
+
+Rounding - convert to number
+	balance = round(float(balance),2)
+
+Lists
+	[a,b,c]       -- build a list
+	l.append(foo) -- append to a list
+	(a,b) = l     -- split a list
+
+Terminating a loop iteration
+	next   - do next iteration
+	break  - exit loop early
+
+If
+	elif not (initialized) - odd elif syntax and not instead of !
+
+Iterating files in a directory
+	import glob
+	spar_files = glob.glob('*.s2p')
+	for f in spar_files:
+		print f
+		
+Looping through 2 lists at once
+	for name,value in zip(header_lines,bias_data):
+
+Catching error accessing value in array	
+	try:
+	  thevariable
+	except NameError:
+	  print "well, it WASN'T defined after all!"
+	else:
+	  print "sure, it was defined."

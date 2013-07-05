@@ -1,0 +1,37 @@
+
+import shutil
+import sys
+import utilities
+
+
+### Fixed NI fields
+# Accounts that need to be mapped
+# 
+
+   
+def split_accounts():
+   
+    file=open('output.csv')
+    of = open('output_split.csv','w')
+    ## Initialize Counters
+    linecount=0
+
+    
+    for line in file.readlines():
+        line = line.rstrip('\n')
+        (f1,f2,dept,acct,f5,f6,f7,amt1,amt2,description) = line.split(',')
+        linecount += 1
+        if (acct == '95005'):
+            #Need to output new split line
+            print amt1, amt2
+            print >> of, '%s,%s,%s,%s,%s,%s,%s,%8.2f,%s,%s' % (f1,f2,dept,'61960',f5,f6,f7,float(amt1)*.6,float(amt2)*.6,'Other benefits')
+            print >> of, '%s,%s,%s,%s,%s,%s,%s,%8.2f,%s,%s' % (f1,f2,dept,'67095',f5,f6,f7,float(amt1)*.4,float(amt2)*.4,'Misc building')
+        else:
+            #Just output original line
+            print >> of, '%s' % line
+            
+    file.close()
+    of.close()
+
+        
+split_accounts()

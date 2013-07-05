@@ -1,0 +1,537 @@
+SOP Type,SOP Number,Document Date,Corporate Customer Number,Customer Number,Customer Name,Country from Customer Master,Sales Territory,Item Number,Item Class Code,Item Description,COGS Account Number,PriceLevel,QTY,Unit Price,Markdown Amount,Extended Price,Void Status
+Invoice,4197LD(3)C,4/1/2009,,306,Aeroflex (Main Office),United States,NORTH AMERICA,MWO-228-T3W,MWO-TERM,MWO for MMIC; Term/WAN 3 TZ/Win,000-2300-00,AWR,2,5005.00,750.75,8508.50,Normal
+Invoice,4197LD(3)C,4/1/2009,,306,Aeroflex (Main Office),United States,NORTH AMERICA,MWO-225-T3W,MWO-TERM,MWO for MIC/PCB; Term/WAN 3 TZ/Win,000-2300-00,AWR,3,3640.00,546.00,9282.00,Normal
+Invoice,4197LD(3)C,4/1/2009,,306,Aeroflex (Main Office),United States,NORTH AMERICA,MWO-105-T3W,MWO-TERM,MWO Linear & Layout; Term/WAN 3 TZ/Win,000-2300-00,AWR,1,1820.00,273.00,1547.00,Normal
+Invoice,4197LD(3)C,4/1/2009,,306,Aeroflex (Main Office),United States,NORTH AMERICA,MOD-100-T3W,,Modelithics CLR Library. Term 3-TZ WAN ofr Win,300-4420-00,,1,1516.75,227.57,1289.18,Normal
+Invoice,4197LD(3)C,4/1/2009,,306,Aeroflex (Main Office),United States,NORTH AMERICA,VSS-250-T3W,VSS-TERM,VSS for Communication Signals; Term/WAN 3 TZ/Win,000-2300-00,AWR,1,2730.00,409.50,2320.50,Normal
+Invoice,4847TI(2)D,4/1/2009,,396,Microelectronics Technology,"Taiwan,",ASIA,MWO-225-TFW,MWO-TERM,MWO for MIC/PCB; Term/Floating/Win,000-2300-00,INT,20,4095.00,3157.50,18750.00,Normal
+Invoice,4886TD(2)D,4/1/2009,,10030073,Wavestream,United States,NORTH AMERICA,MWO-228-TLW,MWO-TERM,MWO for MMIC; Term/Locked/Win,000-2300-00,AWR,4,2887.50,222.58,10659.68,Normal
+Invoice,4886TD(2)D,4/1/2009,,10030073,Wavestream,United States,NORTH AMERICA,MWO-228-TFW,MWO-TERM,MWO for MMIC; Term/Floating/Win,000-2300-00,AWR,3,3850.00,296.77,10659.69,Normal
+Invoice,4886TD(2)D,4/1/2009,,10030073,Wavestream,United States,NORTH AMERICA,VSS-350-TLW,VSS-TERM,VSS for Wireless Communication Standards; Term/Locked/Win,000-2300-00,AWR,1,2100.00,161.88,1938.12,Normal
+Invoice,5367UI(2),4/1/2009,1601,9407,Chugoku Polytechnic College,Japan,ASIA,MWO-225-UFW,MWO-UNIV,Microwave Office University 20-License Package,300-4000-00,CYB,2,2533.57,1914.25,1238.63,Normal
+Invoice,5516CTC-5,4/1/2009,,8813,Honeywell,United States,NORTH AMERICA,NOTE,,"5th payment of 12 in a 3 year sales contract,  total value of $888,831.",300-4000-00,,1,0.00,0.00,0.00,Normal
+Invoice,5516CTC-5,4/1/2009,,8813,Honeywell,United States,NORTH AMERICA,MWO-105-P0W,MWO-PURC,MWO Linear & Layout; Purchase/WAN WW/Win,000-2300-00,AWR,2,733.50,580.50,306.00,Normal
+Invoice,5516CTC-5,4/1/2009,,8813,Honeywell,United States,NORTH AMERICA,MWO-125-P0W,MWO-PURC,"MWO Linear, EMSight, & Layout; Purchase/WAN WW/Win",000-2300-00,AWR,2,1100.00,870.50,459.00,Normal
+Invoice,5516CTC-5,4/1/2009,,8813,Honeywell,United States,NORTH AMERICA,MWO-225-P0W,MWO-PURC,MWO for MIC/PCB; Purchase/WAN WW/Win,000-2300-00,AWR,2,1466.50,1160.00,613.00,Normal
+Invoice,5516CTC-5,4/1/2009,,8813,Honeywell,United States,NORTH AMERICA,UPG-PROD,,Upgrade MWO-226 to MWO-225-POW,000-2300-00,,2,550.00,435.00,230.00,Normal
+Invoice,5516CTC-5,4/1/2009,,8813,Honeywell,United States,NORTH AMERICA,VSS-250-P0W,VSS-PURC,VSS for Communication Signals; Purchase/WAN WW/Win,000-2300-00,AWR,1,1100.00,870.00,230.00,Normal
+Invoice,5516CTC-5,4/1/2009,,8813,Honeywell,United States,NORTH AMERICA,ANO-229-P0W,,Full Analog Office w/Silicon Libraries. Purchase/WAN WW/WIN,000-2300-00,,1,4125.00,3263.00,862.00,Normal
+Invoice,5516CTC-5,4/1/2009,,8813,Honeywell,United States,NORTH AMERICA,HSP-100-P0W,HSP-PURC,Synopsys HSPICE and Simulation Interface; Purchase/WAN WW/Win,000-2300-00,AWR,1,917.00,726.00,191.00,Normal
+Invoice,5516CTC-5,4/1/2009,,8813,Honeywell,United States,NORTH AMERICA,FIL-100-P0W,FIL-PURC,Nuhertz Filter Synthesis; Purchase/WAN WW/Win,000-2300-00,AWR,1,458.00,362.00,96.00,Normal
+Invoice,5516CTC-5,4/1/2009,,8813,Honeywell,United States,NORTH AMERICA,NXG-100-P0W,NXG-PURC,ACS NETEX-G Extraction Wizard; Purchase/WAN WW/Win,300-4400-00,AWR,1,336.00,266.00,70.00,Normal
+Invoice,5516CTC-5,4/1/2009,,8813,Honeywell,United States,NORTH AMERICA,MWO-105-M0W,MWO-MAIN,MWO Linear & Layout; Maint/WAN WW/Win,000-2301-00,AWR,2,1004.50,0.00,2009.00,Normal
+Invoice,5516CTC-5,4/1/2009,,8813,Honeywell,United States,NORTH AMERICA,MWO-125-M0W,MWO-MAIN,"MWO Linear, EMSight, & Layout; Maint/WAN WW/Win",000-2301-00,AWR,2,1506.50,0.00,3013.00,Normal
+Invoice,5516CTC-5,4/1/2009,,8813,Honeywell,United States,NORTH AMERICA,MWO-225-M0W,MWO-MAIN,MWO for MIC/PCB; Maint/WAN WW/Win,000-2301-00,AWR,2,2009.00,0.00,4018.00,Normal
+Invoice,5516CTC-5,4/1/2009,,8813,Honeywell,United States,NORTH AMERICA,MWO-226-M0W,MWO-MAIN,MWO for MIC/PCB & Signal Integrity; Maint/WAN WW/Win,000-2301-00,AWR,2,753.50,0.00,1507.00,Normal
+Invoice,5516CTC-5,4/1/2009,,8813,Honeywell,United States,NORTH AMERICA,VSS-250-M0W,VSS-MAIN,VSS for Communication Signals; Maint/WAN WW/Win,000-2301-00,AWR,1,1507.00,0.00,1507.00,Normal
+Invoice,5516CTC-5,4/1/2009,,8813,Honeywell,United States,NORTH AMERICA,ANO-229-M0W,ANO-MAIN,ANO for RFIC; Maint/WAN WW/Win,000-2301-00,AWR,1,5650.00,0.00,5650.00,Normal
+Invoice,5516CTC-5,4/1/2009,,8813,Honeywell,United States,NORTH AMERICA,HSP-100-M0W,HSP-MAIN,Synopsys HSPICE and Simulation Interface;  Maint/WAN WW/Win,000-2301-00,AWR,1,1256.00,0.00,1256.00,Normal
+Invoice,5516CTC-5,4/1/2009,,8813,Honeywell,United States,NORTH AMERICA,FIL-100-M0W,FIL-MAIN,Nuhertz Filter Synthesis; Maint/WAN WW/Win,000-2301-00,AWR,1,628.00,0.00,628.00,Normal
+Invoice,5516CTC-5,4/1/2009,,8813,Honeywell,United States,NORTH AMERICA,NXG-100-M0W,NXG-MAIN,ACS NETEX-G Extraction Wizard; Maint/WAN WW/Win,300-4410-00,AWR,1,460.00,0.00,460.00,Normal
+Invoice,5516CTC-5,4/1/2009,,8813,Honeywell,United States,NORTH AMERICA,MWO-105-T0W,MWO-TERM,MWO Linear & Layout; Term/WAN WW/Win,000-2300-00,AWR,3,1960.00,0.00,5880.00,Normal
+Invoice,5516CTC-5,4/1/2009,,8813,Honeywell,United States,NORTH AMERICA,MWO-125-T0W,MWO-TERM,"MWO Linear, EMSight, & Layout; Term/WAN WW/Win",000-2300-00,AWR,1,2940.00,0.00,2940.00,Normal
+Invoice,5516CTC-5,4/1/2009,,8813,Honeywell,United States,NORTH AMERICA,MWO-225-T0W,MWO-TERM,MWO for MIC/PCB; Term/WAN WW/Win,000-2300-00,AWR,1,4410.00,0.00,4410.00,Normal
+Invoice,5516CTC-5,4/1/2009,,8813,Honeywell,United States,NORTH AMERICA,VSS-250-T0W,VSS-TERM,VSS for Communication Signals; Term/WAN WW/Win,000-2300-00,AWR,1,2940.00,0.00,2940.00,Normal
+Invoice,5516CTC-5,4/1/2009,,8813,Honeywell,United States,NORTH AMERICA,ANO-229-T0W,ANO-TERM,ANO for RFIC; Term/WAN WW/Win,000-2300-00,AWR,1,11025.00,0.00,11025.00,Normal
+Invoice,5516CTC-5,4/1/2009,,8813,Honeywell,United States,NORTH AMERICA,HSP-100-T0W,HSP-TERM,Synopsys HSPICE and Simulation Interface; Term/WAN WW/Win,000-2300-00,AWR,1,2940.00,0.00,2940.00,Normal
+Invoice,5516CTC-5,4/1/2009,,8813,Honeywell,United States,NORTH AMERICA,MGC-100-T0W,MGC-TERM,AWR Connected&trade; for Mentor Graphics; Term/WAN WW/Win,000-2300-00,AWR,1,4900.00,0.00,4900.00,Normal
+Invoice,5516CTC-5,4/1/2009,,8813,Honeywell,United States,NORTH AMERICA,XEM-100-T0W,XEM-TERM,AXIEM FS: 3D Planar EM - Direct & Fast Solver; Term/WAN WW/Win,000-2300-00,AWR,1,4900.00,0.00,4900.00,Normal
+Invoice,5516CTC-5,4/1/2009,,8813,Honeywell,United States,NORTH AMERICA,UPG-PROD,,Upgrade MWO-225-PLW to MWO-225-P0W,000-2300-00,,1,1500.00,1187.00,313.00,Normal
+Invoice,5516CTC-5,4/1/2009,,8813,Honeywell,United States,NORTH AMERICA,UPG-PROD,,Upgrade VSS-350-PFW to VSS-350-P0W,000-2300-00,,1,1333.00,1055.00,278.00,Normal
+Invoice,5516CTC-5,4/1/2009,,8813,Honeywell,United States,NORTH AMERICA,UPG-PROD,,Upgrade from MWO-225-PLW to MWO-225-P0W,000-2300-00,,2,2475.00,1958.00,1034.00,Normal
+Invoice,5516CTC-5,4/1/2009,,8813,Honeywell,United States,NORTH AMERICA,UPG-PROD,,Upgrade from MWO-100-PLW to MWO-100-P0W,000-2300-00,,1,550.00,435.00,115.00,Normal
+Invoice,5516CTC-5,4/1/2009,,8813,Honeywell,United States,NORTH AMERICA,MWO-225-M0W,MWO-MAIN,MWO for MIC/PCB; Maint/WAN WW/Win,000-2301-00,AWR,1,2260.00,0.00,2260.00,Normal
+Invoice,5516CTC-5,4/1/2009,,8813,Honeywell,United States,NORTH AMERICA,VSS-350-M0W,VSS-MAIN,VSS for Wireless Communication Standards; Maint/WAN WW/Win,000-2301-00,AWR,1,2009.00,0.00,2009.00,Normal
+Invoice,5516CTC-5,4/1/2009,,8813,Honeywell,United States,NORTH AMERICA,MWO-225-M0W,MWO-MAIN,MWO for MIC/PCB; Maint/WAN WW/Win,000-2301-00,AWR,2,2260.00,0.00,4520.00,Normal
+Invoice,5516CTC-5,4/1/2009,,8813,Honeywell,United States,NORTH AMERICA,MWO-100-M0W,MWO-MAIN,MWO Linear; Maint/WAN WW/Win,000-2301-00,AWR,1,500.00,0.00,500.00,Normal
+Invoice,5943TD-2,4/1/2009,,9574,Aquantia Corp,United States,NORTH AMERICA,MWO-225-TLW,MWO-TERM,MWO for MIC/PCB; Term/Locked/Win,000-2300-00,AWR,1,4750.00,950.00,3800.00,Normal
+Invoice,6249CI-COR,4/1/2009,1445,614,Albis Technologies AG,Switzerland,EUROPE,HSP-100-PLW,HSP-PURC,Synopsys HSPICE and Simulation Interface; Purchase/Locked/Win,300-4000-00,RES30,1,17280.00,1296.00,15984.00,Normal
+Invoice,6249CI-COR,4/1/2009,1445,614,Albis Technologies AG,Switzerland,EUROPE,HSP-100-MLW,HSP-MAIN,Synopsys HSPICE and Simulation Interface; 12M Maint/Locked/Win,000-2301-00,RES30,1,1320.00,0.00,1320.00,Normal
+Return,6249CI-RTN,4/1/2009,1445,614,Albis Technologies AG,Switzerland,EUROPE,HSP-100-PLW,HSP-PURC,Synopsys HSPICE and Simulation Interface; Purchase/Locked/Win RID #15662,300-4000-00,RES20,1,17280.00,1296.00,15984.00,Normal
+Return,6249CI-RTN,4/1/2009,1445,614,Albis Technologies AG,Switzerland,EUROPE,HSP-100-MLW,HSP-MAIN,Synopsys HSPICE and Simulation Interface; 12M Maint/Locked/Win,000-2301-00,RES20,1,1650.00,0.00,1650.00,Normal
+Return,6249CI-RTN,4/1/2009,1445,614,Albis Technologies AG,Switzerland,EUROPE,NOTE,,License File 23278 sent 3/26,300-4000-00,,1,0.00,0.00,0.00,Normal
+Invoice,5846TI-3,4/2/2009,,9305,Ericsson AB (EAB),Sweden,EUROPE,MWO-225-TFW,MWO-TERM,MWO for MIC/PCB; Term/Floating/Win,000-2300-00,INT,7,5400.00,1935.08,24254.44,Normal
+Invoice,5846TI-3,4/2/2009,,9305,Ericsson AB (EAB),Sweden,EUROPE,VSS-150-TFW,VSS-TERM,VSS for RF Architecture; Term/Floating/Win,000-2300-00,INT,3,1800.00,975.02,2474.94,Normal
+Invoice,5846TI-3,4/2/2009,,9305,Ericsson AB (EAB),Sweden,EUROPE,VSS-350-TFW,VSS-TERM,VSS for Wireless Communication Standards; Term/Floating/Win,000-2300-00,INT,3,4800.00,2600.05,6599.85,Normal
+Invoice,5846TI-3,4/2/2009,,9305,Ericsson AB (EAB),Sweden,EUROPE,FIL-100-TFW,FIL-TERM,Nuhertz Filter Synthesis; Term/Floating/Win,000-2300-00,INT,3,1500.00,537.52,2887.44,Normal
+Invoice,5846TI-3,4/2/2009,,9305,Ericsson AB (EAB),Sweden,EUROPE,TSW-100-TFW,TSW-TERM,TestWave Instrumentation Interface; Term/Floating/Win,000-2300-00,INT,2,1000.00,358.34,1283.32,Normal
+Invoice,6241CI,4/6/2009,,9986,"GOOD WILL INSTRUMENT CO., LTD",Taiwan R.O.C.,ASIA,MWO-200-PFW,MWO-PURC,MWO NonLinear; Purchase/Floating/Win RID #15683,300-4015-00,INT,1,32000.00,0.00,32000.00,Normal
+Invoice,6241CI,4/6/2009,,9986,"GOOD WILL INSTRUMENT CO., LTD",Taiwan R.O.C.,ASIA,MWO-200-MFW,MWO-MAIN,MWO NonLinear; 12M Maint/Floating/Win,000-2301-00,INT,1,4800.00,0.00,4800.00,Normal
+Invoice,6280MI,4/6/2009,9479,3342,Elisra Electronic Systems Ltd.,ISRAEL,EUROPE,MWO-225-MFW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Floating/Win,000-2301-00,INT,1,5200.00,0.00,5200.00,Normal
+Invoice,6280MI,4/6/2009,9479,3342,Elisra Electronic Systems Ltd.,ISRAEL,EUROPE,MWO-225-MFW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Floating/Win,000-2301-00,RES20,2,5200.00,0.00,10400.00,Normal
+Invoice,6280MI,4/6/2009,9479,3342,Elisra Electronic Systems Ltd.,ISRAEL,EUROPE,BACK-MAIN,,"Cust 3342 Upgrade RID 5673, 9677, 11209, MWO-225-PFW to current version",300-4000-00,,3,13000.00,13000.00,0.00,Normal
+Invoice,6280MI,4/6/2009,9479,3342,Elisra Electronic Systems Ltd.,ISRAEL,EUROPE,MWO-225-MFW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Floating/Win,000-2301-00,RES20,3,5200.00,0.00,15600.00,Normal
+Invoice,6280MI,4/6/2009,9479,3342,Elisra Electronic Systems Ltd.,ISRAEL,EUROPE,MWO-225-MFW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Floating/Win,000-2301-00,RES20,1,5200.00,0.00,5200.00,Normal
+Invoice,6280MI,4/6/2009,9479,3342,Elisra Electronic Systems Ltd.,ISRAEL,EUROPE,MWO-225-MLW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Locked/Win,000-2301-00,RES20,1,4000.00,0.00,4000.00,Normal
+Invoice,6280MI,4/6/2009,9479,3342,Elisra Electronic Systems Ltd.,ISRAEL,EUROPE,VSS-350-MLW,VSS-MAIN,VSS for Wireless Communication Standards; 12M Maint/Locked/Win,000-2301-00,RES20,1,3520.00,0.00,3520.00,Normal
+Invoice,6280MI,4/6/2009,9479,3342,Elisra Electronic Systems Ltd.,ISRAEL,EUROPE,FIL-100-MLW,FIL-MAIN,Nuhertz Filter Synthesis; 12M Maint/Locked/Win,000-2301-00,RES20,1,1200.00,0.00,1200.00,Normal
+Invoice,6281MD,4/6/2009,,2791,Naval Research Laboratory,United States,NORTH AMERICA,MWO-225-MLW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Locked/Win,000-2301-00,AWR,1,4100.00,0.00,4100.00,Normal
+Invoice,6281MD,4/6/2009,,2791,Naval Research Laboratory,United States,NORTH AMERICA,VSS-350-MLW,VSS-MAIN,VSS for Wireless Communication Standards; 12M Maint/Locked/Win,000-2301-00,AWR,1,3600.00,0.00,3600.00,Normal
+Invoice,6282MI,4/6/2009,8930,8735-KK,AICA KOGYO Co. Ltd,Japan,ASIA,MWO-100-MLW,MWO-MAIN,MWO Linear; 12M Maint/Locked/Win,000-2301-00,JAP,1,1740.23,0.00,1740.23,Normal
+Invoice,6282MI,4/6/2009,8930,8735-KK,AICA KOGYO Co. Ltd,Japan,ASIA,HSP-100-MLW,HSP-MAIN,Synopsys HSPICE and Simulation Interface; 12M Maint/Locked/Win,000-2301-00,JAP,1,5118.33,0.00,5118.33,Normal
+Invoice,6283MI,4/6/2009,1541,7680,Vega Grieshaber KG,Germany,EUROPE,MWO-205-MFW,MWO-MAIN,MWO NonLinear & Layout; 12M Maint/Floating/Win,000-2301-00,RES30,1,4015.70,0.00,4015.70,Normal
+Invoice,6283MI,4/6/2009,1541,7680,Vega Grieshaber KG,Germany,EUROPE,MWO-225-MFW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Floating/Win,000-2301-00,RES30,1,4472.03,0.00,4472.03,Normal
+Invoice,6283MI,4/6/2009,1541,7680,Vega Grieshaber KG,Germany,EUROPE,APL-100-MFW,APL-MAIN,APLAC Time-Domain Simulator; 12M Maint/Floating/Win,000-2301-00,RES30,1,2007.85,0.00,2007.85,Normal
+Invoice,6284MD,4/6/2009,7197,7197,Allen Vanguard Technologies Inc.,Canada,NORTH AMERICA,VSS-350-MLW,VSS-MAIN,VSS for Wireless Communication Standards; 12M Maint/Locked/Win,000-2301-00,AWR,3,3600.00,0.00,10800.00,Normal
+Invoice,6286TD-US,4/6/2009,,541,RF Micro-Devices,United States,NORTH AMERICA,MWO-228-T4W,MWO-TERM,MWO for MMIC; Term/WAN 4 TZ/Win,000-2300-00,AWR,2,51400.00,0.00,102800.00,Normal
+Invoice,5579TD-2,4/7/2009,2343,9456,Defence Products Ltd.,United Kingdom,EUROPE,MWO-105-TLW,MWO-TERM,MWO Linear & Layout; Term/Locked/Win,000-2300-00,INT,1,4063.20,284.14,3779.06,Normal
+Invoice,5967UI,4/14/2009,1461,9580,SENA National Learning Servicces of Colombia,Columbia,EUROPE,MWO-225-UFW,MWO-UNIV,Microwave Office University 20-License Package,300-4000-00,RES40,1,7920.00,660.00,7260.00,Normal
+Invoice,6277UI,4/14/2009,7696,2271,Universidad Politecnica De Madrid,Spain,EUROPE,MWO-225-UFW,MWO-UNIV,Microwave Office University 20-License Package,300-4000-00,RES20,1,2294.69,1825.32,469.37,Normal
+Invoice,6277UI,4/14/2009,7696,2271,Universidad Politecnica De Madrid,Spain,EUROPE,VSS-250-UFW,VSS-UNIV,Visual System Simulator University 20-License Package,300-4000-00,RES20,1,2294.69,1825.32,469.37,Normal
+Invoice,6278TD,4/14/2009,,414,Miteq,United States,NORTH AMERICA,MWO-225-TFW,MWO-TERM,MWO for MIC/PCB; Term/Floating/Win,000-2300-00,AWR,1,16200.00,10800.00,5400.00,Normal
+Invoice,6278TD,4/14/2009,,414,Miteq,United States,NORTH AMERICA,XEM-100-TFW,XEM-TERM,AXIEM FS: 3D Planar EM - Direct & Fast Solver; Term/Floating/Win,000-2300-00,AWR,1,16200.00,10800.00,5400.00,Normal
+Invoice,6279CD-UP,4/14/2009,,414,Miteq,United States,NORTH AMERICA,BACK-MAIN,,MWO-225-MLW: Upgrade/Back maintenance to current version 8.03,000-2300-00,,2,9450.00,0.00,18900.00,Normal
+Invoice,6279CD-UP,4/14/2009,,414,Miteq,United States,NORTH AMERICA,UPG-PROD,,Upgrade from MWO-225-PLW to MWO-225-PFW,000-2300-00,,2,9000.00,0.00,18000.00,Normal
+Invoice,6279CD-UP,4/14/2009,,414,Miteq,United States,NORTH AMERICA,MWO-225-MFW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Floating/Win,000-2301-00,AWR,2,5400.00,0.00,10800.00,Normal
+Invoice,6279CD-UP,4/14/2009,,414,Miteq,United States,NORTH AMERICA,MWO-225-PFW,MWO-PURC,MWO for MIC/PCB; Purchase/Floating/Win RID #15753,000-2300-00,AWR,1,36000.00,18000.00,18000.00,Normal
+Invoice,6279CD-UP,4/14/2009,,414,Miteq,United States,NORTH AMERICA,MWO-225-MFW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Floating/Win,000-2301-00,AWR,1,5400.00,0.00,5400.00,Normal
+Invoice,6279CD-UP,4/14/2009,,414,Miteq,United States,NORTH AMERICA,XEM-100-PFW,XEM-PURC,AXIEM FS: 3D Planar EM - Direct & Fast Solver; Purchase/Floating/Win RId #15754,000-2300-00,AWR,1,36000.00,18000.00,18000.00,Normal
+Invoice,6279CD-UP,4/14/2009,,414,Miteq,United States,NORTH AMERICA,XEM-100-MFW,XEM-MAIN,AXIEM FS: 3D Planar EM - Direct & Fast Solver; 12M Maint/Floating/Win,000-2301-00,AWR,1,5400.00,0.00,5400.00,Normal
+Invoice,6285UI,4/14/2009,1541,4508,FH Wilhelmshaven,Germany,EUROPE,MWO-225-UFW,MWO-UNIV,Microwave Office University 20-License Package,300-4000-00,RES30,1,2310.00,2065.00,245.00,Normal
+Invoice,6285UI,4/14/2009,1541,4508,FH Wilhelmshaven,Germany,EUROPE,VSS-350-UFW,VSS-UNIV,Visual System Simulator University 20-License Package,300-4000-00,RES30,1,2310.00,2065.00,245.00,Normal
+Invoice,6288UI,4/14/2009,1445,8824,ETH Zurich,Switzerland,EUROPE,MWO-225-UFW,MWO-UNIV,Microwave Office University 20-License Package,300-4000-00,RES30,1,2310.00,717.50,1592.50,Normal
+Invoice,6289CD-UP,4/14/2009,,985,Raytheon-SAS & NCS,United States,NORTH AMERICA,UPG-PROD,,Upgrade MWO-228-PFW to ANO-229-PFW,300-4000-00,,1,57000.00,17640.00,39360.00,Normal
+Invoice,6289CD-UP,4/14/2009,,985,Raytheon-SAS & NCS,United States,NORTH AMERICA,UPG-MAIN,,Upgrade the associated maintenance on item above,300-4000-00,,1,2150.00,575.00,1575.00,Normal
+Invoice,6290MI,4/14/2009,957,1168,Elettronica Spa,Italy,EUROPE,MWO-225-MFW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Floating/Win RID #5604,000-2301-00,RES30,1,4472.03,0.00,4472.03,Normal
+Invoice,6290MI,4/14/2009,957,1168,Elettronica Spa,Italy,EUROPE,MWO-228-MFW,MWO-MAIN,MWO for MMIC; 12M Maint/Floating/Win RID #3817,000-2301-00,RES30,1,5932.29,0.00,5932.29,Normal
+Invoice,6290MI,4/14/2009,957,1168,Elettronica Spa,Italy,EUROPE,MWO-205-MFW,MWO-MAIN,"MWO NonLinear & Layout; 12M Maint/Floating/Win RID #8425, 12282",000-2301-00,RES30,2,4015.70,0.00,8031.41,Normal
+Invoice,6290MI,4/14/2009,957,1168,Elettronica Spa,Italy,EUROPE,VSS-250-MFW,VSS-MAIN,VSS for Communication Signals; 12M Maint/Floating/Win RID #8426,000-2301-00,RES30,1,3011.78,0.00,3011.78,Normal
+Invoice,6290MI,4/14/2009,957,1168,Elettronica Spa,Italy,EUROPE,FIL-100-MFW,FIL-MAIN,Nuhertz Filter Synthesis; 12M Maint/Floating/Win RID #9593,000-2301-00,RES30,1,1277.72,0.00,1277.72,Normal
+Invoice,6291MI,4/14/2009,957,8847,Selex Communications,Italy,EUROPE,VSS-250-MFW,VSS-MAIN,VSS for Communication Signals; 12M Maint/Floating/Win,000-2301-00,RES30,2,3011.78,0.00,6023.56,Normal
+Invoice,6292MI,4/14/2009,1450,9094,Giant Metrewave Radio Telescope,India,ASIA,MWO-225-MFW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Floating/Win,000-2301-00,RES40,1,4320.00,0.00,4320.00,Normal
+Invoice,6293CD,4/14/2009,,6360,Northrop Grumman,United States,NORTH AMERICA,MWO-225-PFW,MWO-PURC,MWO for MIC/PCB; Purchase/Floating/Win RID #15776,300-4015-00,AWR,1,36000.00,3600.00,32400.00,Normal
+Invoice,6293CD,4/14/2009,,6360,Northrop Grumman,United States,NORTH AMERICA,MWO-225-MFW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Floating/Win,000-2301-00,AWR,1,5400.00,0.00,5400.00,Normal
+Invoice,6294TD,4/14/2009,SHI,9402,Hitachi America Ltd. Global,United States,NORTH AMERICA,MWO-225-TLW,MWO-TERM,MWO for MIC/PCB; Term/Locked/Win,000-2300-00,AWR,1,12200.00,0.00,12200.00,Normal
+Invoice,6294TD,4/14/2009,SHI,9402,Hitachi America Ltd. Global,United States,NORTH AMERICA,HSP-100-TLW,HSP-TERM,Synopsys HSPICE and Simulation Interface; Term/Locked/Win,000-2300-00,AWR,1,8100.00,0.00,8100.00,Normal
+Invoice,6294TD,4/14/2009,SHI,9402,Hitachi America Ltd. Global,United States,NORTH AMERICA,HWK-200,HWK-PURC,Hardware Key - USB,300-4000-00,AWR,1,200.00,0.00,200.00,Normal
+Invoice,6295MI,4/14/2009,8930,5976-KK,Panasonic Shikoku Electronics Co. Ltd.,Japan,ASIA,MWO-100-MLW,MWO-MAIN,MWO Linear; 12M Maint/Locked/Win,000-2301-00,JAP,1,1433.13,0.00,1433.13,Normal
+Invoice,6296MI-1,4/14/2009,8930,5257-KK,Fujitsu Laboratories Ltd.- Hyogo,Japan,ASIA,MWO-225-MLW,MWO-MAIN,MWO for MIC/PCB; 6M Maint/Locked/Win,000-2301-00,JAP,1,3173.36,0.00,3173.36,Normal
+Invoice,NC040809,4/14/2009,,10001,The University of Taxas at Brownsville,United States,NORTH AMERICA,MWO-225-UFW,MWO-UNIV,Microwave Office University 20-License Package,300-4000-00,AWR,1,2500.00,2500.00,0.00,Normal
+Invoice,NC040809,4/14/2009,,10001,The University of Taxas at Brownsville,United States,NORTH AMERICA,VSS-350-UFW,VSS-UNIV,Visual System Simulator University 20-License Package,300-4000-00,AWR,1,2500.00,2500.00,0.00,Normal
+Invoice,5577TD-2,4/15/2009,,6220,"TriAccess Technologies, Inc.",United States,NORTH AMERICA,MWO-229-TLW,MWO-TERM,MWO for MMIC & Modules; Term/Locked/Win,000-2300-00,AWR,1,15750.00,3045.00,12705.00,Normal
+Invoice,6298SD,4/15/2009,,6360,Northrop Grumman,United States,NORTH AMERICA,TRN-300,TRN-TRAI,3 Day Training (Per Student - 6 Student Minimum),000-2302-00,AWR,1,1500.00,150.00,1350.00,Normal
+Invoice,6299SD,4/15/2009,,9610,XICOM Technology,United States,NORTH AMERICA,TRN-300,TRN-TRAI,3 Day Training (Per Student - 6 Student Minimum),000-2302-00,AWR,1,1500.00,150.00,1350.00,Normal
+Invoice,6300SD,4/15/2009,,9990,Boeing,United States,NORTH AMERICA,TRN-300,TRN-TRAI,3 Day Training (Per Student - 6 Student Minimum),000-2302-00,AWR,1,1500.00,150.00,1350.00,Normal
+Invoice,6301SD,4/15/2009,,8758,"Emhiser Research, Inc.",United States,NORTH AMERICA,TRN-300,TRN-TRAI,3 Day Training (Per Student - 6 Student Minimum),000-2302-00,AWR,1,1500.00,150.00,1350.00,Normal
+Invoice,6302SD,4/15/2009,,6360,Northrop Grumman,United States,NORTH AMERICA,TRN-300,TRN-TRAI,3 Day Training (Per Student - 6 Student Minimum),000-2302-00,AWR,1,1500.00,150.00,1350.00,Normal
+Invoice,6303SD,4/15/2009,,8758,"Emhiser Research, Inc.",United States,NORTH AMERICA,TRN-300,TRN-TRAI,3 Day Training (Per Student - 6 Student Minimum),000-2302-00,AWR,1,1500.00,0.00,1500.00,Normal
+Invoice,6267CD(1),4/16/2009,,9544,"AeroAntenna Technology, Inc.",United States,NORTH AMERICA,MWO-226-PFW,MWO-PURC,MWO for MIC/PCB & Signal Integrity; Purchase/Floating/Win RID #15728,300-4015-00,AWR,1,48000.00,4800.00,43200.00,Normal
+Invoice,6267CD(1),4/16/2009,,9544,"AeroAntenna Technology, Inc.",United States,NORTH AMERICA,MWO-226-MFW,MWO-MAIN,MWO for MIC/PCB & Signal Integrity; 12M Maint/Floating/Win,000-2301-00,AWR,1,7200.00,0.00,7200.00,Normal
+Invoice,6297TMI(1),4/16/2009,2343,10003,Teledyne Defence Limited,United Kingdom,EUROPE,NOTE,,1st year of a 3 year commitment LF #23463 sent 4/14,300-4000-00,,1,0.00,0.00,0.00,Normal
+Invoice,6297TMI(1),4/16/2009,2343,10003,Teledyne Defence Limited,United Kingdom,EUROPE,MWO-105-MFW,MWO-MAIN,MWO Linear & Layout; 12M Maint/Floating/Win,000-2301-00,INT,2,2557.26,0.00,5114.52,Normal
+Invoice,6297TMI(1),4/16/2009,2343,10003,Teledyne Defence Limited,United Kingdom,EUROPE,MWO-225-MFW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Floating/Win,000-2301-00,INT,2,5540.73,0.00,11081.46,Normal
+Invoice,6297TMI(1),4/16/2009,2343,10003,Teledyne Defence Limited,United Kingdom,EUROPE,MWO-225-TFW,MWO-TERM,MWO for MIC/PCB; Term/Floating/Win,000-2300-00,INT,1,12928.37,3878.51,9049.86,Normal
+Invoice,6297TMI(1),4/16/2009,2343,10003,Teledyne Defence Limited,United Kingdom,EUROPE,MWO-226-TFW,MWO-TERM,MWO for MIC/PCB & Signal Integrity; Term/Floating/Win,000-2300-00,INT,1,17190.47,5157.14,12033.33,Normal
+Invoice,6297TMI(1),4/16/2009,2343,10003,Teledyne Defence Limited,United Kingdom,EUROPE,XEM-050-TFW,XEM-TERM,AXIEM: 3D Planar EM - Direct Solver; Term/Floating/Win,000-2300-00,INT,1,6393.15,1917.95,4475.21,Normal
+Invoice,6304MI-1,4/20/2009,8930,5257-KK,Fujitsu Laboratories Ltd.- Hyogo,Japan,ASIA,MWO-100-MLW,MWO-MAIN,MWO Linear; 6M Maint/Locked/Win,000-2301-00,JAP,2,716.57,21.50,1390.14,Normal
+Invoice,6305MI-1,4/20/2009,8930,5257-KK,Fujitsu Middleware Limited,Japan,ASIA,MWO-100-MLW,MWO-MAIN,MWO Linear; 6M Maint/Locked/Win,000-2301-00,JAP,6,716.57,21.50,4170.41,Normal
+Invoice,6306MI-1,4/20/2009,8930,5257-KK,Fujitsu Laboratories Ltd.- Hyogo,Japan,ASIA,VSS-350-MLW,VSS-MAIN,VSS for Wireless Communication Standards; 6M Maint/Locked/Win,000-2301-00,JAP,1,2763.90,82.92,2680.98,Normal
+Invoice,6307MI-1,4/20/2009,8930,5257-KK,Fujitsu Laboratories Ltd.- Hyogo,Japan,ASIA,MWO-225-MLW,MWO-MAIN,MWO for MIC/PCB; 6M Maint/Locked/Win,000-2301-00,JAP,2,3173.36,95.20,6156.32,Normal
+Invoice,5609TI-2,4/21/2009,2343,9462,Longwater Systems,United Kingdom,EUROPE,MWO-105-TLW,MWO-TERM,MWO Linear & Layout; Term/Locked/Win,000-2300-00,INT,1,4063.20,85.24,3977.96,Normal
+Invoice,5609TI-2,4/21/2009,2343,9462,Longwater Systems,United Kingdom,EUROPE,MWO-225-TLW,MWO-TERM,MWO for MIC/PCB; Term/Locked/Win,000-2300-00,INT,1,9142.20,191.79,8950.41,Normal
+Invoice,6309CD,4/23/2009,,9403,TeraSys Technologies LLC,United States,NORTH AMERICA,MWO-225-PFW,MWO-PURC,MWO for MIC/PCB; Purchase/Floating/Win RID #15813,300-4015-00,AWR,1,18000.00,0.00,18000.00,Normal
+Invoice,6309CD,4/23/2009,,9403,TeraSys Technologies LLC,United States,NORTH AMERICA,MWO-225-MFW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Floating/Win,000-2301-00,AWR,1,2700.00,0.00,2700.00,Normal
+Invoice,6261CI,4/27/2009,6763,8021,Alcatel Business Systems Illkirch,France,EUROPE,XEM-100-PFW,XEM-PURC,AXIEM FS: 3D Planar EM - Direct & Fast Solver; Purchase/Floating/Win RID #15710,000-2300-00,INT,1,35202.60,14191.86,21010.74,Normal
+Invoice,6261CI,4/27/2009,6763,8021,Alcatel Business Systems Illkirch,France,EUROPE,XEM-100-MFW,XEM-MAIN,AXIEM FS: 3D Planar EM - Direct & Fast Solver; 12M Maint/Floating/Win,000-2301-00,INT,1,5345.58,0.00,5345.58,Normal
+Invoice,6310MI,4/27/2009,8930,7482-KK,"Panasonic Electric Works Co., Ltd.",Japan,ASIA,MWO-205-MLW,MWO-MAIN,MWO NonLinear & Layout; 12M Maint/Locked/Win,000-2301-00,JAP,1,5527.79,0.00,5527.79,Normal
+Invoice,6310MI,4/27/2009,8930,7482-KK,"Panasonic Electric Works Co., Ltd.",Japan,ASIA,HSP-100-MLW,HSP-MAIN,Synopsys HSPICE and Simulation Interface; 12M Maint/Locked/Win,000-2301-00,JAP,1,4197.03,0.00,4197.03,Normal
+Invoice,6311CI,4/27/2009,1447,9997,Jabil,Belgium,EUROPE,MWO-125-PFW,MWO-PURC,"MWO Linear, EMSight, & Layout; Purchase/Floating/Win RID #15817",300-4015-00,RES30,1,19804.72,0.00,19804.72,Normal
+Invoice,6311CI,4/27/2009,1447,9997,Jabil,Belgium,EUROPE,MWO-125-MFW,MWO-MAIN,"MWO Linear, EMSight, & Layout; 12M Maint/Floating/Win",000-2301-00,RES30,1,3442.03,0.00,3442.03,Normal
+Invoice,6313UD,4/27/2009,,2750,Yale University,United States,NORTH AMERICA,MWO-225-UFW,MWO-UNIV,Microwave Office University 20-License Package,300-4000-00,AWR,1,2500.00,0.00,2500.00,Normal
+Invoice,6316TI(1),4/27/2009,8930,10010072-KK,Mitsubishi Electric Corporation,Japan,ASIA,MWO-225-TLW,MWO-TERM,MWO for MIC/PCB; Term/Locked/Win,000-2300-00,JAP,1,9878.37,0.00,9878.37,Normal
+Invoice,6317MD,4/27/2009,,21,Alta Engineering,United States,NORTH AMERICA,MWO-225-MLW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Locked/Win,000-2301-00,AWR,1,2050.00,0.00,2050.00,Normal
+Invoice,6317MD,4/27/2009,,21,Alta Engineering,United States,NORTH AMERICA,VSS-350-MLW,VSS-MAIN,VSS for Wireless Communication Standards; 12M Maint/Locked/Win,000-2301-00,AWR,1,1800.00,0.00,1800.00,Normal
+Invoice,6319CI(1),4/28/2009,,9337,Inventec Corporation,Taiwan,ASIA,UPG-PROD,,Upgrade to RID #15841 MWO for MIC/PCB & Signal Integrity; Purchase/Floating/Win,300-4000-00,,3,64000.00,58233.33,17300.01,Normal
+Invoice,6319CI(1),4/28/2009,,9337,Inventec Corporation,Taiwan,ASIA,MWO-226-MFW,MWO-MAIN,MWO for MIC/PCB & Signal Integrity; 12M Maint/Floating/Win,000-2301-00,INT,3,9600.00,0.00,28800.00,Normal
+Invoice,4014LI(3)DR,4/30/2009,7396,7045,Microwave and Materials Design,Australia,AUSTRALIA,MWO-125-TLW,MWO-TERM,"MWO Linear, EMSight, & Layout; Term/Locked/Win",000-2300-00,RES20,2,1638.40,0.00,3276.80,Normal
+Invoice,6232MD,4/30/2009,,8789,Wideband Systems,United States,NORTH AMERICA,MWO-225-MLW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Locked/Win,000-2301-00,AWR,1,4100.00,0.00,4100.00,Normal
+Invoice,6286TD-UK1,4/30/2009,,541,RF Micro-Devices,United States,EUROPE,MWO-228-T0W,MWO-TERM,MWO for MMIC; Term/WAN WW/Win,000-2300-00,AWR,15,30300.00,20831.00,142035.00,Normal
+Invoice,6318TI(1),4/30/2009,6763,10000,Inside Contactless,France,EUROPE,MWO-105-TLW,MWO-TERM,MWO Linear & Layout; Term/Locked/Win,000-2300-00,INT,1,4954.44,0.00,4954.44,Normal
+Invoice,6320CI,4/30/2009,957,10009,Sirio Microelettronica,Italy,EUROPE,MWO-125-PFW,MWO-PURC,"MWO Linear, EMSight, & Layout; Purchase/Floating/Win RID #15857",300-4015-00,RES30,1,24048.59,0.00,24048.59,Normal
+Invoice,6320CI,4/30/2009,957,10009,Sirio Microelettronica,Italy,EUROPE,MWO-125-MFW,MWO-MAIN,"MWO Linear, EMSight, & Layout; 12M Maint/Floating/Win",000-2301-00,RES30,1,3657.16,0.00,3657.16,Normal
+Invoice,6321MD,4/30/2009,,1142,"Linearizer Technology, Inc.",United States,NORTH AMERICA,MWO-225-MLW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Locked/Win,000-2301-00,AWR,1,4100.00,0.00,4100.00,Normal
+Invoice,6322MI,4/30/2009,2343,10000021,Microwave Solutions Ltd.,United Kingdom,EUROPE,MWO-225-MFW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Floating/Win,000-2301-00,INT,1,5540.73,0.00,5540.73,Normal
+Invoice,6324OD,4/30/2009,,2275,Lockheed Martin,United States,NORTH AMERICA,HWK-200,HWK-PURC,Hardware Key - USB,300-4000-00,AWR,2,200.00,0.00,400.00,Normal
+Invoice,6325MD.,4/30/2009,,5011,US Army Research Lab,United States,NORTH AMERICA,BACK-MAIN,,To bring maint current on MWO-105-PLW RID #8175,300-4000-00,,1,4200.00,0.00,4200.00,Normal
+Invoice,6325MD.,4/30/2009,,5011,US Army Research Lab,United States,NORTH AMERICA,MWO-105-MLW,MWO-MAIN,MWO Linear & Layout; 12M Maint/Locked/Win,000-2301-00,AWR,1,1800.00,0.00,1800.00,Normal
+Invoice,6326CI-UP,4/30/2009,8930,935-KK,Mitsubishi Electric Co. Ltd.,Japan,ASIA,UPG-PROD,,Upgrade MWO-228-PFW to MWO-229-PFW,300-4015-00,,1,35792.45,0.00,35792.45,Normal
+Invoice,6326CI-UP,4/30/2009,8930,935-KK,Mitsubishi Electric Co. Ltd.,Japan,ASIA,UPG-MAIN,,Upgrade associated maintenance for above item,000-2301-00,,1,2533.57,0.00,2533.57,Normal
+Invoice,6327MI,4/30/2009,2343,9442,Park Air Systems Ltd.,United Kingdom,EUROPE,MWO-105-MLW,MWO-MAIN,MWO Linear & Layout; 12M Maint/Locked/Win,000-2301-00,INT,1,1846.91,0.00,1846.91,Normal
+Invoice,6328MI,4/30/2009,2343,8766,Comdev Europe,United Kingdom,EUROPE,MWO-225-MLW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Locked/Win,000-2301-00,INT,1,4262.10,0.00,4262.10,Normal
+Invoice,4623TI-9,5/1/2009,,210,Saab Microwave Systems,Sweden,EUROPE,MWO-228-TFW,MWO-TERM,MWO for MMIC; Term/Floating/Win,000-2300-00,INT,35,1668.33,922.10,26118.05,Normal
+Invoice,4623TI-9,5/1/2009,,210,Saab Microwave Systems,Sweden,EUROPE,APL-200-TFW,APL-TERM,APLAC Time-Domain & HB Advanced; Term/Floating/Win,000-2300-00,INT,35,606.67,335.31,9497.60,Normal
+Invoice,4623TI-9,5/1/2009,,210,Saab Microwave Systems,Sweden,EUROPE,VSS-250-TFW,VSS-TERM,VSS for Communication Signals; Term/Floating/Win,000-2300-00,INT,5,910.00,502.96,2035.20,Normal
+Invoice,4623TI-9,5/1/2009,,210,Saab Microwave Systems,Sweden,EUROPE,FIL-100-TFW,FIL-TERM,Nuhertz Filter Synthesis; Term/Floating/Win,000-2300-00,INT,4,379.17,209.57,678.40,Normal
+Invoice,4623TI-9,5/1/2009,,210,Saab Microwave Systems,Sweden,EUROPE,ANO-229-TFW,ANO-TERM,ANO for RFIC; Term/Floating/Win,000-2300-00,INT,2,3412.50,1886.12,3052.76,Normal
+Invoice,4623TI-9,5/1/2009,,210,Saab Microwave Systems,Sweden,EUROPE,HSP-100-TFW,HSP-TERM,Synopsys HSPICE and Simulation Interface; Term/Floating/Win,000-2300-00,INT,2,758.33,419.14,678.38,Normal
+Invoice,4623TI-9,5/1/2009,,210,Saab Microwave Systems,Sweden,EUROPE,SPC-100-TFW,SPC-TERM,Cadence Spectre Simulator Interface; Term/Floating/Win,000-2300-00,INT,2,758.33,419.14,678.38,Normal
+Invoice,4623TI-9,5/1/2009,,210,Saab Microwave Systems,Sweden,EUROPE,CAL-100-TFW,CAL-TERM,Mentor Calibre DRC/LVS Verification Interface; Term/Floating/Win,000-2300-00,INT,2,1137.50,628.71,1017.58,Normal
+Invoice,4623TI-9,5/1/2009,,210,Saab Microwave Systems,Sweden,EUROPE,MOD-100-TFW,,Modelithics CLR Mdel Library. Term Floating License for Win,300-4420-00,INT,1,505.55,279.42,226.13,Normal
+Invoice,4623TI-9,5/1/2009,,210,Saab Microwave Systems,Sweden,EUROPE,TSW-100-TFW,TSW-TERM,TestWave Instrumentation Interface; Term/Floating/Win,000-2300-00,INT,1,252.74,139.72,113.02,Normal
+Invoice,4623TI-9,5/1/2009,,210,Saab Microwave Systems,Sweden,EUROPE,ADS-100-TFW,ADS-TERM,Agilent EEsof ADS to MWO Translator; Term/Floating/Win,000-2300-00,INT,1,2022.22,1117.72,904.50,Normal
+Invoice,4739TD(3),5/1/2009,,1793,Herley MDI,United States,NORTH AMERICA,MWO-225-TFW,MWO-TERM,MWO for MIC/PCB; Term/Floating/Win,000-2300-00,AWR,2,11200.00,1120.00,20160.00,Normal
+Invoice,4739TD(3),5/1/2009,,1793,Herley MDI,United States,NORTH AMERICA,FIL-100-MFW,FIL-MAIN,Nuhertz Filter Synthesis; 12M Maint/Floating/Win,000-2301-00,AWR,2,1500.00,0.00,3000.00,Normal
+Invoice,5578TD-5,5/1/2009,,630,REMEC Defense and Space,United States,NORTH AMERICA,MWO-225-TFW,MWO-TERM,MWO for MIC/PCB; Term/Floating/Win,000-2300-00,AWR,13,3150.00,1726.00,18512.00,Normal
+Invoice,5578TD-5,5/1/2009,,630,REMEC Defense and Space,United States,NORTH AMERICA,MWO-228-TFW,MWO-TERM,MWO for MMIC; Term/Floating/Win,000-2300-00,AWR,15,4200.00,2421.00,26685.00,Normal
+Invoice,5578TD-5,5/1/2009,,630,REMEC Defense and Space,United States,NORTH AMERICA,HSP-100-TFW,HSP-TERM,Synopsys HSPICE and Simulation Interface; Term/Floating/Win,000-2300-00,AWR,1,2100.00,506.00,1594.00,Normal
+Invoice,5578TD-5,5/1/2009,,630,REMEC Defense and Space,United States,NORTH AMERICA,APL-200-TFW,APL-TERM,APLAC Time-Domain & HB Advanced; Term/Floating/Win,000-2300-00,AWR,2,2625.00,632.00,3986.00,Normal
+Invoice,5578TD-5,5/1/2009,,630,REMEC Defense and Space,United States,NORTH AMERICA,ANO-229-TFW,ANO-TERM,ANO for RFIC; Term/Floating/Win,000-2300-00,AWR,1,7875.00,3319.00,4556.00,Normal
+Invoice,6170TD(2)A,5/1/2009,,9622,Cobham M/A-COM,United States,NORTH AMERICA,MWO-225-TFW,MWO-TERM,MWO for MIC/PCB; Term/Floating/Win,000-2300-00,AWR,2,1500.00,0.00,3000.00,Normal
+Invoice,6170TD(2)A,5/1/2009,,9622,Cobham M/A-COM,United States,NORTH AMERICA,VSS-250-TFW,VSS-TERM,VSS for Communication Signals; Term/Floating/Win,000-2300-00,AWR,2,1470.00,0.00,2940.00,Normal
+Invoice,6306MI-1COR,5/1/2009,8930,5257-KK,Fujitsu Laboratories Ltd.- Hyogo,Japan,ASIA,VSS-350-MLW,VSS-MAIN,VSS for Wireless Communication Standards; 12M Maint/Locked/Win,000-2301-00,JAP,1,1545.26,46.36,1498.90,Normal
+Return,6264CD-CORR,5/1/2009,,328,Jet Propulsion Laboratory JPL,United States,NORTH AMERICA,MWO-228-MFW,MWO-MAIN,MWO for MMIC; 12M Maint/Floating/Win,000-2301-00,AWR,1,600.00,0.00,600.00,Normal
+Return,6306MI-1RTN,5/1/2009,8930,5257-KK,Fujitsu Laboratories Ltd.- Hyogo,Japan,ASIA,VSS-350-MLW,VSS-MAIN,VSS for Wireless Communication Standards; 12M Maint/Locked/Win,000-2301-00,JAP,1,2763.90,82.92,2680.98,Normal
+Invoice,4222LID-11,5/2/2009,,1335,Mimix Broadband Inc.,United States,NORTH AMERICA,MWO-228-TLW,MWO-TERM,MWO for MMIC; Term/Locked/Win,000-2300-00,AWR,7,2475.00,407.15,14474.95,Normal
+Invoice,4222LID-11,5/2/2009,,1335,Mimix Broadband Inc.,United States,NORTH AMERICA,MWO-228-TFW,MWO-TERM,MWO for MMIC; Term/Floating/Win,000-2300-00,AWR,1,3300.00,542.86,2757.14,Normal
+Invoice,4222LID-11,5/2/2009,,1335,Mimix Broadband Inc.,United States,NORTH AMERICA,HSP-100-TFW,HSP-TERM,Synopsys HSPICE and Simulation Interface; Term/Floating/Win,000-2300-00,AWR,1,1350.00,222.05,1127.95,Normal
+Invoice,4222LID-11,5/2/2009,,1335,Mimix Broadband Inc.,United States,NORTH AMERICA,SON-100-TFW,SON-TERM,Sonnet Suite. Term Floating License Sydney,300-4420-00,AWR,1,3312.00,544.84,2767.16,Normal
+Invoice,4222LID-11,5/2/2009,,1335,Mimix Broadband Inc.,United States,NORTH AMERICA,SON-100-TFW,SON-TERM,Sonnet Engine. Term Floating License Sydney,300-4420-00,AWR,1,2125.00,349.57,1775.43,Normal
+Invoice,4222LID-11,5/2/2009,,1335,Mimix Broadband Inc.,United States,NORTH AMERICA,MWO-228-TFW,MWO-TERM,MWO for MMIC; Term/Floating/Win,000-2300-00,AWR,2,3300.00,542.86,5514.28,Normal
+Invoice,4222LID-11,5/2/2009,,1335,Mimix Broadband Inc.,United States,NORTH AMERICA,MWO-225-TFW,MWO-TERM,MWO for MIC/PCB; Term/Floating/Win,000-2300-00,AWR,2,2400.00,394.81,4010.38,Normal
+Invoice,4222LID-11,5/2/2009,,1335,Mimix Broadband Inc.,United States,NORTH AMERICA,MWO-228-TFW,MWO-TERM,MWO for MMIC; Term/Floating/Win,000-2300-00,AWR,2,3300.00,542.86,5514.28,Normal
+Invoice,4222LID-11,5/2/2009,,1335,Mimix Broadband Inc.,United States,NORTH AMERICA,SON-100-TFW,SON-TERM,Sonnet Suite. Term Floating License,300-4420-00,AWR,1,2125.00,349.57,1775.43,Normal
+Invoice,6335MD,5/2/2009,,6141,TPL Communications,United States,NORTH AMERICA,MWO-100-MLW,MWO-MAIN,MWO Linear; 12M Maint/Locked/Win,000-2301-00,AWR,1,900.00,0.00,900.00,Normal
+Invoice,5586TI-2,5/5/2009,2343,9459,Cambridge Consultants Ltd.,United Kingdom,EUROPE,MWO-225-TLW,MWO-TERM,MWO for MIC/PCB; Term/Locked/Win,000-2300-00,INT,1,9460.28,0.00,9460.28,Normal
+Invoice,5586TI-2,5/5/2009,2343,9459,Cambridge Consultants Ltd.,United Kingdom,EUROPE,VSS-250-TLW,VSS-TERM,VSS for Communication Signals; Term/Locked/Win,000-2300-00,INT,1,6305.87,3152.94,3152.94,Normal
+Invoice,6337SI,5/6/2009,7396,3921,CEA Technologies Inc,Australia,AUSTRALIA,TRN-300,TRN-TRAI,3 Day Training (Per Student - 6 Student Minimum),300-4300-00,RES20,1,1600.00,0.00,1600.00,Normal
+Invoice,5666TD-5,5/7/2009,,8957,Nitronex Corporation,United States,NORTH AMERICA,MWO-225-TFW,MWO-TERM,MWO for MIC/PCB; Term/Floating/Win,000-2300-00,AWR,2,3150.00,630.00,5040.00,Normal
+Invoice,5666TD-5,5/7/2009,,8957,Nitronex Corporation,United States,NORTH AMERICA,MWO-225-TLW,MWO-TERM,MWO for MIC/PCB; Term/Locked/Win,000-2300-00,AWR,3,2362.50,472.50,5670.00,Normal
+Invoice,5666TD-5,5/7/2009,,8957,Nitronex Corporation,United States,NORTH AMERICA,WIZ-100-TLW,WIZ-TERM,Library Development Wizard; Term/Locked/Win,000-2300-00,AWR,1,2625.00,1312.50,1312.50,Normal
+Invoice,6312TD-1,5/7/2009,,5884,Sturdivant Holdings Corporation,United States,NORTH AMERICA,MWO-225-TLW,MWO-TERM,MWO for MIC/PCB; Term/Locked/Win,000-2300-00,AWR,1,10500.00,0.00,10500.00,Normal
+Invoice,6328MD,5/7/2009,,9084,Burton Synthesizer,United States,NORTH AMERICA,MWO-225-MLW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Locked/Win,000-2301-00,AWR,1,2050.00,0.00,2050.00,Normal
+Invoice,6329MD,5/7/2009,,985,Raytheon SAS & NCS,United States,NORTH AMERICA,MWO-229-MFW,MWO-MAIN,MWO for MMIC & Modules; 12M Maint/Floating/Win,000-2301-00,AWR,1,9000.00,0.00,9000.00,Normal
+Invoice,6329MD,5/7/2009,,985,Raytheon SAS & NCS,United States,NORTH AMERICA,ANO-229-MFW,ANO-MAIN,ANO for RFIC; 12M Maint/Floating/Win,000-2301-00,AWR,1,15800.00,0.00,15800.00,Normal
+Invoice,6330TI,5/7/2009,2343,9508,VIPer RF Ltd,United Kingdom,EUROPE,MWO-228-TLW,MWO-TERM,MWO for MMIC; Term/Locked/Win,000-2300-00,INT,1,21497.29,11391.73,10105.56,Normal
+Invoice,6332MD,5/7/2009,,8865,Advanced Control Components,United States,NORTH AMERICA,FIL-100-MFW,FIL-MAIN,Nuhertz Filter Synthesis; 12M Maint/Floating/Win,000-2301-00,AWR,3,1500.00,0.00,4500.00,Normal
+Invoice,6332MD,5/7/2009,,8865,Advanced Control Components,United States,NORTH AMERICA,MWO-225-MFW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Floating/Win,000-2301-00,AWR,2,5400.00,0.00,10800.00,Normal
+Invoice,6332MD,5/7/2009,,8865,Advanced Control Components,United States,NORTH AMERICA,MWO-228-MFW,MWO-MAIN,MWO for MMIC; 12M Maint/Floating/Win,000-2301-00,AWR,1,7200.00,0.00,7200.00,Normal
+Invoice,6336MD,5/7/2009,,6564,National Instruments,United States,NORTH AMERICA,FIL-100-M3W,FIL-MAIN,Nuhertz Filter Synthesis; 12M Maint/WAN 3 TZ/Win,000-2301-00,AWR,2,1950.00,450.00,3000.00,Normal
+Invoice,6336MD,5/7/2009,,6564,National Instruments,United States,NORTH AMERICA,MWO-225-M3W,MWO-MAIN,MWO for MIC/PCB; 12M Maint/WAN 3 TZ/Win,000-2301-00,AWR,2,7020.00,2028.00,9984.00,Normal
+Invoice,6336MD,5/7/2009,,6564,National Instruments,United States,NORTH AMERICA,VSS-350-M3W,VSS-MAIN,VSS for Wireless Communication Standards; 12M Maint/WAN 3 TZ/Win,000-2301-00,AWR,1,6240.00,1440.00,4800.00,Normal
+Invoice,6029CI,5/11/2009,957,9596,Elenos S.r.l.,Italy,EUROPE,ADMIN FEE,MISC,Admin Fee,300-4115-00,RES20,1,422.69,0.00,422.69,Normal
+Invoice,6029CI,5/11/2009,957,9596,Elenos S.r.l.,Italy,EUROPE,MWO-125-PFW,MWO-PURC,"MWO Linear, EMSight, & Layout; Purchase/Floating/Win",300-4015-00,RES20,1,22825.15,0.00,22825.15,Normal
+Invoice,6029CI,5/11/2009,957,9596,Elenos S.r.l.,Italy,EUROPE,MWO-125-MFW,MWO-MAIN,"MWO Linear, EMSight, & Layout; 12M Maint/Floating/Win",000-2301-00,RES20,1,3487.18,0.00,3487.18,Normal
+Invoice,6331CD,5/11/2009,SHI,9402,Hitachi America Ltd. Global,United States,NORTH AMERICA,MWO-225-PLW,MWO-PURC,MWO for MIC/PCB; Purchase/Locked/Win RID #15882,300-4015-00,AWR,1,27000.00,2700.00,24300.00,Normal
+Invoice,6331CD,5/11/2009,SHI,9402,Hitachi America Ltd. Global,United States,NORTH AMERICA,MWO-225-MLW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Locked/Win,000-2301-00,AWR,1,4100.00,0.00,4100.00,Normal
+Invoice,6331CD,5/11/2009,SHI,9402,Hitachi America Ltd. Global,United States,NORTH AMERICA,HWK-200,HWK-PURC,Hardware Key - USB,300-4000-00,AWR,1,200.00,0.00,200.00,Normal
+Invoice,6333UD,5/11/2009,,8127,University of Dayton Research Institute,United States,NORTH AMERICA,ANO-229-UFW,,Analog Office University 20-License Package,300-4000-00,,1,2500.00,0.00,2500.00,Normal
+Invoice,6333UD,5/11/2009,,8127,University of Dayton Research Institute,United States,NORTH AMERICA,VSS-350-UFW,VSS-UNIV,Visual System Simulator University 20-License Package,300-4000-00,AWR,1,2500.00,0.00,2500.00,Normal
+Invoice,6333UD,5/11/2009,,8127,University of Dayton Research Institute,United States,NORTH AMERICA,HSP-100-UFW,,HSPICE interface to Analog Office University 20-License Package,300-4000-00,,1,2500.00,2500.00,0.00,Normal
+Invoice,6334UI,5/11/2009,9555,1166,National Univ. of Singapore,Singapore,ASIA,MWO-225-UFW,MWO-UNIV,Microwave Office University 20-License Package,300-4000-00,RES20,1,2640.00,0.00,2640.00,Normal
+Invoice,6338UI,5/11/2009,1541,6135,Hoehere Technische,AUSTRIA,EUROPE,MWO-225-UFW,MWO-UNIV,Microwave Office University 20-License Package,300-4000-00,RES30,1,2275.00,1872.50,402.50,Normal
+Invoice,6339MD,5/11/2009,,5790,Harris Corporation,United States,NORTH AMERICA,VSS-250-MFW,VSS-MAIN,VSS for Communication Signals; 12M Maint/Floating/Win,000-2301-00,AWR,1,3600.00,0.00,3600.00,Normal
+Invoice,6339MD,5/11/2009,,5790,Harris Corporation,United States,NORTH AMERICA,MWO-225-MFW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Floating/Win,000-2301-00,AWR,2,5400.00,0.00,10800.00,Normal
+Invoice,6340MD,5/11/2009,954,72,Boeing,United States,NORTH AMERICA,BACK-MAIN,,"RTM MWO-228-PFW, RID#4740, brings licenses current on maintenance",300-4000-00,,2,16800.00,0.00,33600.00,Normal
+Invoice,6340MD,5/11/2009,954,72,Boeing,United States,NORTH AMERICA,ADMIN FEE,MISC,License trade-in of 1 MWO-228 for 2 New VSS-250,300-4000-00,AWR,1,0.00,0.00,0.00,Normal
+Invoice,6340MD,5/11/2009,954,72,Boeing,United States,NORTH AMERICA,MWO-228-MFW,MWO-MAIN,MWO for MMIC; 12M Maint/Floating/Win,000-2301-00,AWR,1,7200.00,0.00,7200.00,Normal
+Invoice,6340MD,5/11/2009,954,72,Boeing,United States,NORTH AMERICA,VSS-250-MFW,VSS-MAIN,VSS for Communication Signals; 12M Maint/Floating/Win,000-2301-00,AWR,2,3600.00,0.00,7200.00,Normal
+Invoice,6341MD,5/11/2009,,1210,Maryland Procurement Office (D.O.D),United States,NORTH AMERICA,HSP-100-MFW,HSP-MAIN,Synopsys HSPICE and Simulation Interface; 20M Maint/Floating/Win,000-2301-00,AWR,1,6080.00,0.00,6080.00,Normal
+Invoice,6341MD,5/11/2009,,1210,Maryland Procurement Office (D.O.D),United States,NORTH AMERICA,MWO-225-MFW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Floating/Win,000-2301-00,AWR,3,5400.00,0.00,16200.00,Normal
+Invoice,6341MD,5/11/2009,,1210,Maryland Procurement Office (D.O.D),United States,NORTH AMERICA,VSS-350-MFW,VSS-MAIN,VSS for Wireless Communication Standards; 12M Maint/Floating/Win,000-2301-00,AWR,1,4800.00,0.00,4800.00,Normal
+Invoice,6343SD,5/11/2009,,4454,Herley Industries,United States,NORTH AMERICA,TRN-300,TRN-TRAI,3 Day Training (Per Student - 6 Student Minimum),000-2302-00,AWR,2,1500.00,150.00,2700.00,Normal
+Invoice,6344SD,5/11/2009,,9409,Larcan Inc.,Canada,NORTH AMERICA,TRN-300,TRN-TRAI,3 Day Training (Per Student - 6 Student Minimum),300-4300-00,AWR,1,1500.00,150.00,1350.00,Normal
+Invoice,6345SD,5/11/2009,,9653,Hypres Inc.,United States,NORTH AMERICA,TRN-300,TRN-TRAI,3 Day Training (Per Student - 6 Student Minimum),000-2302-00,AWR,1,1500.00,0.00,1500.00,Normal
+Invoice,6346SD,5/11/2009,,7957,Amplifier Research,United States,NORTH AMERICA,TRN-300,TRN-TRAI,3 Day Training (Per Student - 6 Student Minimum),000-2302-00,AWR,1,1500.00,150.00,1350.00,Normal
+Invoice,6347SD,5/11/2009,,8789,Wideband Systems,United States,NORTH AMERICA,TRN-300,TRN-TRAI,3 Day Training (Per Student - 6 Student Minimum),000-2302-00,AWR,1,1500.00,150.00,1350.00,Normal
+Invoice,6348SD,5/11/2009,,9452,Phoenix International,United States,NORTH AMERICA,TRN-300,TRN-TRAI,3 Day Training (Per Student - 6 Student Minimum),000-2302-00,AWR,1,1500.00,0.00,1500.00,Normal
+Invoice,6349SD,5/11/2009,,3267,Honeywell Technology Solutions Inc.,United States,NORTH AMERICA,TRN-300,TRN-TRAI,3 Day Training (Per Student - 6 Student Minimum),000-2302-00,AWR,1,1500.00,0.00,1500.00,Normal
+Invoice,6350SD,5/11/2009,,9468,"Microwave Concepts, Inc.",United States,NORTH AMERICA,TRN-300,TRN-TRAI,3 Day Training (Per Student - 6 Student Minimum),000-2302-00,AWR,1,1500.00,150.00,1350.00,Normal
+Invoice,KAREN-NC4/29/09,5/11/2009,,10010,University of Bath,United Kingdom,EUROPE,MWO-225-UFW,MWO-UNIV,Microwave Office University 20-License Package,300-4000-00,INT,1,2645.82,2645.82,0.00,Normal
+Invoice,KAREN-NC4/29/09,5/11/2009,,10010,University of Bath,United Kingdom,EUROPE,VSS-350-UFW,VSS-UNIV,Visual System Simulator University 20-License Package,300-4000-00,INT,1,2645.82,2645.82,0.00,Normal
+Invoice,4798MD(3),5/13/2009,,199,EndWave Corp,United States,NORTH AMERICA,NOTE,,3rd payment in a 3 year maintenance commitmentfor PO# 20013997,300-4000-00,,1,0.00,0.00,0.00,Normal
+Invoice,4798MD(3),5/13/2009,,199,EndWave Corp,United States,NORTH AMERICA,MWO-100-MFW,MWO-MAIN,MWO Linear; 12M Maint/Floating/Win,000-2301-00,AWR,5,930.00,0.00,4650.00,Normal
+Invoice,4798MD(3),5/13/2009,,199,EndWave Corp,United States,NORTH AMERICA,MWO-205-MFW,MWO-MAIN,MWO NonLinear & Layout; 12M Maint/Floating/Win,000-2301-00,AWR,1,3906.00,0.00,3906.00,Normal
+Invoice,4798MD(3),5/13/2009,,199,EndWave Corp,United States,NORTH AMERICA,MWO-228-MFW,MWO-MAIN,MWO for MMIC; 12M Maint/Floating/Win,000-2301-00,AWR,2,6138.00,0.00,12276.00,Normal
+Invoice,4798MD(3),5/13/2009,,199,EndWave Corp,United States,NORTH AMERICA,MWO-225-M0W,MWO-MAIN,MWO for MIC/PCB; 12M Maint/WAN WW/Win,000-2301-00,AWR,1,8035.00,0.00,8035.00,Normal
+Invoice,4798MD(3),5/13/2009,,199,EndWave Corp,United States,NORTH AMERICA,MWO-100-MLW,MWO-MAIN,MWO Linear; 12M Maint/Locked/Win,000-2301-00,AWR,1,698.00,0.00,698.00,Normal
+Invoice,4798MD(3),5/13/2009,,199,EndWave Corp,United States,NORTH AMERICA,MWO-125-MLW,MWO-MAIN,"MWO Linear, EMSight, & Layout; 12M Maint/Locked/Win",000-2301-00,AWR,1,2511.00,0.00,2511.00,Normal
+Invoice,4835TI(3),5/15/2009,1601,9166,Samsung Yokohama Research Institute,Japan,ASIA,MWO-229-TFW,MWO-TERM,MWO for MMIC & Modules; Term/Floating/Win,000-2300-00,CYB,1,21386.59,6510.72,14875.87,Normal
+Invoice,4835TI(3),5/15/2009,1601,9166,Samsung Yokohama Research Institute,Japan,ASIA,VSS-350-TFW,VSS-TERM,VSS for Wireless Communication Standards; Term/Floating/Win,000-2300-00,CYB,1,11403.87,3471.55,7932.32,Normal
+Invoice,5661TI-2,5/15/2009,8930,935-KK,Mitsubishi Electric Co. Ltd.,Japan,ASIA,WIZ-100-TFW,WIZ-TERM,Library Development Wizard; Term/Floating/Win,000-2300-00,JAP,1,25925.97,0.00,25925.97,Normal
+Invoice,5705TI-2,5/17/2009,,562,SAAB Avitronics.,Sweden,EUROPE,MWO-229-TFW,MWO-TERM,MWO for MMIC & Modules; Term/Floating/Win,000-2300-00,INT,8,22750.00,20990.62,14075.04,Normal
+Invoice,5705TI-2,5/17/2009,,562,SAAB Avitronics.,Sweden,EUROPE,VSS-350-TFW,VSS-TERM,VSS for Wireless Communication Standards; Term/Floating/Win,000-2300-00,INT,8,12133.33,11195.00,7506.64,Normal
+Invoice,5705TI-2,5/17/2009,,562,SAAB Avitronics.,Sweden,EUROPE,ANO-229-TFW,ANO-TERM,ANO for RFIC; Term/Floating/Win,000-2300-00,INT,2,34125.00,31485.92,5278.16,Normal
+Invoice,5705TI-2,5/17/2009,,562,SAAB Avitronics.,Sweden,EUROPE,APL-200-TFW,APL-TERM,APLAC Time-Domain & HB Advanced; Term/Floating/Win,000-2300-00,INT,8,11375.00,10495.31,7037.52,Normal
+Invoice,5705TI-2,5/17/2009,,562,SAAB Avitronics.,Sweden,EUROPE,CAL-100-TFW,CAL-TERM,Mentor Calibre DRC/LVS Verification Interface; Term/Floating/Win,000-2300-00,INT,2,11375.00,10495.31,1759.38,Normal
+Invoice,5705TI-2,5/17/2009,,562,SAAB Avitronics.,Sweden,EUROPE,ADS-100-TFW,ADS-TERM,Agilent EEsof ADS to MWO Translator; Term/Floating/Win,000-2300-00,INT,1,20041.67,18491.73,1549.94,Normal
+Invoice,5705TI-2,5/17/2009,,562,SAAB Avitronics.,Sweden,EUROPE,FIL-100-TFW,FIL-TERM,Nuhertz Filter Synthesis; Term/Floating/Win,000-2300-00,INT,1,3791.67,3498.35,293.32,Normal
+Invoice,4724TD(3),5/18/2009,,9163,Luxim Corporation,United States,NORTH AMERICA,MWO-200-TFW,MWO-TERM,MWO NonLinear; Term/Floating/Win,000-2300-00,AWR,1,7000.00,0.00,7000.00,Normal
+Invoice,6169UI-2,5/18/2009,8930,5838-KK,Shikoku Polytechnic College,Japan,ASIA,MWO-225-UFW,MWO-UNIV,Microwave Office University 20-License Package,300-4000-00,JAP,1,3837.89,230.27,3607.62,Normal
+Invoice,6206TD(1),5/18/2009,,9975,Beam Wave Research Inc.,United States,NORTH AMERICA,NOTE,,1st yr's invoice in a 3 yr term commtment,300-4000-00,,1,0.00,0.00,0.00,Normal
+Invoice,6206TD(1),5/18/2009,,9975,Beam Wave Research Inc.,United States,NORTH AMERICA,ANA-040-TLW,ANA-TERM,MICHELLE Front-End UI; Term/Locked/Win RID #15064,000-2300-00,AWR,1,5000.00,2750.00,2250.00,Normal
+Invoice,6206TD(1),5/18/2009,,9975,Beam Wave Research Inc.,United States,NORTH AMERICA,ANA-200-TLW,ANA-TERM,ANALYST: 3D FEM EM - Front End UI & up to 4 Solvers; Term/Locked/Win RID #15605,000-2300-00,AWR,2,21000.00,11550.00,18900.00,Normal
+Invoice,6352UI,5/18/2009,1582,9467,Karoo Array Telescope,South Africa,AFRICA,MWO-225-UFW,MWO-UNIV,Microwave Office University 20-License Package,300-4000-00,RES20,1,2600.00,1100.00,1500.00,Normal
+Invoice,6353MD,5/18/2009,957,15,Alcatel-Lucent Italia SpA,Italy,EUROPE,MWO-225-MFW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Floating/Win,000-2301-00,RES30,4,2944.95,0.00,11779.79,Normal
+Invoice,6354UD,5/18/2009,,9415,Royal Military College of Canada,Canada,NORTH AMERICA,MWO-225-UFW,MWO-UNIV,Microwave Office University 20-License Package,300-4000-00,AWR,1,2500.00,1250.00,1250.00,Normal
+Invoice,6355SD,5/18/2009,,8865,Advanced Control Components,United States,NORTH AMERICA,TRN-300,TRN-TRAI,3 Day Training (Per Student - 6 Student Minimum),000-2302-00,AWR,3,1500.00,150.00,4050.00,Normal
+Invoice,6356CI,5/18/2009,957,10014,Sesamo SCARL,Italy,EUROPE,MWO-229-PFW,MWO-PURC,MWO for MMIC & Modules; Purchase/Floating/Win RID #15914,300-4015-00,RES30,1,50022.48,1294.48,48728.00,Normal
+Invoice,6356CI,5/18/2009,957,10014,Sesamo SCARL,Italy,EUROPE,MWO-229-MFW,MWO-MAIN,MWO for MMIC & Modules; 12M Maint/Floating/Win,000-2301-00,RES30,1,7581.97,0.00,7581.97,Normal
+Invoice,6358CI(1),5/18/2009,,4552,CHL Netherlands B.V.,Netherlands,EUROPE,NOTE,,,300-4000-00,,1,0.00,0.00,0.00,Normal
+Invoice,6358CI(1),5/18/2009,,4552,CHL Netherlands B.V.,Netherlands,EUROPE,MWO-225-PLW,MWO-PURC,MWO for MIC/PCB; Purchase/Locked/Win RID #15917,300-4015-00,INT,1,32097.87,0.00,32097.87,Normal
+Invoice,6358CI(1),5/18/2009,,4552,CHL Netherlands B.V.,Netherlands,EUROPE,MWO-225-MLW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Locked/Win,000-2301-00,INT,1,4887.33,0.00,4887.33,Normal
+Invoice,6359MI,5/18/2009,957,191,Digital Multimedia,Italy,EUROPE,MWO-225-MLW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Locked/Win,000-2301-00,RES30,1,3421.13,0.00,3421.13,Normal
+Invoice,6360MD,5/18/2009,,8809,General Atomics Aeronautical,United States,NORTH AMERICA,MWO-225-MFW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Floating/Win,000-2301-00,AWR,1,5400.00,0.00,5400.00,Normal
+Invoice,6360MD,5/18/2009,,8809,General Atomics Aeronautical,United States,NORTH AMERICA,VSS-350-MFW,VSS-MAIN,VSS for Wireless Communication Standards; 12M Maint/Floating/Win,000-2301-00,AWR,1,4800.00,0.00,4800.00,Normal
+Invoice,6361MD,5/18/2009,,7740,LGC Wireless An ADC Company,United States,NORTH AMERICA,MWO-200-MFW,MWO-MAIN,MWO NonLinear; 12M Maint/Floating/Win,000-2301-00,AWR,1,3600.00,0.00,3600.00,Normal
+Invoice,6361MD,5/18/2009,,7740,LGC Wireless An ADC Company,United States,NORTH AMERICA,MWO-100-MFW,MWO-MAIN,MWO Linear; 12M Maint/Floating/Win,000-2301-00,AWR,1,1200.00,0.00,1200.00,Normal
+Invoice,6362UI,5/18/2009,9112,9455,Ulsan University,South Korea,ASIA,MWO-225-UFW,MWO-UNIV,Microwave Office University 20-License Package,300-4000-00,RES40,1,4160.00,0.00,4160.00,Normal
+Invoice,6366OI,5/18/2009,,9649,The American University in Cairo,Egypt,EUROPE,HWK-200,HWK-PURC,Hardware Key - USB,300-4000-00,INT,1,300.00,0.00,300.00,Normal
+Invoice,6367MI,5/18/2009,8930,5043-KK,Fujitsu Laboratories,Japan,ASIA,MWO-225-MLW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Locked/Win,000-2301-00,JAP,1,6160.83,86.86,6073.97,Normal
+Invoice,6351MD(1),5/19/2009,,9466,KMW USA Inc.,United States,NORTH AMERICA,NOTE,,1st yr in a 3 yr maintenance contract to be billed yearly,300-4000-00,,1,0.00,0.00,0.00,Normal
+Invoice,6351MD(1),5/19/2009,,9466,KMW USA Inc.,United States,NORTH AMERICA,MWO-100-MFW,MWO-MAIN,MWO Linear; 12M Maint/Floating/Win RID #13938,000-2301-00,AWR,1,1116.00,0.00,1116.00,Normal
+Invoice,6351MD(1),5/19/2009,,9466,KMW USA Inc.,United States,NORTH AMERICA,MWO-225-MFW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Floating/Win RID #13939,000-2301-00,AWR,1,5022.00,0.00,5022.00,Normal
+Invoice,6365MD,5/19/2009,,89,"Cascade Microtech, Inc",United States,NORTH AMERICA,MWO-228-MFW,MWO-MAIN,MWO for MMIC; 12M Maint/Floating/Win,000-2301-00,AWR,1,7200.00,0.00,7200.00,Normal
+Invoice,4945TI-2C,5/21/2009,7396,7125,Micreo Limited,Australia,AUSTRALIA,MWO-225-TFW,MWO-TERM,MWO for MIC/PCB; Term/Floating/Win,000-2300-00,RES20,1,5824.00,0.00,5824.00,Normal
+Invoice,6308TI(1),5/26/2009,6763,8461,ST Microelectronics,France,EUROPE,APL-200-TFW,APL-TERM,APLAC Time-Domain & HB Advanced; Term/Floating/Win,000-2300-00,INT,5,12548.55,3038.07,47552.40,Normal
+Invoice,6368TD,5/26/2009,,328,Jet Propulsion Laboratory JPL,United States,NORTH AMERICA,VSS-250-TFW,VSS-TERM,VSS for Communication Signals; Term/Floating/Win,000-2300-00,AWR,1,10800.00,0.00,10800.00,Normal
+Invoice,6370UI,5/26/2009,1541,10018,Albert Ludwig Universitat Freiburg IMTEK-EMP,Germany,EUROPE,MWO-225-UFW,MWO-UNIV,Microwave Office University 20-License Package,300-4000-00,RES30,1,2100.00,1697.50,402.50,Normal
+Invoice,6371UI,5/26/2009,,10019,Gdynia Maritime University,Poland,EUROPE,MWO-225-UFW,MWO-UNIV,Microwave Office University 20-License Package,300-4000-00,EUR,1,8107.68,5971.79,2135.90,Normal
+Invoice,6371UI,5/26/2009,,10019,Gdynia Maritime University,Poland,EUROPE,VSS-350-UFW,VSS-UNIV,Visual System Simulator University 20-License Package,300-4000-00,EUR,1,8107.68,5971.79,2135.90,Normal
+Invoice,6372UI,5/26/2009,2343,7116,Cork Institute of Technology,Ireland,EUROPE,MWO-225-UFW,MWO-UNIV,Microwave Office University 20-License Package,300-4000-00,INT,1,2905.98,2245.53,660.45,Normal
+Invoice,6372UI,5/26/2009,2343,7116,Cork Institute of Technology,Ireland,EUROPE,VSS-350-UFW,VSS-UNIV,Visual System Simulator University 20-License Package,300-4000-00,INT,1,2905.98,2245.53,660.45,Normal
+Invoice,6374TI(1),5/26/2009,2343,9015,Peak RF Limited,United Kingdom,EUROPE,NOTE,,1st year of a 3 year term commitment RID #15947,300-4000-00,,1,0.00,0.00,0.00,Normal
+Invoice,6374TI(1),5/26/2009,2343,9015,Peak RF Limited,United Kingdom,EUROPE,MWO-228-TLW,MWO-TERM,MWO for MMIC; Term/Locked/Win,000-2300-00,INT,1,6305.87,0.00,6305.87,Normal
+Invoice,6260TI(1),5/28/2009,6763,8021,Alcatel Business Systems Illkirch,France,EUROPE,MWO-229-TFW,MWO-TERM,MWO for MMIC & Modules; Term/Floating/Win RID #15705,000-2300-00,INT,2,28800.00,10080.00,37440.00,Normal
+Invoice,6260TI(1),5/28/2009,6763,8021,Alcatel Business Systems Illkirch,France,EUROPE,MWO-229-TLW,MWO-TERM,MWO for MMIC & Modules; Term/Locked/Win RID #15706,000-2300-00,INT,1,21600.00,7560.00,14040.00,Normal
+Invoice,6260TI(1),5/28/2009,6763,8021,Alcatel Business Systems Illkirch,France,EUROPE,VSS-350-TFW,VSS-TERM,VSS for Wireless Communication Standards; Term/Floating/Win RID #15707,000-2300-00,INT,2,15400.00,5390.00,20020.00,Normal
+Invoice,6260TI(1),5/28/2009,6763,8021,Alcatel Business Systems Illkirch,France,EUROPE,VSS-350-TLW,VSS-TERM,VSS for Wireless Communication Standards; Term/Locked/Win RID #15708,000-2300-00,INT,1,11600.00,4060.00,7540.00,Normal
+Invoice,6373CI-UP,5/28/2009,957,2400,Linkra s.r.l.,Italy,EUROPE,ADMIN FEE,MISC,Back maintenance - infringement RID #15970,300-4000-00,RES30,1,1017.09,0.00,1017.09,Normal
+Invoice,6373CI-UP,5/28/2009,957,2400,Linkra s.r.l.,Italy,EUROPE,UPG-PROD,,Upgrade from MWO-100-PFW to MWO-125-PFW (RID#15970),300-4015-00,,1,13314.67,0.00,13314.67,Normal
+Invoice,6373CI-UP,5/28/2009,957,2400,Linkra s.r.l.,Italy,EUROPE,MWO-100-MFW,MWO-MAIN,MWO Linear; 12M Maint/Floating/Win,000-2301-00,RES30,1,1017.09,0.00,1017.09,Normal
+Invoice,6375MD,5/28/2009,,8873,Mustang Technology,United States,NORTH AMERICA,FIL-100-MFW,FIL-MAIN,Nuhertz Filter Synthesis; 12M Maint/Floating/Win,000-2301-00,AWR,1,1542.00,0.00,1542.00,Normal
+Invoice,6375MD,5/28/2009,,8873,Mustang Technology,United States,NORTH AMERICA,MWO-225-MFW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Floating/Win,000-2301-00,AWR,1,5550.00,0.00,5550.00,Normal
+Invoice,6375MD,5/28/2009,,8873,Mustang Technology,United States,NORTH AMERICA,MWO-125-MFW,MWO-MAIN,"MWO Linear, EMSight, & Layout; 12M Maint/Floating/Win",000-2301-00,AWR,1,3600.00,0.00,3600.00,Normal
+Invoice,6376CD,5/28/2009,,10016,"Jacobs Technoloy, Inc.",United States,NORTH AMERICA,MWO-125-PLW,MWO-PURC,"MWO Linear, EMSight, & Layout; Purchase/Locked/Win RID#15963",300-4015-00,AWR,1,18000.00,0.00,18000.00,Normal
+Invoice,6376CD,5/28/2009,,10016,"Jacobs Technoloy, Inc.",United States,NORTH AMERICA,MWO-125-MLW,MWO-MAIN,"MWO Linear, EMSight, & Layout; 12M Maint/Locked/Win",000-2301-00,AWR,1,2700.00,0.00,2700.00,Normal
+Invoice,6376CD,5/28/2009,,10016,"Jacobs Technoloy, Inc.",United States,NORTH AMERICA,VSS-250-PLW,VSS-PURC,VSS for Communication Signals; Purchase/Locked/Win RID#15964,300-4020-00,AWR,1,18000.00,9000.00,9000.00,Normal
+Invoice,6376CD,5/28/2009,,10016,"Jacobs Technoloy, Inc.",United States,NORTH AMERICA,VSS-250-MLW,VSS-MAIN,VSS for Communication Signals; 12M Maint/Locked/Win,000-2301-00,AWR,1,2700.00,0.00,2700.00,Normal
+Invoice,6376CD,5/28/2009,,10016,"Jacobs Technoloy, Inc.",United States,NORTH AMERICA,FIL-100-PLW,FIL-PURC,Nuhertz Filter Synthesis; Purchase/Locked/Win RID#15965,300-4000-00,AWR,1,7500.00,3750.00,3750.00,Normal
+Invoice,6376CD,5/28/2009,,10016,"Jacobs Technoloy, Inc.",United States,NORTH AMERICA,FIL-100-MLW,FIL-MAIN,Nuhertz Filter Synthesis; 12M Maint/Locked/Win,000-2301-00,AWR,1,1200.00,0.00,1200.00,Normal
+Invoice,6377CI,5/28/2009,,9552,Turksat A.S.,Turkey,EUROPE,VSS-350-PFW,VSS-PURC,VSS for Wireless Communication Standards; Purchase/Floating/Win RID#15966,300-4020-00,INT,1,38174.01,13829.82,24344.19,Normal
+Invoice,6377CI,5/28/2009,,9552,Turksat A.S.,Turkey,EUROPE,VSS-350-MFW,VSS-MAIN,VSS for Wireless Communication Standards; 12M Maint/Floating/Win,000-2301-00,INT,1,5811.96,0.00,5811.96,Normal
+Invoice,6378MI,5/28/2009,8930,7585-KK,"Panasonic Electronic Device Co., Ltd.",Japan,ASIA,MWO-225-MLW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Locked/Win,000-2301-00,JAP,2,6261.82,0.00,12523.65,Normal
+Invoice,6379MI,5/28/2009,1450,8903,ISRO Satellite Centre (ISAC),India,ASIA,MWO-225-MFW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Floating/Win,000-2301-00,RES40,1,4320.00,288.00,4032.00,Normal
+Invoice,6379MI,5/28/2009,1450,8903,ISRO Satellite Centre (ISAC),India,ASIA,VSS-250-MFW,VSS-MAIN,VSS for Communication Signals; 12M Maint/Floating/Win,000-2301-00,RES40,1,2880.00,192.00,2688.00,Normal
+Invoice,6381MD,5/28/2009,,8706,High Power Microwave,United States,NORTH AMERICA,BACK-MAIN,,UPGRADE/Back Maint: MWO-105-MLW RID#7906,300-4000-00,,1,1800.00,0.00,1800.00,Normal
+Invoice,6381MD,5/28/2009,,8706,High Power Microwave,United States,NORTH AMERICA,MWO-105-MLW,MWO-MAIN,MWO Linear & Layout; 12M Maint/Locked/Win,000-2301-00,AWR,1,1800.00,0.00,1800.00,Normal
+Invoice,6382MD,5/28/2009,,9491,Marki Microwave,United States,NORTH AMERICA,MWO-200-MLW,MWO-MAIN,MWO NonLinear; 12M Maint/Locked/Win,000-2301-00,AWR,1,2700.00,0.00,2700.00,Normal
+Invoice,6383MI,5/28/2009,8930,10010030-KK,Toshiba Tecno Networks Co. Ltd,Japan,ASIA,MWO-225-MLW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Locked/Win,000-2301-00,JAP,1,7128.38,0.00,7128.38,Normal
+Invoice,6384UI,5/28/2009,1541,727,Universitat Zittau/Gorlitz; FB Elektrotechnik,Germany,EUROPE,MWO-225-UFW,MWO-UNIV,Microwave Office University 20-License Package,300-4000-00,RES30,1,2100.00,1697.50,402.50,Normal
+Invoice,6384UI,5/28/2009,1541,727,Universitat Zittau/Gorlitz; FB Elektrotechnik,Germany,EUROPE,VSS-350-UFW,VSS-UNIV,Visual System Simulator University 20-License Package,300-4000-00,RES30,1,2100.00,2100.00,0.00,Normal
+Invoice,6385MD,5/28/2009,,7957,AR rf/microwave instrumentation,United States,NORTH AMERICA,MWO-225-MLW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Locked/Win,000-2301-00,AWR,1,4100.00,0.00,4100.00,Normal
+Invoice,6386TD,5/28/2009,,10022,Carnegie Mellon,United States,NORTH AMERICA,MWO-228-TLW,MWO-TERM,MWO for MMIC; Term/Locked/Win RID #15975,000-2300-00,AWR,1,16200.00,10530.00,5670.00,Normal
+Invoice,6386TD,5/28/2009,,10022,Carnegie Mellon,United States,NORTH AMERICA,APL-100-TLW,APL-TERM,APLAC Time-Domain Simulator; Term/Locked/Win RID#15976,000-2300-00,AWR,1,5400.00,3780.00,1620.00,Normal
+Invoice,6386TD,5/28/2009,,10022,Carnegie Mellon,United States,NORTH AMERICA,HWK-200,HWK-PURC,Hardware Key - USB,300-4000-00,AWR,1,200.00,0.00,200.00,Normal
+Invoice,6387MD,5/28/2009,,529,Raytheon Canada Ltd.,Canada,NORTH AMERICA,MWO-225-MLW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Locked/Win,000-2301-00,AWR,2,4100.00,0.00,8200.00,Normal
+Invoice,6388CD,5/28/2009,,6796,"Phase IV Systems, Inc.",United States,NORTH AMERICA,VSS-150-PFW,VSS-PURC,VSS for RF Architecture; Purchase/Floating/Win RID#15978,300-4020-00,AWR,1,12000.00,1800.00,10200.00,Normal
+Invoice,6388CD,5/28/2009,,6796,"Phase IV Systems, Inc.",United States,NORTH AMERICA,VSS-150-MFW,VSS-MAIN,VSS for RF Architecture; 12M Maint/Floating/Win,000-2301-00,AWR,1,1800.00,0.00,1800.00,Normal
+Invoice,6389MD,5/28/2009,,7056,HVVi Semiconductors,United States,NORTH AMERICA,MWO-125-MFW,MWO-MAIN,"MWO Linear, EMSight, & Layout; 12M Maint/Floating/Win",000-2301-00,AWR,1,3600.00,0.00,3600.00,Normal
+Invoice,6389MD,5/28/2009,,7056,HVVi Semiconductors,United States,NORTH AMERICA,MWO-105-MFW,MWO-MAIN,MWO Linear & Layout; 12M Maint/Floating/Win,000-2301-00,AWR,4,2400.00,0.00,9600.00,Normal
+Invoice,6390MI,5/29/2009,8930,6097-KK,TOTO Ltd.,Japan,ASIA,MWO-225-MLW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Locked/Win,000-2301-00,JAP,1,6261.82,0.00,6261.82,Normal
+Invoice,4333CD(3)A,5/31/2009,,8892,Custom One Design,United States,NORTH AMERICA,MWO-225-PLW,MWO-PURC,MWO for MIC/PCB; Purchase/Locked/Win,300-4015-00,AWR,1,3619.05,0.00,3619.05,Normal
+Invoice,4333CD(3)A,5/31/2009,,8892,Custom One Design,United States,NORTH AMERICA,MWO-225-MLW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Locked/Win,000-2301-00,AWR,1,1714.29,0.00,1714.29,Normal
+Invoice,4333CD(3)A,5/31/2009,,8892,Custom One Design,United States,NORTH AMERICA,HWK-200,HWK-PURC,Hardware Key - USB,300-4000-00,AWR,1,23.80,0.00,23.80,Normal
+Invoice,5700TI-2,5/31/2009,6763,9498,THOMSON,France,EUROPE,MWO-225-TFW,MWO-TERM,MWO for MIC/PCB; Term/Floating/Win,000-2300-00,INT,1,16643.34,3328.67,13314.67,Normal
+Invoice,5700TI-2,5/31/2009,6763,9498,THOMSON,France,EUROPE,VSS-350-TFW,VSS-TERM,VSS for Wireless Communication Standards; Term/Floating/Win,000-2300-00,INT,1,14794.08,7397.04,7397.04,Normal
+Invoice,6380UI,5/31/2009,1450,10021,Tezpur University,India,ASIA,MWO-225-UFW,MWO-UNIV,Microwave Office University 20-License Package,300-4000-00,RES40,1,2112.00,0.00,2112.00,Normal
+Invoice,5033CI(2)D,6/1/2009,,2232,Transystems Inc.,Taiwan,ASIA,MWO-105-MLW,MWO-MAIN,MWO Linear & Layout; 12M Maint/Locked/Win,000-2301-00,INT,2,585.00,0.00,1170.00,Normal
+Invoice,5033CI(2)D,6/1/2009,,2232,Transystems Inc.,Taiwan,ASIA,MWO-205-MLW,MWO-MAIN,MWO NonLinear & Layout; 12M Maint/Locked/Win,000-2301-00,INT,3,1170.00,0.00,3510.00,Normal
+Invoice,5033CI(2)D,6/1/2009,,2232,Transystems Inc.,Taiwan,ASIA,MWO-225-MLW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Locked/Win,000-2301-00,INT,1,1316.25,0.00,1316.25,Normal
+Invoice,5905TD-4,6/1/2009,9022,2053,Andrew Amplifiers BSSG,United States,EUROPE,MWO-225-T0W,MWO-TERM,MWO for MIC/PCB; Term/WAN WW/Win,000-2300-00,AWR,14,5670.00,3677.81,27890.66,Normal
+Invoice,5905TD-4,6/1/2009,9022,2053,Andrew Amplifiers BSSG,United States,EUROPE,VSS-350-T0W,VSS-TERM,VSS for Wireless Communication Standards; Term/WAN WW/Win,000-2300-00,AWR,6,5040.00,3269.17,10624.98,Normal
+Invoice,5905TD-4,6/1/2009,9022,2053,Andrew Amplifiers BSSG,United States,EUROPE,XEM-100-T0W,XEM-TERM,AXIEM FS: 3D Planar EM - Direct & Fast Solver; Term/WAN WW/Win,000-2300-00,AWR,2,5670.00,3677.82,3984.36,Normal
+Invoice,5975TMD-3,6/1/2009,,665,TriQuint Semiconductor Inc. - COM,United States,NORTH AMERICA,MWO-100-MFW,MWO-MAIN,MWO Linear; 12M Maint/Floating/Win,000-2301-00,AWR,4,300.00,15.00,1140.00,Normal
+Invoice,5975TMD-3,6/1/2009,,665,TriQuint Semiconductor Inc. - COM,United States,NORTH AMERICA,MWO-200-MFW,MWO-MAIN,MWO NonLinear; 12M Maint/Floating/Win,000-2301-00,AWR,3,900.00,45.00,2565.00,Normal
+Invoice,5975TMD-3,6/1/2009,,665,TriQuint Semiconductor Inc. - COM,United States,NORTH AMERICA,MWO-228-MFW,MWO-MAIN,MWO for MMIC; 12M Maint/Floating/Win,000-2301-00,AWR,7,1800.00,90.00,11970.00,Normal
+Invoice,5975TMD-3,6/1/2009,,665,TriQuint Semiconductor Inc. - COM,United States,NORTH AMERICA,MWO-229-MFW,MWO-MAIN,MWO for MMIC & Modules; 12M Maint/Floating/Win,000-2301-00,AWR,9,2250.00,112.50,19237.50,Normal
+Invoice,5975TMD-3,6/1/2009,,665,TriQuint Semiconductor Inc. - COM,United States,NORTH AMERICA,APL-200-TFW,APL-TERM,APLAC Time-Domain & HB Advanced; Term/Floating/Win,000-2300-00,AWR,8,3000.00,990.00,16080.00,Normal
+Invoice,5975TMD-3,6/1/2009,,665,TriQuint Semiconductor Inc. - COM,United States,NORTH AMERICA,APL-200-TLW,APL-TERM,APLAC Time-Domain & HB Advanced; Term/Locked/Win,000-2300-00,AWR,10,2250.00,742.50,15075.00,Normal
+Invoice,5975TMD-3,6/1/2009,,665,TriQuint Semiconductor Inc. - COM,United States,NORTH AMERICA,MWO-100-TFW,MWO-TERM,MWO Linear; Term/Floating/Win,000-2300-00,AWR,3,800.00,264.00,1608.00,Normal
+Invoice,5975TMD-3,6/1/2009,,665,TriQuint Semiconductor Inc. - COM,United States,NORTH AMERICA,MWO-125-TFW,MWO-TERM,"MWO Linear, EMSight, & Layout; Term/Floating/Win",000-2300-00,AWR,21,2400.00,792.00,33768.00,Normal
+Invoice,5975TMD-3,6/1/2009,,665,TriQuint Semiconductor Inc. - COM,United States,NORTH AMERICA,MWO-200-TFW,MWO-TERM,MWO NonLinear; Term/Floating/Win,000-2300-00,AWR,1,2400.00,792.00,1608.00,Normal
+Invoice,5975TMD-3,6/1/2009,,665,TriQuint Semiconductor Inc. - COM,United States,NORTH AMERICA,MWO-228-TFW,MWO-TERM,MWO for MMIC; Term/Floating/Win,000-2300-00,AWR,6,4800.00,1584.00,19296.00,Normal
+Invoice,5975TMD-3,6/1/2009,,665,TriQuint Semiconductor Inc. - COM,United States,NORTH AMERICA,MWO-229-TFW,MWO-TERM,MWO for MMIC & Modules; Term/Floating/Win,000-2300-00,AWR,12,6000.00,1980.00,48240.00,Normal
+Invoice,5975TMD-3,6/1/2009,,665,TriQuint Semiconductor Inc. - COM,United States,NORTH AMERICA,MWO-229-TLW,MWO-TERM,MWO for MMIC & Modules; Term/Locked/Win,000-2300-00,AWR,10,4500.00,1485.00,30150.00,Normal
+Invoice,5975TMD-3,6/1/2009,,665,TriQuint Semiconductor Inc. - COM,United States,NORTH AMERICA,VSS-250-TFW,VSS-TERM,VSS for Communication Signals; Term/Floating/Win,000-2300-00,AWR,1,2400.00,792.00,1608.00,Normal
+Invoice,5975TMD-3,6/1/2009,,665,TriQuint Semiconductor Inc. - COM,United States,NORTH AMERICA,VSS-350-TFW,VSS-TERM,VSS for Wireless Communication Standards; Term/Floating/Win,000-2300-00,AWR,8,3200.00,1056.00,17152.00,Normal
+Invoice,5975TMD-3,6/1/2009,,665,TriQuint Semiconductor Inc. - COM,United States,NORTH AMERICA,WIZ-100-TFW,WIZ-TERM,Library Development Wizard; Term/Floating/Win,000-2300-00,AWR,2,4000.00,1320.00,5360.00,Normal
+Invoice,5975TMD-3,6/1/2009,,665,TriQuint Semiconductor Inc. - COM,United States,NORTH AMERICA,XEM-100-TFW,XEM-TERM,AXIEM FS: 3D Planar EM - Direct & Fast Solver; Term/Floating/Win,000-2300-00,AWR,4,3600.00,1188.00,9648.00,Normal
+Invoice,6172TI(1)B,6/1/2009,1450,5946,VXL Technologies,India,ASIA,MWO-225-TLW,MWO-TERM,MWO for MIC/PCB; Term/Locked/Win,000-2300-00,RES40,1,2016.00,384.00,1632.00,Normal
+Invoice,6369SD,6/1/2009,,10017,General Dynamics SATCOM,United States,NORTH AMERICA,TRN-300,TRN-TRAI,3 Day Training (Per Student - 6 Student Minimum),000-2302-00,AWR,1,1500.00,0.00,1500.00,Normal
+Invoice,6393SD,6/1/2009,,8873,Mustang Technology,United States,NORTH AMERICA,TRN-300,TRN-TRAI,3 Day Training (Per Student - 6 Student Minimum),000-2302-00,AWR,1,1500.00,150.00,1350.00,Normal
+Invoice,6394SD-JH,6/1/2009,,8722,"Elster Integrated Solutions, LLC",United States,NORTH AMERICA,TRN-300,TRN-TRAI,3 Day Training (Per Student - 6 Student Minimum),000-2302-00,AWR,1,1500.00,150.00,1350.00,Normal
+Invoice,6394SD-RR,6/1/2009,,8722,"Elster Integrated Solutions, LLC",United States,NORTH AMERICA,TRN-300,TRN-TRAI,3 Day Training (Per Student - 6 Student Minimum),000-2302-00,AWR,1,1500.00,150.00,1350.00,Normal
+Invoice,6395SD,6/1/2009,,8706,High Power Microwave,United States,NORTH AMERICA,TRN-300,TRN-TRAI,3 Day Training (Per Student - 6 Student Minimum),000-2302-00,AWR,1,1500.00,150.00,1350.00,Normal
+Invoice,6396SD,6/1/2009,,991,TriQuint Semiconductor,United States,NORTH AMERICA,TRN-300,TRN-TRAI,3 Day Training (Per Student - 6 Student Minimum),000-2302-00,AWR,1,1500.00,0.00,1500.00,Normal
+Invoice,6397TD-1,6/1/2009,,7458,REMEC Defense and Space,United States,NORTH AMERICA,NOTE,,1st payment of 8 quarterly payments,300-4000-00,,1,0.00,0.00,0.00,Normal
+Invoice,6397TD-1,6/1/2009,,7458,REMEC Defense and Space,United States,NORTH AMERICA,VSS-250-TFW,VSS-TERM,VSS for Communication Signals; Term/Floating/Win,000-2300-00,AWR,1,1558.00,438.00,1120.00,Normal
+Invoice,6400TD(1),6/4/2009,,1944,Lucix,United States,NORTH AMERICA,NOTE,,1st year in a 3 year term commitment to be billed yearly,300-4000-00,,1,0.00,0.00,0.00,Normal
+Invoice,6400TD(1),6/4/2009,,1944,Lucix,United States,NORTH AMERICA,MWO-225-TFW,MWO-TERM,MWO for MIC/PCB; Term/Floating/Win RID #15998,000-2300-00,AWR,1,12600.00,1890.00,10710.00,Normal
+Invoice,6400TD(1),6/4/2009,,1944,Lucix,United States,NORTH AMERICA,APL-100-TFW,APL-TERM,APLAC Time-Domain Simulator; Term/Floating/Win RID #15999,000-2300-00,AWR,1,5600.00,840.00,4760.00,Normal
+Invoice,4837CI(3),6/8/2009,,9200,Himax Technologies,Taiwan,ASIA,ANO-229-MFW,ANO-MAIN,ANO for RFIC; 12M Maint/Floating/Win,000-2301-00,INT,1,17550.00,1859.43,15690.57,Normal
+Invoice,4837CI(3),6/8/2009,,9200,Himax Technologies,Taiwan,ASIA,HSP-100-MFW,HSP-MAIN,Synopsys HSPICE and Simulation Interface; 12M Maint/Floating/Win,000-2301-00,INT,1,4680.00,495.85,4184.15,Normal
+Invoice,4837CI(3),6/8/2009,,9200,Himax Technologies,Taiwan,ASIA,SPC-100-MFW,SPC-MAIN,Cadence Spectre Simulator Interface; 12M Maint/Floating/Win,000-2301-00,INT,1,3900.00,413.21,3486.79,Normal
+Invoice,4837CI(3),6/8/2009,,9200,Himax Technologies,Taiwan,ASIA,VSS-250-MFW,VSS-MAIN,VSS for Communication Signals; 12M Maint/Floating/Win,000-2301-00,INT,1,4680.00,495.85,4184.15,Normal
+Invoice,4837CI(3),6/8/2009,,9200,Himax Technologies,Taiwan,ASIA,TSW-100-MFW,TSW-MAIN,TestWave Instrumentation Interface; 12M Maint/Floating/Win,000-2301-00,INT,1,1300.00,137.74,1162.26,Normal
+Invoice,4837CI(3),6/8/2009,,9200,Himax Technologies,Taiwan,ASIA,MWO-105-MLW,MWO-MAIN,MWO Linear & Layout; 12M Maint/Locked/Win,000-2301-00,INT,1,2340.00,247.92,2092.08,Normal
+Invoice,6398MD,6/8/2009,,7527,EWA Government Systems Inc.,United States,NORTH AMERICA,BACK-MAIN,,UPGRADE/Back Maint. MWO-225-MLW RID #6730,300-4000-00,,1,4100.00,0.00,4100.00,Normal
+Invoice,6398MD,6/8/2009,,7527,EWA Government Systems Inc.,United States,NORTH AMERICA,MWO-225-MLW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Locked/Win,000-2301-00,AWR,1,4100.00,0.00,4100.00,Normal
+Invoice,6399MI,6/8/2009,6763,682,UMS,France,EUROPE,MWO-225-MFW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Floating/Win,000-2301-00,INT,2,6682.13,0.00,13364.26,Normal
+Invoice,6401MI,6/8/2009,8930,1530-KK,"Mitsubishi Space Software Co., Ltd.",Japan,ASIA,MWO-228-MLW,MWO-MAIN,MWO for MMIC; 12M Maint/Locked/Win,000-2301-00,JAP,1,8373.66,137.28,8236.38,Normal
+Invoice,6401MI,6/8/2009,8930,1530-KK,"Mitsubishi Space Software Co., Ltd.",Japan,ASIA,VSS-250-MLW,VSS-MAIN,VSS for Communication Signals; 12M Maint/Locked/Win,000-2301-00,JAP,1,4238.52,69.48,4169.04,Normal
+Invoice,6357PI,6/9/2009,9451,10015,Spinner Telecommunications Devices,China,ASIA,MWO-100-PFW,MWO-PURC,MWO Linear; Purchase/Floating/Win RID #15918,300-4015-00,RES40,1,7680.00,0.00,7680.00,Normal
+Invoice,6391OI,6/9/2009,9479,3561,Tadiran Spectralink Ltd.,ISRAEL,EUROPE,HWK-200,HWK-PURC,Hardware Key - USB,300-4000-00,INT,1,210.00,0.00,210.00,Normal
+Invoice,6392OI,6/9/2009,,10024,Elettronika S.r.l.,Italy,EUROPE,ADMIN FEE,MISC,Settlement of IP Infringement to be used as a credit,000-2300-00,INT,1,17728.10,0.00,17728.10,Normal
+Invoice,6402TI-UP,6/9/2009,1445,9963,Comlab AG,Switzerland,EUROPE,UPG-TERM,,Upgrade from VSS-150-TFW to VSS-350-TFW,000-2300-00,,1,5799.13,1479.61,4319.52,Normal
+Invoice,6403CI-UP,6/9/2009,8930,383-KK,Panasonic Corporation,Japan,ASIA,MWO-226-MFW,MWO-MAIN,MWO for MIC/PCB & Signal Integrity; 10M Maint/Floating/Win,000-2301-00,JAP,4,9304.07,0.00,37216.26,Normal
+Invoice,6403CI-UP,6/9/2009,8930,383-KK,Panasonic Corporation,Japan,ASIA,MWO-200-MFW,MWO-MAIN,MWO NonLinear; 10M Maint/Floating/Win,000-2301-00,JAP,1,4652.03,0.00,4652.03,Normal
+Invoice,6403CI-UP,6/9/2009,8930,383-KK,Panasonic Corporation,Japan,ASIA,VSS-350-MLW,VSS-MAIN,VSS for Wireless Communication Standards; 10M Maint/Locked/Win,000-2301-00,JAP,1,4652.03,0.00,4652.03,Normal
+Invoice,6403CI-UP,6/9/2009,8930,383-KK,Panasonic Corporation,Japan,ASIA,TSW-100-MLW,TSW-MAIN,TestWave Instrumentation Interface; 10M Maint/Locked/Win,000-2301-00,JAP,1,969.17,0.00,969.17,Normal
+Invoice,6403CI-UP,6/9/2009,8930,383-KK,Panasonic Corporation,Japan,ASIA,XEM-100-MFW,XEM-MAIN,AXIEM FS: 3D Planar EM - Direct & Fast Solver; 10M Maint/Floating/Win,000-2301-00,JAP,1,6978.05,0.00,6978.05,Normal
+Invoice,6404MD,6/9/2009,,8343,KP Technologies,United States,NORTH AMERICA,APL-001-MLW,APL-MAIN,Analog Design Tool; 12M Maint/Locked/Win,000-2301-00,AWR,1,1100.00,0.00,1100.00,Normal
+Invoice,6404MD,6/9/2009,,8343,KP Technologies,United States,NORTH AMERICA,APL-002-MLW,APL-MAIN,RF Elements and Improved HB & Transient Analyzers; 12M Maint/Locked/Win,000-2301-00,AWR,1,600.00,0.00,600.00,Normal
+Invoice,6404MD,6/9/2009,,8343,KP Technologies,United States,NORTH AMERICA,APL-003-MLW,APL-MAIN,Time-Domain System Analyzer; 12M Maint/Locked/Win,000-2301-00,AWR,1,400.00,0.00,400.00,Normal
+Invoice,6404MD,6/9/2009,,8343,KP Technologies,United States,NORTH AMERICA,APL-004-MLW,APL-MAIN,Full 3D & 2.5D EM analyzers & MEMS library; 12M Maint/Locked/Win,000-2301-00,AWR,1,300.00,0.00,300.00,Normal
+Invoice,6406UI,6/9/2009,8930,3890-KK,Kyoto University,Japan,ASIA,MWO-225-UFW,MWO-UNIV,Microwave Office University 20-License Package,300-4000-00,JAP,1,3928.38,2791.22,1137.16,Normal
+Invoice,5663TD-2,6/10/2009,,3634,Hittite Microwave Corporation,United States,NORTH AMERICA,MWO-228-TLW,MWO-TERM,MWO for MMIC; Term/Locked/Win,000-2300-00,AWR,1,12600.00,1890.00,10710.00,Normal
+Invoice,6160SI,6/10/2009,2343,9400,SELEX Communications Ltd. Bristol,United Kingdom,EUROPE,TRN-300,TRN-TRAI,3 Day Training (Per Student - 6 Student Minimum),000-2302-00,INT,1,1693.45,0.00,1693.45,Normal
+Invoice,2165LI(4)H,6/15/2009,,4131,Remotek Corporation,"Taiwan, Province of",ASIA,MWO-225-TFW,MWO-TERM,MWO for MIC/PCB; Term/Floating/Win,000-2300-00,AWR,2,1820.00,140.00,3360.00,Normal
+Invoice,6405TI,6/15/2009,2343,9001,LamhRoe Ltd.,United Kingdom,EUROPE,MWO-228-TLW,MWO-TERM,MWO for MMIC; Term/Locked/Win,000-2300-00,INT,2,18012.15,9006.08,18012.15,Normal
+Invoice,6408UI,6/15/2009,1541,713,Universitat Darmstadt,Germany,EUROPE,MWO-225-UFW,MWO-UNIV,Microwave Office University 20-License Package,300-4000-00,RES30,1,2310.00,1785.00,525.00,Normal
+Invoice,6408UI,6/15/2009,1541,713,Universitat Darmstadt,Germany,EUROPE,VSS-350-UFW,VSS-UNIV,Visual System Simulator University 20-License Package,300-4000-00,RES30,1,2310.00,2135.00,175.00,Normal
+Invoice,6409CI,6/15/2009,1541,10010103,FGAN,Germany,EUROPE,MWO-225-PFW,MWO-PURC,MWO for MIC/PCB; Purchase/Floating/Win RID #16022,300-4015-00,RES30,1,31024.18,15512.09,15512.09,Normal
+Invoice,6409CI,6/15/2009,1541,10010103,FGAN,Germany,EUROPE,MWO-225-MFW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Floating/Win,000-2301-00,RES30,1,4677.49,0.00,4677.49,Normal
+Invoice,6410MD,6/15/2009,,9085,Valleylab,United States,NORTH AMERICA,MWO-225-MFW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Floating/Win RID #11570,000-2301-00,AWR,1,5400.00,0.00,5400.00,Normal
+Invoice,6410MD,6/15/2009,,9085,Valleylab,United States,NORTH AMERICA,MWO-226-MFW,MWO-MAIN,MWO for MIC/PCB & Signal Integrity;  Maint/Floating/Win RID #14119,000-2301-00,AWR,1,7180.00,0.00,7180.00,Normal
+Invoice,6411CI-UP,6/15/2009,8930,9032-KK,NICT,Japan,ASIA,UPG-PROD,,Upgrade MWO-228 from a Locked license to a Floating license,300-4000-00,,1,18608.13,18608.13,0.00,Normal
+Invoice,6411CI-UP,6/15/2009,8930,9032-KK,NICT,Japan,ASIA,UPG-MAINT,,Upgrade associated maintenance,000-2301-00,,1,930.41,0.00,930.41,Normal
+Invoice,6414MI,6/15/2009,957,4184,Selex Sistemi Integrati,Italy,EUROPE,MWO-225-MLW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Locked/Win RID#4596,000-2301-00,RES30,1,3531.98,0.00,3531.98,Normal
+Invoice,6415MI,6/15/2009,957,4184,Selex Sistemi Integrati,Italy,EUROPE,MWO-228-MFW,MWO-MAIN,MWO for MMIC; 12M Maint/Floating/Win RID #5606,000-2301-00,RES30,1,6204.84,0.00,6204.84,Normal
+Invoice,6415MI,6/15/2009,957,4184,Selex Sistemi Integrati,Italy,EUROPE,WIZ-100-MFW,WIZ-MAIN,Library Development Wizard; 12M Maint/Floating/Win RID #5608,000-2301-00,RES30,1,5154.79,0.00,5154.79,Normal
+Invoice,6417MD,6/15/2009,,6318,Lorch Microwave,United States,NORTH AMERICA,MWO-225-MLW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Locked/Win RID #5836,000-2301-00,AWR,1,4100.00,0.00,4100.00,Normal
+Invoice,6420MI,6/15/2009,8930,4307-KK,Toshiba Corporation,Japan,ASIA,MWO-228-MLW,MWO-MAIN,MWO for MMIC; 12M Maint/Locked/Win RID#5505,000-2301-00,JAP,1,8373.66,0.00,8373.66,Normal
+Invoice,6420MI,6/15/2009,8930,4307-KK,Toshiba Corporation,Japan,ASIA,HSP-100-MLW,HSP-MAIN,Synopsys HSPICE and Simulation Interface; 12M Maint/Locked/Win RID#10003,000-2301-00,JAP,1,4238.52,0.00,4238.52,Normal
+Invoice,6420MI,6/15/2009,8930,4307-KK,Toshiba Corporation,Japan,ASIA,VSS-350-MLW,VSS-MAIN,VSS for Wireless Communication Standards; 12M Maint/Locked/Win RID#10004,000-2301-00,JAP,1,5582.44,0.00,5582.44,Normal
+Invoice,6420MI,6/15/2009,8930,4307-KK,Toshiba Corporation,Japan,ASIA,MWO-225-MLW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Locked/Win RID #5504,000-2301-00,JAP,1,6409.47,0.00,6409.47,Normal
+Invoice,6420MI,6/15/2009,8930,4307-KK,Toshiba Corporation,Japan,ASIA,MWO-125-MLW,MWO-MAIN,"MWO Linear, EMSight, & Layout; 12M Maint/Locked/Win RDI#10002",000-2301-00,JAP,1,4238.52,0.00,4238.52,Normal
+Invoice,6287TI-1,6/16/2009,8930,9650,NEC Electronics-Compound Semiconductor,Japan,ASIA,NOTE,,Dummy invoice in Quick books for customer,300-4000-00,,1,0.00,0.00,0.00,Normal
+Invoice,6287TI-1,6/16/2009,8930,9650,NEC Electronics-Compound Semiconductor,Japan,ASIA,MWO-229-TFW,MWO-TERM,MWO for MMIC & Modules; Term/Floating/Win,000-2300-00,JAP,2,42000.00,14500.00,55000.00,Normal
+Invoice,4856TI(3),6/22/2009,2343,9209,Wood & Douglas,United Kingdom,EUROPE,MWO-225-TFW,MWO-TERM,MWO for MIC/PCB; Term/Floating/Win,000-2300-00,INT,1,13210.45,0.00,13210.45,Normal
+Invoice,4856TI(3),6/22/2009,2343,9209,Wood & Douglas,United Kingdom,EUROPE,VSS-250-TFW,VSS-TERM,VSS for Communication Signals; Term/Floating/Win,000-2300-00,INT,1,8805.94,4402.97,4402.97,Normal
+Invoice,4856TI(3),6/22/2009,2343,9209,Wood & Douglas,United Kingdom,EUROPE,MWO-100-TFW,MWO-TERM,MWO Linear; Term/Floating/Win,000-2300-00,INT,1,2935.83,0.00,2935.83,Normal
+Invoice,6418UI,6/22/2009,9568,7426,Universiti Tenaga Nat'l Malay,Malaysia,ASIA,MWO-225-UFW,MWO-UNIV,Microwave Office University 20-License Package,300-4000-00,RES20,1,5280.00,0.00,5280.00,Normal
+Invoice,6421MI,6/22/2009,2343,398,Microwave Amplifiers,United Kingdom,EUROPE,BACK-MAIN,,Back Maintenance on MWO-225-MLW RID #1084,300-4000-00,,1,10507.09,5888.59,4618.50,Normal
+Invoice,6421MI,6/22/2009,2343,398,Microwave Amplifiers,United Kingdom,EUROPE,MWO-225-MLW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Locked/Win,000-2301-00,INT,1,4618.50,0.00,4618.50,Normal
+Invoice,6422MI,6/22/2009,2343,412,Milmega Ltd.,United Kingdom,EUROPE,MWO-105-MLW,MWO-MAIN,MWO Linear & Layout; 12M Maint/Locked/Win,000-2301-00,INT,1,2001.35,0.00,2001.35,Normal
+Invoice,6422MI,6/22/2009,2343,412,Milmega Ltd.,United Kingdom,EUROPE,MWO-225-MLW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Locked/Win,000-2301-00,INT,1,4618.50,0.00,4618.50,Normal
+Invoice,6423UI,6/22/2009,8930,10031-KK,Shibaura Institute of Technology,Japan,ASIA,MWO-225-UFW,MWO-UNIV,Microwave Office University 20-License Package,300-4000-00,JAP,1,3928.38,1865.98,2062.40,Normal
+Invoice,6424TI(1),6/22/2009,2343,8846,e2v Technologies,United Kingdom,EUROPE,NOTE,,1st year in a 3 year term commitment,300-4000-00,,1,0.00,0.00,0.00,Normal
+Invoice,6424TI(1),6/22/2009,2343,8846,e2v Technologies,United Kingdom,EUROPE,MWO-225-TFW,MWO-TERM,MWO for MIC/PCB; Term/Floating/Win RID #16059,000-2300-00,INT,1,14009.45,0.00,14009.45,Normal
+Invoice,6425MI,6/22/2009,7396,3921,CEA Technologies Inc,Australia,AUSTRALIA,MWO-105-MFW,MWO-MAIN,MWO Linear & Layout; 12M Maint/Floating/Win,000-2301-00,RES20,1,2560.00,0.00,2560.00,Normal
+Invoice,6425MI,6/22/2009,7396,3921,CEA Technologies Inc,Australia,AUSTRALIA,MWO-125-MFW,MWO-MAIN,"MWO Linear, EMSight, & Layout; 12M Maint/Floating/Win",000-2301-00,RES20,1,3840.00,0.00,3840.00,Normal
+Invoice,6425MI,6/22/2009,7396,3921,CEA Technologies Inc,Australia,AUSTRALIA,MWO-205-MFW,MWO-MAIN,MWO NonLinear & Layout; 12M Maint/Floating/Win,000-2301-00,RES20,1,5120.00,0.00,5120.00,Normal
+Invoice,6425MI,6/22/2009,7396,3921,CEA Technologies Inc,Australia,AUSTRALIA,VSS-250-MFW,VSS-MAIN,VSS for Communication Signals; 12M Maint/Floating/Win,000-2301-00,RES20,1,3840.00,0.00,3840.00,Normal
+Invoice,6425MI,6/22/2009,7396,3921,CEA Technologies Inc,Australia,AUSTRALIA,HSP-100-MFW,HSP-MAIN,Synopsys HSPICE and Simulation Interface; 12M Maint/Floating/Win,000-2301-00,RES20,1,3840.00,0.00,3840.00,Normal
+Invoice,6426MI,6/22/2009,7396,5950,Trio DataCom Pty. Ltd.,Australia,AUSTRALIA,MWO-200-MLW,MWO-MAIN,MWO NonLinear; 12M Maint/Locked/Win,000-2301-00,RES20,1,2880.00,0.00,2880.00,Normal
+Invoice,6426MI,6/22/2009,7396,5950,Trio DataCom Pty. Ltd.,Australia,AUSTRALIA,MWO-225-MLW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Locked/Win,000-2301-00,RES20,1,4320.00,0.00,4320.00,Normal
+Invoice,6427UI,6/22/2009,1541,3121,University of Magdeburg,Germany,EUROPE,MWO-225-UFW,MWO-UNIV,Microwave Office University 20-License Package,300-4000-00,RES30,1,2310.00,1680.00,630.00,Normal
+Invoice,6427UI,6/22/2009,1541,3121,University of Magdeburg,Germany,EUROPE,VSS-350-UFW,VSS-UNIV,Visual System Simulator University 20-License Package,300-4000-00,RES30,1,2310.00,2310.00,0.00,Normal
+Invoice,6428TI(1),6/22/2009,,3634,Hittite Microwave Corporation,United States,NORTH AMERICA,NOTE,,1st year in 2  year term commitment,300-4000-00,,1,0.00,0.00,0.00,Normal
+Invoice,6428TI(1),6/22/2009,,3634,Hittite Microwave Corporation,United States,NORTH AMERICA,MWO-228-TLW,MWO-TERM,MWO for MMIC; Term/Locked/Win RID #16064,000-2300-00,AWR,1,14400.00,2160.00,12240.00,Normal
+Invoice,6428TI(1),6/22/2009,,3634,Hittite Microwave Corporation,United States,NORTH AMERICA,HWK-200,HWK-PURC,Hardware Key - USB,300-4000-00,AWR,1,200.00,0.00,200.00,Normal
+Invoice,6430MD,6/22/2009,1447,7918,Benchmark Electronics,Netherlands,EUROPE,MWO-225-MFW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Floating/Win,000-2301-00,RES20,1,5200.00,0.00,5200.00,Normal
+Invoice,6431MD,6/22/2009,,2864,Finisar Corporation,United States,NORTH AMERICA,MWO-225-MLW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Locked/Win,000-2301-00,AWR,1,4100.00,0.00,4100.00,Normal
+Invoice,6432MI,6/22/2009,8930,9187-KK,AOR Ltd.,Japan,ASIA,MWO-125-MLW,MWO-MAIN,"MWO Linear, EMSight, & Layout; 12M Maint/Locked/Win",000-2301-00,JAP,1,4238.52,0.00,4238.52,Normal
+Invoice,6433MD,6/22/2009,,9194,RF Nano,United States,NORTH AMERICA,BACK-MAIN,,UPGRADE/Back Maintenance MWO-100-MLW RID #12202,300-4000-00,,1,900.00,0.00,900.00,Normal
+Invoice,6433MD,6/22/2009,,9194,RF Nano,United States,NORTH AMERICA,MWO-100-MLW,MWO-MAIN,MWO Linear; 12M Maint/Locked/Win RID #12202,000-2301-00,AWR,1,900.00,0.00,900.00,Normal
+Invoice,6416MI,6/23/2009,,10030,Anritsu Corporation,Japan,ASIA,ADMIN FEE,MISC,MWO-228-MLW (RID#16051),000-2301-00,AWR,1,1403.00,0.00,1403.00,Normal
+Invoice,6429MD(1),6/23/2009,,673,Northrop Grumman,United States,NORTH AMERICA,NOTE,,1st year of a 3 year maintenance commitment,300-4000-00,,1,0.00,0.00,0.00,Normal
+Invoice,6429MD(1),6/23/2009,,673,Northrop Grumman,United States,NORTH AMERICA,FIL-100-MFW,FIL-MAIN,Nuhertz Filter Synthesis; 12M Maint/Floating/Win,000-2301-00,AWR,2,1395.00,0.00,2790.00,Normal
+Invoice,6429MD(1),6/23/2009,,673,Northrop Grumman,United States,NORTH AMERICA,HSP-100-MFW,HSP-MAIN,Synopsys HSPICE and Simulation Interface; 12M Maint/Floating/Win,000-2301-00,AWR,3,3348.00,0.00,10044.00,Normal
+Invoice,6429MD(1),6/23/2009,,673,Northrop Grumman,United States,NORTH AMERICA,MWO-125-MFW,MWO-MAIN,"MWO Linear, EMSight, & Layout; 12M Maint/Floating/Win",000-2301-00,AWR,8,3348.00,0.00,26784.00,Normal
+Invoice,6429MD(1),6/23/2009,,673,Northrop Grumman,United States,NORTH AMERICA,MWO-225-MFW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Floating/Win,000-2301-00,AWR,7,5022.00,0.00,35154.00,Normal
+Invoice,6429MD(1),6/23/2009,,673,Northrop Grumman,United States,NORTH AMERICA,MWO-129-MFW,,MWO-229 licenses will be provided until AWR provides,000-2301-00,,4,5022.00,0.00,20088.00,Normal
+Invoice,6429MD(1),6/23/2009,,673,Northrop Grumman,United States,NORTH AMERICA,MWO-228-MFW,MWO-MAIN,MWO for MMIC; 12M Maint/Floating/Win,000-2301-00,AWR,5,6696.00,0.00,33480.00,Normal
+Invoice,6429MD(1),6/23/2009,,673,Northrop Grumman,United States,NORTH AMERICA,VSS-350-MFW,VSS-MAIN,VSS for Wireless Communication Standards; 12M Maint/Floating/Win,000-2301-00,AWR,3,4464.00,0.00,13392.00,Normal
+Invoice,6429MD(1),6/23/2009,,673,Northrop Grumman,United States,NORTH AMERICA,XEM-100-MFW,XEM-MAIN,AXIEM FS: 3D Planar EM - Direct & Fast Solver; 12M Maint/Floating/Win,000-2301-00,AWR,2,5022.00,0.00,10044.00,Normal
+Invoice,6435OI,6/23/2009,1541,1541-CUST,Gigaset Communications GmbH,Germany,EUROPE,ADMIN FEE,MISC,Transfer fee of 7 licenses from Cust #5320 to cust 1541-CUST,300-4000-00,RES30,1,6682.13,0.00,6682.13,Normal
+Invoice,4887TD(3),6/26/2009,,8854,xG Technology,United States,NORTH AMERICA,MWO-225-TLW,MWO-TERM,MWO for MIC/PCB; Term/Locked/Win,000-2300-00,AWR,1,9450.00,1050.00,8400.00,Normal
+Invoice,6419CI,6/26/2009,1450,6586,Research Centre Imarat (RCI),India,ASIA,MWO-226-PLW,MWO-PURC,MWO for MIC/PCB & Signal Integrity; Purchase/Locked/Win RID#16089,300-4015-00,RES40,1,30720.00,6613.33,24106.67,Normal
+Invoice,6419CI,6/26/2009,1450,6586,Research Centre Imarat (RCI),India,ASIA,MWO-226-MLW,MWO-MAIN,MWO for MIC/PCB & Signal Integrity; 12M Maint/Locked/Win,000-2301-00,RES40,1,4320.00,0.00,4320.00,Normal
+Invoice,6419CI,6/26/2009,1450,6586,Research Centre Imarat (RCI),India,ASIA,VSS-250-PLW,VSS-PURC,VSS for Communication Signals; Purchase/Locked/Win RID#16090,300-4020-00,RES40,1,15360.00,3306.67,12053.33,Normal
+Invoice,6419CI,6/26/2009,1450,6586,Research Centre Imarat (RCI),India,ASIA,VSS-250-MLW,VSS-MAIN,VSS for Communication Signals; 12M Maint/Locked/Win,000-2301-00,RES40,1,2160.00,0.00,2160.00,Normal
+Invoice,6419CI,6/26/2009,1450,6586,Research Centre Imarat (RCI),India,ASIA,TSW-100-PLW,TSW-PURC,TestWave Instrumentation Interface; Purchase/Locked/Win RID#16091,300-4000-00,RES40,1,5494.00,0.00,5494.00,Normal
+Invoice,6419CI,6/26/2009,1450,6586,Research Centre Imarat (RCI),India,ASIA,TSW-100-MLW,TSW-MAIN,TestWave Instrumentation Interface; 12M Maint/Locked/Win,000-2301-00,RES40,1,800.00,0.00,800.00,Normal
+Invoice,6434CD-UP,6/26/2009,,8670,TelGaAs Inc.,United States,NORTH AMERICA,UPG-PROD,,Upgrade VSS-150-PLW (RID#7703)  to MWO-105-PLW (RID#16093),300-4000-00,,1,3000.00,3000.00,0.00,Normal
+Invoice,6434CD-UP,6/26/2009,,8670,TelGaAs Inc.,United States,NORTH AMERICA,UPG-MAIN,,Upgrade associated maintenance,000-2301-00,,1,1034.00,0.00,1034.00,Normal
+Invoice,6437CD,6/26/2009,,9164,Space Micro Inc.,United States,NORTH AMERICA,MWO-225-PLW,MWO-PURC,MWO for MIC/PCB; Purchase/Locked/Win RID#16096,300-4015-00,AWR,1,27000.00,9450.00,17550.00,Normal
+Invoice,6437CD,6/26/2009,,9164,Space Micro Inc.,United States,NORTH AMERICA,MWO-225-MLW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Locked/Win,000-2301-00,AWR,1,4100.00,0.00,4100.00,Normal
+Invoice,6443TI(1),6/26/2009,2343,9459,Cambridge Consultants Ltd.,United Kingdom,EUROPE,NOTE,,1st year in a 3 year term commitment,300-4000-00,,1,0.00,0.00,0.00,Normal
+Invoice,6443TI(1),6/26/2009,2343,9459,Cambridge Consultants Ltd.,United Kingdom,EUROPE,MWO-225-TFW,MWO-TERM,MWO for MIC/PCB; Term/Floating/Win RID#16115,000-2300-00,INT,1,14009.45,1400.95,12608.51,Normal
+Invoice,6443TI(1),6/26/2009,2343,9459,Cambridge Consultants Ltd.,United Kingdom,EUROPE,VSS-250-TFW,VSS-TERM,VSS for Communication Signals; Term/Floating/Win RID#16116,000-2300-00,INT,1,9390.95,939.10,8451.86,Normal
+Invoice,5466TD(2)B,6/28/2009,,9180,Ubidyne Inc.,Germany,NORTH AMERICA,MWO-229-T0W,MWO-TERM,MWO for MMIC & Modules; Term/WAN WW/Win,000-2300-00,AWR,2,9450.00,4450.00,10000.00,Normal
+Invoice,5466TD(2)B,6/28/2009,,9180,Ubidyne Inc.,Germany,NORTH AMERICA,APL-100-T0W,APL-TERM,APLAC Time-Domain Simulator; Term/WAN WW/Win,000-2300-00,AWR,1,2520.00,1186.67,1333.33,Normal
+Invoice,5466TD(2)B,6/28/2009,,9180,Ubidyne Inc.,Germany,NORTH AMERICA,VSS-350-T0W,VSS-TERM,VSS for Wireless Communication Standards; Term/WAN WW/Win,000-2300-00,AWR,1,5040.00,2373.33,2666.67,Normal
+Invoice,4381CD(3)B,6/29/2009,,9030,Communication Component Filters Inc.,United States,NORTH AMERICA,MWO-100-PLW,MWO-PURC,MWO Linear; Purchase/Locked/Win,300-4015-00,AWR,1,833.33,298.53,534.80,Normal
+Invoice,4381CD(3)B,6/29/2009,,9030,Communication Component Filters Inc.,United States,NORTH AMERICA,MWO-100-MLW,MWO-MAIN,MWO Linear; 12M Maint/Locked/Win,000-2301-00,AWR,1,750.00,0.00,750.00,Normal
+Invoice,4381CD(3)B,6/29/2009,,9030,Communication Component Filters Inc.,United States,NORTH AMERICA,MWO-105-PLW,MWO-PURC,MWO Linear & Layout; Purchase/Locked/Win,300-4015-00,AWR,2,2000.00,716.47,2567.06,Normal
+Invoice,4381CD(3)B,6/29/2009,,9030,Communication Component Filters Inc.,United States,NORTH AMERICA,MWO-105-MLW,MWO-MAIN,MWO Linear & Layout; 12M Maint/Locked/Win,000-2301-00,AWR,2,900.00,0.00,1800.00,Normal
+Invoice,4381CD(3)B,6/29/2009,,9030,Communication Component Filters Inc.,United States,NORTH AMERICA,HWK-200,HWK-PURC,Hardware Key - USB,300-4000-00,AWR,3,25.01,8.96,48.15,Normal
+Invoice,6436MI,6/29/2009,8930,249-KK,Furukawa Electric Co. Ltd.,Japan,ASIA,MWO-225-MLW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Locked/Win,000-2301-00,JAP,1,6409.47,0.00,6409.47,Normal
+Invoice,6436MI,6/29/2009,8930,249-KK,Furukawa Electric Co. Ltd.,Japan,ASIA,HSP-100-MLW,HSP-MAIN,Synopsys HSPICE and Simulation Interface; 12M Maint/Locked/Win,000-2301-00,JAP,1,4238.52,0.00,4238.52,Normal
+Invoice,6446MI(1),6/29/2009,2343,9987,Filtronic Broadband Ltd.,United Kingdom,EUROPE,NOTE,,"1st payment of 2 in a 1yr, 9 mn maintenance commitment",300-4000-00,,1,0.00,0.00,0.00,Normal
+Invoice,6446MI(1),6/29/2009,2343,9987,Filtronic Broadband Ltd.,United Kingdom,EUROPE,MWO-228-MFW,MWO-MAIN,MWO for MMIC; 10.5M Maint/Floating/Win RID#15680,000-2301-00,INT,2,7004.73,0.00,14009.45,Normal
+Invoice,6449MI,6/29/2009,8930,6343-KK,Fujitsu Labortories Ltd.,Japan,ASIA,MWO-225-MLW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Locked/Win RID#13014,000-2301-00,JAP,1,3204.73,0.00,3204.73,Normal
+Invoice,6451MI,6/29/2009,6763,786,Wavecom,France,EUROPE,MWO-225-MFW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Floating/Win RID#1157,000-2301-00,INT,1,6682.13,0.00,6682.13,Normal
+Invoice,6407MD,6/30/2009,,2982,Research In Motion Limited,Canada,NORTH AMERICA,BACK-MAIN,,Upgrade/Back Maint. RID #3755. MWO-100-MLW,300-4000-00,,1,2100.00,0.00,2100.00,Normal
+Invoice,6407MD,6/30/2009,,2982,Research In Motion Limited,Canada,NORTH AMERICA,MWO-100-MLW,MWO-MAIN,MWO Linear; 12M Maint/Locked/Win,000-2301-00,AWR,1,900.00,0.00,900.00,Normal
+Invoice,6438MI,6/30/2009,7696,8756,AT4Wireless,Spain,EUROPE,APL-100-MLW,APL-MAIN,APLAC Time-Domain Simulator; 12M Maint/Locked/Win,000-2301-00,RES20,1,1854.63,0.00,1854.63,Normal
+Invoice,6438MI,6/30/2009,7696,8756,AT4Wireless,Spain,EUROPE,MWO-205-MLW,MWO-MAIN,MWO NonLinear & Layout; 12M Maint/Locked/Win,000-2301-00,RES20,2,3600.17,0.00,7200.34,Normal
+Invoice,6438MI,6/30/2009,7696,8756,AT4Wireless,Spain,EUROPE,MWO-225-MLW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Locked/Win,000-2301-00,RES20,1,4036.55,0.00,4036.55,Normal
+Invoice,6438MI,6/30/2009,7696,8756,AT4Wireless,Spain,EUROPE,VSS-350-MLW,VSS-MAIN,VSS for Wireless Communication Standards; 12M Maint/Locked/Win,000-2301-00,RES20,2,3600.17,0.00,7200.34,Normal
+Invoice,6439MI,6/30/2009,957,2478,Thales Alenia Space Italia,Italy,EUROPE,MWO-225-MFW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Floating/Win,000-2301-00,RES30,3,4677.49,935.50,11225.98,Normal
+Invoice,6439MI,6/30/2009,957,2478,Thales Alenia Space Italia,Italy,EUROPE,MWO-225-MFW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Floating/Win,000-2301-00,RES30,1,4677.49,935.50,3741.99,Normal
+Invoice,6439MI,6/30/2009,957,2478,Thales Alenia Space Italia,Italy,EUROPE,MWO-228-MFW,MWO-MAIN,MWO for MMIC; 12M Maint/Floating/Win,000-2301-00,RES30,1,6204.84,1240.97,4963.87,Normal
+Invoice,6439MI,6/30/2009,957,2478,Thales Alenia Space Italia,Italy,EUROPE,VSS-250-MFW,VSS-MAIN,VSS for Communication Signals; 12M Maint/Floating/Win,000-2301-00,RES30,1,3150.15,630.03,2520.12,Normal
+Invoice,6439MI,6/30/2009,957,2478,Thales Alenia Space Italia,Italy,EUROPE,MWO-228-MFW,MWO-MAIN,MWO for MMIC; 12M Maint/Floating/Win,000-2301-00,RES30,2,3102.42,620.48,4963.87,Normal
+Invoice,6440MD,6/30/2009,,1861,ShortWave Ventures,United States,NORTH AMERICA,MWO-225-MLW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Locked/Win,000-2301-00,AWR,1,2050.00,0.00,2050.00,Normal
+Invoice,6441TD(1),6/30/2009,,8979,DataSoft,United States,NORTH AMERICA,NOTE,,3 year non cancellable Term Commitment,300-4000-00,,1,0.00,0.00,0.00,Normal
+Invoice,6441TD(1),6/30/2009,,8979,DataSoft,United States,NORTH AMERICA,MWO-225-TFW,MWO-TERM,MWO for MIC/PCB; Term/Floating/Win RID #16105,000-2300-00,AWR,1,12600.00,2520.00,10080.00,Normal
+Invoice,6441TD(1),6/30/2009,,8979,DataSoft,United States,NORTH AMERICA,APL-100-TFW,APL-TERM,APLAC Time-Domain Simulator; Term/Floating/Win RID#16106,000-2300-00,AWR,1,5600.00,1120.00,4480.00,Normal
+Invoice,6441TD(1),6/30/2009,,8979,DataSoft,United States,NORTH AMERICA,VSS-250-TFW,VSS-TERM,VSS for Communication Signals; Term/Floating/Win RID#16107,000-2300-00,AWR,1,8400.00,1680.00,6720.00,Normal
+Invoice,6441TD(1),6/30/2009,,8979,DataSoft,United States,NORTH AMERICA,FIL-100-TFW,FIL-TERM,Nuhertz Filter Synthesis; Term/Floating/Win RID#16108,000-2300-00,AWR,1,3500.00,700.00,2800.00,Normal
+Invoice,6442MD,6/30/2009,,6564,National Instruments,United States,NORTH AMERICA,HSP-100-MFW,HSP-MAIN,Synopsys HSPICE and Simulation Interface; 12M Maint/Floating/Win,000-2301-00,AWR,1,3600.00,0.00,3600.00,Normal
+Invoice,6444MD,6/30/2009,,160,CTS Electronic Components,United States,NORTH AMERICA,MWO-225-MLW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Locked/Win,000-2301-00,AWR,1,4100.00,0.00,4100.00,Normal
+Invoice,6444MD,6/30/2009,,160,CTS Electronic Components,United States,NORTH AMERICA,MWO-125-MFW,MWO-MAIN,"MWO Linear, EMSight, & Layout; 12M Maint/Floating/Win",000-2301-00,AWR,2,3600.00,0.00,7200.00,Normal
+Invoice,6444MD,6/30/2009,,160,CTS Electronic Components,United States,NORTH AMERICA,MWO-225-MLW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Locked/Win,000-2301-00,AWR,5,4100.00,0.00,20500.00,Normal
+Invoice,6447CD,6/30/2009,,5399,Arcom,United States,NORTH AMERICA,XEM-100-PLW,XEM-PURC,AXIEM FS: 3D Planar EM - Direct & Fast Solver; Purchase/Locked/Win RID #16122,000-2300-00,AWR,1,27000.00,5400.00,21600.00,Normal
+Invoice,6447CD,6/30/2009,,5399,Arcom,United States,NORTH AMERICA,XEM-100-MLW,XEM-MAIN,AXIEM FS: 3D Planar EM - Direct & Fast Solver; 12M Maint/Locked/Win,000-2301-00,AWR,1,4100.00,0.00,4100.00,Normal
+Invoice,6448MI,6/30/2009,2343,1834,TDK Ireland,United Kingdom,EUROPE,MWO-100-MFW,MWO-MAIN,MWO Linear; 12M Maint/Floating/Win,000-2301-00,INT,1,1500.07,0.00,1500.07,Normal
+Invoice,6452CD(P),6/30/2009,,9653,Hypres Inc.,United States,NORTH AMERICA,MWO-225-PLW,MWO-PURC,MWO for MIC/PCB; Purchase/Locked/Win RID#16139,300-4015-00,AWR,1,27000.00,2700.00,24300.00,Normal
+Invoice,6452CD(P),6/30/2009,,9653,Hypres Inc.,United States,NORTH AMERICA,MWO-225-MLW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Locked/Win,000-2301-00,AWR,1,4100.00,0.00,4100.00,Normal
+Invoice,6452CD(P),6/30/2009,,9653,Hypres Inc.,United States,NORTH AMERICA,HSP-100-PLW,HSP-PURC,Synopsys HSPICE and Simulation Interface; Purchase/Locked/Win RID #16140,300-4000-00,AWR,1,18000.00,1800.00,16200.00,Normal
+Invoice,6452CD(P),6/30/2009,,9653,Hypres Inc.,United States,NORTH AMERICA,HSP-100-MLW,HSP-MAIN,Synopsys HSPICE and Simulation Interface; 12M Maint/Locked/Win,000-2301-00,AWR,1,2700.00,0.00,2700.00,Normal
+Invoice,6452CD(P),6/30/2009,,9653,Hypres Inc.,United States,NORTH AMERICA,HWK-200,HWK-PURC,Hardware Key - USB,300-4000-00,AWR,1,200.00,0.00,200.00,Normal
+Invoice,6452CD(P),6/30/2009,,9653,Hypres Inc.,United States,NORTH AMERICA,NOTE,,Payment Schedule:,300-4000-00,,1,0.00,0.00,0.00,Normal
+Invoice,6453MI,6/30/2009,2213,9412,FSUE'SPE' Pulsar,Russia,EUROPE,MWO-229-MLW,MWO-MAIN,MWO for MMIC & Modules; 12M Maint/Locked/Win,000-2301-00,RES20,1,6560.00,0.00,6560.00,Normal
+Invoice,6454TD,6/30/2009,,9540,"Quinstar Technology, Inc.",United States,NORTH AMERICA,VSS-350-TLW,VSS-TERM,VSS for Wireless Communication Standards; Term/Locked/Win,000-2300-00,AWR,1,6000.00,0.00,6000.00,Normal
+Invoice,6455MD,6/30/2009,,1083,Lucent Technologies,United States,NORTH AMERICA,MWO-225-MLW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Locked/Win,000-2301-00,AWR,1,4100.00,0.00,4100.00,Normal
+Invoice,6455MD,6/30/2009,,1083,Lucent Technologies,United States,NORTH AMERICA,VSS-350-MLW,VSS-MAIN,VSS for Wireless Communication Standards; 12M Maint/Locked/Win,000-2301-00,AWR,1,3600.00,0.00,3600.00,Normal
+Invoice,6455MD,6/30/2009,,1083,Lucent Technologies,United States,NORTH AMERICA,TSW-100-MLW,TSW-MAIN,TestWave Instrumentation Interface; 12M Maint/Locked/Win,000-2301-00,AWR,1,800.00,0.00,800.00,Normal
+Invoice,6456MI,6/30/2009,8930,2360-KK,NTT DoCoMo,Japan,ASIA,MWO-205-MLW,MWO-MAIN,MWO NonLinear & Layout; 12M Maint/Locked/Win,000-2301-00,JAP,1,5582.44,0.00,5582.44,Normal
+Invoice,6456MI,6/30/2009,8930,2360-KK,NTT DoCoMo,Japan,ASIA,HSP-100-MLW,HSP-MAIN,Synopsys HSPICE and Simulation Interface; 12M Maint/Locked/Win,000-2301-00,JAP,1,4238.52,0.00,4238.52,Normal
+Invoice,6456MI,6/30/2009,8930,2360-KK,NTT DoCoMo,Japan,ASIA,MWO-100-MFW,MWO-MAIN,MWO Linear; 12M Maint/Floating/Win,000-2301-00,JAP,3,1860.81,0.00,5582.44,Normal
+Invoice,6456MI,6/30/2009,8930,2360-KK,NTT DoCoMo,Japan,ASIA,MWO-225-MFW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Floating/Win,000-2301-00,JAP,1,8373.66,0.00,8373.66,Normal
+Invoice,6456MI,6/30/2009,8930,2360-KK,NTT DoCoMo,Japan,ASIA,MWO-200-MFW,MWO-MAIN,MWO NonLinear; 12M Maint/Floating/Win,000-2301-00,JAP,2,5582.44,0.00,11164.88,Normal
+Invoice,6456MI,6/30/2009,8930,2360-KK,NTT DoCoMo,Japan,ASIA,VSS-350-MFW,VSS-MAIN,VSS for Wireless Communication Standards; 12M Maint/Floating/Win,000-2301-00,JAP,1,7443.25,0.00,7443.25,Normal
+Invoice,6457UI,6/30/2009,8930,6209-KK,Tokyo University of Science,Japan,ASIA,MWO-225-UFW,MWO-UNIV,Microwave Office University 20-License Package,300-4000-00,JAP,1,3928.38,2791.22,1137.16,Normal
+Invoice,6458MD,6/30/2009,,3935,Canadian Space Agency,Canada,NORTH AMERICA,APL-100-MFW,APL-MAIN,APLAC Time-Domain Simulator; 12M Maint/Floating/Win,000-2301-00,AWR,1,2400.00,0.00,2400.00,Normal
+Invoice,6458MD,6/30/2009,,3935,Canadian Space Agency,Canada,NORTH AMERICA,MWO-228-MLW,MWO-MAIN,MWO for MMIC; 12M Maint/Locked/Win,000-2301-00,AWR,1,5400.00,0.00,5400.00,Normal
+Invoice,6458MD,6/30/2009,,3935,Canadian Space Agency,Canada,NORTH AMERICA,MWO-228-MFW,MWO-MAIN,MWO for MMIC; 12M Maint/Floating/Win,000-2301-00,AWR,2,7200.00,0.00,14400.00,Normal
+Invoice,6458MD,6/30/2009,,3935,Canadian Space Agency,Canada,NORTH AMERICA,VSS-350-MFW,VSS-MAIN,VSS for Wireless Communication Standards; 12M Maint/Floating/Win,000-2301-00,AWR,1,4800.00,0.00,4800.00,Normal
+Invoice,6459MD,6/30/2009,,406,Mid-Atlantic RF Systems,United States,NORTH AMERICA,MWO-225-MLW,MWO-MAIN,MWO for MIC/PCB; 12M Maint/Locked/Win,000-2301-00,AWR,1,4100.00,0.00,4100.00,Normal
+Invoice,6464MD(1),6/30/2009,,3808,Qualcomm,United States,NORTH AMERICA,NOTE,,3 year non-cancellable maintenance contract to be billed yearly,300-4000-00,,1,0.00,0.00,0.00,Normal
+Invoice,6464MD(1),6/30/2009,,3808,Qualcomm,United States,NORTH AMERICA,FIL-100-M3W,FIL-MAIN,Nuhertz Filter Synthesis; 12M Maint/WAN 3 TZ/Win,000-2301-00,AWR,1,2000.00,300.00,1700.00,Normal
+Invoice,6464MD(1),6/30/2009,,3808,Qualcomm,United States,NORTH AMERICA,MWO-100-M3W,MWO-MAIN,MWO Linear; 12M Maint/WAN 3 TZ/Win,000-2301-00,AWR,2,1600.00,200.00,2800.00,Normal
+Invoice,6464MD(1),6/30/2009,,3808,Qualcomm,United States,NORTH AMERICA,MWO-225-M3W,MWO-MAIN,MWO for MIC/PCB; 12M Maint/WAN 3 TZ/Win,000-2301-00,AWR,2,7100.00,1100.00,12000.00,Normal
+Invoice,6464MD(1),6/30/2009,,3808,Qualcomm,United States,NORTH AMERICA,VSS-350-M3W,VSS-MAIN,VSS for Wireless Communication Standards; 12M Maint/WAN 3 TZ/Win,000-2301-00,AWR,3,6300.00,1000.00,15900.00,Normal

@@ -1,0 +1,11 @@
+These are the steps for generating the NI import template
+
+1) make sure "account_map.txt" is up to date
+
+2) Drag the 61-9 .txt file on top of the "RUN_ME.bat"
+
+3) Double-click on output.csv (it should open in excel)
+
+4) In the same excel open the "AWR JE Template_upload" file
+
+5) Copy values only from output.csv to the upload template
