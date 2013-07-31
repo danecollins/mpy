@@ -1,17 +1,34 @@
 import os, time
 import shutil
+import sys
 
-## TODO: figure out the right way to handle
-## file paths that work on osx and windows
 
-files = ["time_test.txt" , "fubar.txt"]
-source_dir = '.\\'
-dest_dir = '\\\\ts1a\\dane\\push_files\\'
+### read configuration from file
+file = open(sys.argv[1])
+for line in file.readlines():
+	line = line.rstrip('\n')
+	(keyword,data) = line.split('=')
+	
+	if (keyword == 'FROM'):
+		source_dir = data
+	elif (keyword == 'TO'):
+		dest_dir = data
+	elif (keyword == 'FILES'):
+		files = data.split(':')
+	else:
+		print "unknown keyword:", keyword
+		
+try:
+	source_dir
+	dest_dir
+	files
+except NameError:
+	print "The config file did not set all the variables"
 
 for file in files:
 	source_path = source_dir + file
 	dest_path   = dest_dir   + file
-	print "comparing ", source_path, "with", dest_path
+	print "comparing ", file
 
 	source_time = os.path.getmtime(source_path)
 	try:

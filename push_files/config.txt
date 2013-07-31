@@ -1,0 +1,3 @@
+FROM=C:\Users\Public\Documents\National Instruments\DIAdem 2012\Documents\
+TO=.\
+FILES=Add_AWR_Menu.VBS:Export_to_mwo_script.VBS
