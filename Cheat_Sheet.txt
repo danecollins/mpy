@@ -17,6 +17,7 @@ Boolean Values
 Strings
 	x = x.replace('?','') -- replacing a character
 	dept = x[0:3]         -- substring
+	x.find('subst') <> -1 -- subst in x
 
 Print to a file
 	print >> of, 'O,%s,%s,%s,%s,%s,%s,,%s,%s' % (Co,ni_cc,'61096',Sub,PL,Proj,2,'Other benefits')
@@ -25,6 +26,7 @@ Rounding - convert to number
 	balance = round(float(balance),2)
 
 Lists
+	l=[]          -- initialize an empty list
 	[a,b,c]       -- build a list
 	l.append(foo) -- append to a list
 	(a,b) = l     -- split a list
