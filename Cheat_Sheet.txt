@@ -7,6 +7,11 @@ Open a file
 	file=open(sys.argv[1])
 	of = open('output.csv','w')
 	file.close()
+	file.readlines() returns a list of lines
+	file.read() reads entire file into a string
+
+Properly stripping newlines
+	s = s.rstrip(‘\r\n’)
 
 Looping through a file
 	for line in file.readlines():
@@ -18,6 +23,12 @@ Strings
 	x = x.replace('?','') -- replacing a character
 	dept = x[0:3]         -- substring
 	x.find('subst') <> -1 -- subst in x
+	x.strip()             -- remove leading and trailing spaces
+	
+String Formatting
+	str = "loc is {lat} {lon}"
+	pos = {'lat': "34" , 'lon': "45"}
+	str.format(**pos)
 
 Print to a file
 	print >> of, 'O,%s,%s,%s,%s,%s,%s,,%s,%s' % (Co,ni_cc,'61096',Sub,PL,Proj,2,'Other benefits')

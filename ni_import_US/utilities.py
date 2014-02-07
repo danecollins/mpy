@@ -15,30 +15,38 @@ def excelToNumber(s):
     s = '%.2f' % tmp
     return(s)
 
-def parseExcelTxtFileLine(s):
+### take a line of a csv or txt file and parse it while handling
+### excel idiosyncracies
+### to be robust, the file might be tab delimited or comma delimited
+### or both
+def parseExcelTxtFileLine(s,delimiter):
     fields = []
-    s = s.rstrip("\n")
+    s = s.rstrip("\r\n")
     while (len(s)>0):
         if (s[0] == '"'):
             ## if token is quoted find next quote
-            tmp = s.find('"',1)
-            token=s[1:tmp]
-            tmp=tmp+1  ## skip tab also
+            endpos = s.find('"',1)
+            token=s[1:endpos]
+            ## next character has to be delimiter or end of line
+            if (len(s)==endpos+1 or s[endpos+1] == delimiter):
+                endpos = endpos+1 ## skip it
+            else:
+                print 'delimiter not found after quoted string'
+                print 'bad line=',s
+                break
         else:
-            ## if token is not quoted, find next tab
-            tmp = s.find('\t')
-            if (tmp == -1):
+            ## if token is not quoted, find next delimiter
+            endpos = s.find(delimiter)
+            if (endpos == -1):
                 ## this is the last token
                 token = s
                 s = ''
             else:
-                token=s[0:tmp]
-
-
+                token=s[0:endpos]
 
         ## need to remove current token
-        ##  TODO: note if this is the last token tmp is -1 and s is set so this is redundant
-        s = s[tmp:]
+        ##  TODO: note if this is the last token endpos is -1 and s is set so this is redundant
+        s = s[endpos:]
         fields.append(token)
         ## if we are out of string then return
         if (len(s)==0):
