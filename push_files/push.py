@@ -11,8 +11,12 @@ for line in file.readlines():
 	
 	if (keyword == 'FROM'):
 		source_dir = data
+		if (source_dir[-1] <> '\\'):
+			source_dir = source_dir + '\\'
 	elif (keyword == 'TO'):
 		dest_dir = data
+		if (dest_dir[-1] <> '\\'):
+			dest_dir = dest_dir + '\\'
 	elif (keyword == 'FILES'):
 		files = data.split(':')
 	else:
@@ -34,10 +38,12 @@ for file in files:
 	try:
 		dest_time   = os.path.getmtime(dest_path)
 	except WindowsError:
+		print "    Got an error trying to get the mtime of:",dest_path
 		dest_time   = 0
 	
 	if (source_time > dest_time):
 	 	shutil.copyfile(source_path,dest_path)
 	 	print "copied ", file
+
 
 

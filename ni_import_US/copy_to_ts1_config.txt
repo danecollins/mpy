@@ -1,0 +1,3 @@
+FROM=.
+TO=\\ts1a\dane\ni_import_US
+FILES=INSTRUCTIONS.TXT:utilities.pyc:readmap.pyc:readinput.py:RUN_ME.bat
