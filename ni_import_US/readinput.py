@@ -47,12 +47,16 @@ def readInputFile():
     total=0
     xx=0
     
-   
-    for line in file.readlines():
+    ### because of possible issues with newline types, test line count
+    ### before processing
+    allLines = file.readlines()
+    print sys.argv[1]," contains ",len(allLines)," lines"
+    for line in allLines:
         linecount += 1
 
         ### line contains desc, acct string, balance
-        items = utilities.parseExcelTxtFileLine(line)
+        ### second argument is the delimiter (comma or tab)
+        items = utilities.parseExcelTxtFileLine(line,'\t')
         if (len(items) <> 3):
             print '**** Wrong number of items on the following line ****'
             print 'There are',len(items),'instead of 3 items'

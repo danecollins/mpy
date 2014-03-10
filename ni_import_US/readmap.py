@@ -21,7 +21,8 @@ def readAccountMap(consolidated):
     lineNumber = 0
     line = file.readline() ## eat first line
     for line in file.readlines():
-        items = utilities.parseExcelTxtFileLine(line)
+        ## second argument is the delimiter
+        items = utilities.parseExcelTxtFileLine(line,'\t')
         lineNumber = lineNumber + 1
         # all lines must have 6 columns
         if (len(items) <> 7):
