@@ -24,8 +24,9 @@ def readAccountMap(consolidated):
         ## second argument is the delimiter
         items = utilities.parseExcelTxtFileLine(line,'\t')
         lineNumber = lineNumber + 1
-        # all lines must have 6 columns
-        if (len(items) <> 7):
+		# on 3/1/14 ryan added a column to the map file
+        # all lines must have 8 columns
+        if (len(items) <> 8):
             print 'line #', lineNumber, ' does not have the right number of columns. s/b 6 but is ',len(items)
             print line
             

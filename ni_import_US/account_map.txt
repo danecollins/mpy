@@ -1,482 +1,484 @@
-Dept	Account	CC	Account	CC-Tax	Account-Tax	NI Line Description
-0	1100	0	10001	0	10001	Cash: operating: Domestic
-0	1101	0	10001	0	10001	Cash: operating: Domestic
-0	1102	0	10001	0	10001	Cash: operating: Domestic
-0	1103	0	10001	0	10001	Cash: operating: Domestic
-0	1110	0	10001	0	10001	Cash: operating: Domestic
-0	1111	0	10001	0	10001	Cash: operating: Domestic
-0	1140	0	10001	0	10001	Cash: operating: Domestic
-0	1190	0	10001	0	10001	Cash: operating: Domestic
-0	1195	0	10001	0	10001	Cash: operating: Domestic
-0	1200	0	11001	0	11001	A/R: Trade
-0	1220	0	11011	0	11011	Allowance: doubtful accounts
-0	1230	0	11001	0	11001	A/R: Trade
-0	1240	0	11031	0	11031	A/R: Non system receivables
-0	1250	0	11031	0	11031	A/R: Non system receivables
-0	1290	0	11031	0	11031	A/R: Non system receivables
-0	1295	0	27404	0	27404	NIC - Irregular Recharge Balances
-0	1301	0	99999	0	12020	must zero out; any remaining $ move to petty cash
-0	1302	0	99999	0	12020	must zero out; any remaining $ move to petty cash
-0	1303	0	99999	0	12020	must zero out; any remaining $ move to petty cash
-0	1304	0	99999	0	12020	must zero out; any remaining $ move to petty cash
-0	1305	0	99999	0	12020	must zero out; any remaining $ move to petty cash
-0	1307	0	99999	0	12020	must zero out; any remaining $ move to petty cash
-0	1324	0	99999	0	12020	must zero out; any remaining $ move to petty cash
-0	1390	0	99999	0	12020	must zero out; any remaining $ move to petty cash
-0	1400	0	14045	0	14045	Prepaid others
-0	1401	0	14017	0	14017	Prepaid tradeshowa
-0	1402	0	14015	0	14015	Prepaid advertising
-0	1403	0	14011	0	14011	Prepaid insurance
-0	1404	0	14013	0	14013	Prepaid
-0	1405	0	14013	0	14013	Prepaid
-0	1406	0	14013	0	14013	Prepaid
-0	1430	0	14031	0	14031	VAT/GST recoverable
-0	1432	0	14045	0	14045	MI Prepaid other
-0	1440	0	14045	0	14045	MI Prepaid other
-0	1442	0	14031	0	14031	VAT/GST recoverable
-0	1450	0	14031	0	14031	VAT/GST recoverable
-0	1490	0	14045	0	14045	Prepaid others
-0	1495	0	14095	0	14095	Other Current Assests
-0	1500	0	15040	0	15040	Furniture & Fixtures >1000
-0	1502	0	15030	0	15030	Computer Equipment >1000
-0	1504	0	15080	0	15080	Software >1000
-0	1509	0	15020	0	15020	Equipment >1000
-0	1510	0	15015	0	15015	Building improvements
-0	1549	0	15040	0	15040	Furniture & Fixtures >1000
-0	1550	0	16040	0	16040	Accum. Depr.: F&F
-0	1552	0	16030	0	16030	Accum. Depr.: Computer
-0	1554	0	16080	0	16080	accum depr sw
-0	1559	0	16020	0	16020	Accum. Depr.: Equipment
-0	1560	0	16018	0	16018	Accum . Depr.: Office Improvement
-0	1600	0	14097	0	14097	Def tax asset: fed: current
-0	1601	0	14097	0	14097	Def tax asset: fed: current
-0	1602	0	14097	0	14097	Def tax asset: fed: current
-0	1603	0	14097	0	14097	Def tax asset: fed: current
-0	1604	0	14098	0	14098	Def tax asset: state: current
-0	1605	0	14098	0	14098	Def tax asset: state: current
-0	1606	0	14098	0	14098	Def tax asset: state: current
-0	1607	0	14098	0	14098	Def tax asset: state: current
-0	1710	0	99999	0	18010	account 1710 thru 1770 = 3110 tru 3170 + 3410; must zero out; any remaining $ move to petty cash
-0	1720	0	99999	0	18010	account 1710 thru 1770 = 3110 tru 3170 + 3410; must zero out; any remaining $ move to petty cash
-0	1730	0	99999	0	18010	account 1710 thru 1770 = 3110 tru 3170 + 3410; must zero out; any remaining $ move to petty cash
-0	1740	0	99999	0	18010	account 1710 thru 1770 = 3110 tru 3170 + 3410; must zero out; any remaining $ move to petty cash
-0	1750	0	99999	0	18010	account 1710 thru 1770 = 3110 tru 3170 + 3410; must zero out; any remaining $ move to petty cash
-0	1770	0	99999	0	18010	account 1710 thru 1770 = 3110 tru 3170 + 3410; must zero out; any remaining $ move to petty cash
-0	1838	0	17085	0	17085	Goodwill
-0	1830	0	17090	0	17090	Other intellectual property
-0	1831	0	17090	0	17090	Other intellectual property
-0	1900	0	19005	0	19005	Rent Deposits
-0	1950	0		0		
-0	2000	0	20001	0	20001	A/P: Trade
-0	2010	0	20006	0	20006	service po accrual
-0	2020	0	20046	0	20046	invoices not received
-0	2100	0		0		
-0	2101	0		0		
-0	2102	0		0		
-0	2103	0		0		
-0	2104	0		0		
-0	2150	0	20005	0	20005	A/P: Trade
-0	2200	0	23001	0	23001	federal income tax
-0	2210	0	24020	0	24020	sales tax payable
-0	2211	0	24020	0	24020	sales tax payable
-0	2212	0	24020	0	24020	sales tax payable
-0	2213	0	24020	0	24020	sales tax payable
-0	2214	0	24020	0	24020	sales tax payable
-0	2215	0	24020	0	24020	sales tax payable
-0	2216	0	24020	0	24020	sales tax payable
-0	2217	0	24020	0	24020	sales tax payable
-0	2218	0	24020	0	24020	sales tax payable
-0	2219	0	24020	0	24020	sales tax payable
-0	2220	0	24020	0	24020	sales tax payable
-0	2221	0	24020	0	24020	sales tax payable
-0	2222	0	24020	0	24020	sales tax payable
-0	2230	0	24020	0	24020	sales tax payable
-0	2231	0		0		
-0	2240	0	24020	0	24020	sales tax payable
-0	2242	0	24020	0	24020	sales tax payable
-0	2260	0	26075	0	26075	deferred income tax
-0	2261	0	26075	0	26075	deferred income tax
-0	2290	0	24065	0	24065	other tax payable
-0	2300	0	25053	0	25053	deferred revenue SSP
-0	2301	0	25053	0	25053	deferred revenue SSP
-0	2302	0	25053	0	25053	deferred revenue SSP
-0	2310	0	25053	0	25053	Long Term Def Rev Term License
-0	2311	0		0		
-0	2312	0		0		
-0	2400	0	21021	0	21021	Accrued vacations
-0	2401	0	21001	0	21001	Accrued wages
-0	2402	0	21005	0	21005	Accrued commissions
-0	2403	0	25002	0	25002	cafateria plan medical
-0	2404	0	20005	0	20005	A/P: Trade
-0	2405	0	20045	0	20045	other employment tax payables
-0	2410	0	20045	0	20045	other employment tax payables
-0	2412	0	20045	0	20045	other employment tax payables
-0	2430	0	21035	0	21035	accrued retierment
-0	2435	0	21031	0	21031	accrued espp
-0	2490	0	20045	0	20045	other employment tax payables
-0	2500	0		0		
-0	2510	0	20045	0	20045	Accrued other
-0	2520	0	20045	0	20045	Accrued other
-0	2530	0		0		
-0	2600	0	20045	0	20045	Accrued other
-0	2601	0	25095	0	25095	current liabilities
-0	2610	0	26080	0	26080	deferred rent
-0	2700	0		0		
-0	3000	0		0		
-0	3001	0		0		
-0	3002	0		0		
-0	3100	0	35001	0	35001	Common Stock 1
-0	3110	0	99999	0	35001	Common Stock STAAR
-0	3120	0	99999	0	35001	Common Stock AWR Ltd.
-0	3130	0	99999	0	35001	Common Stock AWR Aplac
-0	3140	0	99999	0	35001	Common Stock AWR France
-0	3150	0	99999	0	35001	Common Stock AWR Japan
-0	3170	0	99999	0	35001	Common Stock AWR Korea
-0	3200	0	35001	0	35001	Common Stock 1
-0	3400	0	35001	0	35001	Common Stock 1
-0	3410	0	99999	0	35050	Additional PIC STAAR
-0	3430	0	99999	0	35050	Additional PIC AWR Aplac
-0	3500	0	35001	0	35001	Common Stock 1
-0	3600	0		0		
-0	3900	0	35001	0	35001	Common Stock 1
-0	3910	0	35001	0	35001	Common Stock 1
-300	4000	0	40010	0	40010	Domestics sales revenue
-300	4005	0	40010	0	40010	Domestics sales revenue
-300	4010	0	40010	0	40010	Domestics sales revenue
-300	4015	0	40010	0	40010	Domestics sales revenue
-300	4020	0	40010	0	40010	Domestics sales revenue
-300	4025	0	40010	0	40010	Domestics sales revenue
-300	4100	0	40010	0	40010	Domestics sales revenue
-300	4105	0	40010	0	40010	Domestics sales revenue
-300	4110	0	40010	0	40010	Domestics sales revenue
-300	4115	0	40010	0	40010	Domestics sales revenue
-300	4120	0	40010	0	40010	Domestics sales revenue
-300	4125	0	40010	0	40010	Domestics sales revenue
-300	4200	0	40010	0	40010	Domestics sales revenue
-300	4205	0	40010	0	40010	Domestics sales revenue
-300	4210	0	40010	0	40010	Domestics sales revenue
-300	4215	0	40010	0	40010	Domestics sales revenue
-300	4220	0	40010	0	40010	Domestics sales revenue
-300	4225	0	40010	0	40010	Domestics sales revenue
-300	4300	0	40010	0	40010	Domestics sales revenue
-300	4310	0	40010	0	40010	Domestics sales revenue
-300	4400	0	40010	0	40010	Domestics sales revenue
-300	4410	0	40010	0	40010	Domestics sales revenue
-300	4420	0	40010	0	40010	Domestics sales revenue
-300	4900	0		0		
-300	5120	0	99998	0	44010	Intercompany sales revenue
-300	5140	0	99998	0	44010	Intercompany sales revenue
-300	5150	0	99998	0	44010	Intercompany sales revenue
-300	5170	0	99998	0	44010	Intercompany sales revenue
-300	5200	0	64010	0	64010	Sales rep. commissions
-300	5250	0	40010	0	40010	VAT-Tax Unrecoverable
-300	5500	0	99998	0	44055	Intercompany commission revenue - R&D
-300	5510	0	99998	0	50081	COGS: intercompany
-400	5000	1090		1090		
-400	5050	1090	66023	1090	66023	"Material, labor & overhead"
-400	5051	1090	66023	1090	66023	"Material, labor & overhead"
-400	5055	1090	50021	1090	50021	COGS: domestic
-400	5060	1090	50021	1090	50021	COGS: domestic
-400	5070	1090	50021	1090	50021	COGS: domestic
-400	5300	1090	50021	1090	50021	COGS: domestic
-400	5310	1090	50021	1090	50021	COGS: domestic
-400	5400	1090	50021	1090	50021	COGS: domestic
-400	6000	1090	60001	1090	60001	Salaries
-400	6001	1090	60016	1090	60016	Bonus- Vacation pay
-400	6002	1090	60095	1090	60095	Misc. personnel expense
-400	6009	1090	61011	1090	61011	Payroll Tax
-400	6010	1090	61011	1090	61011	Payroll Tax
-400	6020	1090	60015	1090	60015	Vacation
-400	6030	1090	60013	1090	60013	Employee awards
-400	6035	1090		1090		
-400	6040	1090	61095	1090	61095	Other employee benefits: Deductible
-400	6045	1090	63017	1090	63017	Membership fees
-400	6050	1090	64007	1090	64007	Consulting fees
-400	6055	1090	65095	1090	65095	Recruiter Fees
-400	6100	1090	61021	1090	61021	Group insurance
-400	6200	1090	68029	1090	68029	Telephone: Cell
-400	6210	1090	68021	1090	68021	Telephone: Local
-400	6230	1090	68031	1090	68031	Internet fees
-400	6405	1090	63011	1090	63011	Books
-400	6415	1090	69043	1090	69043	"Computers, equipment&tools<$1000"
-400	6416	1090	69031	1090	69031	Equipment maintenance
-400	6420	1090	69047	1090	69047	Software<$1000
-400	6421	1090	69032	1090	69032	Software maintenance
-400	6425	1090		1090		
-400	6430	1090	70001	1090	70001	Office supplies
-400	6435	1090	70001	1090	70001	Office supplies
-400	6440	1090	70095	1090	70095	Other Office
-400	6455	1090	90031	1090	90031	Non-deductible penalties
-400	6460	1090	66010	1090	66010	Postage
-400	6900	1090	95005	1090	95005	Allocated supplied
-400	7135	1090	64031	1090	64031	Copy & Printing
-400	7315	1090	70059	1090	70059	Promotional items
-400	7325	1090	82045	1090	82045	Sales rep confrence
-400	7330	1090	82030	1090	82030	Special events
-400	7500	1090	62010	1090	62010	Airfare
-400	7505	1090	62020	1090	62020	Hotel
-400	7510	1090	62081	1090	62081	Entertainment - deductible
-400	7515	1090	62030	1090	62030	Travel Meals
-400	7520	1090	62007	1090	62007	Transportation Expenses
-400	7525	1090	62032	1090	62032	Travel: Parking
-400	7530	1090	62061	1090	62061	Mileage (non-taxable)
-400	7535	1090	62065	1090	62065	Auto & Gas
-400	7540	1090	82071	1090	82071	Job fair fees
-400	7545	1090	62081	1090	62081	Entertainment - deductible
-400	7590	1090	62090	1090	62090	Misc. Travel
-400	7650	1090	90999	1090	90999	other expenses
-400	7800	1090	69082	1090	69082	Computer Equipment Depr.
-500	5210	4079	64010	4079	64010	Sales rep. commissions
-500	5250	4079	40010	4079	40010	Domestics sales revenue
-500	6000	4079	60001	4079	60001	Salaries
-500	6001	4079	60016	4079	60016	Bonus- Vacation pay
-500	6002	4079	60095	4079	60095	Misc. personnel expense
-500	6009	4079	61011	4079	61011	Payroll Tax
-500	6010	4079	61011	4079	61011	Payroll Tax
-500	6020	4079	60015	4079	60015	Vacation
-500	6030	4079	60013	4079	60013	Employee awards
-500	6035	4079		4079		
-500	6040	4079	61095	4079	61095	Other employee benefits: Deductible
-500	6041	4079	95001	4079	95001	Employee benefits
-500	6045	4079	63017	4079	63017	Membership fees
-500	6050	4079	64007	4079	64007	Consulting fees
-500	6051	4079	64007	4079	64007	Consulting fees
-500	6054	4079	64007	4079	64007	Consulting fees
-500	6057	4079	64007	4079	64007	Consulting fees
-500	6055	4079	65095	4079	65095	Recruiter Fees
-500	6100	4079	61021	4079	61021	Group insurance
-500	6200	4079	68029	4079	68029	Telephone: Cell
-500	6210	4079	68021	4079	68021	Telephone: Local
-500	6230	4079	68031	4079	68031	Internet fees
-500	6240	4079	68001	4079	68001	Utilities: electric & water
-500	6290	4079	67095	4079	67095	Misc. building
-500	6300	4079	67001	4079	67001	Office space rent
-500	6390	4079	67001	4079	67001	Office space rent
-500	6400	4079	90001	4079	90001	Bank charges
-500	6405	4079	63011	4079	63011	Books
-500	6415	4079	69043	4079	69043	"Computers, equipment&tools<$1000"
-500	6416	4079	69031	4079	69031	Equipment maintenance
-500	6420	4079	69047	4079	69047	Software<$1000
-500	6421	4079	69032	4079	69032	Software maintenance
-500	6425	4079		4079		
-500	6435	4079	70001	4079	70001	Office supplies
-500	6440	4079	70095	4079	70095	Other Office
-500	6445	4079	92020	4079	92020	other taxes & fees
-500	6455	4079	90031	4079	90031	Non-deductible penalties
-500	6460	4079	66010	4079	66010	Postage
-500	6515	4079	65059	4079	65059	legal: general
-500	6516	4079	65058	4079	65058	legal: sales
-500	6900	4079	95005	4079	95005	Allocated supplied
-500	7100	4079	63013	4079	63013	Dues & subscriptions (deductable)
-500	7125	4079		4079		
-500	7135	4079	64031	4079	64031	Copy & Printing
-500	7315	4079	70059	4079	70059	Promotional items
-500	7320	4079	82095	4079	82095	Misc. Tradeshow
-500	7325	4079	82045	4079	82045	sales rep conference
-500	7330	4079	82030	4079	82030	Special events
-500	7500	4079	62010	4079	62010	Airfare
-500	7505	4079	62020	4079	62020	Hotel
-500	7510	4079	62081	4079	62081	Entertainment - deductible
-500	7515	4079	62030	4079	62030	Travel Meals
-500	7520	4079	62007	4079	62007	Transportation Expenses
-500	7525	4079	62032	4079	62032	Travel: Parking
-500	7530	4079	62061	4079	62061	Mileage (non-taxable)
-500	7535	4079	62065	4079	62065	Auto & Gas
-500	7540	4079	82071	4079	82071	Job fair fees
-500	7545	4079	62081	4079	62081	Entertainment - deductible
-500	7590	4079	62090	4079	62090	Misc. Travel
-500	7650	4079	90999	4079	90999	Other expenses
-500	7800	4079	69082	4079	69082	Computer Equipment Depr.
-600	6000	6079	60001	6079	60001	Salaries
-600	6001	6079	60016	6079	60016	Bonus- Vacation pay
-600	6002	6079	60095	6079	60095	Misc. personnel expense
-600	6009	6079	61011	6079	61011	Payroll Tax
-600	6010	6079	61011	6079	61011	Payroll Tax
-600	6020	6079	60015	6079	60015	Vacation
-600	6030	6079	60013	6079	60013	Employee awards
-600	6035	6079		6079		
-600	6040	6079	61095	6079	61095	Other employee benefits: Deductible
-600	6045	6079	63017	6079	63017	Membership fees
-600	6050	6079	64007	6079	64007	Consulting fees
-600	6055	6079	65095	6079	65095	Recruiter Fees
-600	6100	6079	61021	6079	61021	Group insurance
-600	6190	6079	91009	6079	91009	Other insurance
-600	6200	6079	68029	6079	68029	Telephone: Cell
-600	6210	6079	68021	6079	68021	Telephone: Local
-600	6230	6079	68031	6079	68031	Internet fees
-600	6405	6079	63011	6079	63011	Books
-600	6415	6079	69043	6079	69043	"Computers, equipment&tools<$1000"
-600	6416	6079	69031	6079	69031	Equipment maintenance
-600	6420	6079	69047	6079	69047	Software<$1000
-600	6421	6079	69032	6079	69032	Software maintenance
-600	6425	6079		6079		
-600	6435	6079	70001	6079	70001	Office supplies
-600	6440	6079	70095	6079	70095	Misc. supplies
-600	6455	6079	90031	6079	90031	Non-deductible penalties
-600	6460	6079	66006	6079	66006	Tradeshow postage
-600	6900	6079	95005	6079	95005	Allocated supplied
-600	7000	6079	73095	6079	73095	Misc. advertising
-600	7100	6079	63013	6079	63013	Dues & subscriptions (deductable)
-600	7110	6079	75050	6079	75050	Marketing lit production
-600	7115	6079	75040	6079	75040	Marketing literature
-600	7120	6079	73044	6079	73044	Direct Marketing
-600	7125	6079	75040	6079	75040	Marketing literature
-600	7135	6079	64031	6079	64031	Copy & Printing
-600	7140	6079	73044	6079	73044	Direct Marketing
-600	7200	6079	73060	6079	73060	Marketing materials
-600	7210	6079	76048	6079	76048	Brochures
-600	7300	6079	82010	6079	82010	Tradeshow booth space
-600	7305	6079	82020	6079	82020	Tradeshow booth services
-600	7310	6079	82020	6079	82020	Tradeshow booth services
-600	7315	6079	70059	6079	70059	Promotional items
-600	7320	6079	82095	6079	82095	Misc. Tradeshow
-600	7325	6079	82045	6079	82045	Sales rep conf.
-600	7330	6079	82030	6079	82030	Special events
-600	7335	6079	82020	6079	82020	Tradeshow booth services
-600	7350	6079	82076	6079	82076	Sponsorship
-600	7390	6079	82095	6079	82095	Misc Tradeshow
-600	7500	6079	62010	6079	62010	Airfare
-600	7505	6079	62020	6079	62020	Hotel
-600	7510	6079	62081	6079	62081	Entertainment - deductible
-600	7515	6079	62030	6079	62030	Travel Meals
-600	7520	6079	62007	6079	62007	Transportation Expenses
-600	7525	6079	62032	6079	62032	Travel: Parking
-600	7530	6079	62061	6079	62061	Mileage (non-taxable)
-600	7540	6079	82071	6079	82071	Job fair fees
-600	7545	6079	62081	6079	62081	Entertainment - deductible
-600	7590	6079	62090	6079	62090	Misc. Travel
-600	7650	6079	90999	6079	90999	other expenses
-600	7800	6079	69082	6079	69082	Computer Equipment Depr.
-700	5300	2443	64007	2443	64007	Consultanting fees
-700	6000	2443	60001	2443	60001	Salaries
-700	6001	2443	60016	2443	60016	Bonus- Vacation pay
-700	6002	2443	60095	2443	60095	Misc. personnel expense
-700	6009	2443	61011	2443	61011	Payroll Tax
-700	6010	2443	61011	2443	61011	Payroll Tax
-700	6020	2443	60015	2443	60015	Vacation
-700	6030	2443	60013	2443	60013	Employee awards
-700	6035	2443		2443		
-700	6040	2443	61095	2443	61095	Other employee benefits: Deductible
-700	6045	2443	63017	2443	63017	Membership fees
-700	6050	2443	64007	2443	64007	Consulting fees
-700	6055	2443	65095	2443	65095	Recruiter Fees
-700	6100	2443	61021	2443	61021	Group insurance
-700	6120	2443	61029	2443	61029	Long term disability
-700	6200	2443	68029	2443	68029	Telephone: Cell
-700	6210	2443	68021	2443	68021	Telephone: Local
-700	6230	2443	68031	2443	68031	Internet fees
-700	6300	2443	67001	2443	67001	Rent-Corporate office
-700	6405	2443	63011	2443	63011	Books
-700	6415	2443	69043	2443	69043	"Computers, equipment&tools<$1000"
-700	6420	2443	69047	2443	69047	Software<$1000
-700	6421	2443	69032	2443	69032	Software maintenance
-700	6425	2443		2443		
-700	6435	2443	70001	2443	70001	Office supplies
-700	6440	2443	70095	2443	70095	Other Office
-700	6445	2443	92020	2443	92020	Other Tax/License
-700	6455	2443	90031	2443	90031	Non-deductible penalties
-700	6460	2443	66010	2443	66010	Postage
-700	6900	2443	95005	2443	95005	Allocated supplied
-700	7100	2443	63013	2443	63013	Dues & subscriptions (deductable)
-700	7135	2443	64031	2443	64031	Copy & Printing
-700	7325	2443	82045	2443	82045	sales rep. conf
-700	7330	2443	82030	2443	82030	Special events
-700	7500	2443	62010	2443	62010	Airfare
-700	7505	2443	62020	2443	62020	Hotel
-700	7510	2443	62081	2443	62081	Entertainment - deductible
-700	7515	2443	62030	2443	62030	Travel Meals
-700	7520	2443	62007	2443	62007	Transportation Expenses
-700	7525	2443	62032	2443	62032	Travel : Parking
-700	7530	2443	62061	2443	62061	Mileage (non-taxable)
-700	7540	2443	82071	2443	82071	Job fair fees
-700	7545	2443	62081	2443	62081	Entertainment - deductible
-700	7590	2443	62090	2443	62090	Misc. Travel
-700	7650	2443	90999	2443	90999	other expenses
-700	7800	2443	69082	2443	69082	Computer Equipment Depr.
-700	8030	2443	69087	2443	69087	Goodwill amortization
-800	6000	9095	60001	9095	60001	Salaries
-800	6001	9095	60016	9095	60016	Bonus- Vacation pay
-800	6002	9095	60095	9095	60095	Misc. personnel expense
-800	6009	9095	61011	9095	61011	Payroll Tax
-800	6010	9095	61011	9095	61011	Payroll Tax
-800	6020	9095	60015	9095	60015	Vacation
-800	6030	9095	60013	9095	60013	Employee awards
-800	6035	9095		9095		
-800	6040	9095	61095	9095	61095	Other employee benefits: Deductible
-800	6045	9095	63017	9095	63017	Membership fees
-800	6050	9095	64007	9095	64007	Consulting fees
-800	6055	9095	65095	9095	65095	Recruiter Fees
-800	6060	9095	92020	9095	92020	Other taxes & fees
-800	6100	9095	61021	9095	61021	Group insurance
-800	6110	9095	91003	9095	91003	D&O insurance
-800	6120	9095	61029	9095	61029	Long term disability
-800	6130	9095	91020	9095	91020	Liability insurance
-800	6140	9095		9095		
-800	6150	9095	61031	9095	61031	Workers comp
-800	6190	9095	91009	9095	91009	Other insurance
-800	6200	9095	68029	9095	68029	Telephone: Cell
-800	6210	9095	68021	9095	68021	Telephone: Local
-800	6230	9095	68031	9095	68031	Internet fees
-800	6240	9095	68001	9095	68001	Utilities: electric & water
-800	6250	9095	67053	9095	67053	Building R&M administration
-800	6260	9095	60018	9095	60018	Moving: Paid to employee
-800	6290	9095	67095	9095	67095	Misc. building
-800	6300	9095	67001	9095	67001	Office space rent
-800	6301	9095	67001	9095	67001	Office space rent
-800	6302	9095	67001	9095	67001	Office space rent
-800	6390	9095	67001	9095	67001	Office space rent
-800	6400	9095	90001	9095	90001	Bank charges
-800	6405	9095	63011	9095	63011	Books
-800	6410	9095	93009	9095	93009	Contributions other
-800	6415	9095	69043	9095	69043	"Computers, equipment&tools<$1000"
-800	6416	9095	69031	9095	69031	Equipment maintenance
-800	6420	9095	69047	9095	69047	Software<$1000
-800	6421	9095	69032	9095	69032	Software maintenance
-800	6425	9095		9095		
-800	6430	9095	70001	9095	70001	Office supplies
-800	6435	9095	70001	9095	70001	Office supplies
-800	6440	9095	70095	9095	70095	Other Office
-800	6445	9095	92020	9095	92020	Other taxes & fees
-800	6450	9095	92020	9095	92020	Other taxes & fees
-800	6455	9095	90031	9095	90031	Non-deductible penalties
-800	6460	9095	66010	9095	66010	Postage
-800	6500	9095	65041	9095	65041	Audit & tax services
-800	6501	9095	92020	9095	92020	Other taxes & fees
-800	6502	9095	65058	9095	65058	Legal: sales
-800	6509	9095	65044	9095	65044	Outside Accountants
-800	6510	9095	65061	9095	65061	Legal: corporate
-800	6511	9095	65059	9095	65059	legal: general
-800	6512	9095	65063	9095	65063	Legal: litigation
-800	6513	9095	65061	9095	65061	Legal: corporate
-800	6514	9095	61045	9095	61045	Immigration
-800	6800	9095		9095		
-800	6810	9095		9095		
-800	6820	9095		9095		
-800	6900	9095	95005	9095	95005	Allocated supplied
-800	6901	9095	95005	9095	95005	Allocated supplied
-800	7100	9095	63013	9095	63013	Dues & subscriptions (deductable)
-800	7135	9095	64031	9095	64031	Copy & Printing
-800	7325	9095	82045	9095	82045	sales rep. conf
-800	7330	9095	82030	9095	82030	Special events
-800	7500	9095	62010	9095	62010	Airfare
-800	7505	9095	62020	9095	62020	Hotel
-800	7510	9095	62081	9095	62081	Entertainment - deductible
-800	7515	9095	62030	9095	62030	Travel Meals
-800	7520	9095	62007	9095	62007	Transportation Expenses
-800	7525	9095	62032	9095	62032	Travel: Parking
-800	7530	9095	62061	9095	62061	Mileage (non-taxable)
-800	7540	9095	82071	9095	82071	Job fair fees
-800	7545	9095	62081	9095	62081	Entertainment - deductible
-800	7590	9095	62090	9095	62090	Misc. travel
-800	7600	0	98011	0	98011	Gain/loss on disposal
-800	7610	9095	90023	9095	90023	Other expenses (Attn:Att'g)
-800	7650	9095	90999	9095	90999	Other expenses (Attn:Att'g)
-800	7700	0	98050	0	98050	Realized exchange gain(loss)
-800	7710	0	98060	0	98060	Unrealized exchange gain(loss)
-800	7800	9095	69082	9095	69082	Computer Equipment depreciation
-800	9000	0	96001	0	96001	Interest Income
-800	9010	0	97095	0	97095	Other non-operating expense
-800	9020	0	97057	0	97057	Management Allocations
-800	9100	0	97010	0	97010	Interco. interest expense
-800	9200	0	99001	0	99001	Federal income tax
-800	9201	0	99050	0	99050	Deferred tax expense
+Dept	Account	CC	Account	CC-Tax	Account-Tax	AWR High Level P&L	NI Line Description
+0	1100	0	10001	0	10001	Other	Cash: operating: Domestic
+0	1101	0	10001	0	10001	Other	Cash: operating: Domestic
+0	1102	0	10001	0	10001	Other	Cash: operating: Domestic
+0	1103	0	10001	0	10001	Other	Cash: operating: Domestic
+0	1110	0	10001	0	10001	Other	Cash: operating: Domestic
+0	1111	0	10001	0	10001	Other	Cash: operating: Domestic
+0	1140	0	10001	0	10001	Other	Cash: operating: Domestic
+0	1190	0	10001	0	10001	Other	Cash: operating: Domestic
+0	1195	0	10001	0	10001	Other	Cash: operating: Domestic
+0	1200	0	11001	0	11001	Other	A/R: Trade
+0	1220	0	11011	0	11011	Other	Allowance: doubtful accounts
+0	1230	0	11001	0	11001	Other	A/R: Trade
+0	1240	0	11031	0	11031	Other	A/R: Non system receivables
+0	1250	0	11031	0	11031	Other	A/R: Non system receivables
+0	1290	0	11031	0	11031	Other	A/R: Non system receivables
+0	1295	0	27404	0	27404	Other	NIC - Irregular Recharge Balances
+0	1301	0	99999	0	12020	Other	must zero out; any remaining $ move to petty cash
+0	1302	0	99999	0	12020	Other	must zero out; any remaining $ move to petty cash
+0	1303	0	99999	0	12020	Other	must zero out; any remaining $ move to petty cash
+0	1304	0	99999	0	12020	Other	must zero out; any remaining $ move to petty cash
+0	1305	0	99999	0	12020	Other	must zero out; any remaining $ move to petty cash
+0	1307	0	99999	0	12020	Other	must zero out; any remaining $ move to petty cash
+0	1324	0	99999	0	12020	Other	must zero out; any remaining $ move to petty cash
+0	1390	0	99999	0	12020	Other	must zero out; any remaining $ move to petty cash
+0	1400	0	14045	0	14045	Other	Prepaid others
+0	1401	0	14017	0	14017	Other	Prepaid tradeshowa
+0	1402	0	14015	0	14015	Other	Prepaid advertising
+0	1403	0	14011	0	14011	Other	Prepaid insurance
+0	1404	0	14013	0	14013	Other	Prepaid
+0	1405	0	14013	0	14013	Other	Prepaid
+0	1406	0	14013	0	14013	Other	Prepaid
+0	1430	0	14031	0	14031	Other	VAT/GST recoverable
+0	1432	0	14045	0	14045	Other	MI Prepaid other
+0	1440	0	14045	0	14045	Other	MI Prepaid other
+0	1442	0	14031	0	14031	Other	VAT/GST recoverable
+0	1450	0	14031	0	14031	Other	VAT/GST recoverable
+0	1490	0	14045	0	14045	Other	Prepaid others
+0	1495	0	14095	0	14095	Other	Other Current Assests
+0	1500	0	15040	0	15040	Other	Furniture & Fixtures >1000
+0	1502	0	15030	0	15030	Other	Computer Equipment >1000
+0	1504	0	15080	0	15080	Other	Software >1000
+0	1509	0	15020	0	15020	Other	Equipment >1000
+0	1510	0	15015	0	15015	Other	Building improvements
+0	1549	0	15040	0	15040	Other	Furniture & Fixtures >1000
+0	1550	0	16040	0	16040	Other	Accum. Depr.: F&F
+0	1552	0	16030	0	16030	Other	Accum. Depr.: Computer
+0	1554	0	16080	0	16080	Other	accum depr sw
+0	1559	0	16020	0	16020	Other	Accum. Depr.: Equipment
+0	1560	0	16018	0	16018	Other	Accum . Depr.: Office Improvement
+0	1600	0	14097	0	14097	Other	Def tax asset: fed: current
+0	1601	0	14097	0	14097	Other	Def tax asset: fed: current
+0	1602	0	14097	0	14097	Other	Def tax asset: fed: current
+0	1603	0	14097	0	14097	Other	Def tax asset: fed: current
+0	1604	0	14098	0	14098	Other	Def tax asset: state: current
+0	1605	0	14098	0	14098	Other	Def tax asset: state: current
+0	1606	0	14098	0	14098	Other	Def tax asset: state: current
+0	1607	0	14098	0	14098	Other	Def tax asset: state: current
+0	1710	0	99999	0	18010	Other	account 1710 thru 1770 = 3110 tru 3170 + 3410; must zero out; any remaining $ move to petty cash
+0	1720	0	99999	0	18010	Other	account 1710 thru 1770 = 3110 tru 3170 + 3410; must zero out; any remaining $ move to petty cash
+0	1730	0	99999	0	18010	Other	account 1710 thru 1770 = 3110 tru 3170 + 3410; must zero out; any remaining $ move to petty cash
+0	1740	0	99999	0	18010	Other	account 1710 thru 1770 = 3110 tru 3170 + 3410; must zero out; any remaining $ move to petty cash
+0	1750	0	99999	0	18010	Other	account 1710 thru 1770 = 3110 tru 3170 + 3410; must zero out; any remaining $ move to petty cash
+0	1770	0	99999	0	18010	Other	account 1710 thru 1770 = 3110 tru 3170 + 3410; must zero out; any remaining $ move to petty cash
+0	1830	0	17090	0	17090	Other	Other intellectual property
+0	1831	0	17090	0	17090	Other	Other intellectual property
+0	1838	0	17085	0	17085	Other	Goodwill
+0	1900	0	19005	0	19005	Other	Rent Deposits
+0	1950	0		0		Other	
+0	2000	0	20001	0	20001	Other	A/P: Trade
+0	2010	0	20006	0	20006	Other	service po accrual
+0	2020	0	20046	0	20046	Other	invoices not received
+0	2100	0		0		Other	
+0	2101	0		0		Other	
+0	2102	0		0		Other	
+0	2103	0		0		Other	
+0	2104	0		0		Other	
+0	2150	0	20005	0	20005	Other	A/P: Trade
+0	2200	0	23001	0	23001	Other	federal income tax
+0	2210	0	24020	0	24020	Other	sales tax payable
+0	2211	0	24020	0	24020	Other	sales tax payable
+0	2212	0	24020	0	24020	Other	sales tax payable
+0	2213	0	24020	0	24020	Other	sales tax payable
+0	2214	0	24020	0	24020	Other	sales tax payable
+0	2215	0	24020	0	24020	Other	sales tax payable
+0	2216	0	24020	0	24020	Other	sales tax payable
+0	2217	0	24020	0	24020	Other	sales tax payable
+0	2218	0	24020	0	24020	Other	sales tax payable
+0	2219	0	24020	0	24020	Other	sales tax payable
+0	2220	0	24020	0	24020	Other	sales tax payable
+0	2221	0	24020	0	24020	Other	sales tax payable
+0	2222	0	24020	0	24020	Other	sales tax payable
+0	2230	0	24020	0	24020	Other	sales tax payable
+0	2231	0		0		Other	
+0	2240	0	24020	0	24020	Other	sales tax payable
+0	2242	0	24020	0	24020	Other	sales tax payable
+0	2260	0	26075	0	26075	Other	deferred income tax
+0	2261	0	26075	0	26075	Other	deferred income tax
+0	2290	0	24065	0	24065	Other	other tax payable
+0	2300	0	25053	0	25053	Other	deferred revenue SSP
+0	2301	0	25053	0	25053	Other	deferred revenue SSP
+0	2302	0	25053	0	25053	Other	deferred revenue SSP
+0	2310	0	25053	0	25053	Other	Long Term Def Rev Term License
+0	2311	0		0		Other	
+0	2312	0		0		Other	
+0	2400	0	21021	0	21021	Other	Accrued vacations
+0	2401	0	21001	0	21001	Other	Accrued wages
+0	2402	0	21005	0	21005	Other	Accrued commissions
+0	2403	0	25002	0	25002	Other	cafateria plan medical
+0	2404	0	20005	0	20005	Other	A/P: Trade
+0	2405	0	20045	0	20045	Other	other employment tax payables
+0	2410	0	20045	0	20045	Other	other employment tax payables
+0	2412	0	20045	0	20045	Other	other employment tax payables
+0	2430	0	21035	0	21035	Other	accrued retierment
+0	2435	0	21031	0	21031	Other	accrued espp
+0	2490	0	20045	0	20045	Other	other employment tax payables
+0	2500	0		0		Other	
+0	2510	0	20045	0	20045	Other	Accrued other
+0	2520	0	20045	0	20045	Other	Accrued other
+0	2530	0		0		Other	
+0	2600	0	20045	0	20045	Other	Accrued other
+0	2601	0	25095	0	25095	Other	current liabilities
+0	2610	0	26080	0	26080	Other	deferred rent
+0	2700	0		0		Other	
+0	3000	0		0		Other	
+0	3001	0		0		Other	
+0	3002	0		0		Other	
+0	3100	0	35001	0	35001	Other	Common Stock 1
+0	3110	0	99999	0	35001	Other	Common Stock STAAR
+0	3120	0	99999	0	35001	Other	Common Stock AWR Ltd.
+0	3130	0	99999	0	35001	Other	Common Stock AWR Aplac
+0	3140	0	99999	0	35001	Other	Common Stock AWR France
+0	3150	0	99999	0	35001	Other	Common Stock AWR Japan
+0	3170	0	99999	0	35001	Other	Common Stock AWR Korea
+0	3200	0	35001	0	35001	Other	Common Stock 1
+0	3400	0	35001	0	35001	Other	Common Stock 1
+0	3410	0	99999	0	35050	Other	Additional PIC STAAR
+0	3430	0	99999	0	35050	Other	Additional PIC AWR Aplac
+0	3500	0	35001	0	35001	Other	Common Stock 1
+0	3600	0		0		Other	
+0	3900	0	35001	0	35001	Other	Common Stock 1
+0	3910	0	35001	0	35001	Other	Common Stock 1
+300	4000	0	40010	0	40010	Other	Domestics sales revenue
+300	4005	0	40010	0	40010	Other	Domestics sales revenue
+300	4010	0	40010	0	40010	Other	Domestics sales revenue
+300	4015	0	40010	0	40010	Other	Domestics sales revenue
+300	4020	0	40010	0	40010	Other	Domestics sales revenue
+300	4025	0	40010	0	40010	Other	Domestics sales revenue
+300	4100	0	40010	0	40010	Other	Domestics sales revenue
+300	4105	0	40010	0	40010	Other	Domestics sales revenue
+300	4110	0	40010	0	40010	Other	Domestics sales revenue
+300	4115	0	40010	0	40010	Other	Domestics sales revenue
+300	4120	0	40010	0	40010	Other	Domestics sales revenue
+300	4125	0	40010	0	40010	Other	Domestics sales revenue
+300	4200	0	40010	0	40010	Other	Domestics sales revenue
+300	4205	0	40010	0	40010	Other	Domestics sales revenue
+300	4210	0	40010	0	40010	Other	Domestics sales revenue
+300	4215	0	40010	0	40010	Other	Domestics sales revenue
+300	4220	0	40010	0	40010	Other	Domestics sales revenue
+300	4225	0	40010	0	40010	Other	Domestics sales revenue
+300	4300	0	40010	0	40010	Other	Domestics sales revenue
+300	4310	0	40010	0	40010	Other	Domestics sales revenue
+300	4400	0	40010	0	40010	Other	Domestics sales revenue
+300	4410	0	40010	0	40010	Other	Domestics sales revenue
+300	4420	0	40010	0	40010	Other	Domestics sales revenue
+300	4900	0		0		Other	
+300	5120	0	99998	0	44010	Other	Intercompany sales revenue
+300	5140	0	99998	0	44010	Other	Intercompany sales revenue
+300	5150	0	99998	0	44010	Other	Intercompany sales revenue
+300	5170	0	99998	0	44010	Other	Intercompany sales revenue
+300	5200	0	64010	0	64010	Other	Sales rep. commissions
+300	5250	0	40010	0	40010	Other	VAT-Tax Unrecoverable
+300	5500	0	99998	0	44055	Other	Intercompany commission revenue - R&D
+300	5510	0	99998	0	50081	Other	COGS: intercompany
+400	5000	1090		1090		COGS	
+400	5050	1090	66023	1090	66023	COGS	"Material, labor & overhead"
+400	5051	1090	66023	1090	66023	COGS	"Material, labor & overhead"
+400	5055	1090	50021	1090	50021	COGS	COGS: domestic
+400	5060	1090	50021	1090	50021	COGS	COGS: domestic
+400	5070	1090	50021	1090	50021	COGS	COGS: domestic
+400	5300	1090	50021	1090	50021	COGS	COGS: domestic
+400	5310	1090	50021	1090	50021	COGS	COGS: domestic
+400	5400	1090	50021	1090	50021	COGS	COGS: domestic
+400	6000	1090	60001	1090	60001	COGS	Salaries
+400	6001	1090	60016	1090	60016	COGS	Bonus- Vacation pay
+400	6002	1090	60095	1090	60095	COGS	Misc. personnel expense
+400	6009	1090	61011	1090	61011	COGS	Payroll Tax
+400	6010	1090	61011	1090	61011	COGS	Payroll Tax
+400	6020	1090	60015	1090	60015	COGS	Vacation
+400	6030	1090	60013	1090	60013	COGS	Employee awards
+400	6035	1090		1090		COGS	
+400	6040	1090	61095	1090	61095	COGS	Other employee benefits: Deductible
+400	6045	1090	63017	1090	63017	COGS	Membership fees
+400	6050	1090	64007	1090	64007	COGS	Consulting fees
+400	6055	1090	65095	1090	65095	COGS	Recruiter Fees
+400	6100	1090	61021	1090	61021	COGS	Group insurance
+400	6200	1090	68029	1090	68029	COGS	Telephone: Cell
+400	6210	1090	68021	1090	68021	COGS	Telephone: Local
+400	6230	1090	68031	1090	68031	COGS	Internet fees
+400	6405	1090	63011	1090	63011	COGS	Books
+400	6415	1090	69043	1090	69043	COGS	"Computers, equipment&tools<$1000"
+400	6416	1090	69031	1090	69031	COGS	Equipment maintenance
+400	6420	1090	69047	1090	69047	COGS	Software<$1000
+400	6421	1090	69032	1090	69032	COGS	Software maintenance
+400	6425	1090		1090		COGS	
+400	6430	1090	70001	1090	70001	COGS	Office supplies
+400	6435	1090	70001	1090	70001	COGS	Office supplies
+400	6440	1090	70095	1090	70095	COGS	Other Office
+400	6455	1090	90031	1090	90031	COGS	Non-deductible penalties
+400	6460	1090	66010	1090	66010	COGS	Postage
+400	6900	1090	95005	1090	95005	COGS	Allocated supplied
+400	7135	1090	64031	1090	64031	COGS	Copy & Printing
+400	7315	1090	70059	1090	70059	COGS	Promotional items
+400	7325	1090	82045	1090	82045	COGS	Sales rep confrence
+400	7330	1090	82030	1090	82030	COGS	Special events
+400	7500	1090	62010	1090	62010	COGS	Airfare
+400	7505	1090	62020	1090	62020	COGS	Hotel
+400	7510	1090	62081	1090	62081	COGS	Entertainment - deductible
+400	7515	1090	62030	1090	62030	COGS	Travel Meals
+400	7520	1090	62007	1090	62007	COGS	Transportation Expenses
+400	7525	1090	62032	1090	62032	COGS	Travel: Parking
+400	7530	1090	62061	1090	62061	COGS	Mileage (non-taxable)
+400	7535	1090	62065	1090	62065	COGS	Auto & Gas
+400	7540	1090	82071	1090	82071	COGS	Job fair fees
+400	7545	1090	62081	1090	62081	COGS	Entertainment - deductible
+400	7590	1090	62090	1090	62090	COGS	Misc. Travel
+400	7650	1090	90999	1090	90999	COGS	other expenses
+400	7800	1090	69082	1090	69082	COGS	Computer Equipment Depr.
+500	5210	4079	64010	4079	64010	Commission	Sales rep. commissions
+500	5250	4079	40010	4079	40010	Commission	Domestics sales revenue
+500	6000	4079	60001	4079	60001	BaseWages	Salaries
+500	6001	4079	60016	4079	60016	Commission	Bonus- Vacation pay
+500	6002	4079	60095	4079	60095	Commission	Misc. personnel expense
+500	6009	4079	61011	4079	61011	NI	Payroll Tax
+500	6010	4079	61011	4079	61011	Personnel	Payroll Tax
+500	6020	4079	60015	4079	60015	Vacation	Vacation
+500	6030	4079	60013	4079	60013	Personnel	Employee awards
+500	6035	4079		4079		Personnel	
+500	6040	4079	61095	4079	61095	Personnel	Other employee benefits: Deductible
+500	6041	4079	95001	4079	95001	Personnel	Employee benefits
+500	6045	4079	63017	4079	63017	Personnel	Membership fees
+500	6050	4079	64007	4079	64007	Consulting	Consulting fees
+500	6051	4079	64007	4079	64007	Personnel	Consulting fees
+500	6054	4079	64007	4079	64007	Personnel	Consulting fees
+500	6055	4079	65095	4079	65095	Personnel	Recruiter Fees
+500	6057	4079	64007	4079	64007	Personnel	Consulting fees
+500	6100	4079	61021	4079	61021	Personnel	Group insurance
+500	6200	4079	68029	4079	68029	Office	Telephone: Cell
+500	6210	4079	68021	4079	68021	Office	Telephone: Local
+500	6230	4079	68031	4079	68031	Office	Internet fees
+500	6240	4079	68001	4079	68001	Office	Utilities: electric & water
+500	6290	4079	67095	4079	67095	Office	Misc. building
+500	6300	4079	67001	4079	67001	Office	Office space rent
+500	6390	4079	67001	4079	67001	Office	Office space rent
+500	6400	4079	90001	4079	90001	Office	Bank charges
+500	6405	4079	63011	4079	63011	Office	Books
+500	6415	4079	69043	4079	69043	Office	"Computers, equipment&tools<$1000"
+500	6416	4079	69031	4079	69031	Office	Equipment maintenance
+500	6420	4079	69047	4079	69047	Office	Software<$1000
+500	6421	4079	69032	4079	69032	Office	Software maintenance
+500	6425	4079		4079		Office	
+500	6435	4079	70001	4079	70001	Office	Office supplies
+500	6440	4079	70095	4079	70095	Office	Other Office
+500	6445	4079	92020	4079	92020	Office	other taxes & fees
+500	6455	4079	90031	4079	90031	Office	Non-deductible penalties
+500	6460	4079	66010	4079	66010	Office	Postage
+500	6515	4079	65059	4079	65059	Office	legal: general
+500	6516	4079	65058	4079	65058	Office	legal: sales
+500	6900	4079	95005	4079	95005	Office	Allocated supplied
+500	7100	4079	63013	4079	63013	Office	Dues & subscriptions (deductable)
+500	7125	4079		4079		Office	
+500	7135	4079	64031	4079	64031	Office	Copy & Printing
+500	7315	4079	70059	4079	70059	Office	Promotional items
+500	7320	4079	82095	4079	82095	T&E	Misc. Tradeshow
+500	7325	4079	82045	4079	82045	T&E	sales rep conference
+500	7330	4079	82030	4079	82030	T&E	Special events
+500	7500	4079	62010	4079	62010	T&E	Airfare
+500	7505	4079	62020	4079	62020	T&E	Hotel
+500	7510	4079	62081	4079	62081	T&E	Entertainment - deductible
+500	7515	4079	62030	4079	62030	T&E	Travel Meals
+500	7520	4079	62007	4079	62007	T&E	Transportation Expenses
+500	7525	4079	62032	4079	62032	T&E	Travel: Parking
+500	7530	4079	62061	4079	62061	T&E	Mileage (non-taxable)
+500	7535	4079	62065	4079	62065	T&E	Auto & Gas
+500	7540	4079	63005	4079	63005	T&E	Seminars
+500	7545	4079	62081	4079	62081	T&E	Entertainment - deductible
+500	7550	4079	62081	4079	62081	T&E	Entertainment - deductible
+500	7590	4079	62090	4079	62090	T&E	Misc. Travel
+500	7610	4079	90021	4079	90021	Office	Provision for Bad Debt
+500	7650	4079	90999	4079	90999	Office	Other expenses
+500	7800	4079	69082	4079	69082	Office	Computer Equipment Depr.
+600	6000	6079	60001	6079	60001	BaseWages	Salaries
+600	6001	6079	60016	6079	60016	Commission	Bonus- Vacation pay
+600	6002	6079	60095	6079	60095	Commission	Misc. personnel expense
+600	6009	6079	61011	6079	61011	NI	Payroll Tax
+600	6010	6079	61011	6079	61011	Personnel	Payroll Tax
+600	6020	6079	60015	6079	60015	Vacation	Vacation
+600	6030	6079	60013	6079	60013	Personnel	Employee awards
+600	6035	6079		6079		Personnel	
+600	6040	6079	61095	6079	61095	Personnel	Other employee benefits: Deductible
+600	6045	6079	63017	6079	63017	Personnel	Membership fees
+600	6050	6079	64007	6079	64007	Consulting	Consulting fees
+600	6055	6079	65095	6079	65095	Personnel	Recruiter Fees
+600	6100	6079	61021	6079	61021	Personnel	Group insurance
+600	6190	6079	91009	6079	91009	Personnel	Other insurance
+600	6200	6079	68029	6079	68029	Office	Telephone: Cell
+600	6210	6079	68021	6079	68021	Office	Telephone: Local
+600	6230	6079	68031	6079	68031	Office	Internet fees
+600	6405	6079	63011	6079	63011	Office	Books
+600	6415	6079	69043	6079	69043	Office	"Computers, equipment&tools<$1000"
+600	6416	6079	69031	6079	69031	Office	Equipment maintenance
+600	6420	6079	69047	6079	69047	Office	Software<$1000
+600	6421	6079	69032	6079	69032	Office	Software maintenance
+600	6425	6079		6079		Office	
+600	6435	6079	70001	6079	70001	Office	Office supplies
+600	6440	6079	70095	6079	70095	Office	Misc. supplies
+600	6455	6079	90031	6079	90031	Office	Non-deductible penalties
+600	6460	6079	66006	6079	66006	Programs	Tradeshow postage
+600	6900	6079	95005	6079	95005	Programs	Allocated supplied
+600	7000	6079	73095	6079	73095	Programs	Misc. advertising
+600	7100	6079	63013	6079	63013	Programs	Dues & subscriptions (deductable)
+600	7110	6079	75050	6079	75050	Programs	Marketing lit production
+600	7115	6079	75040	6079	75040	Programs	Marketing literature
+600	7120	6079	73044	6079	73044	Programs	Direct Marketing
+600	7125	6079	75040	6079	75040	Programs	Marketing literature
+600	7135	6079	64031	6079	64031	Programs	Copy & Printing
+600	7140	6079	73044	6079	73044	Programs	Direct Marketing
+600	7200	6079	73060	6079	73060	Programs	Marketing materials
+600	7210	6079	76048	6079	76048	Programs	Brochures
+600	7300	6079	82010	6079	82010	Programs	Tradeshow booth space
+600	7305	6079	82020	6079	82020	Programs	Tradeshow booth services
+600	7310	6079	82020	6079	82020	Programs	Tradeshow booth services
+600	7315	6079	70059	6079	70059	Programs	Promotional items
+600	7320	6079	82095	6079	82095	Programs T&E	Misc. Tradeshow
+600	7325	6079	82045	6079	82045	Programs T&E	Sales rep conf.
+600	7330	6079	82030	6079	82030	Programs T&E	Special events
+600	7335	6079	82020	6079	82020	Programs T&E	Tradeshow booth services
+600	7350	6079	82076	6079	82076	Programs T&E	Sponsorship
+600	7390	6079	82095	6079	82095	Programs T&E	Misc Tradeshow
+600	7500	6079	62010	6079	62010	Programs T&E	Airfare
+600	7505	6079	62020	6079	62020	Programs T&E	Hotel
+600	7510	6079	62081	6079	62081	Programs T&E	Entertainment - deductible
+600	7515	6079	62030	6079	62030	Programs T&E	Travel Meals
+600	7520	6079	62007	6079	62007	Programs T&E	Transportation Expenses
+600	7525	6079	62032	6079	62032	Programs T&E	Travel: Parking
+600	7530	6079	62061	6079	62061	Programs T&E	Mileage (non-taxable)
+600	7540	6079	63005	6079	63005	Programs T&E	Seminars
+600	7545	6079	62081	6079	62081	Programs T&E	Entertainment - deductible
+600	7590	6079	62090	6079	62090	Programs T&E	Misc. Travel
+600	7650	6079	90999	6079	90999	Programs T&E	other expenses
+600	7800	6079	69082	6079	69082	Office	Computer Equipment Depr.
+700	5300	2443	64007	2443	64007	Personnel	Consultanting fees
+700	6000	2443	60001	2443	60001	BaseWages	Salaries
+700	6001	2443	60016	2443	60016	Commission	Bonus- Vacation pay
+700	6002	2443	60095	2443	60095	Commission	Misc. personnel expense
+700	6009	2443	61011	2443	61011	NI	Payroll Tax
+700	6010	2443	61011	2443	61011	Personnel	Payroll Tax
+700	6020	2443	60015	2443	60015	Vacation	Vacation
+700	6030	2443	60013	2443	60013	Personnel	Employee awards
+700	6035	2443		2443		Personnel	
+700	6040	2443	61095	2443	61095	Personnel	Other employee benefits: Deductible
+700	6045	2443	63017	2443	63017	Personnel	Membership fees
+700	6050	2443	64007	2443	64007	Consulting	Consulting fees
+700	6055	2443	65095	2443	65095	Personnel	Recruiter Fees
+700	6100	2443	61021	2443	61021	Personnel	Group insurance
+700	6120	2443	61029	2443	61029	Personnel	Long term disability
+700	6200	2443	68029	2443	68029	Office	Telephone: Cell
+700	6210	2443	68021	2443	68021	Office	Telephone: Local
+700	6230	2443	68031	2443	68031	Office	Internet fees
+700	6300	2443	67001	2443	67001	Office	Rent-Corporate office
+700	6405	2443	63011	2443	63011	Office	Books
+700	6415	2443	69043	2443	69043	Office	"Computers, equipment&tools<$1000"
+700	6420	2443	69047	2443	69047	Office	Software<$1000
+700	6421	2443	69032	2443	69032	Office	Software maintenance
+700	6425	2443		2443		Office	
+700	6435	2443	70001	2443	70001	Office	Office supplies
+700	6440	2443	70095	2443	70095	Office	Other Office
+700	6445	2443	92020	2443	92020	Office	Other Tax/License
+700	6455	2443	90031	2443	90031	Office	Non-deductible penalties
+700	6460	2443	66010	2443	66010	Office	Postage
+700	6900	2443	95005	2443	95005	Office	Allocated supplied
+700	7100	2443	63013	2443	63013	Office	Dues & subscriptions (deductable)
+700	7135	2443	64031	2443	64031	Office	Copy & Printing
+700	7325	2443	82045	2443	82045	T&E	sales rep. conf
+700	7330	2443	82030	2443	82030	T&E	Special events
+700	7500	2443	62010	2443	62010	T&E	Airfare
+700	7505	2443	62020	2443	62020	T&E	Hotel
+700	7510	2443	62081	2443	62081	T&E	Entertainment - deductible
+700	7515	2443	62030	2443	62030	T&E	Travel Meals
+700	7520	2443	62007	2443	62007	T&E	Transportation Expenses
+700	7525	2443	62032	2443	62032	T&E	Travel : Parking
+700	7530	2443	62061	2443	62061	T&E	Mileage (non-taxable)
+700	7540	2443	63005	2443	63005	T&E	Seminars
+700	7545	2443	62081	2443	62081	T&E	Entertainment - deductible
+700	7590	2443	62090	2443	62090	T&E	Misc. Travel
+700	7650	2443	90999	2443	90999	T&E	other expenses
+700	7800	2443	69082	2443	69082	Office	Computer Equipment Depr.
+700	8030	2443	69087	2443	69087	Office	Goodwill amortization
+800	6000	9095	60001	9095	60001	BaseWages	Salaries
+800	6001	9095	60016	9095	60016	Commission	Bonus- Vacation pay
+800	6002	9095	60095	9095	60095	Commission	Misc. personnel expense
+800	6009	9095	61011	9095	61011	NI	Payroll Tax
+800	6010	9095	61011	9095	61011	Personnel	Payroll Tax
+800	6020	9095	60015	9095	60015	Vacation	Vacation
+800	6030	9095	60013	9095	60013	Personnel	Employee awards
+800	6035	9095		9095		Personnel	
+800	6040	9095	61095	9095	61095	Personnel	Other employee benefits: Deductible
+800	6045	9095	63017	9095	63017	Personnel	Membership fees
+800	6050	9095	64007	9095	64007	Consulting	Consulting fees
+800	6055	9095	65095	9095	65095	Personnel	Recruiter Fees
+800	6060	9095	92020	9095	92020	Personnel	Other taxes & fees
+800	6100	9095	61021	9095	61021	Personnel	Group insurance
+800	6110	9095	91003	9095	91003	Personnel	D&O insurance
+800	6120	9095	61029	9095	61029	Personnel	Long term disability
+800	6130	9095	91020	9095	91020	Personnel	Liability insurance
+800	6140	9095		9095		Personnel	
+800	6150	9095	61031	9095	61031	Personnel	Workers comp
+800	6190	9095	91009	9095	91009	Personnel	Other insurance
+800	6200	9095	68029	9095	68029	Office	Telephone: Cell
+800	6210	9095	68021	9095	68021	Office	Telephone: Local
+800	6230	9095	68031	9095	68031	Office	Internet fees
+800	6240	9095	68001	9095	68001	Office	Utilities: electric & water
+800	6250	9095	67053	9095	67053	Office	Building R&M administration
+800	6260	9095	60018	9095	60018	Office	Moving: Paid to employee
+800	6290	9095	67095	9095	67095	Office	Misc. building
+800	6300	9095	67001	9095	67001	Office	Office space rent
+800	6301	9095	67001	9095	67001	Office	Office space rent
+800	6302	9095	67001	9095	67001	Office	Office space rent
+800	6390	9095	67001	9095	67001	Office	Office space rent
+800	6400	9095	90001	9095	90001	Office	Bank charges
+800	6405	9095	63011	9095	63011	Office	Books
+800	6410	9095	93009	9095	93009	Office	Contributions other
+800	6415	9095	69043	9095	69043	Office	"Computers, equipment&tools<$1000"
+800	6416	9095	69031	9095	69031	Office	Equipment maintenance
+800	6420	9095	69047	9095	69047	Office	Software<$1000
+800	6421	9095	69032	9095	69032	Office	Software maintenance
+800	6425	9095		9095		Office	
+800	6430	9095	70001	9095	70001	Office	Office supplies
+800	6435	9095	70001	9095	70001	Office	Office supplies
+800	6440	9095	70095	9095	70095	Office	Other Office
+800	6445	9095	92020	9095	92020	Office	Other taxes & fees
+800	6450	9095	92020	9095	92020	Office	Other taxes & fees
+800	6455	9095	90031	9095	90031	Office	Non-deductible penalties
+800	6460	9095	66010	9095	66010	Office	Postage
+800	6500	9095	65041	9095	65041	Office	Audit & tax services
+800	6501	9095	92020	9095	92020	Office	Other taxes & fees
+800	6502	9095	65058	9095	65058	Office	Legal: sales
+800	6509	9095	65044	9095	65044	Office	Outside Accountants
+800	6510	9095	65061	9095	65061	Office	Legal: corporate
+800	6511	9095	65059	9095	65059	Office	legal: general
+800	6512	9095	65063	9095	65063	Office	Legal: litigation
+800	6513	9095	65061	9095	65061	Office	Legal: corporate
+800	6514	9095	61045	9095	61045	Office	Immigration
+800	6800	9095		9095		Office	
+800	6810	9095		9095		Office	
+800	6820	9095		9095		Office	
+800	6900	9095	95005	9095	95005	Office	Allocated supplied
+800	6901	9095	95005	9095	95005	Office	Allocated supplied
+800	7100	9095	63013	9095	63013	Office	Dues & subscriptions (deductable)
+800	7135	9095	64031	9095	64031	Office	Copy & Printing
+800	7325	9095	82045	9095	82045	T&E	sales rep. conf
+800	7330	9095	82030	9095	82030	T&E	Special events
+800	7500	9095	62010	9095	62010	T&E	Airfare
+800	7505	9095	62020	9095	62020	T&E	Hotel
+800	7510	9095	62081	9095	62081	T&E	Entertainment - deductible
+800	7515	9095	62030	9095	62030	T&E	Travel Meals
+800	7520	9095	62007	9095	62007	T&E	Transportation Expenses
+800	7525	9095	62032	9095	62032	T&E	Travel: Parking
+800	7530	9095	62061	9095	62061	T&E	Mileage (non-taxable)
+800	7540	9095	63005	9095	63005	T&E	Seminars
+800	7545	9095	62081	9095	62081	T&E	Entertainment - deductible
+800	7590	9095	62090	9095	62090	T&E	Misc. travel
+800	7600	0	98011	0	98011	Office	Gain/loss on disposal
+800	7610	9095	90023	9095	90023	Office	Other expenses (Attn:Att'g)
+800	7650	9095	90999	9095	90999	Office	Other expenses (Attn:Att'g)
+800	7700	0	98050	0	98050	G&A non_opex	Realized exchange gain(loss)
+800	7710	0	98060	0	98060	G&A non_opex	Unrealized exchange gain(loss)
+800	7800	9095	69082	9095	69082	Office	Computer Equipment depreciation
+800	9000	0	96001	0	96001	G&A non_opex	Interest Income
+800	9010	0	97095	0	97095	G&A non_opex	Other non-operating expense
+800	9020	0	97057	0	97057	G&A non_opex	Management Allocations
+800	9100	0	97010	0	97010	G&A non_opex	Interco. interest expense
+800	9200	0	99001	0	99001	G&A non_opex	Federal income tax
+800	9201	0	99050	0	99050	G&A non_opex	Deferred tax expense
