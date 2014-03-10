@@ -56,7 +56,7 @@ def readInputFile():
 
         ### line contains desc, acct string, balance
         ### second argument is the delimiter (comma or tab)
-        items = utilities.parseExcelTxtFileLine(line,'\t')
+        items = utilities.parseExcelTxtFileLine(line,',')
         if (len(items) <> 3):
             print '**** Wrong number of items on the following line ****'
             print 'There are',len(items),'instead of 3 items'
