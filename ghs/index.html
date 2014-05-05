@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AWR Guided Help Home</title> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  
+  .bs
+
+ </head>
+
+<style>
+
+
+
+</style>
+
+<body>
+
+
+<div class="jumbotron">
+	<div class="container">
+<h2>AWR Web Application Controller</h2>
+<p>
+	This page describes how to control AWRDE via a set of URL's which can be used from any web page such as guided help pages. 
+</p>
+<p>
+	Many common tasks have direct URL commands but if you cannot accomplish a specific task you can use the ability to invoke an AWRDE script which gives you access to the entire AWRDE scripting API.
+</p>
+</div>
+</div>
+<div class="container">
+
+<h2 class="page-header">Overview</h2>
+<p>
+	The AWAC gets input in the form of standard URL's with arguments. The standard URL form is
+	<code>
+		http://host/command?arg=value
+	</code>	where
+	<dl class="dl-horizontal">
+	<dt>host</dt>
+	<dd>is the address of the server, <code>localhost:8008</code> in this case</dd>
+	<dt>command</dt>
+	<dd>is the name of the command to be executed, OpenProject.py for example</dd>
+	<dt>arg</dt>
+	<dd>is the name of the argument if it exists</dd>
+	<dt>value</dt>
+	<dd>is the value for the argument, a file name for example</dt>
+</dl>
+<p>
+	Each of the commands below will be in this format. For each command there is an explanation of the function of the command and a description of any arguments required.
+</p>
+<p>
+	The commands are not alphabetical but rather in order of most common use
+</p>
+<h2 class="page-header">Command Reference</h2>
+
+
+<h3>Open a project</h3>
+<p>This command loads a new project. If a project is already loaded it will be closed. The name of the project is relative to the current working directory which is where the last project was opened.</p>
+<table class="table table-bordered">
+<tr><td>The following arguments are supported:
+<dl class="dl-horizontal">
+	<dt>name</dt>
+	<dd>name of the schematic to be opened</dd>
+</dl>
+</tr></td>
+    <tr class="success"><td class="text-center"><strong>http://localhost:8008/OpenProject.py?name=test.emp</strong>
+</td></tr>
+</table>
+
+<h3>Open a schematic</h3>
+<p>This command opens a schematic window and then perform a tile command.</p>
+<table class="table table-bordered">
+<tr><td>The following arguments are supported:
+<dl class="dl-horizontal">
+	<dt>name</dt>
+	<dd>name of the schematic to be opened</dd>
+	<dt>close</dt>
+	<dd>a value of 0 does nothing, a value of 1 causes all existing windows to be closed</dd>
+	<dt>tile</dt>
+	<dd>a value of 'H' causes a horizontal tiling to be done, a value of 'V' causes a vertical tiling and a value of 'N' disables the tiling</dd>
+</dl>
+</tr></td>
+   <tr class="success"><td class="text-center"><strong>http://localhost:8008/OpenSchematic.py?name=Resonator;close=1;tile=H</strong>
+</td></tr>
+</table>
+
+
+</div>
+</body>
+</html>
