@@ -3,18 +3,11 @@ Python Cheat Sheet
 Define a function
 	def getAcctNumber(map,x):
 
-Open a file
-	file=open(sys.argv[1])
-	of = open('output.csv','w')
-	file.close()
-	file.readlines() returns a list of lines
-	file.read() reads entire file into a string
+
 
 Properly stripping newlines
 	s = s.rstrip(‘\r\n’)
 
-Looping through a file
-	for line in file.readlines():
 
 Boolean Values
 	USConsolidated = True
@@ -30,17 +23,21 @@ String Formatting
 	pos = {'lat': "34" , 'lon': "45"}
 	str.format(**pos)
 
-Print to a file
-	print >> of, 'O,%s,%s,%s,%s,%s,%s,,%s,%s' % (Co,ni_cc,'61096',Sub,PL,Proj,2,'Other benefits')
+')
 
 Rounding - convert to number
 	balance = round(float(balance),2)
 
-Lists
+===== LISTS =====
 	l=[]          -- initialize an empty list
 	[a,b,c]       -- build a list
 	l.append(foo) -- append to a list
 	(a,b) = l     -- split a list
+	len(l)		  -- length
+	l.insert(pos,item) -- inserts into middle of list
+	l.index(item) -- returns position of item, error if missing
+	l.sort()	  -- in place sort
+	l.remove(item)
 
 Terminating a loop iteration
 	next   - do next iteration
@@ -49,15 +46,37 @@ Terminating a loop iteration
 If
 	elif not (initialized) - odd elif syntax and not instead of !
 
+
+Looping through 2 lists at once
+	for name,value in zip(header_lines,bias_data):
+
+
+
+===== FILE =====	  
+Print to a file
+	print >> of, 'O,%s,%s,%s,%s,%s,%s,,%s,%s' % (Co,ni_cc,'61096',Sub,PL,Proj,2,'Other benefits
+	
+Open a file
+	file=open(sys.argv[1])
+	of = open('output.csv','w')
+	file.close()
+	file.readlines() returns a list of lines
+	file.read() reads entire file into a string
+	
 Iterating files in a directory
 	import glob
 	spar_files = glob.glob('*.s2p')
 	for f in spar_files:
 		print f
-		
-Looping through 2 lists at once
-	for name,value in zip(header_lines,bias_data):
 
+Looping through a file
+	for line in file.readlines():
+	
+===== DICTIONARY =====
+	foo = {'a':1, 'b':2} to init
+	del dict_name[key_name]
+	
+	
 Catching error accessing value in array	
 	try:
 	  thevariable
