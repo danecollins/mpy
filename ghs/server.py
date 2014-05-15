@@ -5,20 +5,33 @@ import CGIHTTPServer
 import cgitb; cgitb.enable()
 import sys
 
-def fixURL(path):
-	# remove arguments if they exist
+def convert_command_to_URL(path):
+	# Commands are somewhat in the form of URL's in that they need to be valid enough
+	# that the command gets to the AWAC but past that we can change the rest into anything
+	# we want.
+	#
+	# The current command syntax is:
+	#     http://localhost:port/COMMAND?arguments
+	#
+	# which we process in the following way:
+	#     1) command is converted to cgi/COMMAND.py
+    # 
+    # note, if the command already starts with /cgy it is left unmodified
+    #       so that testing can be done with full URL's
+
+	# split off arguments if they exist
 	args = False
-	if (path.find('?') <> -1):
+	if '?' in path:
 		(url, args) = path.split('?')
+	else:
+		url = path
 
-	# does command start with cgi
-	if not (url[0:3] == "/cgi"):
-		url = "/cgi/" + url
+    # we need to lowercase the URL so we don't run into case issues
+    url = url.lowercase()
+	url = "/cgi/" + url
+	url = url + '.py'
 
-	# does command end in .py
-	if not (url[-3:] == '.py'):
-		url = url + '.py'
-
+    # add args back in
 	if (args):
 		url = url + '?' + args
 
@@ -33,11 +46,11 @@ class RedirectHandler(CGIHTTPServer.CGIHTTPRequestHandler):
 		print >> original_stdout, type(original_path)
 		print >> original_stdout, "-- in do_HEAD with path: " + original_path
 
-		if (original_path.find('.py') <> -1):
-			print >> original_stdout, "-- Path already has .py, executing"
+		if (original_path.lowercase().startswith('/cgi')):
+			print >> original_stdout, "-- Path already has /cgi, executing"
 			CGIHTTPServer.CGIHTTPRequestHandler.do_GET(s)
 		else:
-			newpath = fixURL(original_path)
+			newpath = convert_command_to_URL(original_path)
 			print original_stdout, "-- modified path to: " + newpath
 			s.send_response(301)
 			s.send_header("Location",newpath)
