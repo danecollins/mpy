@@ -2,7 +2,7 @@
 import cgi
 import os
 import sys
-from   urltools import url
+from   cgi.urltools import url, convert_command_to_URL
 from   urllib.parse import parse_qs, urlsplit,SplitResult,urlunsplit
 
 
@@ -18,7 +18,6 @@ def test_init_simpleURL():
     assert(myurl.get_query_param('name'),'')
 
 def test_init_complexURL():
-    """ Tests on more complex URL """
     url2 = 'http://localhost:8008/OpenProject?name=https://dl.dropboxusercontent.com/u/3862332/ghs_hybrid/3dB_Coupler_start.emp'
      
     myurl = url(url2)
@@ -33,7 +32,6 @@ def test_init_complexURL():
     assert(suburl.get_query_param('name'),'')
 
 def test_replace_filename():
-    """ Test replace_filename """
     myurl = url('http://localhost/OpenProject')
     newurl = myurl.replace_filename('cgi/openproject.py')
     assert(newurl,'http://localhost/cgi/openproject.py')
@@ -46,3 +44,11 @@ def test_replace_filename():
     newurl = myurl.replace_filename('cgi/openproject.py')
     assert(newurl,'http://localhost/cgi/openproject.py?name=myproject.emp')
 
+def test_convert_command_to_URL():
+    assert(convert_command_to_URL('http://localhost/OpenProject'), \
+                                  'http://localhost/cgi/OpenProject.py')
+    assert(convert_command_to_URL('http://localhost/OpenProject?name=3dB.emp'), \
+                                  'http://localhost/cgi/OpenProject.py?name=3dB.emp')
+    assert(convert_command_to_URL( \
+    'http://localhost:8008/OpenProject?name=https://dl.dropboxusercontent.com/u/3862332/ghs_hybrid/3dB_Coupler_start.emp'), \
+    'http://localhost:8008/cgi/OpenProject.py?name=https://dl.dropboxusercontent.com/u/3862332/ghs_hybrid/3dB_Coupler_start.emp')

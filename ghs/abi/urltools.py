@@ -4,7 +4,7 @@ import os
 import sys
 from   urllib.parse import parse_qs, urlsplit,SplitResult,urlunsplit
 
-                
+     
 
 class url(object):
     def __init__(self,path):
@@ -49,3 +49,31 @@ class url(object):
         newurl = SplitResult(self.parsed[0],self.parsed[1],newfullpath,self.parsed[3],self.parsed[4])
         return urlunsplit(newurl)
 
+def convert_command_to_URL(path):
+    """ Checks whether url is a command and fixes it """
+    # Commands are somewhat in the form of URL's in that they need to be valid enough
+    # that the command gets to the AWAC but past that we can change the rest into anything
+    # we want.
+    #
+    # The current command syntax is:
+    #     http://localhost:port/COMMAND?arguments
+    #
+    # which we process in the following way:
+    #     1) command is converted to abi/COMMAND.py
+
+    # Define the commands we'll fix up
+    command_list = ['OpenProject','OpenSchematic','OpenGraph']
+    # split up the url
+    command_url = url(path)
+
+    # we need to lowercase the command so we don't run into case issues
+    command = command_url.get_filename()
+    if (command in command_list):
+        newcommand = "abi/" + command + '.py'
+
+        # add args back in
+        newurl = command_url.replace_filename(newcommand)
+        return(newurl)
+    else:
+        # not a command, do nothing
+        return(False)
