@@ -4,6 +4,7 @@ import BaseHTTPServer
 import CGIHTTPServer
 import cgitb; cgitb.enable()
 import sys
+import urltools
 
 def convert_command_to_URL(path):
 	# Commands are somewhat in the form of URL's in that they need to be valid enough
@@ -20,22 +21,16 @@ def convert_command_to_URL(path):
     #       so that testing can be done with full URL's
 
 	# split off arguments if they exist
-	args = False
-	if '?' in path:
-		(url, args) = path.split('?')
-	else:
-		url = path
+	command_url = url(path)
 
-    # we need to lowercase the URL so we don't run into case issues
-    url = url.lowercase()
-	url = "/cgi/" + url
-	url = url + '.py'
+    # we need to lowercase the command so we don't run into case issues
+    command = command_url.filename()
+	newcommand = "cgi/" + command + '.py'
 
     # add args back in
-	if (args):
-		url = url + '?' + args
+    newurl = command_url.replace_filename(newcommand)
 
-	return(url)
+	return(newurl)
 
 
 class RedirectHandler(CGIHTTPServer.CGIHTTPRequestHandler):
@@ -43,11 +38,8 @@ class RedirectHandler(CGIHTTPServer.CGIHTTPRequestHandler):
 
 	def do_HEAD(s):
 		original_path = s.path
-		print >> original_stdout, type(original_path)
-		print >> original_stdout, "-- in do_HEAD with path: " + original_path
 
 		if (original_path.lowercase().startswith('/cgi')):
-			print >> original_stdout, "-- Path already has /cgi, executing"
 			CGIHTTPServer.CGIHTTPRequestHandler.do_GET(s)
 		else:
 			newpath = convert_command_to_URL(original_path)
@@ -61,7 +53,7 @@ class RedirectHandler(CGIHTTPServer.CGIHTTPRequestHandler):
 
 
 
-print "hello there"
+print "Sarting Server"
 original_stdout = sys.stdout
 server = BaseHTTPServer.HTTPServer
 ##  handler = 

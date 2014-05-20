@@ -3,6 +3,7 @@ import cgi
 import os
 import sys
 import urllib
+import urltools
 
 
 def get_parameter(name):
@@ -19,8 +20,13 @@ def get_parameter(name):
 
 def get_project(project_url):
 	if (http in project_url):
-		# web file request, download file
+		# web file request, we'll get the project
 		(filename,headers) = urllib.urlretrieve(project_url)
+		# filename is the name of a temporary file. 
+		# the .vin must have the same name
+		vinfilename = filename.replace('.emp','.vin')
+		vinurl = project_url.replace('.emp','.vin')
+		urllib.urlretrieve(vinurl,vinfilename)
 	else:
 		# local file request
 		filename = project_url
