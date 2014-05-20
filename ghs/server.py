@@ -7,49 +7,51 @@ import sys
 import urltools
 
 def convert_command_to_URL(path):
-	# Commands are somewhat in the form of URL's in that they need to be valid enough
-	# that the command gets to the AWAC but past that we can change the rest into anything
-	# we want.
-	#
-	# The current command syntax is:
-	#     http://localhost:port/COMMAND?arguments
-	#
-	# which we process in the following way:
-	#     1) command is converted to cgi/COMMAND.py
-    # 
-    # note, if the command already starts with /cgy it is left unmodified
-    #       so that testing can be done with full URL's
+    """ Checks whether url is a command and fixes it """
+    # Commands are somewhat in the form of URL's in that they need to be valid enough
+    # that the command gets to the AWAC but past that we can change the rest into anything
+    # we want.
+    #
+    # The current command syntax is:
+    #     http://localhost:port/COMMAND?arguments
+    #
+    # which we process in the following way:
+    #     1) command is converted to cgi/COMMAND.py
 
-	# split off arguments if they exist
-	command_url = url(path)
+    # Define the commands we'll fix up
+    command_list = ['OpenProject','OpenSchematic','OpenGraph']
+    # split up the url
+    command_url = urltools.url(path)
 
     # we need to lowercase the command so we don't run into case issues
-    command = command_url.filename()
-	newcommand = "cgi/" + command + '.py'
+    command = command_url.get_filename()
+    if (command in command_list):
+        newcommand = "cgi/" + command + '.py'
 
-    # add args back in
-    newurl = command_url.replace_filename(newcommand)
-
-	return(newurl)
-
+        # add args back in
+        newurl = command_url.replace_filename(newcommand)
+        return(newurl)
+    else:
+        # not a command, do nothing
+        return(False)
 
 class RedirectHandler(CGIHTTPServer.CGIHTTPRequestHandler):
-	cgi_directories = ['/cgi']
+    cgi_directories = ['/cgi']
 
-	def do_HEAD(s):
-		original_path = s.path
+    def do_HEAD(s):
+        original_path = s.path
 
-		if (original_path.lowercase().startswith('/cgi')):
-			CGIHTTPServer.CGIHTTPRequestHandler.do_GET(s)
-		else:
-			newpath = convert_command_to_URL(original_path)
-			print original_stdout, "-- modified path to: " + newpath
-			s.send_response(301)
-			s.send_header("Location",newpath)
-			s.end_headers()
+        newpath = convert_command_to_URL(original_path)
+        if not newpath:
+            CGIHTTPServer.CGIHTTPRequestHandler.do_GET(s)
+        else:
+            print original_stdout, "-- modified path to: " + newpath
+            s.send_response(301)
+            s.send_header("Location",newpath)
+            s.end_headers()
 
-	def do_GET(s):
-		s.do_HEAD()
+    def do_GET(s):
+        s.do_HEAD()
 
 
 

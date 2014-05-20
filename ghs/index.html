@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
 
 
  </head>
@@ -21,7 +21,7 @@
 
 <div class="jumbotron">
 	<div class="container">
-<h2>AWR Web Application Controller</h2>
+<h2>AWR Browser Interface (ABI)</h2>
 <p>
 	This page describes how to control AWRDE via a set of URL's which can be used from any web page such as guided help pages. 
 </p>
@@ -30,11 +30,10 @@
 </p>
 </div>
 </div>
-<div class="container">
 
 <h2 class="page-header">Overview</h2>
 <p>
-	The AWAC gets input in the form of standard URL's with arguments. The standard URL form is
+	The ABI gets input in the form of standard URL's with arguments. The standard URL form is
 	<code>
 		http://host/command?arg=value
 	</code>	where
@@ -58,19 +57,22 @@
 
 
 <h3>Open a project</h3>
-<p>This command loads a new project. If a project is already loaded it will be closed. The name of the project is relative to the current working directory which is where the last project was opened.</p>
+<div class="row"> <div class="col-lg-1"></div><div class="col-lg-9">
+<p>This command loads a new project. If a project is already loaded it will be closed. The name of the project is the URL to the project. Currently Dropbox is used to store projects due to its convenience. The .vin file is also used.</p>
 <table class="table table-bordered">
 <tr><td>The following arguments are supported:
 <dl class="dl-horizontal">
 	<dt>name</dt>
-	<dd>name of the schematic to be opened</dd>
+	<dd>URL to the project to be downloaded and opened</dd>
 </dl>
 </tr></td>
-    <tr class="success"><td class="text-center"><strong>http://localhost:8008/OpenProject.py?name=test.emp</strong>
+    <tr class="success"><td class="text-center"><strong>http://localhost:8008/OpenProject?name=full_url_to_project.emp</strong>
 </td></tr>
 </table>
+</div></div></div>
 
 <h3>Open a schematic</h3>
+<div class="row"> <div class="col-lg-1"></div><div class="col-lg-9">
 <p>This command opens a schematic window and then perform a tile command.</p>
 <table class="table table-bordered">
 <tr><td>The following arguments are supported:
@@ -83,9 +85,44 @@
 	<dd>a value of 'H' causes a horizontal tiling to be done, a value of 'V' causes a vertical tiling and a value of 'N' disables the tiling</dd>
 </dl>
 </tr></td>
-   <tr class="success"><td class="text-center"><strong>http://localhost:8008/OpenSchematic.py?name=Resonator;close=1;tile=H</strong>
+   <tr class="success"><td class="text-center"><strong>http://localhost:8008/OpenSchematic?name=Resonator;close=1;tile=H</strong>
 </td></tr>
 </table>
+</div></div></div>
+
+<h3>Open Folder Contents</h3>
+<div class="row"> <div class="col-lg-1"></div><div class="col-lg-9">
+<p>This command closes all open windows, opens all the contents of folder and then perform a tile command.</p>
+<table class="table table-bordered">
+<tr><td>The following arguments are supported:
+<dl class="dl-horizontal">
+	<dt>name</dt>
+	<dd>name of the folder to be opened</dd>
+	<dt>close</dt>
+	<dd>a value of 0 does nothing, a value of 1 causes all existing windows to be closed</dd>
+	<dt>tile</dt>
+	<dd>a value of 'H' causes a horizontal tiling to be done, a value of 'V' causes a vertical tiling and a value of 'N' disables the tiling</dd>
+</dl>
+</tr></td>
+   <tr class="success"><td class="text-center"><strong>http://localhost:8008/OpenFolder?name=Amp;close=1;tile=H</strong>
+</td></tr>
+</table>
+</div></div></div>
+
+<h3>Execute VB Script</h3>
+<div class="row"> <div class="col-lg-1"></div><div class="col-lg-9">
+<p>This command executes a Visual Basic script stored in the project.</p>
+<table class="table table-bordered">
+<tr><td>The following arguments are supported:
+<dl class="dl-horizontal">
+	<dt>name</dt>
+	<dd>name of the script to be executed</dd>
+</dl>
+</tr></td>
+   <tr class="success"><td class="text-center"><strong>http://localhost:8008/ExecuteScript?name=MyScript</strong>
+</td></tr>
+</table>
+</div></div></div>
 
 <h2 class="page-header">Additional References</h2>
 
@@ -95,6 +132,5 @@
 	<li>A tool to encode URL arguments (useful to encode pathnames) is available here: <strong>http://meyerweb.com/eric/tools/dencoder/</strong></li>
 </ul>
 
-</div>
 </body>
 </html>
