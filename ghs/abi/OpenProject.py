@@ -30,6 +30,11 @@ def get_parameter(name):
             return False
 
 def get_project(project_url):
+    try:
+        fp
+    except:
+        fp = sys.stdout
+        
     if (project_url.startswith('http')):
         # web file request, we'll get the project
         print('----- getting: ' + project_url,file=fp)
@@ -87,6 +92,7 @@ def main():
         print("<h2> Error! link has no project name.</h2>")
     print("</body>")
 
-with open('c:\\src\\work_scripts\\ghs\\OP.log','w') as fp: 
-    main()
+if __name__ == "__main__":
+    with open('c:\\src\\work_scripts\\ghs\\OP.log','w') as fp: 
+        main()
 
