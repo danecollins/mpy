@@ -24,6 +24,7 @@ def test_get_project():
 	# this is the link to AM.emp in dropbox
 	os.environ['QUERY_STRING'] ='name=https://dl.dropboxusercontent.com/u/3862332/ghs_testing/AM.emp'
 	url = get_parameter('name')
+	print(url)
 	filename = get_project(url)
 	md = hashlib.sha1()
 	size = 0
@@ -46,3 +47,19 @@ def test_get_project():
 	assert(size,emp_size)
 	assert(digest,emp_digest)
 
+	filename = filename.replace('.emp','.vin')
+	with open(filename,'rb') as fp:
+		bytes = fp.read()
+
+	for byte in bytes:
+		size = size + 1
+		md.update(str(byte).encode('utf-8'))
+	
+	hexval = md.hexdigest()
+
+	return(size,hexval)
+	(size,digest) = get_file_md5(filename)
+
+	emp_size = 1116
+	emp_digest = 'ff3a5e92bbde3f46f4bfaf457b07ae5105361bd3'
+	
