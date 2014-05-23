@@ -76,5 +76,5 @@ def main():
     print("</body>")
 
 if __name__ == "__main__":
-        main()
+    main()
 

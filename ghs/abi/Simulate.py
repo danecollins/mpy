@@ -26,37 +26,15 @@ def get_parameter(name):
 
 def main():
     print("Content-type: text/html\n")
-    print("<head><title>In OpenSchematic.py</title></head>")
+    print("<head><title>In Simulate.py</title></head>")
     print("<body>")
     print("<h1>Command debug log</h1>")
-    schematic_name = get_parameter('name')
-    close_all = get_parameter('close')
-    tile = get_parameter('tile')
+    if os.name == 'nt':
+        import win32com.client
+        awrde=win32com.client.Dispatch("MWOApp.MWOffice")
 
-    if schematic_name:
-        if os.name == 'nt':
-            import win32com.client
-            awrde=win32com.client.Dispatch("MWOApp.MWOffice")
-
-            if (close_all):
-                print("<p>Closing all windows</p>")
-                for window in awrde.Windows:
-                    window.close()
-            print("<p>Opening schematic: %s</p>" % schematic_name)
-            
-            awrde.Project.Schematics(schematic_name).NewWindow()
-
-            mwWTD_Horizontal = 1
-            mwWTD_Vertical = 0
-            if (tile == 'H'):
-                awrde.Windows.Tile(mwWTD_Horizontal)
-            elif (tile == 'V'):
-                awrde.Windows.Tile(mwWTD_Vertical)
-            else:
-                awrde.Windows.Cascade()
-
-    else:
-        print("<h2> Error! link has no schematic name.</h2>")
+        print("<p>Simulate</p>")
+        awrde.Project.Simulate()
 
     print("</body>")
 
