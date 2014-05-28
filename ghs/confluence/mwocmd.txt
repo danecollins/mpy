@@ -1,0 +1,13 @@
+## Macro title: AWR Command Macro
+## Macro has a body: Y
+## Body processing: Selected body processing option
+## Output: Selected output option
+##
+## Developed by: Dane Collins
+## Date created: 05/28/2014
+## Installed by: Dane Collins
+
+## This is an example macro
+## @param Label:title=Button Label|type=string|required=true|desc=What is the button text
+ 
+<button style="font-size:16px;color:#eeeeee;background-color:rgb(36,83,130)" onclick="execmd('$body')">$paramLabel</button>

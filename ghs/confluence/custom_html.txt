@@ -1,0 +1,7 @@
+<script type="text/javascript">
+  var myWindow;
+  function execmd(cmd) {
+    var path = "http://localhost:8008/" + cmd
+    myWindow = window.open(path, "LogWindow", "width=300, height=50");
+  }
+</script>
