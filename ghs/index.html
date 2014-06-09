@@ -48,9 +48,24 @@
 	<dd>is the value for the argument, a file name for example</dt>
 </dl>
 <p>
-	Each of the commands below will be in this format. For each command there is an explanation of the function of the command and a description of any arguments required.
+	Each of the commands below will be in this format. For each command there is an explanation of the function of the command and a description of any arguments required. If a * appears next to an argument name that argument is required.
 </p>
 <p>
+	The command reference lists the command syntax for two distict content creation platforms. The Web syntax can be used in any HTML content creation platform. This syntax strives to be as simple as possible to embed into HTML documents</p>
+<p>
+	The Confluence Wiki syntax is used along with the <strong>awrcommand</strong> macro in confluence. This allows the command syntax to be much simpler to use. Since the macro supports multiple commands on multiple lines there is no need to combine multiple arguments into 1 statement.</p>
+<p> For example, these are equivalent:</p>
+<blockquote>
+<dl class="dl-horizontal table-bordered" border=1px>
+	<dt>Web</dt>
+	<dd>http://localhost:8008/OpenSchematic?name=Resonator;close=1;tile=H</dd>
+	<dt>Confluence</dt>
+	<dd>CloseWindows<br>OpenSchematic Resonator<br>TileHorizontal</dd>
+</dl>
+</blockquote>
+
+<p>
+
 	The commands are not alphabetical but rather in order of most common use
 </p>
 <h2 class="page-header">Command Reference</h2>
@@ -60,14 +75,24 @@
 <div class="row"> <div class="col-lg-1"></div><div class="col-lg-9">
 <p>This command loads a new project. If a project is already loaded it will be closed. The name of the project is the URL to the project. Currently Dropbox is used to store projects due to its convenience. The .vin file is also used.</p>
 <table class="table table-bordered">
-<tr><td>The following arguments are supported:
+<tr><td colspan=2>The following arguments are supported:
 <dl class="dl-horizontal">
-	<dt>name</dt>
+	<dt>name*</dt>
 	<dd>URL to the project to be downloaded and opened</dd>
+	<dt>simulate</dt>
+	<dd>set to 1 will cause the project to be simulated after it is opened</dd>
 </dl>
-</tr></td>
-    <tr class="success"><td class="text-center"><strong>http://localhost:8008/OpenProject?name=full_url_to_project.emp</strong>
-</td></tr>
+</tr>
+</td>
+
+<tr class="success">
+	<td><strong>Web syntax</strong></td>
+	<td>http://localhost:8008/OpenProject?name=full_url_to_project.emp</td>
+</tr>
+<tr class="warning">
+	<td><strong>Confluence syntax</strong></td>
+	<td>OpenProject full_url_to_project.emp</td>
+</tr>
 </table>
 </div></div></div>
 
@@ -75,7 +100,7 @@
 <div class="row"> <div class="col-lg-1"></div><div class="col-lg-9">
 <p>This command opens a schematic window and then perform a tile command.</p>
 <table class="table table-bordered">
-<tr><td>The following arguments are supported:
+<tr><td colspan=2>The following arguments are supported:
 <dl class="dl-horizontal">
 	<dt>name</dt>
 	<dd>name of the schematic to be opened</dd>
@@ -85,16 +110,45 @@
 	<dd>a value of 'H' causes a horizontal tiling to be done, a value of 'V' causes a vertical tiling and a value of 'N' disables the tiling</dd>
 </dl>
 </tr></td>
-   <tr class="success"><td class="text-center"><strong>http://localhost:8008/OpenSchematic?name=Resonator;close=1;tile=H</strong>
-</td></tr>
+
+<tr class="success">
+   	<td><strong>Web syntax</strong></td>
+   	<td>http://localhost:8008/OpenSchematic?name=ResonatorSchematic;close=1;tile=H</td>
+</tr>
+<tr class="warning">
+	<td><strong>Confluence syntax</strong></td>
+	<td>OpenSchematic ResonatorSchematic</td>
+</tr>   
+
 </table>
 </div></div></div>
+
+
+<h3>Simulate</h3>
+<div class="row"> <div class="col-lg-1"></div><div class="col-lg-9">
+<p>This command run a simulation.</p>
+<table class="table table-bordered">
+<tr><td colspan=2>This command has no arguments
+</tr></td>
+
+<tr class="success">
+   	<td><strong>Web syntax</strong></td>
+   	<td>http://localhost:8008/Simulate</td>
+</tr>
+<tr class="warning">
+	<td><strong>Confluence syntax</strong></td>
+	<td>Simulate</td>
+</tr>  
+</table>
+</div></div></div>
+
+
 
 <h3>Open Folder Contents</h3>
 <div class="row"> <div class="col-lg-1"></div><div class="col-lg-9">
 <p>This command closes all open windows, opens all the contents of folder and then perform a tile command.</p>
 <table class="table table-bordered">
-<tr><td>The following arguments are supported:
+<tr><td colspan=2>The following arguments are supported:
 <dl class="dl-horizontal">
 	<dt>name</dt>
 	<dd>name of the folder to be opened</dd>
@@ -104,25 +158,88 @@
 	<dd>a value of 'H' causes a horizontal tiling to be done, a value of 'V' causes a vertical tiling and a value of 'N' disables the tiling</dd>
 </dl>
 </tr></td>
-   <tr class="success"><td class="text-center"><strong>http://localhost:8008/OpenFolder?name=Amp;close=1;tile=H</strong>
-</td></tr>
+<tr class="success">
+   	<td><strong>Web syntax</strong></td>
+   	<td>http://localhost:8008/OpenFolder?name=AmpFolder;close=1;tile=H</td>
+</tr>
+<tr class="warning">
+	<td><strong>Confluence syntax</strong></td>
+	<td>OpenFolder AmpFolder</td>
+</tr>   
 </table>
 </div></div></div>
+
+
+
+<h3>CloseWindows</h3>
+<div class="row"> <div class="col-lg-1"></div><div class="col-lg-9">
+<p>This command closes all open windows.</p>
+<table class="table table-bordered">
+<tr><td colspan=2>This command has no arguments
+</tr></td>
+
+<tr class="success">
+   	<td><strong>Web syntax</strong></td>
+   	<td>http://localhost:8008/CloseWindows</td>
+</tr>
+<tr class="warning">
+	<td><strong>Confluence syntax</strong></td>
+	<td>CloseWindows</td>
+</tr>  
+</table>
+</div></div></div>
+
+
+<h3>Tile</h3>
+<div class="row"> <div class="col-lg-1"></div><div class="col-lg-9">
+<p>This command tiles the open windows.</p>
+<table class="table table-bordered">
+<tr><td colspan=2>The following arguments are supported:
+<dl class="dl-horizontal">
+	<dt>type</dt>
+	<dd>a value of 'H' causes a horizontal tiling to be done and a value of 'V' causes a vertical tiling</dd>
+</dl>
+</tr></td>
+
+<tr class="success">
+   	<td><strong>Web syntax</strong></td>
+   	<td>http://localhost:8008/Tile?type=H</td>
+</tr>
+<tr class="warning">
+	<td><strong>Confluence syntax</strong></td>
+	<td>Tile H</td>
+</tr>  
+</table>
+</div></div></div>
+
+
 
 <h3>Execute VB Script</h3>
 <div class="row"> <div class="col-lg-1"></div><div class="col-lg-9">
 <p>This command executes a Visual Basic script stored in the project.</p>
 <table class="table table-bordered">
-<tr><td>The following arguments are supported:
+<tr><td colspan=2>The following arguments are supported:
 <dl class="dl-horizontal">
 	<dt>name</dt>
 	<dd>name of the script to be executed</dd>
 </dl>
 </tr></td>
-   <tr class="success"><td class="text-center"><strong>http://localhost:8008/ExecuteScript?name=MyScript</strong>
-</td></tr>
+
+<tr class="success">
+   	<td><strong>Web syntax</strong></td>
+   	<td>http://localhost:8008/ExecuteScript?name=MyScript</td>
+</tr>
+<tr class="warning">
+	<td><strong>Confluence syntax</strong></td>
+	<td>RunScript MyScript</td>
+</tr>  
 </table>
 </div></div></div>
+
+
+
+
+
 
 <h2 class="page-header">Additional References</h2>
 

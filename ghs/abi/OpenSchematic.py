@@ -15,7 +15,7 @@ def main():
     if schematic_name:
     
         if (close_all):
-            awrde.CloseAllWindows()
+            awrde.CloseWindows()
         awrde.OpenSchematic(schematic_name)
 
         if (tile == 'H'):

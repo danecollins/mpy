@@ -24,3 +24,67 @@ def test_OpenSchematic():
 
     print(value)
     assert(value == expected)
+
+def test_OpenProject():
+    
+    expected = 'EMULATING OpenProject(AM.emp)'
+    with patch('sys.stdout',new=StringIO()) as fake_out:
+        awrde.OpenProject('AM.emp')
+        value = fake_out.getvalue().strip()
+
+    print(value)
+    assert(value == expected)
+
+def test_CloseWindows():
+    
+    expected = 'EMULATING Closing All Windows'
+    with patch('sys.stdout',new=StringIO()) as fake_out:
+        awrde.CloseWindows()
+        value = fake_out.getvalue().strip()
+
+    print(value)
+    assert(value == expected)
+
+
+def test_TimeHor():
+    
+    expected = 'EMULATING Tiling windows horizontally'
+    with patch('sys.stdout',new=StringIO()) as fake_out:
+        awrde.TileWindowsHorizontal()
+        value = fake_out.getvalue().strip()
+
+    print(value)
+    assert(value == expected)
+
+def test_TileVer():
+    
+    expected = 'EMULATING Tiling windows vertically'
+    with patch('sys.stdout',new=StringIO()) as fake_out:
+        awrde.TileWindowsVertical()
+        value = fake_out.getvalue().strip()
+
+    print(value)
+    assert(value == expected)
+
+def test_Cascade():
+    
+    expected = 'EMULATING Cascading windows'
+    with patch('sys.stdout',new=StringIO()) as fake_out:
+        awrde.CascadeWindows()
+        value = fake_out.getvalue().strip()
+
+    print(value)
+    assert(value == expected)
+
+
+def test_RunScript():
+    
+    expected = 'EMULATING Running script: fubar'
+    with patch('sys.stdout',new=StringIO()) as fake_out:
+        awrde.RunScript('fubar')
+        value = fake_out.getvalue().strip()
+
+    print(value)
+    assert(value == expected)
+
+

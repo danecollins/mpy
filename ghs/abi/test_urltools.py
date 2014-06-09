@@ -117,7 +117,7 @@ def test_get_project():
     hexval = md.hexdigest()
 
     vin_size = 1116
-    vin_digest = 'ff3a5e92bbde3f46f4bfaf457b07ae5105361bd3'
+    vin_digest = 'b1b04854e1260253a652afde38c0fdc41aed185e'
 
     assert(size == vin_size)
     assert(hexval == vin_digest)
