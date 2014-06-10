@@ -13,13 +13,14 @@ from abi.urltools import html_message, html_error, html_test
 if os.name == 'nt':
     import win32com.client
 
-awrde_com_obj_TEST_MODE = True
+TEST_MODE = False ## set the defailt
 
 def test_mode():
-    return awrde_com_obj_TEST_MODE
+    return TEST_MODE
 
 def set_test_mode(m):
-    awrde_com_obj_TEST_MODE = m
+    global TEST_MODE
+    TEST_MODE = m
 
 
 def Simulate():

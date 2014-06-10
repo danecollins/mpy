@@ -4,6 +4,7 @@ import os
 from   unittest.mock import patch
 from   io import StringIO
 
+awrde.set_test_mode(True)
 
 def test_Simulate():
     
