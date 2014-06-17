@@ -9,5 +9,6 @@
 
 ## This is an example macro
 ## @param Label:title=Button Label|type=string|required=true|desc=What is the button text
- 
-<button style="font-size:16px;color:#eeeeee;background-color:rgb(36,83,130)" onclick="execmd('$body')">$paramLabel</button>
+
+#set( $newbody =  $body.replaceAll("\n", "|")  )
+<button style="font-size:16px;color:#eeeeee;background-color:rgb(36,83,130)" onclick='execmd("$newbody");'>$paramLabel</button>
