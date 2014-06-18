@@ -62,7 +62,8 @@ def convert_command_to_URL(path):
     #     1) command is converted to abi/COMMAND.py
 
     # Define the commands we'll fix up
-    command_list = ['OpenProject','OpenSchematic','OpenGraph','Simulate','RunScript']
+    command_list = ['OpenProject','OpenSchematic','OpenGraph','Simulate','RunScript',
+                    'TileVertical','TileHorizontal','CloseWindows']
     # split up the url
     command_url = url(path)
 
