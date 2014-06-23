@@ -92,6 +92,6 @@ def RunScript(name):
         html_test('Running script: %s' % name)
     else:
         awrde_com_obj=win32com.client.Dispatch("MWOApp.MWOffice")
-        awrde.Project.ProjectScripts.Item(script_name).Routines.Item("Main").Run()
+        awrde_com_obj.Project.ProjectScripts.Item(name).Routines.Item("Main").Run()
         
   
