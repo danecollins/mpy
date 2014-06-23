@@ -67,28 +67,28 @@ def CloseWindows():
             window.close()
 
 def TileWindowsHorizontal():
-    if (test_mode):
+    if test_mode():
         html_test('Tiling windows horizontally')
     else:
         awrde_com_obj=win32com.client.Dispatch("MWOApp.MWOffice")
         awrde_com_obj.Windows.Tile(1)
 
 def TileWindowsVertical():
-    if (test_mode):
+    if test_mode():
         html_test('Tiling windows vertically')
     else:
         awrde_com_obj=win32com.client.Dispatch("MWOApp.MWOffice")
         awrde_com_obj.Windows.Tile(0)       
 
 def CascadeWindows():
-    if (test_mode):
+    if test_mode():
         html_test('Cascading windows')
     else:
         awrde_com_obj=win32com.client.Dispatch("MWOApp.MWOffice")
         awrde_com_obj.Windows.Cascade()
 
 def RunScript(name):
-    if (test_mode):
+    if test_mode():
         html_test('Running script: %s' % name)
     else:
         awrde_com_obj=win32com.client.Dispatch("MWOApp.MWOffice")
