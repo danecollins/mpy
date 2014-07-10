@@ -78,7 +78,7 @@ def test_Cascade():
     assert(value == expected)
 
 
-def test_RunScript():
+def test_RunScript_noargs():
     
     expected = 'EMULATING Running script: fubar'
     with patch('sys.stdout',new=StringIO()) as fake_out:
@@ -88,4 +88,12 @@ def test_RunScript():
     print(value)
     assert(value == expected)
 
+def test_RunScript_withargs():
 
+    expected = 'EMULATING Setting argument to: myarg\nEMULATING Running script: fubar'
+    with patch('sys.stdout',new=StringIO()) as fake_out:
+        awrde.RunScript('fubar', 'myarg')
+        value = fake_out.getvalue().strip()
+
+    print(value)
+    assert(value == expected)

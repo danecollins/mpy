@@ -22,6 +22,16 @@ def set_test_mode(m):
     global TEST_MODE
     TEST_MODE = m
 
+def setArgument(val):
+    if test_mode():
+        html_test('Setting argument to: ' + val)
+    else:
+        awrde_com_obj=win32com.client.Dispatch("MWOApp.MWOffice")
+        if awrde_com_obj:
+            argument_header = "SCRIPT_ARGUMENT:"
+            awrde_com_obj.Status.Items.Add(2,argument_header + val)
+        else:
+            html_error('Could not connect to AWR Design Environment')
 
 def Simulate():
     if test_mode():
@@ -87,7 +97,11 @@ def CascadeWindows():
         awrde_com_obj=win32com.client.Dispatch("MWOApp.MWOffice")
         awrde_com_obj.Windows.Cascade()
 
-def RunScript(name):
+def RunScript(*args):
+    name = args[0]
+    if (len(args) > 1):
+        setArgument(args[1])
+
     if test_mode():
         html_test('Running script: %s' % name)
     else:
