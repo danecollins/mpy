@@ -12,6 +12,8 @@ from abi.urltools import html_message, html_error, html_test
 
 if os.name == 'nt':
     import win32com.client
+    awrc = win32com.client.constants
+
 
 TEST_MODE = False ## set the defailt
 
@@ -22,17 +24,22 @@ def set_test_mode(m):
     global TEST_MODE
     TEST_MODE = m
 
+##
+## Internal Utility functions
+##
 def setArgument(val):
     if test_mode():
         html_test('Setting argument to: ' + val)
     else:
         awrde_com_obj=win32com.client.Dispatch("MWOApp.MWOffice")
         if awrde_com_obj:
-            argument_header = "SCRIPT_ARGUMENT:"
-            awrde_com_obj.Status.Items.Add(2,argument_header + val)
+            awrde_com_obj.SetUserSetting("ABI","arg1",val)
         else:
             html_error('Could not connect to AWR Design Environment')
 
+##
+## Public functions
+##
 def Simulate():
     if test_mode():
         html_test('Project.Simulate()')
@@ -97,6 +104,31 @@ def CascadeWindows():
         awrde_com_obj=win32com.client.Dispatch("MWOApp.MWOffice")
         awrde_com_obj.Windows.Cascade()
 
+def OpenUserFolder(name):
+    if test_mode():
+        html_test('OpenUserFolder(%s)' % name)
+    else:
+        awrde_com_obj=win32com.client.Dispatch("MWOApp.MWOffice")
+        if (awrde_com_obj):
+            html_message("Opening user folder: %s" % name)
+            # close all windows first
+            for win in awrde_com_obj.Windows:
+                win.Close()
+
+            for item in awrde_com_obj.Project.UserFolders.Folders(name).ProjectItems:
+                item = win32com.client.CastTo(item,'IProjectItem')
+                
+                if (item.Type == awrc.mwPIT_Schematic):
+                    awrde_com_obj.Project.Schematics(item.Name).NewWindow()
+
+                if (item.Type == awrc.mwPIT_Graph):
+                    awrde_com_obj.Project.Graphs(item.Name).NewWindow()
+
+                    awrde_com_obj.Windows.Tile(0)
+        else:
+            html_error('Could not connect to AWR Design Environment')
+
+    
 def RunScript(*args):
     name = args[0]
     if (len(args) > 1):

@@ -47,7 +47,7 @@ def test_CloseWindows():
     assert(value == expected)
 
 
-def test_TimeHor():
+def test_TileHor():
     
     expected = 'EMULATING Tiling windows horizontally'
     with patch('sys.stdout',new=StringIO()) as fake_out:
