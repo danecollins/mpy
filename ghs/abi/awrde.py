@@ -29,7 +29,7 @@ def set_test_mode(m):
 ##
 def setArgument(val):
     if test_mode():
-        html_test('Setting argument to: ' + val)
+        html_test('Setting argument to ' + val)
     else:
         awrde_com_obj=win32com.client.Dispatch("MWOApp.MWOffice")
         if awrde_com_obj:
@@ -53,7 +53,7 @@ def Simulate():
 
 def OpenSchematic(name):
     if test_mode():
-        html_test('Project.OpenSchematic(%s)' % name)
+        html_test('Opening schematic %s' % name)
     else:
         awrde_com_obj=win32com.client.Dispatch("MWOApp.MWOffice")
         if (awrde_com_obj):
@@ -106,7 +106,7 @@ def CascadeWindows():
 
 def OpenUserFolder(name):
     if test_mode():
-        html_test('OpenUserFolder(%s)' % name)
+        html_test('Opening all items in user folder named %s' % name)
     else:
         awrde_com_obj=win32com.client.Dispatch("MWOApp.MWOffice")
         if (awrde_com_obj):
@@ -128,14 +128,37 @@ def OpenUserFolder(name):
         else:
             html_error('Could not connect to AWR Design Environment')
 
-    
+def ZoomOnElement(sch, id):
+    if test_mode():
+        html_test('Zoming in on element %s in schematic %s' % (id, sch))
+    else:
+        awrde_com_obj=win32com.client.Dispatch("MWOApp.MWOffice")
+        if (awrde_com_obj):
+            sch_obj = awrde_com_obj.Project.Schematics(sch)
+            element_obj = sch_obj.Elements(id)
+            if (sch_obj.Views.Count == 0):
+                sch_obj.NewWindow()
+
+            left = element_obj.Left
+            top  = element_obj.Top
+            width = element_obj.Width
+            height = element_obj.Height
+            newleft  = left - width*.2
+            newtop   = top - height*.2
+            right = left + width*1.2
+            bottom = top + height*1.2
+            sch_obj.Views(1).ViewArea(newleft, newtop, right, bottom)
+        else:
+                html_error('Could not connect to AWR Design Environment')
+
+
 def RunScript(*args):
     name = args[0]
     if (len(args) > 1):
         setArgument(args[1])
 
     if test_mode():
-        html_test('Running script: %s' % name)
+        html_test('Running script %s' % name)
     else:
         awrde_com_obj=win32com.client.Dispatch("MWOApp.MWOffice")
         awrde_com_obj.Project.ProjectScripts.Item(name).Routines.Item("Main").Run()

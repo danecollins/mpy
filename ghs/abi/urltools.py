@@ -137,7 +137,7 @@ def get_project(project_url):
 
 def html_header():
     print("Content-type: text/html\n")
-    print("<head><title>In Simulate.py</title></head>")
+    print("<head><title>In ABI Command</title></head>")
     print("<body>")
     print("<h1>Command debug log</h1>")
 

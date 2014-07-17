@@ -2,8 +2,8 @@
 import cgi
 import os
 import sys
-import urltools
-import awrde
+from abi import urltools
+from abi import awrde
 
 
 def main():

@@ -3,10 +3,13 @@ import cgi
 import os
 import sys
 from abi import awrde
+from abi import urltools
 
 
 def main():
-    awrde.Simulate()
+	urltools.html_header()
+	awrde.Simulate()
+	urltools.html_footer()
 
 if __name__ == "__main__":
     main()

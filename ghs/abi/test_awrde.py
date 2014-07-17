@@ -6,6 +6,7 @@ from   io import StringIO
 
 awrde.set_test_mode(True)
 
+
 def test_Simulate():
     
     expected = 'EMULATING Project.Simulate()'
@@ -18,9 +19,9 @@ def test_Simulate():
 
 def test_OpenSchematic():
     
-    expected = 'EMULATING Project.Simulate()'
+    expected = 'EMULATING Openinig schematic MySchematic'
     with patch('sys.stdout',new=StringIO()) as fake_out:
-        awrde.Simulate()
+        awrde.OpenSchematic('MySchematic')
         value = fake_out.getvalue().strip()
 
     print(value)
@@ -77,6 +78,25 @@ def test_Cascade():
     print(value)
     assert(value == expected)
 
+def test_OpenUserFolder():
+    
+    expected = 'EMULATING Opening all items in user folder named MyFolder'
+    with patch('sys.stdout',new=StringIO()) as fake_out:
+        awrde.OpenUserFolder('MyFolder')
+        value = fake_out.getvalue().strip()
+
+    print(value)
+    assert(value == expected)
+
+def test_ZoomOnElement():
+    
+    expected = 'EMULATING Zoming in on element MLIN.TL1 in schematic MySchematic'
+    with patch('sys.stdout',new=StringIO()) as fake_out:
+        awrde.ZoomOnElement('MySchematic', 'MLIN.TL1')
+        value = fake_out.getvalue().strip()
+
+    print(value)
+    assert(value == expected)
 
 def test_RunScript_noargs():
     
