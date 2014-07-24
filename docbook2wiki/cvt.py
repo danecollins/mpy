@@ -27,6 +27,7 @@
  
 # set titleNote to the desired value in doble quotes (in English, "Note")
 titleNote="Note"
+figCounter = 1
  
 # Advances until next '<' char; 0 - No output, 1- Output; returns tag name
 def nextag(out):
@@ -75,7 +76,7 @@ def contentUntil(until):
  
  
 def xml2wiki(fname):
-	global buffer,lastChar,fout
+	global buffer,lastChar,fout,figCounter
 	listType="?"
 	lastChar="*"
 	fin=open(fname,"r")
@@ -105,9 +106,13 @@ def xml2wiki(fname):
 			fout.write("\n")
 			lastChar="\n"
 			outp=1
-		elif aux=="emphasis" or aux=="/emphasis":
-			fout.write("''")
-			lastChar="'"
+		elif aux=='emphasis':
+			tmp = contentUntil('</emphasis>')
+			# both <emphasis> and <emphasis role="bold"> are used for the same purpose
+			# this is hard to handle so just delete the role param if it exists - dmc
+			tmp = tmp.replace('role="bold">','')
+			fout.write("*"+tmp+"*")
+			lastChar="*"
 		elif aux=="guimenu" or aux=="/guimenu":
 			fout.write("*")
 			lastChar="*"
@@ -146,6 +151,14 @@ def xml2wiki(fname):
 			fout.write("\n\n!"+contentUntil('"')+"|align=center!\n\n")
 			lastChar="\n"
 			contentUntil("</informalfigure>")
+		elif aux=="figure":
+			contentUntil('<title>')
+			captionText = contentUntil('</title>')
+			contentUntil('images/')
+			fout.write("\n\n| !"+contentUntil('"')+'|align=center,border=1! |\n|  Figure '+str(figCounter)+': '+captionText+' |\n\n')
+			figCounter = figCounter+1
+			lastChar="\n"
+			contentUntil("</figure>")
 		elif aux=="inlinegraphic":
 			contentUntil('="')
 			fout.write("[[Image:"+contentUntil('"')+"]]")
@@ -182,15 +195,16 @@ def xml2wiki(fname):
 	fin.close()
 	## need to fix things I can't figure out how to fix in the code directly -- dmc
 	fin = open(fout_name)
-	str = fin.read()
-	str = str.replace('&ohm','&Omega')
+	contents = fin.read()
+	contents = contents.replace('&ohm','&Omega')
 	fin.close()
 	fout = open(fout_name,'w')
-	fout.write(str)
+	fout.write(contents)
 	fout.close
 
 
 def fileSel(filename):
 	xml2wiki(filename)
-        
-xml2wiki("c:\\tmp\\d2w\\EMDC.xml")
+
+import sys        
+xml2wiki(sys.argv[1])
