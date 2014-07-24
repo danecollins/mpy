@@ -24,7 +24,6 @@
 # inlinegraphic, command, tip, note, para, keycap
 #
  
-import Blender.Window
  
 # set titleNote to the desired value in doble quotes (in English, "Note")
 titleNote="Note"
@@ -74,14 +73,13 @@ def contentUntil(until):
 	buffer=buffer[len(until):]
 	return straux
  
-def fileSel(filename):
-	xml2wiki(filename)
  
 def xml2wiki(fname):
 	global buffer,lastChar,fout
 	listType="?"
 	lastChar="*"
 	fin=open(fname,"r")
+	fout_name = fname[:-4]+".txt"
 	fout=open(fname[:-4]+".txt","w")
 	buffer=fin.read()
 	outp=0
@@ -89,11 +87,15 @@ def xml2wiki(fname):
 		aux=nextag(outp)
 		if aux=="chapter":
 			contentUntil("<title>")
-			fout.write("\n='''"+contentUntil("</title>")+"'''=\n")
+			fout.write("\nh2. "+contentUntil("</title>")+"\n")
 			lastChar="\n"
-		elif aux=="section":
+		elif aux=="info":
 			contentUntil("<title>")
-			fout.write("\n="+contentUntil("</title>")+"=\n")
+			fout.write("\nh1. "+contentUntil("</title>")+"\n")
+			lastChar="\n"
+		elif aux=="sect1":
+			contentUntil("<title>")
+			fout.write("\nh3. "+contentUntil("</title>")+"\n")
 			lastChar="\n"
 		elif aux=="bridgehead":
 			contentUntil(">")
@@ -106,6 +108,12 @@ def xml2wiki(fname):
 		elif aux=="emphasis" or aux=="/emphasis":
 			fout.write("''")
 			lastChar="'"
+		elif aux=="guimenu" or aux=="/guimenu":
+			fout.write("*")
+			lastChar="*"
+		elif aux=="<guilabel>":
+			fout.write("*_"+contentUntil("</guilabel")+"_*")
+			lastChar="*"
 		elif aux=="/para":
 			fout.write("\n")
 			lastChar="\n"
@@ -133,13 +141,11 @@ def xml2wiki(fname):
 			contentUntil('="')
 			fout.write("''%%%%%XREF:"+contentUntil('"/>')+"''")
 			lastChar="'"
-		elif aux=="figure":
-			contentUntil("<title>")
-			aux=contentUntil("</title>")
-			contentUntil('fileref="')
-			fout.write("\n[[Image:"+contentUntil('"')+"|frame|none|"+aux+"]]\n")
+		elif aux=="informalfigure":
+			contentUntil('images/')
+			fout.write("\n\n!"+contentUntil('"')+"|align=center!\n\n")
 			lastChar="\n"
-			contentUntil("</figure>")
+			contentUntil("</informalfigure>")
 		elif aux=="inlinegraphic":
 			contentUntil('="')
 			fout.write("[[Image:"+contentUntil('"')+"]]")
@@ -174,5 +180,17 @@ def xml2wiki(fname):
 			lastChar="%"
 	fout.close()
 	fin.close()
- 
-Blender.Window.FileSelector(fileSel,"Select XML")
+	## need to fix things I can't figure out how to fix in the code directly -- dmc
+	fin = open(fout_name)
+	str = fin.read()
+	str = str.replace('&ohm','&Omega')
+	fin.close()
+	fout = open(fout_name,'w')
+	fout.write(str)
+	fout.close
+
+
+def fileSel(filename):
+	xml2wiki(filename)
+        
+xml2wiki("c:\\tmp\\d2w\\EMDC.xml")
