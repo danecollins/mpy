@@ -49,6 +49,18 @@ class url(object):
         newurl = SplitResult(self.parsed[0],self.parsed[1],newfullpath,self.parsed[3],self.parsed[4])
         return urlunsplit(newurl)
 
+def get_command_list():
+    return([
+        'OpenProject',
+        'OpenSchematic',
+        'OpenGraph',
+        'Simulate',
+        'RunScript',
+        'TileVertical',
+        'TileHorizontal',
+        'CloseWindows'
+                    ])
+
 def convert_command_to_URL(path):
     """ Checks whether url is a command and fixes it """
     # Commands are somewhat in the form of URL's in that they need to be valid enough
@@ -62,8 +74,7 @@ def convert_command_to_URL(path):
     #     1) command is converted to abi/COMMAND.py
 
     # Define the commands we'll fix up
-    command_list = ['OpenProject','OpenSchematic','OpenGraph','Simulate','RunScript',
-                    'TileVertical','TileHorizontal','CloseWindows']
+    command_list = get_command_list()
     # split up the url
     command_url = url(path)
 
