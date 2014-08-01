@@ -53,7 +53,6 @@ def get_command_list():
     return([
         'OpenProject',
         'OpenSchematic',
-        'OpenGraph',
         'Simulate',
         'RunScript',
         'TileVertical',

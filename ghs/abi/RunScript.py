@@ -7,6 +7,13 @@ from urllib.error import URLError
 from abi import awrde
 from abi import urltools
 
+#DOC name: RunScript
+#DOC title: Execute a Visual Basic script
+#DOC desc: Runs a VB script that is stored in the project
+#DOC args: name* - name of the script to be executed
+#DOC args: arg - an optional parameter to pass to the script
+#DOC web: http://localhost:8008/RunScript?name=MyScript
+#DOC wiki: RunScript MyScript 
 
 def main():
     urltools.html_header()
