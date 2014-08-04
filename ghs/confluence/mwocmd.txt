@@ -1,9 +1,13 @@
+## Macro name: awrcommand
 ## Macro title: AWR Command Macro
+## Category: External content
 ## Macro has a body: Y
 ## Body processing: Selected body processing option
 ## Output: Selected output option
 ##
 ## Developed by: Dane Collins
+## Icon URL: https://wiki.awrcorp.com/s/ja_JP-1988229788/4733/f235dd088df5682b0560ab6fc66ed22c9124c0be.26/5.4.4/_/download/resources/com.atlassian.confluence.plugins.gadgets:static-resources/images/quick-nav-gadget.png
+## Documentation URL: http://localhost:8008
 ## Date created: 05/28/2014
 ## Installed by: Dane Collins
 
