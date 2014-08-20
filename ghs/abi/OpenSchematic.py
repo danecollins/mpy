@@ -5,6 +5,14 @@ import sys
 from abi import urltools
 from abi import awrde
 
+#DOC name: OpenSchematic
+#DOC title: Open a schematic
+#DOC desc: This command loads a new project. If a project is already loaded it will be closed. The name of the project is the URL to the project. Currently Dropbox is used to store projects due to its convenience. The .vin file is also used
+#DOC args: name* - name of the schematic to be opened
+#DOC args: close - a value of 0 does nothing, a value of 1 causes all existing windows to be closed
+#DOC args: tile - a value of 'H' causes a horizontal tiling to be done, a value of 'V' causes a vertical tiling and a value of 'N' disables the tiling
+#DOC web: http://localhost:8008/OpenSchematic?name=ResonatorSchematic;close=1;tile=H
+#DOC wiki: OpenSchematic ResonatorSchematic
 
 def main():
     urltools.html_header()

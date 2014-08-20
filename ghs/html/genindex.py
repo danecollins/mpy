@@ -15,15 +15,11 @@ def parse_command_file(fp):
 			line = line[5:] # remove #DOC
 			line = line.rstrip("\r\n")
 			(field,value) = line.split(": ")
-			print('value=' + value)
 			if (field == 'args'):
 				(argname,argval) = value.split(" - ")
-				print("  " + argname)
 				data['args'].append( (argname, argval) )
-				print(str(data['args']))
 			else:
 				data[field] = value
-	print(str(data))
 	return(data)
 
 
@@ -38,8 +34,6 @@ def output_command_string(data):
 """
 	str2 = ""
 	for argument in data['args']:
-		print(str(argument))
-		print(type(argument))
 		str2 = str2 + """
 	<dt>%s</dt>
 	<dd>%s</dd>
@@ -65,13 +59,19 @@ def output_command_string(data):
 	return( str1.format(**data) + str2 + str3.format(**data))
 
 
+with open('index.html','w') as fout:
+	with open('index.stub.html') as fp:
+		fout.write(fp.read())
 
-for cmd in ["OpenProject"]: #urltools.get_command_list():
-	filename = '../abi/' + cmd + '.py'
-	print("Working on file: " + filename)
-	with open(filename) as fp:
-		data = parse_command_file(fp)
+	for cmd in urltools.get_command_list():
+		filename = '../abi/' + cmd + '.py'
+		print("Working on file: " + filename)
+		with open(filename) as fp:
+			data = parse_command_file(fp)
 
-	
-	print(output_command_string(data))
+		
+		fout.write(output_command_string(data))
+
+	fout.write('\n</html>\n')
+
 
