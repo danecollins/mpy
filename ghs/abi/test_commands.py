@@ -28,8 +28,8 @@ EMULATING Closing All Windows
     print(value)
     assert(value == expected)
 
-import abi.OpenProject #############################################
-def test_OpenProject_without_name():
+import abi.LoadProject #############################################
+def test_LoadProject_without_name():
 
     expected = \
 """Content-type: text/html
@@ -44,14 +44,14 @@ def test_OpenProject_without_name():
     os.environ['QUERY_STRING'] =''
 
     with patch('sys.stdout',new=StringIO()) as fake_out:
-        abi.OpenProject.main()
+        abi.LoadProject.main()
         value = fake_out.getvalue().strip()
 
     print(value)
     assert(value == expected)
 
 
-def test_OpenProject_with_name_without_simulation():
+def test_LoadProject_with_name_without_simulation():
 
     expected = \
 """Content-type: text/html
@@ -60,20 +60,20 @@ def test_OpenProject_with_name_without_simulation():
 <body>
 <h1>Command debug log</h1>
 <p>Opening project: AM.emp</p>
-EMULATING OpenProject(AM.emp)
+EMULATING LoadProject(AM.emp)
 </body>
 """.strip()
 
     os.environ['QUERY_STRING'] ='name=AM.emp'
 
     with patch('sys.stdout',new=StringIO()) as fake_out:
-        abi.OpenProject.main()
+        abi.LoadProject.main()
         value = fake_out.getvalue().strip()
 
     print(value)
     assert(value == expected)
 
-def test_OpenProject_with_name_with_simulation():
+def test_LoadProject_with_name_with_simulation():
 
     expected = \
 """Content-type: text/html
@@ -82,7 +82,7 @@ def test_OpenProject_with_name_with_simulation():
 <body>
 <h1>Command debug log</h1>
 <p>Opening project: AM.emp</p>
-EMULATING OpenProject(AM.emp)
+EMULATING LoadProject(AM.emp)
 EMULATING Project.Simulate()
 </body>
 """.strip()
@@ -90,7 +90,7 @@ EMULATING Project.Simulate()
     os.environ['QUERY_STRING'] ='name=AM.emp&simulate=1'
 
     with patch('sys.stdout',new=StringIO()) as fake_out:
-        abi.OpenProject.main()
+        abi.LoadProject.main()
         value = fake_out.getvalue().strip()
 
     print(value)
@@ -114,6 +114,29 @@ EMULATING Cascading windows
 
     with patch('sys.stdout',new=StringIO()) as fake_out:
         abi.OpenSchematic.main()
+        value = fake_out.getvalue().strip()
+
+    print(value)
+    assert(value == expected)
+
+import abi.OpenSystemDiagram ############################################
+def test_OpenSystemDiagram():
+
+    expected = \
+"""Content-type: text/html
+
+<head><title>In ABI Command</title></head>
+<body>
+<h1>Command debug log</h1>
+EMULATING Opening system diagram Tranceiver
+EMULATING Cascading windows
+</body>
+""".strip()
+
+    os.environ['QUERY_STRING'] ='name=Tranceiver'
+
+    with patch('sys.stdout',new=StringIO()) as fake_out:
+        abi.OpenSystemDiagram.main()
         value = fake_out.getvalue().strip()
 
     print(value)

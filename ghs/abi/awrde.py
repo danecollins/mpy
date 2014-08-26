@@ -57,14 +57,25 @@ def OpenSchematic(name):
     else:
         awrde_com_obj=win32com.client.Dispatch("MWOApp.MWOffice")
         if (awrde_com_obj):
-            html_message("Opening schematic: %s" % name)
+            html_message("Opening schematic %s" % name)
             awrde_com_obj.Project.Schematics(name).NewWindow()
         else:
             html_error('Could not connect to AWR Design Environment')
 
-def OpenProject(name):
+def OpenSystemDiagram(name):
     if test_mode():
-        html_test('OpenProject(%s)' % name)
+        html_test('Opening system diagram %s' % name)
+    else:
+        awrde_com_obj=win32com.client.Dispatch("MWOApp.MWOffice")
+        if (awrde_com_obj):
+            html_message("Opening system diagram: %s" % name)
+            awrde_com_obj.Project.SystemDiagrams(name).NewWindow()
+        else:
+            html_error('Could not connect to AWR Design Environment')
+
+def LoadProject(name):
+    if test_mode():
+        html_test('LoadProject(%s)' % name)
     else:
         awrde_com_obj=win32com.client.Dispatch("MWOApp.MWOffice")
         if (awrde_com_obj):

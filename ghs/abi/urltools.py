@@ -51,13 +51,16 @@ class url(object):
 
 def get_command_list():
     return([
-        'OpenProject',
+        'LoadProject',
         'OpenSchematic',
+        'OpenSystemDiagram',
         'Simulate',
         'RunScript',
+        'OpenUserFolder',
         'TileVertical',
         'TileHorizontal',
-        'CloseWindows'
+        'CloseWindows',
+        'LoadProject'
                     ])
 
 def convert_command_to_URL(path):
@@ -108,13 +111,14 @@ def get_parameter(name):
         return False
 
 
-def get_project(project_url):
-        
-    if (project_url.startswith('http')):
+def get_file(file_url, filetype):
+    "downloads a file to a temp directory and returns the name. can be emp, sch or sys"
+    file_extension = '.' + filetype
+    if (file_url.startswith('http')):
         # web file request, we'll get the project
         filename=False
         try:
-            (filename,headers) = urllib.request.urlretrieve(project_url)
+            (filename,headers) = urllib.request.urlretrieve(file_url)
         except URLError as e:
             print(e.reason)
             
@@ -123,23 +127,22 @@ def get_project(project_url):
             
         # filename is the name of a temporary file.     
         # on windows, the .emp extension may not be preserved
-        if not filename.endswith('.emp'):
-            os.rename(filename,filename+'.emp')
-            filename = filename + '.emp'
+        if not filename.endswith(file_extension):
+            os.rename(filename,filename+file_extension)
+            filename = filename + file_extension
             
         # the .vin must have the same name
-        vinfilename = filename.replace('.emp','.vin')
-        vinurl = project_url.replace('.emp','.vin')
-        try:
-            (vname,vheaders) = urllib.request.urlretrieve(vinurl,vinfilename)
-        except URLError as e:
-            print(e.reason)
-           
+        ## just not sure we want to do this anymore
+        #vinfilename = filename.replace('.emp','.vin')
+        #vinurl = project_url.replace('.emp','.vin')
+        #try:
+        #    (vname,vheaders) = urllib.request.urlretrieve(vinurl,vinfilename)
+        #except URLError as e:
+        #    print(e.reason)
+        return(filename)
     else:
         # local file request
-        filename = project_url
-
-    return(filename)
+        return(file_url)
 
 ### These functions manage consistent formatting for the html log window
 ### this output is checked for in tests so any edits here will require

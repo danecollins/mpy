@@ -19,7 +19,7 @@ def test_Simulate():
 
 def test_OpenSchematic():
     
-    expected = 'EMULATING Openinig schematic MySchematic'
+    expected = 'EMULATING Opening schematic MySchematic'
     with patch('sys.stdout',new=StringIO()) as fake_out:
         awrde.OpenSchematic('MySchematic')
         value = fake_out.getvalue().strip()
@@ -27,11 +27,21 @@ def test_OpenSchematic():
     print(value)
     assert(value == expected)
 
-def test_OpenProject():
+def test_OpenSystemDiagram():
     
-    expected = 'EMULATING OpenProject(AM.emp)'
+    expected = 'EMULATING Opening system diagram MyDiagram'
     with patch('sys.stdout',new=StringIO()) as fake_out:
-        awrde.OpenProject('AM.emp')
+        awrde.OpenSystemDiagram('MyDiagram')
+        value = fake_out.getvalue().strip()
+
+    print(value)
+    assert(value == expected)
+
+def test_LoadProject():
+    
+    expected = 'EMULATING LoadProject(AM.emp)'
+    with patch('sys.stdout',new=StringIO()) as fake_out:
+        awrde.LoadProject('AM.emp')
         value = fake_out.getvalue().strip()
 
     print(value)
@@ -100,7 +110,7 @@ def test_ZoomOnElement():
 
 def test_RunScript_noargs():
     
-    expected = 'EMULATING Running script: fubar'
+    expected = 'EMULATING Running script fubar'
     with patch('sys.stdout',new=StringIO()) as fake_out:
         awrde.RunScript('fubar')
         value = fake_out.getvalue().strip()
@@ -110,7 +120,7 @@ def test_RunScript_noargs():
 
 def test_RunScript_withargs():
 
-    expected = 'EMULATING Setting argument to: myarg\nEMULATING Running script: fubar'
+    expected = 'EMULATING Setting argument to myarg\nEMULATING Running script fubar'
     with patch('sys.stdout',new=StringIO()) as fake_out:
         awrde.RunScript('fubar', 'myarg')
         value = fake_out.getvalue().strip()

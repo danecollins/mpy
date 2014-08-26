@@ -4,7 +4,7 @@ import os
 import sys
 import hashlib
 from   io import StringIO
-from   abi.urltools import url, convert_command_to_URL, get_parameter, get_project
+from   abi.urltools import url, convert_command_to_URL, get_parameter, get_file
 from   abi.urltools import html_header,html_footer,html_message,html_error
 from   abi.awrde import set_test_mode
 from   urllib.parse import parse_qs, urlsplit,SplitResult,urlunsplit
@@ -22,13 +22,13 @@ def test_init_simpleURL():
     assert(myurl.get_query_param('name') == '')
 
 def test_init_complexURL():
-    url2 = 'http://localhost:8008/OpenProject?name=https://dl.dropboxusercontent.com/u/3862332/ghs_hybrid/3dB_Coupler_start.emp'
+    url2 = 'http://localhost:8008/LoadProject?name=https://dl.dropboxusercontent.com/u/3862332/ghs_hybrid/3dB_Coupler_start.emp'
      
     myurl = url(url2)
     values = myurl.get_query_param('name')
     assert(values[0] == 'https://dl.dropboxusercontent.com/u/3862332/ghs_hybrid/3dB_Coupler_start.emp')
     assert(myurl.get_server() == 'localhost:8008')
-    assert(myurl.get_fullpath() == '/OpenProject')
+    assert(myurl.get_fullpath() == '/LoadProject')
     suburl = url(values[0])
     assert(suburl.get_server() == 'dl.dropboxusercontent.com')
     assert(suburl.get_fullpath() == '/u/3862332/ghs_hybrid/3dB_Coupler_start.emp')
@@ -36,26 +36,26 @@ def test_init_complexURL():
     assert(suburl.get_query_param('name') == '')
 
 def test_replace_filename():
-    myurl = url('http://localhost/OpenProject')
-    newurl = myurl.replace_filename('cgi/openproject.py')
-    assert(newurl,'http://localhost/cgi/openproject.py')
+    myurl = url('http://localhost/LoadProject')
+    newurl = myurl.replace_filename('cgi/LoadProject.py')
+    assert(newurl,'http://localhost/cgi/LoadProject.py')
 
-    myurl = url('http://localhost/dir1/dir2/OpenProject')
-    newurl = myurl.replace_filename('openproject.py')
-    assert(newurl,'http://localhost/dir1/dir2/openproject.py')
+    myurl = url('http://localhost/dir1/dir2/LoadProject')
+    newurl = myurl.replace_filename('LoadProject.py')
+    assert(newurl,'http://localhost/dir1/dir2/LoadProject.py')
 
-    myurl = url('http://localhost/OpenProject?name=myproject.emp')
-    newurl = myurl.replace_filename('cgi/openproject.py')
-    assert(newurl,'http://localhost/cgi/openproject.py?name=myproject.emp')
+    myurl = url('http://localhost/LoadProject?name=myproject.emp')
+    newurl = myurl.replace_filename('cgi/LoadProject.py')
+    assert(newurl,'http://localhost/cgi/LoadProject.py?name=myproject.emp')
 
 def test_convert_command_to_URL():
-    assert(convert_command_to_URL('http://localhost/OpenProject') ==  \
-                                  'http://localhost/abi/OpenProject.py')
-    assert(convert_command_to_URL('http://localhost/OpenProject?name=3dB.emp') ==  \
-                                  'http://localhost/abi/OpenProject.py?name=3dB.emp')
+    assert(convert_command_to_URL('http://localhost/LoadProject') ==  \
+                                  'http://localhost/abi/LoadProject.py')
+    assert(convert_command_to_URL('http://localhost/LoadProject?name=3dB.emp') ==  \
+                                  'http://localhost/abi/LoadProject.py?name=3dB.emp')
     assert(convert_command_to_URL( \
-    'http://localhost:8008/OpenProject?name=https://dl.dropboxusercontent.com/u/3862332/ghs_hybrid/3dB_Coupler_start.emp') ==  \
-    'http://localhost:8008/abi/OpenProject.py?name=https://dl.dropboxusercontent.com/u/3862332/ghs_hybrid/3dB_Coupler_start.emp')
+    'http://localhost:8008/LoadProject?name=https://dl.dropboxusercontent.com/u/3862332/ghs_hybrid/3dB_Coupler_start.emp') ==  \
+    'http://localhost:8008/abi/LoadProject.py?name=https://dl.dropboxusercontent.com/u/3862332/ghs_hybrid/3dB_Coupler_start.emp')
 
 def test_get_parameter_simple():
     # simple arguments
@@ -67,18 +67,18 @@ def test_get_parameter_simple():
 
 def test_get_parameter_urlfix():
     # multiple / fixing
-    os.environ['QUERY_STRING'] = 'name=http://localhost:8008/OpenProject'
-    assert(get_parameter('name') == 'http://localhost:8008/OpenProject')
-    os.environ['QUERY_STRING'] = 'name=https://localhost:8008/OpenProject'
-    assert(get_parameter('name') == 'https://localhost:8008/OpenProject')
+    os.environ['QUERY_STRING'] = 'name=http://localhost:8008/LoadProject'
+    assert(get_parameter('name') == 'http://localhost:8008/LoadProject')
+    os.environ['QUERY_STRING'] = 'name=https://localhost:8008/LoadProject'
+    assert(get_parameter('name') == 'https://localhost:8008/LoadProject')
 
 
-def test_get_project():
+def test_get_file():
     # this is the link to AM.emp in dropbox
     os.environ['QUERY_STRING'] ='name=https://dl.dropboxusercontent.com/u/3862332/ghs_testing/AM.emp'
     url = get_parameter('name')
     print(url)
-    filename = get_project(url)
+    filename = get_file(url,'emp')
 
     # make sure we got the file
     assert(filename)
@@ -101,26 +101,26 @@ def test_get_project():
     assert(size == emp_size)
     assert(hexval == emp_digest)
 
-    filename = filename.replace('.emp','.vin')
+    # filename = filename.replace('.emp','.vin')
     
-    # make sure file was downloaded
-    assert(filename)
+    # # make sure file was downloaded
+    # assert(filename)
 
-    with open(filename,'rb') as fp:
-        bytes = fp.read()
+    # with open(filename,'rb') as fp:
+    #     bytes = fp.read()
 
-    size=0
-    for byte in bytes:
-        size = size + 1
-        md.update(str(byte).encode('utf-8'))
+    # size=0
+    # for byte in bytes:
+    #     size = size + 1
+    #     md.update(str(byte).encode('utf-8'))
     
-    hexval = md.hexdigest()
+    # hexval = md.hexdigest()
 
-    vin_size = 1116
-    vin_digest = 'b1b04854e1260253a652afde38c0fdc41aed185e'
+    # vin_size = 1116
+    # vin_digest = 'b1b04854e1260253a652afde38c0fdc41aed185e'
 
-    assert(size == vin_size)
-    assert(hexval == vin_digest)
+    # assert(size == vin_size)
+    # assert(hexval == vin_digest)
 
 
 ### test the html section of functions
@@ -132,7 +132,7 @@ def test_html_header():
     expected = \
 """Content-type: text/html
 
-<head><title>In Simulate.py</title></head>
+<head><title>In ABI Command</title></head>
 <body>
 <h1>Command debug log</h1>
 """.strip()

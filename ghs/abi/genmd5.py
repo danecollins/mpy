@@ -2,7 +2,7 @@ import cgi
 import os
 import sys
 import hashlib
-from abi.OpenProject import get_parameter, get_project
+from abi.LoadProject import get_parameter, get_project
 
 
 def get_file_md5(file):
@@ -24,7 +24,7 @@ if __name__ == "__main__":
 	print(len(sys.argv))
 	print(sys.argv)
 	if (len(sys.argv) < 2 ):
-		print('Usage: test_OpenProject.py <file>')
+		print('Usage: test_LoadProject.py <file>')
 	else:
 		(size,digest) = get_file_md5(sys.argv[1])
 
