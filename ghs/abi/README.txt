@@ -22,6 +22,7 @@ awrde.py
   * All commands are listed in urltools.get_command_list
   * Each command is in a separate file named {command}.py
   * Commands have a doc section which is used to generate index.html
+  * Commands that take arguments have to be added to confluence/custom.html
 
   Tests are performed by test_command.py
     * py.test test_command.py
