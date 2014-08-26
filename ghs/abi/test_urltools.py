@@ -3,9 +3,11 @@ import cgi
 import os
 import sys
 import hashlib
+import glob
 from   io import StringIO
 from   abi.urltools import url, convert_command_to_URL, get_parameter, get_file
 from   abi.urltools import html_header,html_footer,html_message,html_error
+from   abi.urltools import get_command_list
 from   abi.awrde import set_test_mode
 from   urllib.parse import parse_qs, urlsplit,SplitResult,urlunsplit
 from   unittest.mock import patch
@@ -128,6 +130,8 @@ def test_get_file():
 ### for this we will be re-directing stdout to capture the output
 set_test_mode(True)
 
+
+
 def test_html_header():
     expected = \
 """Content-type: text/html
@@ -173,4 +177,18 @@ def test_html_error():
 
     print(value)
     assert(value == expected)
+
+def test_get_command_list():
+    commands = get_command_list()
+
+    python_files = glob.glob('./*.py')
+    ucase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+
+    assert(len(commands),len(python_files))
+    for f in python_files:
+        f = f[2:len(f)-3]
+
+        if (f[0] in ucase):
+            # see if it's in the command list
+            assert(f in commands,True)
 
