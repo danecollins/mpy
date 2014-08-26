@@ -52,7 +52,9 @@ class url(object):
 def get_command_list():
     return([
         'LoadProject',
+        'LoadSchematic',
         'OpenSchematic',
+        'LoadSystemDiagram',
         'OpenSystemDiagram',
         'Simulate',
         'RunScript',
@@ -60,7 +62,7 @@ def get_command_list():
         'TileVertical',
         'TileHorizontal',
         'CloseWindows',
-        'LoadProject'
+        'OpenProject'
                     ])
 
 def convert_command_to_URL(path):

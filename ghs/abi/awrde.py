@@ -62,6 +62,19 @@ def OpenSchematic(name):
         else:
             html_error('Could not connect to AWR Design Environment')
 
+def LoadSchematic(name):
+    if test_mode():
+        html_test('LoadSchematic(%s)' % name)
+    else:
+        awrde_com_obj=win32com.client.Dispatch("MWOApp.MWOffice")
+        if (awrde_com_obj):
+            html_message("Opening schematic: %s" % name)
+            # to import we need the base name of the schematic
+            imported_name = os.path.basename(name).strip('.sch')
+            awrde_com_obj.Schematics.Import(imported_name,name)
+        else:
+            html_error('Could not connect to AWR Design Environment')
+
 def OpenSystemDiagram(name):
     if test_mode():
         html_test('Opening system diagram %s' % name)
@@ -70,6 +83,19 @@ def OpenSystemDiagram(name):
         if (awrde_com_obj):
             html_message("Opening system diagram: %s" % name)
             awrde_com_obj.Project.SystemDiagrams(name).NewWindow()
+        else:
+            html_error('Could not connect to AWR Design Environment')
+
+def LoadSystemDiagram(name):
+    if test_mode():
+        html_test('LoadSystemDiagram(%s)' % name)
+    else:
+        awrde_com_obj=win32com.client.Dispatch("MWOApp.MWOffice")
+        if (awrde_com_obj):
+            html_message("Opening system diagram: %s" % name)
+            # to import we need the base name of the system diagram
+            imported_name = os.path.basename(name).strip('.sys')
+            awrde_com_obj.SystemDiagrams.Import(imported_name,name)
         else:
             html_error('Could not connect to AWR Design Environment')
 

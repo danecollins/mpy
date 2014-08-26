@@ -96,6 +96,50 @@ EMULATING Project.Simulate()
     print(value)
     assert(value == expected)
 
+import abi.LoadSchematic ###########################################
+def test_LoadSchematic_without_name():
+
+    expected = \
+"""Content-type: text/html
+
+<head><title>In ABI Command</title></head>
+<body>
+<h1>Command debug log</h1>
+<p><font color=red>Link has no schematic name.</font></p>
+</body>
+""".strip()
+
+    os.environ['QUERY_STRING'] =''
+
+    with patch('sys.stdout',new=StringIO()) as fake_out:
+        abi.LoadSchematic.main()
+        value = fake_out.getvalue().strip()
+
+    print(value)
+    assert(value == expected)
+
+def test_LoadSchematic_with_name():
+
+    expected = \
+"""Content-type: text/html
+
+<head><title>In ABI Command</title></head>
+<body>
+<h1>Command debug log</h1>
+<p>Opening schematic: amp.sch</p>
+EMULATING LoadSchematic(amp.sch)
+</body>
+""".strip()
+
+    os.environ['QUERY_STRING'] ='name=amp.sch'
+
+    with patch('sys.stdout',new=StringIO()) as fake_out:
+        abi.LoadSchematic.main()
+        value = fake_out.getvalue().strip()
+
+    print(value)
+    assert(value == expected)
+
 import abi.OpenSchematic ############################################
 def test_OpenSchematic():
 
@@ -141,6 +185,51 @@ EMULATING Cascading windows
 
     print(value)
     assert(value == expected)
+
+import abi.LoadSystemDiagram #########################################
+def test_LoadSystemDiagram_without_name():
+
+    expected = \
+"""Content-type: text/html
+
+<head><title>In ABI Command</title></head>
+<body>
+<h1>Command debug log</h1>
+<p><font color=red>Link has no system diagram name.</font></p>
+</body>
+""".strip()
+
+    os.environ['QUERY_STRING'] =''
+
+    with patch('sys.stdout',new=StringIO()) as fake_out:
+        abi.LoadSystemDiagram.main()
+        value = fake_out.getvalue().strip()
+
+    print(value)
+    assert(value == expected)
+
+def test_LoadSystemDiagram_with_name():
+
+    expected = \
+"""Content-type: text/html
+
+<head><title>In ABI Command</title></head>
+<body>
+<h1>Command debug log</h1>
+<p>Opening system diagram: amp.sys</p>
+EMULATING LoadSystemDiagram(amp.sys)
+</body>
+""".strip()
+
+    os.environ['QUERY_STRING'] ='name=amp.sys'
+
+    with patch('sys.stdout',new=StringIO()) as fake_out:
+        abi.LoadSystemDiagram.main()
+        value = fake_out.getvalue().strip()
+
+    print(value)
+    assert(value == expected)
+
 
 import abi.OpenUserFolder ###########################################
 def test_OpenUserFolder():
