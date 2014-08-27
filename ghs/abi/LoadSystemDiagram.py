@@ -18,9 +18,10 @@ def main():
     urltools.html_header()
     file_name = urltools.get_parameter("name")
     if file_name:
+        imported_name = os.path.basename(file_name).strip('.sys')
         local_name = urltools.get_file(file_name,'sys')
         urltools.html_message("Opening system diagram: %s" % local_name)
-        awrde.LoadSystemDiagram(local_name)
+        awrde.LoadSystemDiagram(local_name, imported_name)
     else:
         urltools.html_error("Link has no system diagram name.")
 

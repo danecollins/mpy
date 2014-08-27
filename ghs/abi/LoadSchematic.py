@@ -19,8 +19,9 @@ def main():
     file_name = urltools.get_parameter("name")
     if file_name:
         local_name = urltools.get_file(file_name,'sch')
+        imported_name = os.path.basename(file_name).strip('.sch')
         urltools.html_message("Opening schematic: %s" % local_name)
-        awrde.LoadSchematic(local_name)
+        awrde.LoadSchematic(local_name, imported_name)
     else:
         urltools.html_error("Link has no schematic name.")
 
