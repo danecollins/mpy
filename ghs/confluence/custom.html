@@ -35,6 +35,10 @@ function execmd(cmd) {
     		  var parts = cmds[i].split(" ");
     		  cmds[i] = parts[0] + "?name=" + parts[1]
     	}
+        if (cmds[i].startsWith("OpenEM")) {
+    		  var parts = cmds[i].split(" ");
+    		  cmds[i] = parts[0] + "?name=" + parts[1]
+    	}
         if (cmds[i].startsWith("OpenSystemDiagram")) {
           var parts = cmds[i].split(" ");
           cmds[i] = parts[0] + "?name=" + parts[1]

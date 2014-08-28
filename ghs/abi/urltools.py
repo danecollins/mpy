@@ -62,6 +62,7 @@ def get_command_list():
         'TileVertical',
         'TileHorizontal',
         'CloseWindows',
+        'OpenEM',
         'OpenProject'
                     ])
 

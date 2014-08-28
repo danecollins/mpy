@@ -184,11 +184,14 @@ def test_get_command_list():
     python_files = glob.glob('./*.py')
     ucase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
-    assert(len(commands),len(python_files))
+    python_commands = []
     for f in python_files:
         f = f[2:len(f)-3]
 
         if (f[0] in ucase):
             # see if it's in the command list
             assert(f in commands,True)
+            python_commands.append(f)
+
+    assert(len(commands) == len(python_commands))
 

@@ -29,10 +29,21 @@ awrde.py
     * should make sure awrde.py and urltools.py tests run first
 
 
+Adding a new command
+-----------------------------------------------------------------------------
+1. If the command requires arguments add it to custom.html
+2. Create the function call in awrde.py
+3. Add the test in test_awrde.py
+4. create the {command}.py
+5. Add the test to test_commands.py
+6. Restart server (server needs to reread list of commands)
 
 Things that must be in sync
 -----------------------------------------------------------------------------
 - urltools.get_command_list() must contain the names of all the commands
+- All commands that take arguments must be in custom.html 
+  - ideally this file would be generated automatically like index.html TBD
+
 
 
 Generating docs (index.html)

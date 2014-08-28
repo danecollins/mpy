@@ -51,6 +51,17 @@ def Simulate():
         else:
             html_error('Could not connect to AWR Design Environment')
 
+def OpenEM(name):
+    if test_mode():
+        html_test('Opening EM structure %s' % name)
+    else:
+        awrde_com_obj=win32com.client.Dispatch("MWOApp.MWOffice")
+        if (awrde_com_obj):
+            html_message("Opening EM structure %s" % name)
+            awrde_com_obj.Project.EMStructures(name).NewWindow()
+        else:
+            html_error('Could not connect to AWR Design Environment')
+
 def OpenSchematic(name):
     if test_mode():
         html_test('Opening schematic %s' % name)

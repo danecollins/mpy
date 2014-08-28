@@ -17,6 +17,16 @@ def test_Simulate():
     print(value)
     assert(value == expected)
 
+def test_OpenEM():
+    
+    expected = 'EMULATING Opening EM structure MyEM'
+    with patch('sys.stdout',new=StringIO()) as fake_out:
+        awrde.OpenEM('MyEM')
+        value = fake_out.getvalue().strip()
+
+    print(value)
+    assert(value == expected)
+
 def test_OpenSchematic():
     
     expected = 'EMULATING Opening schematic MySchematic'
