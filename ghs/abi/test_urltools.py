@@ -181,7 +181,13 @@ def test_html_error():
 def test_get_command_list():
     commands = get_command_list()
 
-    python_files = glob.glob('./*.py')
+    if (os.getcwd().endswith('abi')):
+        python_files = glob.glob('./*.py')
+    else:
+        os.chdir('./abi')
+        python_files = glob.glob('./*.py')
+        os.chdir('..')
+
     ucase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
     python_commands = []
