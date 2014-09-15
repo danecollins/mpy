@@ -36,7 +36,9 @@ Adding a new command
 3. Add the test in test_awrde.py
 4. create the {command}.py
 5. Add the test to test_commands.py
-6. Restart server (server needs to reread list of commands)
+6. Add the command to get_command_list() in urltools.py
+7. Run the tests
+8. Restart server (server needs to reread list of commands)
 
 Things that must be in sync
 -----------------------------------------------------------------------------

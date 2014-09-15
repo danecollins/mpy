@@ -98,6 +98,16 @@ def test_Cascade():
     print(value)
     assert(value == expected)
 
+def test_OpenGraph():
+    
+    expected = 'EMULATING Opening graph MyGraph'
+    with patch('sys.stdout',new=StringIO()) as fake_out:
+        awrde.OpenGraph('MyGraph')
+        value = fake_out.getvalue().strip()
+
+    print(value)
+    assert(value == expected)
+
 def test_OpenUserFolder():
     
     expected = 'EMULATING Opening all items in user folder named MyFolder'

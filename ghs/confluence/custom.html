@@ -48,7 +48,6 @@ function execmd(cmd) {
         	cmds[i] = parts[0] + "?name=" + parts[1]
     	}
         if (cmds[i].startsWith("LoadSchematic")) {
-            console.log("Found LoadSchematic");
             var parts = cmds[i].split(" ");
             cmds[i] = parts[0] + "?name=" + parts[1]
         }
@@ -61,6 +60,10 @@ function execmd(cmd) {
             cmds[i] = parts[0] + "?name=" + parts[1]
         }
         if (cmds[i].startsWith("OpenProject")) {
+            var parts = cmds[i].split(" ");
+            cmds[i] = parts[0] + "?name=" + parts[1]
+        }
+        if (cmds[i].startsWith("OpenGraph")) {
             var parts = cmds[i].split(" ");
             cmds[i] = parts[0] + "?name=" + parts[1]
         }

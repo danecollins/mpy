@@ -253,6 +253,28 @@ EMULATING Cascading windows
     print(value)
     assert(value == expected)
 
+import abi.OpenGraph ############################################
+def test_OpenGraph():
+
+    expected = \
+"""Content-type: text/html
+
+<head><title>In ABI Command</title></head>
+<body>
+<h1>Command debug log</h1>
+EMULATING Opening graph MyGraph
+EMULATING Cascading windows
+</body>
+""".strip()
+
+    os.environ['QUERY_STRING'] ='name=MyGraph'
+
+    with patch('sys.stdout',new=StringIO()) as fake_out:
+        abi.OpenGraph.main()
+        value = fake_out.getvalue().strip()
+
+    print(value)
+    assert(value == expected)
 
 import abi.OpenUserFolder ###########################################
 def test_OpenUserFolder():

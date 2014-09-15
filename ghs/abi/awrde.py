@@ -119,7 +119,17 @@ def LoadProject(name):
         else:
             html_error('Could not connect to AWR Design Environment')
 
-
+def OpenGraph(name):
+    if test_mode():
+        html_test('Opening graph %s' % name)
+    else:
+        awrde_com_obj=win32com.client.Dispatch("MWOApp.MWOffice")
+        if (awrde_com_obj):
+            html_message("Opening graph %s" % name)
+            awrde_com_obj.Project.Graphs(name).NewWindow()
+        else:
+            html_error('Could not connect to AWR Design Environment')
+            
 def CloseWindows():
     if test_mode():
         html_test('Closing All Windows')
