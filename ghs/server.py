@@ -5,8 +5,11 @@ import http.server
 import cgitb; cgitb.enable()
 import sys
 import abi.urltools
+import os
 
 debug=True
+os.environ["PYTHONPATH"] = os.getcwd()
+print("Setting PYTHONPATH to: " + os.getcwd())
 
 def dprint(string):
     if (debug):
