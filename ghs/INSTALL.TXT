@@ -7,5 +7,5 @@ In order for Guided Help to work you must first install Python and some Python e
 
 To complete your installation please see:
 
-   http://gh.awr.com/
+   http://gh.awr.com/display/AN/Installing+Guided+Help
 
