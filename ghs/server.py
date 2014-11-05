@@ -9,6 +9,7 @@ import os
 
 debug=True
 os.environ["PYTHONPATH"] = os.getcwd()
+print("DEBUG=" + str(debug))
 print("Setting PYTHONPATH to: " + os.getcwd())
 
 def dprint(string):
@@ -28,10 +29,13 @@ class RedirectHandler(http.server.CGIHTTPRequestHandler):
             dprint('-- path not modified')
             http.server.CGIHTTPRequestHandler.do_GET(s)
         else:
-            dprint("-- modified path to: " + newpath)
-            s.send_response(301)
-            s.send_header("Location",newpath)
-            s.end_headers()
+            dprint("-- modified path to: ")
+            dprint(newpath)
+            s.path=newpath
+            http.server.CGIHTTPRequestHandler.do_GET(s)
+            #s.send_response(301)
+            #s.send_header("Location",newpath)
+            #s.end_headers()
 
     def do_GET(s):
         s.do_HEAD()
