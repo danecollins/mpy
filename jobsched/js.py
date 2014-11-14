@@ -5,7 +5,7 @@ import re
 import time
 from collections import defaultdict
 
-filename = 'AWR_JobScheduler_x64_log.txt'
+filename = 'tq/AWR_JobScheduler_x64_log.txt'
 #filename = 'AWR_JobScheduler_x64_log_2014-10-22T15_32_23.0976.txt'
 
 
@@ -44,7 +44,6 @@ class Jobs:
 				if d > max : max=d
 				count += 1
 				mean += d
-
 		mean = mean / count
 		return( {'min':round(min,1), 'max':round(max,1), 'mean':round(mean,1),'count':count})
 
@@ -93,6 +92,17 @@ class Job:
 		else:
 			self.job['queued'] = self.job['start'] - self.job['submitted']
 
+	def started(self,message):
+		# 2014-11-13T09:09:10.0581 - Job 254: started AXIEM:33.0, procId:0 on 
+		# controller "dfw0awrsim01"
+		(message_time,job_number,command) = Job.parse_job_message(self,message)
+		self.job['start'] = message_time
+		if self.job['submitted'] == '':
+			## we the start time got lost in a server restart
+			self.job['queued'] = 'NA'
+		else:
+			self.job['queued'] = self.job['start'] - self.job['submitted']
+
 	def releasing(self,message):
 		# 2014-11-05T13:56:43.0531 - Job 1: releasing 8 processors (processor reservations available 
 		# before:0, after:8)
@@ -125,6 +135,16 @@ class Job:
 		#2014-10-21T12:37:59.0573 - Job 1: (AXIEM:1.0) Ended. Exit status: 0
 		(message_time,job_number,command) = Job.parse_job_message(self,message)
 		self.job['exit'] = command.split(': ')[1]
+		if self.job['duration'] == '':
+			if self.job['start'] <> '':
+				self.job['stop'] = message_time
+				self.job['duration'] = self.job['stop'] - self.job['start']
+			else:
+				print('Job {} has no start time {}.'.format(job_number,self.job['start']))
+
+
+
+
 
 	def job2xml(self):
 		start = self.job['start']
@@ -165,7 +185,8 @@ class Job:
 		# when the scheduler is restarted it will start reusing job numbers so we need to kill
 		# the number on all the active jobs
 		for x in joblist.get_list():
-			x.job['number']=0
+			if x.job['number']<>0:
+				x.job['number']=0
 
 
 desired = [ 'Remote Queue',
@@ -191,6 +212,10 @@ with codecs.open(filename,encoding='utf-8') as fp:
 			job_number = jobre.search(line).group()[6:-1] # removes the -Job and :
 			j = joblist.find_by_number(job_number)
 			j.creating(line)
+		elif line.find('started') <> -1:
+			job_number = jobre.search(line).group()[6:-1] # removes the -Job and :
+			j = joblist.find_by_number(job_number)
+			j.started(line)
 		elif line.find('releasing') <> -1:
 			job_number = jobre.search(line).group()[6:-1] # removes the -Job and :
 			j = joblist.find_by_number(job_number)
