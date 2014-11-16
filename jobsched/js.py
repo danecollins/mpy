@@ -4,13 +4,18 @@ import codecs
 import re
 import time
 from collections import defaultdict
+from collections import Counter
 
 filename = 'tq/AWR_JobScheduler_x64_log.txt'
-#filename = 'AWR_JobScheduler_x64_log_2014-10-22T15_32_23.0976.txt'
 
+def elapsed2string(tm):
+	# convert floating elapsed time to nice representation
+	return "{} min. / {} hr.".format(round(tm/60,1), round(tm/3600,2))
 
 class Jobs:
+	""" Operations on a list of jobs """
 	__JOBLIST__ = []
+
 
 	def add(self,job):
 		self.__JOBLIST__.append(job)
@@ -32,24 +37,71 @@ class Jobs:
 	def number_of_jobs(self):
 		return( len(self.__JOBLIST__))
 
-	def durations(self):
+	def jobs_with_duration(self):
+		return  [ x for x in self.__JOBLIST__ if x.duration()<>'' ]
+
+	def duration_stats(self):
 		min = 10000
 		max = 0
 		mean = 0
 		count = 0
+		jobs = self.jobs_with_duration()
 		for j in self.__JOBLIST__:
-			d = j.job['duration']
+			d = j.duration()
 			if type(d) == float:
 				if d < min : min=d
 				if d > max : max=d
 				count += 1
 				mean += d
 		mean = mean / count
-		return( {'min':round(min,1), 'max':round(max,1), 'mean':round(mean,1),'count':count})
+		jobs = sorted(jobs,key=lambda x: x.duration(),reverse=True)
+		median = jobs[len(jobs)/2].duration()
+		stats = {'min':round(min,1), 'max':round(max,1), 'mean':round(mean,1),'count':count, 'median':round(median,1)}
+		stats_s = 'Job Statistics\n'
+		stats_s += '    Complete Jobs:    {}\n'.format(stats['count'])
+		stats_s += '    Shortest Job:     {}\n'.format(elapsed2string(stats['min']))
+		stats_s += '    Longest Job:      {}\n'.format(elapsed2string(stats['max']))
+		stats_s += '    Average Job Time: {}\n'.format(elapsed2string(stats['mean']))
+		stats_s += '    Median Job Time:  {}\n'.format(elapsed2string(stats['median']))
+		return (stats,stats_s)
 
 
+	def longest_job(self):
+		j = self.jobs_with_duration()
+		j = reduce(lambda a,b: a if (a.duration()>b.duration()) else b, j)
+		return(j)
+
+	def median_job(self):
+		j = self.jobs_with_duration()
+		j = sorted( j, key=lambda x: x.duration(),reverse=True)
+		return(j[len(j)/2])
+
+	def user_stats(self):
+		jobs = self.jobs_with_duration()
+		users = defaultdict(list)
+
+		for j in jobs:
+			users[j.job['S_User']].append(j)
+
+		s = 'Jobs Per User\n'
+		for u in sorted(users):
+			s += "    %-12s: %4d (%3d AXIEM, %3d Analyst)\n" % (u, len(users[u]),len([x for x in users[u] if x.sim()=='AXIEM']), len([x for x in users[u] if x.sim()=='Analyst']))
+		return (users,s)
+
+	def sim_stats(self):
+		sims = Counter()
+		for j in self.__JOBLIST__:
+			sims[j.sim()] += 1
+
+		sim_s = 'Jobs by Simulator\n'
+		for s in sims:
+			sim_s += '    %-7s: %d\n' % (s,sims[s])
+
+		return (sims,sim_s)
 
 class Job:
+	""" Operations on a specific job which is really just a dict """
+	
 	__JOB_COUNTER__=0
 	def __init__(self):
 		self.job = defaultdict(str)
@@ -65,6 +117,18 @@ class Job:
 		(num,cmd) = rest.split(': ',1)
 		job_number = num[4:]
 		return(float_time,job_number,cmd)
+
+	def duration(self):
+		# because duration is used so much I want to abstract the actual key name in case I want to change it later
+		return(self.job['duration'])
+
+	def sim(self):
+		if self.job['S_Name'].startswith('mpiexec'):
+			return('Analyst')
+		elif self.job['S_Name'].startswith('AXIEM'):
+			return('AXIEM')
+		else:
+			return(self.job['S_Name'])
 
 	def submitted(self,message):
 		# 2014-11-05T12:45:43.0188 - Job 1: Submitted. Name="mpiexec:3.0", User="dhoekstr", Priority=1
@@ -134,8 +198,8 @@ class Job:
 	def exit_status(self,message):
 		#2014-10-21T12:37:59.0573 - Job 1: (AXIEM:1.0) Ended. Exit status: 0
 		(message_time,job_number,command) = Job.parse_job_message(self,message)
-		self.job['exit'] = command.split(': ')[1]
-		if self.job['duration'] == '':
+		self.job['exit'] = command.split(': ')[1] # extract numerical exit status
+		if self.duration() == '':
 			if self.job['start'] <> '':
 				self.job['stop'] = message_time
 				self.job['duration'] = self.job['stop'] - self.job['start']
@@ -157,7 +221,7 @@ class Job:
 		else:
 			value = 'NA'
 		s += '    <StartTime>{}</StartTime>\n'.format(value)
-		s += '    <Duration>{}</Duration>\n'.format(self.job['duration'])
+		s += '    <Duration>{}</Duration>\n'.format(self.duration())
 		s += '    <User_Name>{}</User_Name>\n'.format(self.job['S_User'])
 		s += '    <Simulator>{}</Simulator>\n'.format(self.job['S_Name'])
 		s += '    <Priority>{}</Priority>\n'.format(self.job['S_Priority'])
@@ -168,6 +232,19 @@ class Job:
 		s += '    <PrefPerf>{}</PrefPerf>\n'.format(self.job['R_PreferredPerf'])
 		s += '    <ExitStatus>{}</ExitStatus>\n'.format(self.job['exit'])
 		s += '  </Job>\n</Jobs>\n'
+		return(s)
+
+	def job2txt(self):
+		start = self.job['start']
+		if start <> '':
+			s_time = time.localtime(start)
+			value = time.strftime("%d %b %Y %H:%M:%S",s_time)
+		else:
+			value = 'NA'
+
+		s = "Start Time:\t{}\n".format(value)
+		for k in self.job:
+			s += "    %-21s: %s\n" % (k,str(self.job[k]))
 		return(s)
 
 	def job2json(self):
@@ -182,18 +259,12 @@ class Job:
 
 	@classmethod
 	def restart_scheduler(self,joblist):
-		# when the scheduler is restarted it will start reusing job numbers so we need to kill
+		# when the scheduler is restarted it will start reusing job numbers so we need to renove
 		# the number on all the active jobs
 		for x in joblist.get_list():
 			if x.job['number']<>0:
 				x.job['number']=0
 
-
-desired = [ 'Remote Queue',
-            'Processing Command Line',
-            'started'
-            'Submitted'
-          ]
 
 
 with codecs.open(filename,encoding='utf-8') as fp:
@@ -233,5 +304,12 @@ with codecs.open(filename,encoding='utf-8') as fp:
 
 	Job.restart_scheduler(joblist)
 
-print( 'Number of jobs = {}'.format(joblist.number_of_jobs()))
-print( 'Job duration statistics = {}'.format(joblist.durations()))
+print( 'Number of jobs processed = {}'.format(joblist.number_of_jobs()))
+print( joblist.duration_stats()[1])
+print( '--- Longest Job ---')
+print( joblist.longest_job().job2txt())
+print( '--- Median Job ---')
+print( joblist.median_job().job2txt())
+print( joblist.user_stats()[1])
+print( joblist.sim_stats()[1])
+print()
