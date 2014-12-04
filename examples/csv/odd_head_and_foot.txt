@@ -1,0 +1,25 @@
+custid|custname|city|country|territory|type|status|parentid|pname
+------|--------|----|-------|---------|----|------|--------|-----
+1|AWR - Internal|CA|US|AWR-SW|Enterprise|On Maintenance|1|AWR
+10000|Inside Contactless|CEDEX|FR|AWR-FR|Enterprise|Ex-Customer|10000|Inside Contactless
+10000003|MMRadiolink Ltd.|Manchester|GB|AWR-UK|Enterprise|Out of Business|10000003|MMRadiolink Ltd.
+10000010|Schleifring und Apparatebau GmbH|Fuerstenfeldbruck|DE|AWR-DE|Enterprise|Ex-Customer|10000010|Schleifring und Apparatebau GmbH
+10000021|Microwave Solutions Ltd. - Hemel Hempstead|Hertfordshire|GB|AWR-UK|Enterprise|On Maintenance|10000021|Microwave Solutions Ltd.
+10000029|University of Florida - Department of Electrical and Computer Engineering|FL|US|Default Value|University|On Maintenance|10000029|University of Florida
+10000029|University of Florida - Department of Electrical and Computer Engineering|FL|US|AWR|University|On Maintenance|10000029|University of Florida
+10001|University of Texas at Brownsville - Department of Engineering|TX|US|Default Value|University|On Maintenance|10001|University of Texas at Brownsville
+10001|University of Texas at Brownsville - Department of Engineering|TX|US|AWR|University|On Maintenance|10001|University of Texas at Brownsville
+10002|Rohde & Schwarz India|Bangalore|IN|RSI|Rep|On Maintenance|10002|Rohde & Schwarz India
+10003|Teledyne Defence Limited - Shipley|West Yorkshire|GB|AWR-UK|Regional Office|On Maintenance|9047|Teledyne Technologies Incorporated
+10004|Fujitsu Ltd. - Monozukuri Development Unit (mar-10)|Kanagawa|JP|AWR-JP|Regional Office|Off Maintenance|10040049|Fujitsu
+10005|Linkra s.r.l - Concorezzo|Milan|IT|MED|Regional Office|Off Maintenance|2400|Linkra s.r.l.
+10006|Continental Automotive Romania SRL - SV I BS (Interior Body and Security)|Timisoara|RO|AWR-EU|Site|On Maintenance|9419|Continental AG
+10007|Ericsson AB - GSvle |GSvle|SE|AWR-SC|Site|On Maintenance|1050|LM Ericsson
+10008|Hacettepe University - Department of Electrical and Electronics Engineering|Ankara|TR|Default Value|University|On Maintenance|10008|Hacettepe University
+10008|Hacettepe University - Department of Electrical and Electronics Engineering|Ankara|TR|AWR|University|On Maintenance|10008|Hacettepe University
+10009|Sirio Microelettronica Srl|Roma|IT|MED|Enterprise|Off Maintenance|10009|Sirio Microelettronica Srl
+10010|University of Bath|Avon|GB|AWR-NI|University|On Maintenance|10010|University of Bath
+9998|National Institute of Science and Technology|Orissa|IN|AWR-NI|University|On Maintenance|9998|National Institute of Science and Technology
+9999|Naval Surface Warfare Center (NSWC) - Dahlgren Code Q22 (mar-11)|VA|US|AWR-SE|Regional Office|Off Maintenance|6728|Naval Surface Warfare Center (NSWC) Dahlgren (jul-14)
+
+(3500 rows affected)
