@@ -1,0 +1,1 @@
+publish.txt    ->/users/dane/ignore_path_check
