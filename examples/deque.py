@@ -11,3 +11,5 @@ d.append("3")
 d.append("4")
 d.append("5")
 print(d) # contains last 3 lines
+
+## in addition you can extent (grow the list) or append/extend from the left
