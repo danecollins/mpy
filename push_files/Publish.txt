@@ -1,2 +1,2 @@
-publish.bat->c:\dropbox\work\bin
+publish.bat -> \dropbox\work\bin
 

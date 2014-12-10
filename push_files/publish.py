@@ -47,7 +47,7 @@ def get_file_list(input_file='Publish.txt'):
 					###
 					### NOTE: if file has no . this won't work!
 					###
-					pathelements = re.split(r'[/\\]',topath)
+					pathelements = re.split(r'\\',topath)
 					if '.' not in pathelements[-1]:
 						pathelements.append(frompath)
 
@@ -87,7 +87,7 @@ def copy_files(files,execute,verbose_mode):
 			print('Exiting...')
 			exit(1)
 
-		if os.path.isdir(file.topath):
+		if not os.path.isdir(file.topath):
 			print('Destination directory %s does not exist!' % file.topath)
 			print('Exiting...')
 			exit(1)
@@ -108,6 +108,9 @@ def copy_files(files,execute,verbose_mode):
 			if execute:
 				shutil.copyfile(file.frompath,file.tofile)
 			print('copying %s to %s' % (file.frompath,file.tofile))
+		else:
+			if verbose_mode:
+				print('destination file %s is up to date' % file.tofile)
 
 if __name__ == '__main__':
 	did_something = False
