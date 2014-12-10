@@ -1,0 +1,12 @@
+custid|custname|city|country|territory|type|status|parentid|pname
+10010103|FGAN û Research Establishment for Applied Science|Wachtberg|DE|AWR-DE|Enterprise|On Maintenance|10010103|FGAN ? Research Establishment for Applied Science
+10077|Huawei Technologies Sweden AB - G÷teborg|G÷teborg|SE|AWR-SC|Site|On Maintenance|10065|Huawei Technologies Co., Ltd.
+10093|Max-Planck-Institut fnr Festk÷rperforschung (aug-14)|Stuttgart|DE|AWR-APL|Enterprise|On Maintenance|10093|Max-Planck-Institut f?r Festk?rperforschung (aug-14)
+10661|National Instruments - Colombia|Bogotß|CO|NI-CO|Rep|On Maintenance|6564|National Instruments
+10692|National Instruments Hong Kong Ltd.|New Territories|HK|RSK|Site|On Maintenance|6564|National Instruments
+10691|AAI Corporation/Textron Systems|MD|US|AWR-SE|Enterprise|On Maintenance|10691|AAI Corporation/Textron Systems
+10693|Eta Devices, Inc. - Sweden|Tyres÷|SE|AWR-SC|Site|On Maintenance|10567|Eta Devices, Inc.
+10656|Shanghai Institute of Microsystemáand InformationáTechnology (mar-14)|Shanghai|CN|AWR-TSMC|Enterprise|Off Maintenance|10656|Shanghai Institute of Microsystem?and Information?Technology (mar-14)
+10721|Ericsson Magyarorszßg Kft. - R&D|Budapest|HU|RSH|Site|On Maintenance|1050|LM Ericsson
+11050|TRIVAL ANTENE d.o.o.|MengeÜ|SI|AWR-EU|Enterprise|On Maintenance|11050|TRIVAL ANTENE d.o.o.
+11087|Remote Sensing Technologies (RST)|Beytepe-¦ankaya|TR|ANE|Enterprise|On Maintenance|11087|Remote Sensing Technologies (RST)
