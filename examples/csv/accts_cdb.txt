@@ -14,7 +14,7 @@ custid|custname|city|country|territory|type|status|parentid|pname
 10004|Fujitsu Ltd. - Monozukuri Development Unit (mar-10)|Kanagawa|JP|AWR-JP|Regional Office|Off Maintenance|10040049|Fujitsu
 10005|Linkra s.r.l - Concorezzo|Milan|IT|MED|Regional Office|Off Maintenance|2400|Linkra s.r.l.
 10006|Continental Automotive Romania SRL - SV I BS (Interior Body and Security)|Timisoara|RO|AWR-EU|Site|On Maintenance|9419|Continental AG
-10007|Ericsson AB - GSvle |GSvle|SE|AWR-SC|Site|On Maintenance|1050|LM Ericsson
+10007|Ericsson AB - Gävle |Gävle|SE|AWR-SC|Site|On Maintenance|1050|LM Ericsson
 10008|Hacettepe University - Department of Electrical and Electronics Engineering|Ankara|TR|Default Value|University|On Maintenance|10008|Hacettepe University
 10008|Hacettepe University - Department of Electrical and Electronics Engineering|Ankara|TR|AWR|University|On Maintenance|10008|Hacettepe University
 10009|Sirio Microelettronica Srl|Roma|IT|MED|Enterprise|Off Maintenance|10009|Sirio Microelettronica Srl
@@ -64,7 +64,7 @@ custid|custname|city|country|territory|type|status|parentid|pname
 10010099|Industrial Technology Research Institute (ITRI) - Center for Aviation and Space Technology (CAST)|Hsinchu|TW|AWR-TSMC|Regional Office|Off Maintenance|1053|Industrial Technology Research Institute (ITRI)
 10010101|Sensors Unlimited, Inc.  (jan-04)|NJ|US|AWR-NE|Enterprise|Off Maintenance|10010101|Sensors Unlimited, Inc.  (jan-04)
 10010102|Quantum Devices, Inc.|CA|US|AWR-SW|Enterprise|Ex-Customer|10010102|Quantum Devices, Inc.
-10010103|FGAN Ã» Research Establishment for Applied Science|Wachtberg|DE|AWR-DE|Enterprise|On Maintenance|10010103|FGAN ? Research Establishment for Applied Science
+10010103|FGAN – Research Establishment for Applied Science|Wachtberg|DE|AWR-DE|Enterprise|On Maintenance|10010103|FGAN ? Research Establishment for Applied Science
 10010105|Government of Israel - Ministry of Defense - Rafael ME Project|NJ|US|AWR-NE|Enterprise|Off Maintenance|10010105|Government of Israel
 10010106|Optillion AB (jan-02)|Kista|SE|AWR-SC|Enterprise|Off Maintenance|10010106|Optillion AB (jan-02)
 10010108|JFW Industries, Inc|IN|US|AWR-NE|Enterprise|Off Maintenance|10010108|JFW Industries, Inc
@@ -231,7 +231,7 @@ custid|custname|city|country|territory|type|status|parentid|pname
 10074|Auburn University - College of Engineering|AL|US|Default Value|University|On Maintenance|10074|Auburn University
 10074|Auburn University - College of Engineering|AL|US|AWR|University|On Maintenance|10074|Auburn University
 10076|Rayspan Corporation|CA|US|AWR-SW|Enterprise|No Service/Support|10076|Rayspan Corporation
-10077|Huawei Technologies Sweden AB - GÃ·teborg|GÃ·teborg|SE|AWR-SC|Site|On Maintenance|10065|Huawei Technologies Co., Ltd.
+10077|Huawei Technologies Sweden AB - Göteborg|Göteborg|SE|AWR-SC|Site|On Maintenance|10065|Huawei Technologies Co., Ltd.
 10078|Poynting Antennas (Pty) Ltd.|Johannesburg|ZA|DSC|Enterprise|Ex-Customer|10078|Poynting Antennas (Pty) Ltd.
 10079|Goji Israel, Ltd.|Sharon|IL|AWR-IL|Enterprise|Off Maintenance|10079|Goji Israel, Ltd.
 10081|Vihaan Networks Limited (VNL)|Haryana|IN|IDA|Regional Office|Payment Due|10082|VNL Europe AB
@@ -240,10 +240,10 @@ custid|custname|city|country|territory|type|status|parentid|pname
 10084|TDK-EPCOS USA - San Diego|CA|US|AWR-SW|Regional Office|Off Maintenance|9240|EPCOS AG
 10085|AWR Corporation - Taiwan, Singapore, Malaysia, China (TSMC)|CA|US|AWR-TSMC|Rep|On Maintenance|10085|AWR Corporation
 10088|EPCOS Nordic Oy - Espoo (dec-13)|Espoo|FI|AWR-APL|Regional Office|Off Maintenance|9240|EPCOS AG
-10089|Boreal Communications|Spo Paulo|BR|NI-CL|Enterprise|Ex-Customer|10089|Boreal Communications
+10089|Boreal Communications|São Paulo|BR|NI-CL|Enterprise|Ex-Customer|10089|Boreal Communications
 10090|3 Phoenix, Inc. - MD|MD|US|AWR-SE|Regional Office|Ex-Customer|10822|3 Phoenix, Inc.
-10092|Teleca Germany GmbH (nov-11)|Nnrnberg|DE|AWR-DE|Enterprise|Off Maintenance|10092|Teleca Germany GmbH (nov-11)
-10093|Max-Planck-Institut fnr FestkÃ·rperforschung (aug-14)|Stuttgart|DE|AWR-APL|Enterprise|On Maintenance|10093|Max-Planck-Institut f?r Festk?rperforschung (aug-14)
+10092|Teleca Germany GmbH (nov-11)|Nürnberg|DE|AWR-DE|Enterprise|Off Maintenance|10092|Teleca Germany GmbH (nov-11)
+10093|Max-Planck-Institut für Festkörperforschung (aug-14)|Stuttgart|DE|AWR-APL|Enterprise|On Maintenance|10093|Max-Planck-Institut f?r Festk?rperforschung (aug-14)
 10094|Broadcom Corporation - San Jose|CA|US|AWR-NW|Site|On Maintenance|77|Broadcom Corporation
 10095|Finisar UK Ltd.|County Durham|GB|AWR-UK|Regional Office|Payment Due|5828|Finisar Corporation
 10096|3 Phoenix, Inc. - VA|VA|US|AWR-SE|Regional Office|On Maintenance|10822|3 Phoenix, Inc.
@@ -292,7 +292,7 @@ custid|custname|city|country|territory|type|status|parentid|pname
 10167|Dongguan Pulse Electronics Co., Ltd. - Zhuhai Branch|Guangdong|CN|AWR-AP|Regional Office|Off Maintenance|8568|Pulse Electronics
 10168|Delta Microwave|CA|US|AWR-SW|Enterprise|On Maintenance|10168|Delta Microwave
 10169|Aeroflex/Metelics - Londonderry|NH|US|AWR-NE|Regional Office|On Maintenance|306|Aeroflex
-10170|Le Quy Don Technical University  |Ha N?i|VN|AWR-NI|University|On Maintenance|10555|Vietnam Military Technical Academy (VMTA)
+10170|Le Quy Don Technical University  |Hà N?i|VN|AWR-NI|University|On Maintenance|10555|Vietnam Military Technical Academy (VMTA)
 10171|Tubitak UEKAE (feb-12)|Kocaeli|TR|ANE|Regional Office|Off Maintenance|7967|Tubitak
 10172|Micronix Corporation|Tokyo|JP|AWR-JP|Enterprise|Ex-Customer|10172|Micronix Corporation
 10173|FGUP GosNIIPP (feb-12)|Saint-Petersburg|RU|ETR|Enterprise|Off Maintenance|10173|FGUP GosNIIPP (feb-12)
@@ -330,7 +330,7 @@ custid|custname|city|country|territory|type|status|parentid|pname
 10215|University of Oxford - Department of Astrophysics|Oxfordshire|GB|AWR-NI|University|On Maintenance|10216|University of Oxford
 10219|Nathaniel Gaskin - Personal License|MI|US|AWR-NE|Enterprise|University Graduate|10219|Nathaniel Gaskin
 10220|Sierra Nevada Corporation - Poway|CA|US|AWR-SW|Site|On Maintenance|618|Sierra Nevada Corporation
-10221|AWR Corporation - Germany|Mnnchen|DE|AWR-DE|Rep|On Maintenance|10221|AWR Corporation
+10221|AWR Corporation - Germany|München|DE|AWR-DE|Rep|On Maintenance|10221|AWR Corporation
 10222|Aeroflex Airflyte|FL|US|AWR-SE|Site|On Maintenance|306|Aeroflex
 10223|Darrell Ward Ham Radio|NB|CA|AWR-NE|Enterprise|Consultant|10223|Darrell Ward Ham Radio
 10226|Gonzaga University - School of Engineering & Applied Science|WA|US|Default Value|University|On Maintenance|10226|Gonzaga University
@@ -405,7 +405,7 @@ custid|custname|city|country|territory|type|status|parentid|pname
 10307|Netas Telelcomunikasyon A.S.|Istanbul|TR|ANE|Regional Office|On Maintenance|1356|Nortel
 10308|Antenna Magus (Pty) Ltd|Western Cape|ZA|DSC|Enterprise|Partner|10308|Antenna Magus (Pty) Ltd
 10309|ALTAIX Electronica|Madrid|ES|AWR-SP|Enterprise|Off Maintenance|10309|ALTAIX Electronica
-10310|Fraunhofer-Einrichtung fnr Elektronische Nanosysteme (ENAS)|Chemnitz|DE|AWR-DE|Enterprise|Off Maintenance|10310|Fraunhofer-Einrichtung f?r Elektronische Nanosysteme (ENAS)
+10310|Fraunhofer-Einrichtung für Elektronische Nanosysteme (ENAS)|Chemnitz|DE|AWR-DE|Enterprise|Off Maintenance|10310|Fraunhofer-Einrichtung f?r Elektronische Nanosysteme (ENAS)
 10311|Alan Victor - Personal License|NC|US|AWR-SE|Enterprise|University Graduate|10311|Alan Victor
 10312|David Allouche - Personal License|CA|US|AWR-NW|Enterprise|University Graduate|10312|David Allouche
 10313|University of Seoul|Seoul|KR|AWR-NI|University|On Maintenance|10313|University of Seoul
@@ -465,8 +465,8 @@ custid|custname|city|country|territory|type|status|parentid|pname
 10377|Broadcom Communications Finland Oy - Wireless Modem R&D - Oulu (jul-14)|Oulu|FI|AWR-APL|Regional Office|Ex-Customer|77|Broadcom Corporation
 10378|Natel Engineering Co., Inc.|CA|US|AWR-SW|Enterprise|Off Maintenance|10378|Natel Engineering Co., Inc.
 10379|LIG Nex1|Gyeonggi|KR|AWR-KR|Enterprise|Off Maintenance|10379|LIG Nex1
-10380|Espotel Oy - JyvSskylS|JyvSskylS|FI|AWR-APL|Regional Office|Off Maintenance|10556|Espotel Oy
-10381|Sagem DTfense STcuritT|Eragny-sur-Oise|FR|AWR-FR|Regional Office|Off Maintenance|8920|Sagem Communication
+10380|Espotel Oy - Jyväskylä|Jyväskylä|FI|AWR-APL|Regional Office|Off Maintenance|10556|Espotel Oy
+10381|Sagem Défense Sécurité|Eragny-sur-Oise|FR|AWR-FR|Regional Office|Off Maintenance|8920|Sagem Communication
 10382|University of Massachusetts Amherst|MA|US|AWR-NI|University|On Maintenance|10382|University of Massachusetts Amherst
 10383|ZTEC Instruments Inc. - NM|NM|US|AWR-SW|Enterprise|Payment Due|10383|ZTEC Instruments Inc.
 10384|ZTEC Instruments Inc. - FL|FL|US|AWR-SE|Regional Office|Off Maintenance|10383|ZTEC Instruments Inc.
@@ -493,7 +493,7 @@ custid|custname|city|country|territory|type|status|parentid|pname
 10416|SAAB Grintek Defence (Pty) Ltd, Trading as Electronic Defence Systems (mar-14)|Muizenberg|ZA|DSC|Enterprise|Off Maintenance|10416|SAAB Grintek Defence (Pty) Ltd, Trading as Electronic Defence Systems (mar-14)
 10418|Brunel University|Middlesex|GB|AWR-NI|University|On Maintenance|10418|Brunel University
 10419|Simone Winkler - Personal License|CA|US|AWR-NW|Enterprise|University Graduate|10419|Simone Winkler
-10421|Ixonos Plc |JyvSskylS|FI|AWR-APL|Enterprise|Off Maintenance|10421|Ixonos Plc 
+10421|Ixonos Plc |Jyväskylä|FI|AWR-APL|Enterprise|Off Maintenance|10421|Ixonos Plc 
 10423|Lenovo Japan Ltd. - Yamato R&D Center|Kanagawa|JP|AWR-JP|Regional Office|On Maintenance|8607|Lenovo Japan, Ltd. Product development Lab,  Engineering Technology
 10424|Yokogawa Electric Corporation - IA Platform Businesss Headquarters Foundation Technology|Tokyo|JP|AWR-JP|Regional Office|Off Maintenance|3559|Yokogawa Electric Corporation
 10425|RWTH Aachen University|NRW|DE|AWR-NI|University|On Maintenance|10425|RWTH Aachen University
@@ -516,7 +516,7 @@ custid|custname|city|country|territory|type|status|parentid|pname
 10444|Universiti Teknologi MARA (UiTM) - Faculty of Engineering|Selangor|MY|AWR-NI|University|Ex-Customer|10444|Universiti Teknologi MARA (UiTM)
 10446|Telecommunication Metrology Center of the MIIT(sep-13)|Beijing|CN|AWR-TSMC|Enterprise|Off Maintenance|10446|Telecommunication Metrology Center of the MIIT(sep-13)
 10448|Topanga USA|CA|US|AWR-SW|Enterprise|On Maintenance|10448|Topanga USA
-10449|Wavelab Engineering AG|LStti|CH|WLB|Rep|Partner|10449|Wavelab Engineering AG
+10449|Wavelab Engineering AG|Lätti|CH|WLB|Rep|Partner|10449|Wavelab Engineering AG
 1045|Renaissance Electronics & Communications LLC|MA|US|AWR-NE|Enterprise|Ex-Customer|1045|Renaissance Electronics & Communications LLC
 10450|Amimon Ltd.|Herzlia|IL|AWR-IL|Enterprise|Ex-Customer|10450|Amimon Ltd.
 10451|Evolution Telecommunications Technology  Ltd (ETT)|West Yorkshire|GB|AWR-UK|Enterprise|Out of Business|10451|Evolution Telecommunications Technology  Ltd (ETT)
@@ -530,9 +530,9 @@ custid|custname|city|country|territory|type|status|parentid|pname
 10461|Ho Chi Minh City University of Technology (HCMUT)|Ho Chi Minh City|VN|AWR-NI|University|On Maintenance|10461|Ho Chi Minh City University of Technology (HCMUT)
 10462|Asahi Glass Co., Ltd - Keihin Plant|Kanagawa|JP|AWR-JP|Regional Office|Ex-Customer|5032|Asahi Glass Co., Ltd.
 10463|University of Stuttgart|Stuttgart|DE|AWR-NI|University|On Maintenance|10463|University of Stuttgart
-10464|UniversitT de Caen - Campus 2|Cedex 5|FR|AWR-FR|University|On Maintenance|10464|Universit? de Caen
+10464|Université de Caen - Campus 2|Cedex 5|FR|AWR-FR|University|On Maintenance|10464|Universit? de Caen
 10465|Indra Navia AS|Oslo|NO|AWR-SC|Regional Office|On Maintenance|9145|Indra Sistemas S.A.
-10466|University of Erlangen - Nurnberg - Lehrstuhl fnr Hochfrequenztechnik|Bavaria|DE|AWR-NI|University|On Maintenance|10466|University of Erlangen
+10466|University of Erlangen - Nurnberg - Lehrstuhl für Hochfrequenztechnik|Bavaria|DE|AWR-NI|University|On Maintenance|10466|University of Erlangen
 10467|Jeffrey Pawlan|CA|US|AWR-NW|Enterprise|Partner|10467|Jeffrey Pawlan
 10468|Joint-Stock Company Ural Design Bureau DETAL, (UPKB Detal)|Sverdlovskii|RU|ETR|Enterprise|On Maintenance|10468|Joint-Stock Company Ural Design Bureau DETAL, (UPKB Detal)
 10469|Ecole Polytechnique of Montreal - Poly Grames Research Center|QC|CA|AWR-NI|University|On Maintenance|10469|Ecole Polytechnique of Montreal
@@ -545,7 +545,7 @@ custid|custname|city|country|territory|type|status|parentid|pname
 10475|University of Wollongong - ITC Research Institute|NSW|AU|AWR|University|On Maintenance|10475|University of Wollongong
 10477|Microwave Systems Joint-Stock Company|Moscow|RU|ROD|Enterprise|Off Maintenance|10477|Microwave Systems Joint-Stock Company
 10478|Technological Educational Institute of Western Greece - Department of Computers and Informatics Engineering|(Varia)|GR|AWR-NI|University|On Maintenance|10478|Technological Educational Institute of Western Greece
-10480|Paragon AG|Nnrnberg|DE|AWR-DE|Enterprise|Off Maintenance|10480|Paragon AG
+10480|Paragon AG|Nürnberg|DE|AWR-DE|Enterprise|Off Maintenance|10480|Paragon AG
 10481|Res-Net Microwave|FL|US|AWR-SE|Enterprise|Ex-Customer|10481|Res-Net Microwave
 10482|David Nummey - Personal License|NJ|US|AWR-NE|Enterprise|University Graduate|10482|David Nummey
 10483|SI2 Technologies, Inc.|MA|US|AWR-NE|Enterprise|On Maintenance|10483|SI2 Technologies, Inc.
@@ -605,7 +605,7 @@ custid|custname|city|country|territory|type|status|parentid|pname
 10551|Lucerne University of Applied Sciences and Arts|Horw|CH|AWR-NI|University|On Maintenance|10551|Lucerne University of Applied Sciences and Arts
 10553|Nuvotronics - AZ|AZ|US|AWR-SW|Site|On Maintenance|10527|Nuvotronics
 10554|MKS Medical Electronics (oct-13)|CO|US|AWR-SW|Enterprise|Off Maintenance|10554|MKS Medical Electronics (oct-13)
-10555|Vietnam Military Technical Academy (VMTA)|Ha N?i|VN|NET|University|On Maintenance|10555|Vietnam Military Technical Academy (VMTA)
+10555|Vietnam Military Technical Academy (VMTA)|Hà N?i|VN|NET|University|On Maintenance|10555|Vietnam Military Technical Academy (VMTA)
 10557|LeTourneau University|TX|US|Default Value|University|Ex-Customer|10557|LeTourneau University
 10557|LeTourneau University|TX|US|AWR|University|Ex-Customer|10557|LeTourneau University
 10558|National Penghu University of Science and Technology|Penghu|TW|AWR-NI|University|Ex-Customer|10558|National Penghu University of Science and Technology
@@ -619,7 +619,7 @@ custid|custname|city|country|territory|type|status|parentid|pname
 10568|Microsemi Corporation - Austin|TX|US|AWR-CE|Regional Office|Ex-Customer|10569|Microsemi Corporation
 10570|Colorado Engineering, Inc.|CO|US|AWR-SW|Enterprise|On Maintenance|10570|Colorado Engineering, Inc.
 10575|Nokia Solutions and Networks (NSN) - Illinois|IL|US|AWR-NE|Site|On Maintenance|9306|Nokia Solutions and Networks (NSN)
-10579|Qualcomm Wireless GmbH|MSgenwil|CH|WLB|Regional Office|On Maintenance|3808|Qualcomm Technologies, Inc.
+10579|Qualcomm Wireless GmbH|Mägenwil|CH|WLB|Regional Office|On Maintenance|3808|Qualcomm Technologies, Inc.
 10580|Francisco Gallardo Lopez - Personal License|Madrid|ES|AWR-SP|Enterprise|University Graduate|10580|Francisco Gallardo Lopez
 10581|Universitatea Politehnica din Bucuresti - Electronic, Telecommunication and Information Technology  - Bucharest|Bucharest|RO|AWR-NI|University|On Maintenance|10581|Universitatea Politehnica din Bucuresti
 10582|National Ilan University |Yilan County|TW|AWR-NI|University|Ex-Customer|10582|National Ilan University 
@@ -686,12 +686,12 @@ custid|custname|city|country|territory|type|status|parentid|pname
 10653|Andriy Gordiyenko RF-Engineering & Consulting|Muenchen|DE|AWR-DE|Enterprise|Consultant|10653|Andriy Gordiyenko RF-Engineering & Consulting
 10654|Fujitsu Laboratories Ltd. - Network System Lab|Kanagawa|JP|AWR-JP|Regional Office|Off Maintenance|10040049|Fujitsu
 10655|L-3 Communications - Warrior Systems - Insight|NH|US|AWR-NE|Regional Office|On Maintenance|9134|L-3 Communications Holdings, Inc.
-10656|Shanghai Institute of MicrosystemÃ¡and InformationÃ¡Technology (mar-14)|Shanghai|CN|AWR-TSMC|Enterprise|Off Maintenance|10656|Shanghai Institute of Microsystem?and Information?Technology (mar-14)
+10656|Shanghai Institute of Microsystem and Information Technology (mar-14)|Shanghai|CN|AWR-TSMC|Enterprise|Off Maintenance|10656|Shanghai Institute of Microsystem?and Information?Technology (mar-14)
 10657|LiteOn Technology Corp (mar-14)|Taipei|TW|AWR-TSMC|Enterprise|Off Maintenance|10657|LiteOn Technology Corp (mar-14)
 10658|National Instruments Malaysia Sdn. Bhd.|Penang|MY|AWR-TSMC|Site|On Maintenance|6564|National Instruments
 10659|National Defense University - Chung Cheng Institute of Technology|Tauyuan County |TW|AWR-NI|University|On Maintenance|10659|National Defense University
 10660|Sentinelle Medical Inc.|ON|CA|AWR-NE|Enterprise|On Maintenance|10660|Sentinelle Medical Inc.
-10661|National Instruments - Colombia|BogotÃŸ|CO|NI-CO|Rep|On Maintenance|6564|National Instruments
+10661|National Instruments - Colombia|Bogotá|CO|NI-CO|Rep|On Maintenance|6564|National Instruments
 10662|Vadum, Inc.|NC|US|AWR-SE|Enterprise|On Maintenance|10662|Vadum, Inc.
 10663|Fujitsu Laboratories Ltd. - Advanced Wireless Laboratory (mar-14)|Kanagawa|JP|AWR-JP|Regional Office|Off Maintenance|10040049|Fujitsu
 10664|ApexPlus Technologies|Hyderabad|IN|IDA|Enterprise|Out of Business|10664|ApexPlus Technologies
@@ -722,7 +722,7 @@ custid|custname|city|country|territory|type|status|parentid|pname
 10690|National Instruments - South Korea|Seoul|KR|AWR-AP|Site|On Maintenance|6564|National Instruments
 10691|AAI Corporation/Textron Systems|MD|US|AWR-SE|Enterprise|On Maintenance|10691|AAI Corporation/Textron Systems
 10692|National Instruments Hong Kong Ltd.|New Territories|HK|RSK|Site|On Maintenance|6564|National Instruments
-10693|Eta Devices, Inc. - Sweden|TyresÃ·|SE|AWR-SC|Site|On Maintenance|10567|Eta Devices, Inc.
+10693|Eta Devices, Inc. - Sweden|Tyresö|SE|AWR-SC|Site|On Maintenance|10567|Eta Devices, Inc.
 10694|Boeing Satellite Systems - El Segundo|CA|US|AWR-SW|Site|On Maintenance|954|Boeing Company
 10695|Radio Engineering Institute (OJSC)|Moscow|RU|ETR|Enterprise|On Maintenance|10695|Radio Engineering Institute (OJSC)
 10696|NPK NIIDAR (OJSC)|Moscow|RU|ETR|Enterprise|On Maintenance|10696|NPK NIIDAR (OJSC)
@@ -749,7 +749,7 @@ custid|custname|city|country|territory|type|status|parentid|pname
 1072|Queens University Belfast - Institute of Electronics, Communications and Information Technology (ECIT)|County Antrim|IE|Default Value|University|On Maintenance|9242|Queens University Belfast
 1072|Queens University Belfast - Institute of Electronics, Communications and Information Technology (ECIT)|County Antrim|IE|AWR|University|On Maintenance|9242|Queens University Belfast
 10720|SK Telecom (jul-14)|Seoul|KR|AWR-KR|Enterprise|Off Maintenance|10720|SK Telecom (jul-14)
-10721|Ericsson MagyarorszÃŸg Kft. - R&D|Budapest|HU|RSH|Site|On Maintenance|1050|LM Ericsson
+10721|Ericsson Magyarország Kft. - R&D|Budapest|HU|RSH|Site|On Maintenance|1050|LM Ericsson
 10722|Z119 Factory|Ha Noi|VN|NET|Enterprise|Off Maintenance|10722|Z119 Factory
 10723|Vertu Corporation Ltd|Hampshire|GB|AWR-UK|Enterprise|On Maintenance|10723|Vertu Corporation Ltd
 10724|Anritsu GmbH|Munich|DE|AWR-DE|Regional Office|Partner|10040023|Anritsu Corporation
@@ -795,7 +795,7 @@ custid|custname|city|country|territory|type|status|parentid|pname
 10769|Prism Microwave|TX|US|AWR-CE|Enterprise|On Maintenance|10769|Prism Microwave
 10770|Oregon Tech Wilsonville|OR|US|AWR-NW|University|On Maintenance|10770|Oregon Tech Wilsonville
 10771|COMSYS Communications Systems Service GmbH|Bad Salzdetfurth|DE|AWR-DE|Enterprise|Off Maintenance|10771|COMSYS Communications Systems Service GmbH
-10772|UniversitT Paul Sabatier - Toulouse 3|Cedex 9|FR|AWR-FR|University|On Maintenance|10395|LAAS-CNRS
+10772|Université Paul Sabatier - Toulouse 3|Cedex 9|FR|AWR-FR|University|On Maintenance|10395|LAAS-CNRS
 10773|Beijing StarPoint Communication Software Co., Ltd|Beijing|CN|RSK|Enterprise|Off Maintenance|10773|Beijing StarPoint Communication Software Co., Ltd
 10774|National Instruments - Chile|Santiago|CL|NI-CL|Rep|On Maintenance|6564|National Instruments
 10775|Pace Americas|CA|US|AWR-SW|Enterprise|On Maintenance|10775|Pace Americas
@@ -820,7 +820,7 @@ custid|custname|city|country|territory|type|status|parentid|pname
 10794|Morpho|Osny|FR|AWR-FR|Enterprise|On Maintenance|10794|Morpho
 10795|International Institute of Information Technology (IIIT) - Hyderabad|Hyderabad|IN|IDA|University|On Maintenance|10795|International Institute of Information Technology (IIIT)
 10796|LG Electronics|Kyungki-do|KR|AWR-KR|Enterprise|Ex-Customer|10796|LG Electronics
-10798|Fundaci=n Tecnalia Research & Innovation|San Sebastian|ES|AWR-SP|Enterprise|Ex-Customer|10798|Fundaci?n Tecnalia Research & Innovation
+10798|Fundación Tecnalia Research & Innovation|San Sebastian|ES|AWR-SP|Enterprise|Ex-Customer|10798|Fundaci?n Tecnalia Research & Innovation
 10799|FGKU|Zheleznodorozhny|RU|ETR|Enterprise|Off Maintenance|10799|FGKU
 108|Chiba University - Department of Electronic Engineering Graduate School of Engineering|Chiba|JP|NI-JP|NI Academic|On Maintenance|108|Chiba University
 10800|University of Padova|Padova|IT|AWR-EU|University|On Maintenance|10800|University of Padova
@@ -1062,7 +1062,7 @@ custid|custname|city|country|territory|type|status|parentid|pname
 11047|EPCOS SAS |Valbonne Sophia-Antipolis|FR|AWR-FR|Regional Office|On Maintenance|9240|EPCOS AG
 11048|Vasavi College of Engineering|Hyderabad|IN|IDA|University|On Maintenance|11048|Vasavi College of Engineering
 11049|Bokler Systems Corporation|AL|US|AWR-SE|Enterprise|On Maintenance|11049|Bokler Systems Corporation
-11050|TRIVAL ANTENE d.o.o.|MengeÃœ|SI|AWR-EU|Enterprise|On Maintenance|11050|TRIVAL ANTENE d.o.o.
+11050|TRIVAL ANTENE d.o.o.|Mengeš|SI|AWR-EU|Enterprise|On Maintenance|11050|TRIVAL ANTENE d.o.o.
 11051|Altiostar Networks Ltd|Surrey|GB|AWR-UK|Enterprise|On Maintenance|11051|Altiostar Networks Ltd
 11052|Gigawave Head Office|Essex|GB|AWR-UK|Site|On Maintenance|10321|Vislink plc
 11054|Doug Jachowski|CA|US|AWR-NW|Enterprise|On Maintenance|11054|Doug Jachowski
@@ -1100,7 +1100,7 @@ custid|custname|city|country|territory|type|status|parentid|pname
 11084|Mentor Graphics - SE|Kista|SE|AWR-SC|Site|Partner|9274|Mentor Corporation
 11085|National Instruments - Lake Forest|CA|US|AWR-SW|Site|On Maintenance|6564|National Instruments
 11086|Cubic Defense Applications|CA|US|AWR-SW|Enterprise|On Maintenance|11086|Cubic Defense Applications
-11087|Remote Sensing Technologies (RST)|Beytepe-Â¦ankaya|TR|ANE|Enterprise|On Maintenance|11087|Remote Sensing Technologies (RST)
+11087|Remote Sensing Technologies (RST)|Beytepe-Çankaya|TR|ANE|Enterprise|On Maintenance|11087|Remote Sensing Technologies (RST)
 11088|LS Mtron Ltd.|Gyeonggi-do|KR|AWR-KR|Enterprise|On Maintenance|11088|LS Mtron Ltd.
 11089|Erzia Technologies SL|Cantabria|ES|AWR-SP|Enterprise|On Maintenance|11089|Erzia Technologies SL
 11090|Voronezh State University - Physics|Voronezh|RU|ETR|University|On Maintenance|11090|Voronezh State University
@@ -1136,11 +1136,11 @@ custid|custname|city|country|territory|type|status|parentid|pname
 11122|Ube National College of Technology|Yamaguchi|JP|AWR-JP|University|On Maintenance|11122|Ube National College of Technology
 11123|RFTechnics Limited|South Yorkshire|GB|AWR-UK|Enterprise|On Maintenance|11123|RFTechnics Limited
 11124|University of Oxford - Department of Materials|Oxfordshire|GB|AWR-UK|University|On Maintenance|10216|University of Oxford
-11125|Universidad de Concepcion|Octava Regi=n|CL|Default Value|University|On Maintenance|11125|Universidad de Concepcion
-11125|Universidad de Concepcion|Octava Regi=n|CL|AWR|University|On Maintenance|11125|Universidad de Concepcion
+11125|Universidad de Concepcion|Octava Región|CL|Default Value|University|On Maintenance|11125|Universidad de Concepcion
+11125|Universidad de Concepcion|Octava Región|CL|AWR|University|On Maintenance|11125|Universidad de Concepcion
 11126|National Instruments - MD|MD|US|AWR-SE|Site|On Maintenance|6564|National Instruments
 11127|Minntronix, Inc.|SD|US|WTA|Enterprise|On Maintenance|11127|Minntronix, Inc.
-11128|Disruptive Technologies|Rsdal|NO|AWR-SC|Enterprise|On Maintenance|11128|Disruptive Technologies
+11128|Disruptive Technologies|Rådal|NO|AWR-SC|Enterprise|On Maintenance|11128|Disruptive Technologies
 11129|Eldis Pardubice s.r.o.|Pardubice|CZ|RSA|Enterprise|On Maintenance|11129|Eldis Pardubice s.r.o.
 11130|Kenneth Johnson - Personal License|TX|US|AWR-CE|Enterprise|University Graduate|11130|Kenneth Johnson
 11131|NAVAIR|CA|US|AWR-SW|Enterprise|On Maintenance|11131|NAVAIR
@@ -1156,8 +1156,8 @@ custid|custname|city|country|territory|type|status|parentid|pname
 11141|Advanced Cardiac Therapeutics|CA|US|AWR-NW|Enterprise|On Maintenance|11141|Advanced Cardiac Therapeutics
 11142|Radio-Systems, Ltd.|Saint Petersburg|RU|ROD|Enterprise|On Maintenance|11142|Radio-Systems, Ltd.
 11143|Saverio Citraro - Personal License|PI|IT|AWR-EU|Enterprise|University Graduate|11143|Saverio Citraro
-11144|Fundaci=n Universitaria Los Libertadores|Cundinamarca|CO|Default Value|University|On Maintenance|11144|Fundaci?n Universitaria Los Libertadores
-11144|Fundaci=n Universitaria Los Libertadores|Cundinamarca|CO|AWR|University|On Maintenance|11144|Fundaci?n Universitaria Los Libertadores
+11144|Fundación Universitaria Los Libertadores|Cundinamarca|CO|Default Value|University|On Maintenance|11144|Fundaci?n Universitaria Los Libertadores
+11144|Fundación Universitaria Los Libertadores|Cundinamarca|CO|AWR|University|On Maintenance|11144|Fundaci?n Universitaria Los Libertadores
 11145|Stefan cel Mare University of Suceava|Suceava|RO|Default Value|University|On Maintenance|11145|Stefan cel Mare University of Suceava
 11145|Stefan cel Mare University of Suceava|Suceava|RO|AWR|University|On Maintenance|11145|Stefan cel Mare University of Suceava
 11146|Maxim Integrated Products, Inc.|CA|US|AWR-NW|Enterprise|On Maintenance|11146|Maxim Integrated Products, Inc.
@@ -1217,11 +1217,11 @@ custid|custname|city|country|territory|type|status|parentid|pname
 11198|Fareast Huaqing Navigation & Position Co., Ltd|Hebei|CN|AWR-TSMC|Enterprise|On Maintenance|11198|Fareast Huaqing Navigation & Position Co., Ltd
 11199|U-Tel|Gyeonggi|KR|AWR-KR|Enterprise|On Maintenance|11199|U-Tel
 112|Chung-Shan Institute of Science and Technology (jun-06)|Taoyuan|TW|AWR-NI|University|Off Maintenance|112|Chung-Shan Institute of Science and Technology (jun-06)
-11200|Suheyb Bozdemir - Personal License|Â¦ankaya |TR|ANE|Enterprise|University Graduate|11200|Suheyb Bozdemir
+11200|Suheyb Bozdemir - Personal License|Çankaya |TR|ANE|Enterprise|University Graduate|11200|Suheyb Bozdemir
 11201|Gyeongsang National University - Electronic Engineering|Gyeongnam|KR|AWR-KR|University|On Maintenance|11201|Gyeongsang National University
 11202|University of Cincinnati - Electrical Engineering and Computing Systems|OH|US|AWR-NI|University|On Maintenance|11202|University of Cincinnati
 11203|ACE Antenna Corporation|Incheon|KR|AWR-KR|Regional Office|On Maintenance|11203|ACE Antenna Corporation
-11204|Universita del Salento|LE|IT|MED|University|On Maintenance|11204|Universit? del Salento
+11204|Università del Salento|LE|IT|MED|University|On Maintenance|11204|Universit? del Salento
 11205|Utsunomiya University|Tochigi|JP|AWR-JP|University|On Maintenance|11205|Utsunomiya University
 1125|Sirenza Microdevices - Tempe Design Center (oct-10)|AZ|US|AWR-SW|Regional Office|Off Maintenance|541|RF Micro Devices, Inc.
 1127|Salisbury State University|MD|US|AWR-NI|University|Ex-Customer|1127|Salisbury State University
@@ -1335,7 +1335,7 @@ custid|custname|city|country|territory|type|status|parentid|pname
 1683|SPARTECH-SOUTH|FL|US|AWR-SE|Enterprise|Ex-Customer|1683|SPARTECH-SOUTH
 1691|Step Electronics (China) (04-mar-05)|Beijing|CN|AWR-TSMC|Enterprise|Ex-Customer|1691|Step Electronics (China) (04-mar-05)
 1696|Technical Marketing Associates|NJ|US|AWR-NE|Enterprise|Ex-Customer|1696|Technical Marketing Associates
-17|Allgon Microwave - an Advantech AMT (dec-08)|GÃ·teborg|SE|AWR-SC|Regional Office|Off Maintenance|8918|Advantech Allgon Microwave (sep-08)
+17|Allgon Microwave - an Advantech AMT (dec-08)|Göteborg|SE|AWR-SC|Regional Office|Off Maintenance|8918|Advantech Allgon Microwave (sep-08)
 1703|Wavetec, Inc.|TX|US|AWR-CE|Enterprise|Ex-Customer|1703|Wavetec, Inc.
 1707|Thomson Multimedia, Inc.|NJ|US|AWR-NE|Regional Office|Ex-Customer|9498|Thomson R&D France SNC
 1708|CTT, Inc.|CA|US|AWR-NW|Enterprise|Off Maintenance|1708|CTT, Inc.
@@ -1343,7 +1343,7 @@ custid|custname|city|country|territory|type|status|parentid|pname
 1721|Nippon Telegraph and Telephone Corporation (NTT) - Basic Research Labs (mar-13)|Kanagawa|JP|AWR-JP|Regional Office|Off Maintenance|9972|Nippon Telegraph and Telephone Corporation (NTT)
 1722|Tokyo Institute of Polytechnics|Kanagawa|JP|NI-JP|University|Ex-Customer|1722|Tokyo Institute of Polytechnics
 1724|EASAT Antennas Ltd. (jan-06)|Staffordshire|GB|AWR-UK|Enterprise|Off Maintenance|1724|EASAT Antennas Ltd. (jan-06)
-1726|Escola Superior Tecnologia Gestpo (ESTG)|Leiria|PT|AWR-NI|University|Ex-Customer|1726|Escola Superior Tecnologia Gest?o (ESTG)
+1726|Escola Superior Tecnologia Gestão (ESTG)|Leiria|PT|AWR-NI|University|Ex-Customer|1726|Escola Superior Tecnologia Gest?o (ESTG)
 1731|Kyungwon University|Kyunggi|KR|AWR-NI|University|Ex-Customer|1731|Kyungwon University
 1733|Fractus S.A.|Barcelona|ES|AWR-SP|Enterprise|Off Maintenance|1733|Fractus S.A.
 1736|QUSION Technologies|NJ|US|AWR-NE|Enterprise|Out of Business|1736|QUSION Technologies
@@ -1444,7 +1444,7 @@ custid|custname|city|country|territory|type|status|parentid|pname
 2092|Larry May Consulting (jan-12)|CA|US|AWR-SW|Enterprise|Off Maintenance|2092|Larry May Consulting (jan-12)
 2094|Siemens AG Austria|Vienna|AT|AWR-DE|Regional Office|On Maintenance|10010005|Siemens AG
 21|Alta Engineering|CO|US|AWR-SW|Enterprise|Off Maintenance|21|Alta Engineering
-210|Saab AB/Saab Microwave Systems|GÃ·teborg|SE|AWR-SC|Regional Office|On Maintenance|8981|SAAB AB
+210|Saab AB/Saab Microwave Systems|Göteborg|SE|AWR-SC|Regional Office|On Maintenance|8981|SAAB AB
 2105|SELEX ES Ltd. - Sensors and Airborne Systems - Luton|Bedfordshire|GB|AWR-UK|Regional Office|On Maintenance|9081|Finmeccanica
 2108|University of Michigan|MI|US|AWR-NI|University|Ex-Customer|1901|University of Michigan
 2115|G-Plus, Inc. (mar-05)|CA|US|AWR-SW|Enterprise|Off Maintenance|2115|G-Plus, Inc. (mar-05)
@@ -1454,7 +1454,7 @@ custid|custname|city|country|territory|type|status|parentid|pname
 2134|Centro Studi Citta Di Orvieto Alta formazione e Studi Universitari|Orvieto|IT|AWR-NI|University|Ex-Customer|2134|Centro Studi Citta Di Orvieto Alta formazione e Studi Universitari
 214|Esigelec (University of Rouen)|Mont Saint Aignan|FR|AWR-NI|University|Ex-Customer|214|Esigelec (University of Rouen)
 2142|EPAK GmbH|Leipzig|DE|AWR-DE|Enterprise|Ex-Customer|2142|EPAK GmbH
-2147|Institut SupTrieur de l'Electronique et du NumTrique (ISEN)|Cedex|FR|AWR-NI|University|Ex-Customer|2147|Institut Sup?rieur de l'Electronique et du Num?rique (ISEN)
+2147|Institut Supérieur de l'Electronique et du Numérique (ISEN)|Cedex|FR|AWR-NI|University|Ex-Customer|2147|Institut Sup?rieur de l'Electronique et du Num?rique (ISEN)
 2149|ENST|Cedex|FR|AWR-NI|University|Ex-Customer|2149|ENST
 2153|Helsinki Metropolia University of Applied Sciences|Vantaa|FI|AWR-NI|University|On Maintenance|2153|Helsinki Metropolia University of Applied Sciences
 2155|Amplus Communication Pte Ltd|Singapore|SG|RSE|Enterprise|Off Maintenance|2155|Amplus Communication Pte Ltd
@@ -1498,8 +1498,8 @@ custid|custname|city|country|territory|type|status|parentid|pname
 2257|Flextronics - Norway|Billingstad|NO|AWR-SC|Regional Office|Ex-Customer|8408|Flextronics
 2269|Alvesta|CA|US|AWR-NW|Enterprise|Out of Business|2269|Alvesta
 227|Filtronic Broadband Ltd.|Durham|GB|AWR-UK|Regional Office|Ex-Customer|10040048|Filtronic
-2271|Universidad Politecnica De Madrid (UPM) - Escuela Universitaria de Ingenierfa TTcnica de Telecomunicaci=n (EUITT)|Madrid|ES|Default Value|University|On Maintenance|2271|Universidad Politecnica De Madrid (UPM)
-2271|Universidad Politecnica De Madrid (UPM) - Escuela Universitaria de Ingenierfa TTcnica de Telecomunicaci=n (EUITT)|Madrid|ES|AWR|University|On Maintenance|2271|Universidad Politecnica De Madrid (UPM)
+2271|Universidad Politecnica De Madrid (UPM) - Escuela Universitaria de Ingeniería Técnica de Telecomunicación (EUITT)|Madrid|ES|Default Value|University|On Maintenance|2271|Universidad Politecnica De Madrid (UPM)
+2271|Universidad Politecnica De Madrid (UPM) - Escuela Universitaria de Ingeniería Técnica de Telecomunicación (EUITT)|Madrid|ES|AWR|University|On Maintenance|2271|Universidad Politecnica De Madrid (UPM)
 2275|Lockheed Martin Corporation - Naval Electronics Surveillance - Moorestown|NJ|US|AWR-NE|Regional Office|On Maintenance|10010004|Lockheed Martin Corporation
 2283|VS Electronics Pte Ltd|missing|SG|RSE|Enterprise|No Service/Support|2283|VS Electronics Pte Ltd
 2284|NASA Langley Research Center|VA|US|AWR-SE|Regional Office|Ex-Customer|10098|NASA Headquarters
@@ -1509,8 +1509,8 @@ custid|custname|city|country|territory|type|status|parentid|pname
 2297|Modelithics, Inc|FL|US|AWR-SE|Enterprise|Partner|2297|Modelithics, Inc
 23|AMCOM Communications|MD|US|AWR-SE|Enterprise|On Maintenance|23|AMCOM Communications
 2302|Baumer Electric AG (dec-03)|Frauenfeld|CH|WLB|Enterprise|Off Maintenance|2302|Baumer Electric AG (dec-03)
-2307|Karlsruhe Institute of Technology (KIT) - Institut fur Mikro-und Nanoelektronische Systeme (IMS)|Baden-Wnrttemberg|DE|Default Value|University|On Maintenance|11100|Karlsruher Institut of Technologie (KIT)
-2307|Karlsruhe Institute of Technology (KIT) - Institut fur Mikro-und Nanoelektronische Systeme (IMS)|Baden-Wnrttemberg|DE|AWR|University|On Maintenance|11100|Karlsruher Institut of Technologie (KIT)
+2307|Karlsruhe Institute of Technology (KIT) - Institut fur Mikro-und Nanoelektronische Systeme (IMS)|Baden-Württemberg|DE|Default Value|University|On Maintenance|11100|Karlsruher Institut of Technologie (KIT)
+2307|Karlsruhe Institute of Technology (KIT) - Institut fur Mikro-und Nanoelektronische Systeme (IMS)|Baden-Württemberg|DE|AWR|University|On Maintenance|11100|Karlsruher Institut of Technologie (KIT)
 2309|Multi Level Technology (jan-02)|Civenna|IT|MED|Enterprise|Off Maintenance|2309|Multi Level Technology (jan-02)
 231|Compound Photonics UK Ltd.|County Durham|GB|AWR-UK|Enterprise|On Maintenance|231|Compound Photonics UK Ltd.
 2313|Technovative Applications (dec-12)|CA|US|AWR-SW|Enterprise|Off Maintenance|2313|Technovative Applications (dec-12)
@@ -1615,7 +1615,7 @@ custid|custname|city|country|territory|type|status|parentid|pname
 271|GVC Corporation (jul-03)|missing|TW|AWR-TSMC|Enterprise|Off Maintenance|271|GVC Corporation (jul-03)
 2711|Andrew Corporation - Austin TX|TX|US|AWR-CE|Regional Office|Out of Business|9022|CommScope, Inc.
 2715|Hanscom AFB|MA|US|AWR-NE|Enterprise|Ex-Customer|2715|Hanscom AFB
-2716|S.A.S Estar|AcignT|FR|AWR-FR|Enterprise|On Maintenance|2716|S.A.S Estar
+2716|S.A.S Estar|Acigné|FR|AWR-FR|Enterprise|On Maintenance|2716|S.A.S Estar
 2720|Tsuruoka National College of Technology|Yamagata|JP|NI-JP|University|Ex-Customer|2720|Tsuruoka National College of Technology
 2724|Stiftung Caesar|Bonn|DE|AWR-DE|Enterprise|Ex-Customer|2724|Stiftung Caesar
 273|GW-Com Inc.|CA|US|AWR-NW|Enterprise|No Service/Support|273|GW-Com Inc.
@@ -1682,7 +1682,7 @@ custid|custname|city|country|territory|type|status|parentid|pname
 3099|Aviat Networks, Inc. - NZ|Wellington|NZ|AWR-AU|Site|Off Maintenance|9336|Aviat Networks, Inc.
 3108|Tait Electronics Ltd.|Canterbury|NZ|AWR-AU|Enterprise|On Maintenance|3108|Tait Electronics Ltd.
 312|Infineon Technologies AG - Department IFAG PMM RPD - Neubiberg|Muenchen|DE|AWR-DE|Enterprise|On Maintenance|312|Infineon Technologies AG
-3121|Otto von Guericke UniversitSt Magdeburg|Magdeburg|DE|AWR-NI|University|On Maintenance|3121|Otto von Guericke Universit?t Magdeburg
+3121|Otto von Guericke Universität Magdeburg|Magdeburg|DE|AWR-NI|University|On Maintenance|3121|Otto von Guericke Universit?t Magdeburg
 3125|Wistron NeWeb Corporation|Hsinchu|TW|AWR-TSMC|Enterprise|On Maintenance|3125|Wistron NeWeb Corporation
 3132|NovelWave, LLC|CA|US|AWR-NW|Enterprise|On Maintenance|3132|NovelWave, LLC
 3134|Aphena Ltd.|Cambridgeshire|GB|AWR-UK|Enterprise|Partner|3134|Aphena Ltd.
@@ -1805,7 +1805,7 @@ custid|custname|city|country|territory|type|status|parentid|pname
 37|Mercury Systems, Inc. - Salem|NH|US|AWR-NE|Regional Office|Out of Business|3597|Mercury Systems, Inc.
 3707|Setup Electronica (25-may-05)|Barcelona|ES|AWR-SP|Enterprise|Ex-Customer|3707|Setup Electronica (25-may-05)
 371|CyOptics, Inc. - Optoelectronics Center (feb-06)|PA|US|AWR-NE|Enterprise|Off Maintenance|371|CyOptics, Inc.
-3716|Ericsson AB - EAW|MÃ·lndal|SE|AWR-SC|Site|On Maintenance|1050|LM Ericsson
+3716|Ericsson AB - EAW|Mölndal|SE|AWR-SC|Site|On Maintenance|1050|LM Ericsson
 3718|United Fiber Optic Communication Inc. (oct-05)|Hsinchu|TW|AWR-TSMC|Enterprise|Off Maintenance|3718|United Fiber Optic Communication Inc. (oct-05)
 3721|AWR Corporation - Asia Pacific|CA|US|AWR-AP|Rep|On Maintenance|3721|AWR Corporation
 3728|Lockheed Martin Corporation - Newtown|PA|US|AWR-NE|Regional Office|On Maintenance|10010004|Lockheed Martin Corporation
@@ -1929,7 +1929,7 @@ custid|custname|city|country|territory|type|status|parentid|pname
 4335|Moog Fernau Ltd |Bedsfordshire|GB|AWR-UK|Enterprise|Off Maintenance|4335|Moog Fernau Ltd 
 435|Motorola Wireless Information Systems - RF Design Operations (jun-03)|AZ|US|AWR-SW|Regional Office|Off Maintenance|433|Motorola
 4366|Mitsubishi Heavy Industries, Ltd. - Nagoya Aerospace Systems Works|Aichi|JP|AWR-JP|Regional Office|Off Maintenance|9023|Mitsubishi Electric Corporation
-4368|Weibel Scientific A/S |AllerÂ°d|DK|AWR-APL|Enterprise|Off Maintenance|4368|Weibel Scientific A/S 
+4368|Weibel Scientific A/S |Allerød|DK|AWR-APL|Enterprise|Off Maintenance|4368|Weibel Scientific A/S 
 4391|Sirti Spa (mar-05)|Milano|IT|MED|Enterprise|Off Maintenance|4391|Sirti Spa (mar-05)
 4394|Salow Consulting (oct-06)|Reute|CH|WLB|Enterprise|Off Maintenance|4394|Salow Consulting (oct-06)
 440|M-Squared Technologies, LLC|MI|US|AWR-NE|Regional Office|Ex-Customer|1925|Picometrix, Inc.
@@ -1965,7 +1965,7 @@ custid|custname|city|country|territory|type|status|parentid|pname
 4552|CHL Netherlands B.V.|Katwijk|NL|AWR-BNL|Enterprise|On Maintenance|4552|CHL Netherlands B.V.
 4554|Universita degli Studi Mediterranae di DIMET|Reggio Calabria|IT|AWR-NI|University|Ex-Customer|4554|Universita degli Studi Mediterranae di DIMET
 4558|Richardson RFPD Japan - Japan Design Center|Tokyo|JP|AWR-JP|Enterprise|Off Maintenance|4558|Richardson RFPD Japan
-4562|Quintenz (jan-14)|Neuried bei Mnnchen|DE|AWR-DE|Enterprise|Off Maintenance|4562|Quintenz (jan-14)
+4562|Quintenz (jan-14)|Neuried bei München|DE|AWR-DE|Enterprise|Off Maintenance|4562|Quintenz (jan-14)
 4564|Han Wha Co., Ltd/Gumi Plant (nov-07)|KyungBuk|KR|AWR-KR|Enterprise|Off Maintenance|4564|Han Wha Co., Ltd/Gumi Plant (nov-07)
 457|National Chin-Yi Institute of Technology|Taichung|TW|AWR-NI|University|Ex-Customer|457|National Chin-Yi Institute of Technology
 4573|Impulse (jul-03)|Moscow|RU|ETR|Enterprise|Off Maintenance|4573|Impulse (jul-03)
@@ -1982,7 +1982,7 @@ custid|custname|city|country|territory|type|status|parentid|pname
 4660|Anadigics, Inc. - NJ|NJ|US|AWR-NE|Enterprise|On Maintenance|4660|Anadigics, Inc.
 4665|High Tech Computer Corporation (HTC) - HsinTien (mar-12)|Taipei|TW|AWR-TSMC|Regional Office|Off Maintenance|2473|High Tech Computer Corporation (HTC)
 467|NEC Engineering Co. (feb-00)|Kanagawa|JP|AWR-JP|Regional Office|Off Maintenance|9024|NEC
-4676|St. Jude Medical - Cardiac Rhythm Management Division (CRMD)|JSrfSlla|SE|AWR-SC|Regional Office|Out of Business|10626|St. Jude Medical
+4676|St. Jude Medical - Cardiac Rhythm Management Division (CRMD)|Järfälla|SE|AWR-SC|Regional Office|Out of Business|10626|St. Jude Medical
 4678|Montana State University|MT|US|AWR-NI|University|Ex-Customer|4678|Montana State University
 4684|Dainichi Electronic Co., Ltd|Osaka|JP|AWR-JP|Enterprise|Off Maintenance|4684|Dainichi Electronic Co., Ltd
 4686|JEOL Limited - Engineering System Department|Tokyo|JP|AWR-JP|Enterprise|On Maintenance|4686|JEOL Limited
@@ -2102,7 +2102,7 @@ custid|custname|city|country|territory|type|status|parentid|pname
 5341|Chengdu Seekon Microwave Communications (jan-07)|Sichuan|CN|AWR-TSMC|Enterprise|Off Maintenance|5341|Chengdu Seekon Microwave Communications (jan-07)
 5348|AWR Corporation - CE Region|TX|US|AWR-CE|Rep|On Maintenance|5348|AWR Corporation
 5355|AWR Corporation - NE Region|CA|US|AWR-NE|Rep|On Maintenance|5355|AWR Corporation
-5359|Haute Ecole Arc IngTnierie|Le Locle|CH|AWR-NI|University|Ex-Customer|5359|Haute Ecole Arc Ing?nierie
+5359|Haute Ecole Arc Ingénierie|Le Locle|CH|AWR-NI|University|Ex-Customer|5359|Haute Ecole Arc Ing?nierie
 5361|Technische Universitat Graz  - uW and Photonic Engineering|Steiermark|DE|AWR-NI|University|On Maintenance|5361|Technische Universitat Graz 
 5374|Osaka University - Toyonaka Campus|Osaka|JP|NI-JP|University|Ex-Customer|5374|Osaka University
 5386|Quorum Communications (nov-06)|TX|US|AWR-CE|Enterprise|Off Maintenance|5386|Quorum Communications (nov-06)
@@ -2149,7 +2149,7 @@ custid|custname|city|country|territory|type|status|parentid|pname
 5624|Institute for Infocomm Research (IIR)|Singapore|SG|AWR-NI|University|On Maintenance|5624|Institute for Infocomm Research (IIR)
 5626|Seoul National University|Seoul|KR|AWR-NI|University|Ex-Customer|5626|Seoul National University
 5639|Centre for Airborne Systems (CABS)|Bangalore|IN|IDA|Regional Office|Off Maintenance|9418|Defence Research & Development Organisation (DRDO)
-564|SAAB Ericsson Microelectronics AB|MÃ·lndal|SE|AWR-SC|Enterprise|Out of Business|564|SAAB Ericsson Microelectronics AB
+564|SAAB Ericsson Microelectronics AB|Mölndal|SE|AWR-SC|Enterprise|Out of Business|564|SAAB Ericsson Microelectronics AB
 5647|OnePass Solutions (01-feb-05)|Haidian|CN|AWR-TSMC|Enterprise|Ex-Customer|5647|OnePass Solutions (01-feb-05)
 5655|Panasonic Corporation - Automotive Systems Company Business Development Center (mar-10)|Kanagawa|JP|AWR-JP|Regional Office|Off Maintenance|9429|Panasonic
 566|Sagem SAS - Cergy|Cedex|FR|AWR-FR|Regional Office|On Maintenance|8920|Sagem Communication
@@ -2158,7 +2158,7 @@ custid|custname|city|country|territory|type|status|parentid|pname
 5667|Qinetiq Ltd. - Farnborough (feb-06)|Hampshire|GB|AWR-UK|Regional Office|Off Maintenance|186|Qinetiq Ltd.
 568|API Technologies Corporation - DE (dec-07)|DE|US|AWR-SE|Regional Office|Off Maintenance|10776|API Technologies Corporation
 5682|California Institute of Technology (Caltech) - Electrical Engineering Department|CA|US|AWR-NI|University|On Maintenance|5682|California Institute of Technology (Caltech)
-5691|Dokuz Eylnl _niversitesi, Mnhendislik Faknltesi, Elektrik-Elektronik BÃ·lnmn|Izmir|TR|AWR-NI|University|Ex-Customer|5691|Dokuz Eyl?l ?niversitesi, M?hendislik Fak?ltesi, Elektrik-Elektronik B?l?m?
+5691|Dokuz Eylül Üniversitesi, Mühendislik Fakültesi, Elektrik-Elektronik Bölümü|Izmir|TR|AWR-NI|University|Ex-Customer|5691|Dokuz Eyl?l ?niversitesi, M?hendislik Fak?ltesi, Elektrik-Elektronik B?l?m?
 5699|BOE HYDIS Technology Co., Ltd. - New Product Design Group (feb-08)|Gyeonggi-do|KR|AWR-KR|Enterprise|Off Maintenance|5699|BOE HYDIS Technology Co., Ltd.
 5728|Canon, Inc. - Headquarters Invisible Imaging Research Dept. 2  Frontier Research Center (jul-11)|Tokyo|JP|AWR-JP|Enterprise|Off Maintenance|5728|Canon, Inc.
 573|Samsung Electronics America ENC Inc (feb-03)|CA|US|AWR-SW|Regional Office|Off Maintenance|9167|Samsung
@@ -2469,7 +2469,7 @@ custid|custname|city|country|territory|type|status|parentid|pname
 7525|Technetix|Mechelen|BE|AWR-BNL|Enterprise|Off Maintenance|7525|Technetix
 7527|EWA Government Systems Inc.|NJ|US|AWR-NE|Regional Office|On Maintenance|9515|EWA Government Systems, Inc. (sep-10)
 7530|Siemens AG - Erlanger|Erlangen|DE|AWR-DE|Regional Office|Ex-Customer|10010005|Siemens AG
-7546|Rohde & Schwarz +sterreich SP.z o.o - PL|Warszawa|PL|RSO|Rep|On Maintenance|7546|Rohde & Schwarz ?sterreich SP.z o.o
+7546|Rohde & Schwarz Österreich SP.z o.o - PL|Warszawa|PL|RSO|Rep|On Maintenance|7546|Rohde & Schwarz ?sterreich SP.z o.o
 7548|Samsung Electronics Co., Ltd. Research Center (feb-13)|Moscow|RU|AWR-EU|Regional Office|Off Maintenance|9167|Samsung
 755|University of California - Los Angeles (UCLA)|CA|US|AWR-NI|University|On Maintenance|755|University of California
 7571|BAE Systems - EPIC (VA)|VA|US|AWR-SE|Site|Ex-Customer|9201|BAE Systems plc
@@ -2501,7 +2501,7 @@ custid|custname|city|country|territory|type|status|parentid|pname
 774|Urmet Sistemi (jan-04)|Roma|IT|MED|Enterprise|Off Maintenance|774|Urmet Sistemi (jan-04)
 7740|ADC Telecommunications, Inc. - San Jose|CA|US|AWR-NW|Regional Office|Off Maintenance|10185|ADC Telecommunications, Inc.
 7745|Carnegie Mellon University - Electrical and Computer Engineering|PA|US|AWR-NI|University|Ex-Customer|7745|Carnegie Mellon University
-776|KVG Quartz Crystal Technology GmbH|Baden Wnrttemberg|DE|AWR-DE|Regional Office|Off Maintenance|10040050|Dover Technologies
+776|KVG Quartz Crystal Technology GmbH|Baden Württemberg|DE|AWR-DE|Regional Office|Off Maintenance|10040050|Dover Technologies
 7767|Zephyr Photonics, Inc.|NV|US|AWR-NW|Enterprise|Off Maintenance|7767|Zephyr Photonics, Inc.
 778|Vision Global Network Corp.|UT|US|AWR-SW|Enterprise|Out of Business|778|Vision Global Network Corp.
 7783|NXP Semiconductors Netherlands BV|Nijmegen|NL|AWR-BNL|Regional Office|On Maintenance|8427|Philips
@@ -2520,12 +2520,12 @@ custid|custname|city|country|territory|type|status|parentid|pname
 788|Wireless Solutions AB (feb-03)|Sundbyberg|SE|AWR-SC|Enterprise|No Service/Support|788|Wireless Solutions AB (feb-03)
 7881|National Institute of Advanced Industrial|Ibaraki|JP|AWR-JP|Enterprise|Ex-Customer|7881|National Institute of Advanced Industrial
 7884|Spectral Research|CO|US|AWR-SW|Enterprise|Ex-Customer|7884|Spectral Research
-7890|LinkÃ·ping University - Department of Science and Technology (ITN) - NorrkÃ·ping|NorrkÃ·ping|SE|AWR-NI|University|Ex-Customer|10997|Link?ping University
+7890|Linköping University - Department of Science and Technology (ITN) - Norrköping|Norrköping|SE|AWR-NI|University|Ex-Customer|10997|Link?ping University
 79|BroadLogic|CA|US|AWR-NW|Enterprise|Ex-Customer|79|BroadLogic
 790|Wright-Patterson Air Force Base|OH|US|AWR-NE|Enterprise|On Maintenance|790|Wright-Patterson Air Force Base
 7918|Benchmark Electronics (jun-14)|Almelo|NL|AWR-BNL|Enterprise|Off Maintenance|7918|Benchmark Electronics (jun-14)
 7920|EMQwave|Tullinge|SE|AWR-SC|Enterprise|On Maintenance|7920|EMQwave
-7922|University of Quindio|Quindfo|CO|NI-CO|University|Ex-Customer|7922|University of Quindio
+7922|University of Quindio|Quindío|CO|NI-CO|University|Ex-Customer|7922|University of Quindio
 7927|Yamaha Motor Co. Ltd. - Advanced System Research Division, Research & Development Section, Technology Center (aug-07)|Shizuoka|JP|AWR-JP|Enterprise|Off Maintenance|7927|Yamaha Motor Co. Ltd.
 7929|Interoperable Technologies LLC (jun-07)|FL|US|AWR-SE|Enterprise|Off Maintenance|7929|Interoperable Technologies LLC (jun-07)
 7935|Sharp Corporation (dec-13)|Osaka|JP|AWR-JP|Enterprise|Off Maintenance|7935|Sharp Corporation (dec-13)
@@ -2546,7 +2546,7 @@ custid|custname|city|country|territory|type|status|parentid|pname
 8041|Qinetiq Ltd. - RF Design Solutions (RFDS) (dec-12)|Worcestershire|GB|AWR-UK|Regional Office|Off Maintenance|186|Qinetiq Ltd.
 8042|Qinetiq Ltd. - Communications Department|Worcestershire|GB|AWR-UK|Regional Office|Off Maintenance|186|Qinetiq Ltd.
 8043|Qinetiq Ltd. - Secure Wireless Solutions  (SWS) (feb-14)|Worcestershire|GB|AWR-UK|Regional Office|Off Maintenance|186|Qinetiq Ltd.
-8050|AnaPico AG|Znrich|CH|WLB|Enterprise|Ex-Customer|8050|AnaPico AG
+8050|AnaPico AG|Zürich|CH|WLB|Enterprise|Ex-Customer|8050|AnaPico AG
 806|ASK Industries Spa|RE|IT|MED|Enterprise|On Maintenance|806|ASK Industries Spa
 8074|Nagoya Institute of Technology (mar-07)|Nagoya|JP|NI-JP|University|Ex-Customer|8074|Nagoya Institute of Technology (mar-07)
 8076|KUTKM Kolej Universiti Teknikal - Elektronik & Kej Komputer|Melaka|MY|AWR-NI|University|Ex-Customer|8076|KUTKM Kolej Universiti Teknikal
@@ -2569,13 +2569,13 @@ custid|custname|city|country|territory|type|status|parentid|pname
 822|Metawave Communications Corp|WA|US|AWR-NW|Enterprise|Out of Business|822|Metawave Communications Corp
 8231|Auriga OEM|MA|US|AWR-NE|Regional Office|Ex-Customer|7096|Auriga Microwave
 8249|Metatek, Ltd. (jul-11)|Moscow|RU|ETR|Enterprise|Off Maintenance|8249|Metatek, Ltd. (jul-11)
-8253|Flextronics Design/Wavebreaker AB|NorrkÃ·ping|SE|AWR-SC|Regional Office|Out of Business|8408|Flextronics
+8253|Flextronics Design/Wavebreaker AB|Norrköping|SE|AWR-SC|Regional Office|Out of Business|8408|Flextronics
 8256|REMEC Broadband Wireless - CA|CA|US|AWR-SW|Enterprise|Off Maintenance|8256|REMEC Broadband Wireless
 8262|Elsyscom|Mayenne|FR|AWR-FR|Enterprise|Ex-Customer|8262|Elsyscom
 8266|Central Coast Microwave Design - cust/consultant retired.|CA|US|AWR-NW|Enterprise|Ex-Customer|8266|Central Coast Microwave Design
 827|Northrop Grumman - Electronic Systems - IL|IL|US|AWR-NE|Regional Office|On Maintenance|1015|Northrop Grumman Systems Corporation
 8276|Freescale Semiconductor - Tempe|AZ|US|AWR-SW|Enterprise|Partner|8276|Freescale Semiconductor
-8279|Ecole SupTrieure des Technologies Electronique Informatique Infographie (ESTEI)|Bordeaux|FR|AWR-NI|University|On Maintenance|8279|Ecole Sup?rieure des Technologies Electronique Informatique Infographie (ESTEI)
+8279|Ecole Supérieure des Technologies Electronique Informatique Infographie (ESTEI)|Bordeaux|FR|AWR-NI|University|On Maintenance|8279|Ecole Sup?rieure des Technologies Electronique Informatique Infographie (ESTEI)
 8293|LEGIC Identsystems Ltd. - Signal Processing |Wetzikon|CH|WLB|Enterprise|Off Maintenance|8293|LEGIC Identsystems Ltd.
 8298|Celestica - Toronto|ON|CA|AWR-NE|Site|Off Maintenance|96|Celestica
 83|Enterasys|MA|US|AWR-NE|Enterprise|Ex-Customer|83|Enterasys
@@ -2600,7 +2600,7 @@ custid|custname|city|country|territory|type|status|parentid|pname
 8363|Powerwave Comtek Oy - Finland (oct-13)|Kempele|FI|AWR-APL|Regional Office|No Service/Support|8751|Powerwave Technologies, Inc.
 8366|Fitelnet Oy|Vantaa|FI|AWR-APL|Enterprise|Off Maintenance|8366|Fitelnet Oy
 8371|General Dynamics - Blackwood (jul-06)|Blackwood Gwent|GB|AWR-APL|Regional Office|Off Maintenance|8370|General Dynamics
-8373|Harman/Becker Automotive Systems|Baden-Wnrtemberg|DE|AWR-EU|Enterprise|On Maintenance|8373|Harman/Becker Automotive Systems
+8373|Harman/Becker Automotive Systems|Baden-Würtemberg|DE|AWR-EU|Enterprise|On Maintenance|8373|Harman/Becker Automotive Systems
 8376|Hirschmann Car Communication GmbH|Neckartenzlingen|DE|AWR-APL|Enterprise|On Maintenance|8376|Hirschmann Car Communication GmbH
 8379|Nvidia Development UK Ltd. - Bristol|Avon|GB|AWR-APL|Regional Office|On Maintenance|3510|Nvidia Corporation
 8381|Imbera Electronics (dec-07)|Espoo|FI|AWR-APL|Enterprise|Off Maintenance|8381|Imbera Electronics (dec-07)
@@ -2610,7 +2610,7 @@ custid|custname|city|country|territory|type|status|parentid|pname
 8397|Jotron Electronics|Tjodalyng|NO|AWR-APL|Enterprise|On Maintenance|8397|Jotron Electronics
 8399|Kathrein Austria GmbH - Werk II Niederndorf|Tirol|AT|AWR-APL|Regional Office|On Maintenance|2398|Kathrein-Werke KG
 8401|Pulse Finland Oy|Kempele|FI|AWR-APL|Regional Office|On Maintenance|8568|Pulse Electronics
-8404|Marquardt GmbH - AEE2 Automotive Development|Baden-Wnrtenberg|DE|AWR-APL|Enterprise|On Maintenance|8404|Marquardt GmbH
+8404|Marquardt GmbH - AEE2 Automotive Development|Baden-Würtenberg|DE|AWR-APL|Enterprise|On Maintenance|8404|Marquardt GmbH
 8409|Flextronics - ODM Product Group|Oulu|FI|AWR-APL|Regional Office|Out of Business|8408|Flextronics
 8411|MediaTek Singapore Pte Ltd. (jul-06)|Singapore|SG|RSE|Regional Office|Off Maintenance|7375|MediaTek Inc.
 8414|National Institute of Information and Communications Technology (NICT) (mar-06)|Tokyo|JP|AWR-JP|Regional Office|Off Maintenance|6922|National Institute of Information & Communications Technology (NICT)
@@ -2690,7 +2690,7 @@ custid|custname|city|country|territory|type|status|parentid|pname
 8661|Kaelus|Queensland|AU|AWR-AU|Regional Office|On Maintenance|10060048|Smiths Group Plc
 8662|Rockwell Collins - San Jose|CA|US|AWR-NW|Site|On Maintenance|4862|Rockwell Collins
 8663|MicroGaN GmbH|Ulm|DE|AWR-DE|Enterprise|Ex-Customer|8663|MicroGaN GmbH
-8664|Rohde & Schwarz +sterreich SP.z o.o - HU|Budapest|HU|RSH|Rep|On Maintenance|8664|Rohde & Schwarz ?sterreich SP.z o.o
+8664|Rohde & Schwarz Österreich SP.z o.o - HU|Budapest|HU|RSH|Rep|On Maintenance|8664|Rohde & Schwarz ?sterreich SP.z o.o
 8667|Birla Institute of Technology|Ranchi|IN|AWR-NI|University|On Maintenance|8667|Birla Institute of Technology
 8668|Thales University|West Sussex|GB|AWR-UK|Site|On Maintenance|914|Thales
 8669|Ixia|OR|US|AWR-NW|Enterprise|On Maintenance|8669|Ixia
@@ -2760,7 +2760,7 @@ custid|custname|city|country|territory|type|status|parentid|pname
 8751|Powerwave Technologies, Inc. - Santa Ana (Mar-06)|CA|US|AWR-SW|Enterprise|Ex-Customer|8751|Powerwave Technologies, Inc.
 8754|CTP Wipac Ltd (jan-08)|Buckinghamshire|GB|AWR-UK|Enterprise|Off Maintenance|8754|CTP Wipac Ltd (jan-08)
 8755|Riga Technical University - Faculty of Electronics and Telecommunications|Riga|LV|AWR-NI|University|Ex-Customer|8755|Riga Technical University
-8756|Agilent Technologies Spain S.L.|MÃŸlaga|ES|AWR-SP|Enterprise|Off Maintenance|8756|Agilent Technologies Spain S.L.
+8756|Agilent Technologies Spain S.L.|Málaga|ES|AWR-SP|Enterprise|Off Maintenance|8756|Agilent Technologies Spain S.L.
 8757|NEC Corporation - Tsukuba Research Laboratories|Ibaraki|JP|AWR-JP|Regional Office|Off Maintenance|9024|NEC
 8758|Emhiser Research Inc. - Nevada|NV|US|AWR-NW|Enterprise|Off Maintenance|8758|Emhiser Research Inc.
 8759|CST GmbH|Darmstadt|DE|AWR-EU|Enterprise|Partner|8759|CST GmbH
@@ -2774,7 +2774,7 @@ custid|custname|city|country|territory|type|status|parentid|pname
 8773|University of Adelaide - School of Electrical and Electronics|SA|AU|Default Value|University|On Maintenance|8773|University of Adelaide
 8773|University of Adelaide - School of Electrical and Electronics|SA|AU|AWR|University|On Maintenance|8773|University of Adelaide
 8774|Infineon Technologies AG - Reno|NV|US|AWR-NW|Site|On Maintenance|312|Infineon Technologies AG
-8776|Microsemi Corporation - Jarfalla|JSrfSlla|SE|AWR-SC|Regional Office|Ex-Customer|10569|Microsemi Corporation
+8776|Microsemi Corporation - Jarfalla|Järfälla|SE|AWR-SC|Regional Office|Ex-Customer|10569|Microsemi Corporation
 8777|Honeywell Technology Solutions Lab - IN|Karnataka|IN|IDA|Site|On Maintenance|8870|Honeywell International Inc.
 8778|The University of Tokyo - Research Center for Advanced Science and Technology - Quantum Information Physics and Engineering Laboratory|Tokyo|JP|AWR-JP|University|On Maintenance|8778|The University of Tokyo
 8779|SVU - College of Engineering|Andhra Pradesh|IN|AWR-NI|University|Ex-Customer|8779|SVU
@@ -2849,7 +2849,7 @@ custid|custname|city|country|territory|type|status|parentid|pname
 8860|Vienna University of Technology - Institute of Communications and Radio-Frequency Engineering|Vienna|AT|AWR-NI|University|On Maintenance|9054|Vienna University of Technology
 8862|Nizhny Novgorod State University|Nizhny Novgorod|RU|AWR-NI|University|Ex-Customer|8862|Nizhny Novgorod State University
 8863|ASUSTeK Computer Inc. (may-14)|Taipei|TW|AWR-TSMC|Enterprise|Off Maintenance|8863|ASUSTeK Computer Inc. (may-14)
-8864|University of the Basque Country - Instituto de Tecnologfa Microelectr=nica|Bizkaia|ES|AWR-NI|University|On Maintenance|8864|University of the Basque Country
+8864|University of the Basque Country - Instituto de Tecnología Microelectrónica|Bizkaia|ES|AWR-NI|University|On Maintenance|8864|University of the Basque Country
 8865|Aeroflex Control Components, Inc.|NJ|US|AWR-NE|Regional Office|Off Maintenance|306|Aeroflex
 8866|Jaybeam Wireless (jun-09)|Northhampton|GB|AWR-UK|Enterprise|Off Maintenance|8866|Jaybeam Wireless (jun-09)
 8867|University of Malaga - ETSI Telecommunications|Malaga|ES|AWR-EU|University|On Maintenance|8867|University of Malaga
@@ -2930,7 +2930,7 @@ custid|custname|city|country|territory|type|status|parentid|pname
 8956|Zinwave Ltd|Cambridgeshire|GB|AWR-UK|Enterprise|On Maintenance|8956|Zinwave Ltd
 8957|Nitronex LLC|NC|US|AWR-SE|Regional Office|On Maintenance|9121|M/A-COM Technology Solutions, Inc.
 8958|Microwave Technology Solutions Inc.|NY|US|AWR-NE|Enterprise|Ex-Customer|8958|Microwave Technology Solutions Inc.
-8959|Ludwig-Maximilians-Universitat (LMU) Munchen - Faculty of Physics|Mnnchen|DE|AWR-NI|University|Ex-Customer|6310|Ludwig-Maximilians-Universitat (LMU) Munchen
+8959|Ludwig-Maximilians-Universitat (LMU) Munchen - Faculty of Physics|München|DE|AWR-NI|University|Ex-Customer|6310|Ludwig-Maximilians-Universitat (LMU) Munchen
 8961|Cobham Sensor Systems - MO|MO|US|WTA|Regional Office|On Maintenance|9286|Cobham Plc
 8962|National University of Kaohsiung|Kaohsiung|TW|AWR-NI|University|On Maintenance|8962|National University of Kaohsiung
 8964|Delta Electronics, Inc. - Taoyuan Plant 2 (may-11)|Taoyuan|TW|AWR-TSMC|Regional Office|Off Maintenance|182|Delta Electronics, Inc.
@@ -2948,7 +2948,7 @@ custid|custname|city|country|territory|type|status|parentid|pname
 8980|Middle East Technical University - Department of Electrical and Electonic Engineering|Ankara|TR|Default Value|University|On Maintenance|11196|Middle East Technical University
 8980|Middle East Technical University - Department of Electrical and Electonic Engineering|Ankara|TR|AWR|University|On Maintenance|11196|Middle East Technical University
 8982|University of Cyprus - Department of Electrical and Computer Engineering|Nicosia|CY|AWR-NI|University|On Maintenance|8982|University of Cyprus
-8983|Ericsson AB - Boras|Borss|SE|AWR-SC|Site|On Maintenance|1050|LM Ericsson
+8983|Ericsson AB - Boras|Borås|SE|AWR-SC|Site|On Maintenance|1050|LM Ericsson
 8986|University of Texas at Dallas - Commercial (jul-12)|TX|US|AWR-CE|Regional Office|Off Maintenance|8908|University of Texas at Dallas
 8987|Silesian Institute of Technology|Slaskie|PL|AWR-NI|University|On Maintenance|8987|Silesian Institute of Technology
 8988|Amalfi Semiconductor - Irvine|CA|US|AWR-SW|Site|Ex-Customer|4707|Amalfi Semiconductor, Inc.
@@ -2987,7 +2987,7 @@ custid|custname|city|country|territory|type|status|parentid|pname
 9038|Schrader Electronics|Cedex|FR|AWR-FR|Enterprise|On Maintenance|9038|Schrader Electronics
 9039|Centre de Transfert en Micro et Nano Technologies (CTMN) - Association liee a l'institut FEMTO-ST|Cedex 3|FR|AWR-FR|Enterprise|No Service/Support|9039|Centre de Transfert en Micro et Nano Technologies (CTMN)
 9042|Teleste Corporation - R&D Turku|Turku|FI|AWR-APL|Site|Off Maintenance|8468|Teleste Corporation
-9045|Omnisys Instruments AB|VSstra FrÃ·lunda|SE|AWR-SC|Enterprise|On Maintenance|9045|Omnisys Instruments AB
+9045|Omnisys Instruments AB|Västra Frölunda|SE|AWR-SC|Enterprise|On Maintenance|9045|Omnisys Instruments AB
 9048|Skyworks Solutions Inc - Hillcrest|CA|US|AWR-SW|Site|Evaluator|19|Skyworks Solutions, Inc.
 9050|Kwajalein Range Services, LLC (KRS)|CA|US|AWR-NW|Enterprise|On Maintenance|9050|Kwajalein Range Services, LLC (KRS)
 9051|BPS-Bogl & Partner Systemtechnik GmbH (BPS)|Bayern|DE|AWR-DE|Enterprise|On Maintenance|9051|BPS-Bogl & Partner Systemtechnik GmbH (BPS)
@@ -2998,7 +2998,7 @@ custid|custname|city|country|territory|type|status|parentid|pname
 9058|Radiocomp ApS|Hillerod|DK|AWR-APL|Enterprise|Ex-Customer|9058|Radiocomp ApS
 9059|Electronikschule Tettnang|Tettnang|DE|AWR-NI|University|Ex-Customer|9059|Electronikschule Tettnang
 9061|Helmholtz-Zentrum Berlin fur Materialien und Energie GmbH|Berlin|DE|AWR-NI|University|Ex-Customer|9061|Helmholtz-Zentrum Berlin fur Materialien und Energie GmbH
-9063|Jyvaskyla University of Applied Sciences - IT Polytechnic|JyvSskylS|FI|AWR-NI|University|Ex-Customer|9063|Jyvaskyla University of Applied Sciences
+9063|Jyvaskyla University of Applied Sciences - IT Polytechnic|Jyväskylä|FI|AWR-NI|University|Ex-Customer|9063|Jyvaskyla University of Applied Sciences
 9064|Central Ostrobothnia University of Applied Sciences|Ylivieska|FI|Default Value|University|Ex-Customer|9064|Central Ostrobothnia University of Applied Sciences
 9064|Central Ostrobothnia University of Applied Sciences|Ylivieska|FI|AWR|University|Ex-Customer|9064|Central Ostrobothnia University of Applied Sciences
 9065|Universitat Osnabruck|Osnabruck|DE|AWR-NI|University|Ex-Customer|9065|Universitat Osnabruck
@@ -3027,7 +3027,7 @@ custid|custname|city|country|territory|type|status|parentid|pname
 9091|Laboratory for Physical Sciences|MD|US|AWR-SE|Enterprise|Off Maintenance|9091|Laboratory for Physical Sciences
 9093|Wave Technology Inc.|Hyogo|JP|AWR-JP|Regional Office|On Maintenance|1757|Miyoshi Electronics Corporation
 9094|Giant Metrewave Radio Telescope (GMRT)|Maharashtra|IN|IDA|Enterprise|Off Maintenance|9094|Giant Metrewave Radio Telescope (GMRT)
-9095|Ericsson AB - Goteborg|GÃ·teborg|SE|AWR-SC|Site|On Maintenance|1050|LM Ericsson
+9095|Ericsson AB - Goteborg|Göteborg|SE|AWR-SC|Site|On Maintenance|1050|LM Ericsson
 9096|Lung-Hwa University of Science & Technology|Taoyuan County|TW|AWR-NI|University|On Maintenance|2222|Lung-Hwa University of Science & Technology
 9097|Luong Consulting|CA|US|AWR-SW|Enterprise|Off Maintenance|9097|Luong Consulting
 9098|National Radio Astronomical Observatory (NRAO) - Technology Center|VA|US|AWR-SE|Site|On Maintenance|3240|National Radio Astronomy Observatory (NRAO)
@@ -3050,8 +3050,8 @@ custid|custname|city|country|territory|type|status|parentid|pname
 9122|Si2 Microsystems Limited|Bangalore|IN|IDA|Enterprise|No Service/Support|9122|Si2 Microsystems Limited
 9125|Delphi Automotive Systems |missing|SG|RSE|Regional Office|Off Maintenance|9126|Delphi Automotive Systems
 9127|Qualcomm Inc. - Taiwan (dec-13)|Hsinchu|TW|AWR-TSMC|Regional Office|Off Maintenance|3808|Qualcomm Technologies, Inc.
-9128|Rosemount Tank Radar AB - Jonkoping|JÃ·nkÃ·ping|SE|AWR-SC|Site|On Maintenance|9155|Emerson
-9129|Rosemount Tank Radar AB - Linkoping|LinkÃ·ping|SE|AWR-SC|Site|On Maintenance|9155|Emerson
+9128|Rosemount Tank Radar AB - Jonkoping|Jönköping|SE|AWR-SC|Site|On Maintenance|9155|Emerson
+9129|Rosemount Tank Radar AB - Linkoping|Linköping|SE|AWR-SC|Site|On Maintenance|9155|Emerson
 9130|USAEPG (apr-10)|AZ|US|AWR-SW|Enterprise|Off Maintenance|9130|USAEPG (apr-10)
 9132|Cobham |Hampshire|GB|AWR-UK|Regional Office|On Maintenance|9286|Cobham Plc
 9133|Medtronic (apr-09)|MN|US|WTA|Enterprise|Off Maintenance|9133|Medtronic (apr-09)
@@ -3096,7 +3096,7 @@ custid|custname|city|country|territory|type|status|parentid|pname
 9193|Moray College Technology Centre|Scotland|GB|AWR-NI|University|Ex-Customer|9193|Moray College Technology Centre
 9194|RF Nano (jun-11)|CA|US|AWR-SW|Enterprise|Off Maintenance|9194|RF Nano (jun-11)
 9195|Baker Hughes INTEQ - Global Headquarters|TX|US|AWR-CE|Enterprise|On Maintenance|9195|Baker Hughes INTEQ
-9196|Bruker BioSpin GmbH|Baden-Wnrttemberg|DE|AWR-DE|Enterprise|Off Maintenance|9196|Bruker BioSpin GmbH
+9196|Bruker BioSpin GmbH|Baden-Württemberg|DE|AWR-DE|Enterprise|Off Maintenance|9196|Bruker BioSpin GmbH
 92|C-COR.net|PA|US|AWR-NE|Enterprise|Ex-Customer|92|C-COR.net
 9200|Himax Technologies (jun-11)|Hsinchu|TW|AWR-TSMC|Enterprise|Off Maintenance|9200|Himax Technologies (jun-11)
 9202|Microwave Solutions, Inc.|CA|US|AWR-SW|Regional Office|On Maintenance|10000021|Microwave Solutions Ltd.
@@ -3212,7 +3212,7 @@ custid|custname|city|country|territory|type|status|parentid|pname
 9340|Ashikaga Institute of Technology (AIT)|Tochigi|JP|NI-JP|University|Ex-Customer|9340|Ashikaga Institute of Technology (AIT)
 9341|AWR Corporation - Scandinavia|Kista|SE|AWR-SC|Rep|On Maintenance|9341|AWR Corporation
 9342|Option Wireless Germany GmbH (nov-10)|Kamp-Lintfort|DE|AWR-DE|Enterprise|Off Maintenance|9342|Option Wireless Germany GmbH (nov-10)
-9345|Fagor Electronica, S. Coop.|GuipÂ·zcoa|ES|AWR-SP|Enterprise|On Maintenance|9345|Fagor Electronica, S. Coop.
+9345|Fagor Electronica, S. Coop.|Guipúzcoa|ES|AWR-SP|Enterprise|On Maintenance|9345|Fagor Electronica, S. Coop.
 9346|Z-Communications, Inc. - San Jose (R&D Division)|CA|US|AWR-NW|Site|Off Maintenance|8639|Z-Communications, Inc.
 9347|Cambridge Silicon Radio Ltd. (CSR)|Cambridgeshire|GB|AWR-UK|Enterprise|On Maintenance|9347|Cambridge Silicon Radio Ltd. (CSR)
 9348|Omron Corporation - Okayama (nov-10)|Okayama|JP|AWR-JP|Regional Office|Off Maintenance|9349|Omron Corporation
@@ -3233,7 +3233,7 @@ custid|custname|city|country|territory|type|status|parentid|pname
 9370|Thrane and Thrane Norge AS|Asker|NO|AWR-SC|Site|On Maintenance|9286|Cobham Plc
 9373|LGC Wireless Inc. - an ADC Company|Shenzhen|CN|AWR-TSMC|Regional Office|Off Maintenance|10185|ADC Telecommunications, Inc.
 9374|Speck Systems Limited|Hyderabad|IN|IDA|Enterprise|Off Maintenance|9374|Speck Systems Limited
-9375|Creative Eurecom|Saint BarthTlTmy d'Anjou|FR|AWR-FR|Enterprise|Off Maintenance|9375|Creative Eurecom
+9375|Creative Eurecom|Saint Barthélémy d'Anjou|FR|AWR-FR|Enterprise|Off Maintenance|9375|Creative Eurecom
 9376|Huree University of Information and Communication Technology|Ulaanbaatar|MN|AWR-NI|University|Ex-Customer|9376|Huree University of Information and Communication Technology
 9377|Leenos Corporation (jan-10)|Seoul|KR|AWR-KR|Enterprise|Off Maintenance|9377|Leenos Corporation (jan-10)
 9378|IndusR&D Ltd.|Hyderabad|IN|IDA|Enterprise|Ex-Customer|9378|IndusR&D Ltd.
@@ -3267,14 +3267,14 @@ custid|custname|city|country|territory|type|status|parentid|pname
 9413|Nokia Solutions and Networks (NSN) - TX|TX|US|AWR-CE|Site|On Maintenance|9306|Nokia Solutions and Networks (NSN)
 9414|Institute of Technology Tallaght|Dublin|IE|AWR-NI|University|Ex-Customer|9414|Institute of Technology Tallaght
 9415|Royal Military College of Canada|ON|CA|AWR-NI|University|Ex-Customer|9415|Royal Military College of Canada
-9416|Ericsson AB - LinkÃ·ping|LinkÃ·ping|SE|AWR-SC|Site|On Maintenance|1050|LM Ericsson
+9416|Ericsson AB - Linköping|Linköping|SE|AWR-SC|Site|On Maintenance|1050|LM Ericsson
 9417|Essex Windermere|FL|US|AWR-SE|Regional Office|Ex-Customer|1015|Northrop Grumman Systems Corporation
 9420|Kiefer Electronic Development |CO|US|AWR-SW|Enterprise|Off Maintenance|9420|Kiefer Electronic Development 
 9423|Nokia - Bangalore (dec-09)|Karnataka|IN|IDA|Regional Office|Off Maintenance|8419|Nokia Corporation
-9425|Karlsruher Institut of Technologie (KIT) - Institut fur Organische Chemie - Lehrstuhl Biochemie|Baden-Wnrttemberg|DE|AWR-NI|University|On Maintenance|11100|Karlsruher Institut of Technologie (KIT)
+9425|Karlsruher Institut of Technologie (KIT) - Institut fur Organische Chemie - Lehrstuhl Biochemie|Baden-Württemberg|DE|AWR-NI|University|On Maintenance|11100|Karlsruher Institut of Technologie (KIT)
 9427|Andrew - Shenzhen (AFSC)|GuangDong|CN|AWR-AP|Site|On Maintenance|9022|CommScope, Inc.
 9428|ACR Electronics|FL|US|AWR-SE|Regional Office|Off Maintenance|9286|Cobham Plc
-9431|Kapsch TrafficCom AB|JÃ·nkÃ·ping|SE|AWR-SC|Regional Office|On Maintenance|9190|Kapsch TrafficCom AG (nov-12)
+9431|Kapsch TrafficCom AB|Jönköping|SE|AWR-SC|Regional Office|On Maintenance|9190|Kapsch TrafficCom AG (nov-12)
 9432|Panasonic System Networks Co., Ltd - Communication BU|Fukuoka|JP|AWR-JP|Regional Office|Off Maintenance|9429|Panasonic
 9433|Chi Mei Communications Systems, Inc.|Taipei|TW|AWR-TSMC|Enterprise|Off Maintenance|9433|Chi Mei Communications Systems, Inc.
 9434|Kathrein Austria GmbH - Werk I Kufstein|Tirol|AT|AWR-DE|Site|On Maintenance|2398|Kathrein-Werke KG
@@ -3314,7 +3314,7 @@ custid|custname|city|country|territory|type|status|parentid|pname
 9474|Yeditepe University - Electrical and Electronics Engineering Department|Istanbul|TR|Default Value|University|On Maintenance|9474|Yeditepe University
 9474|Yeditepe University - Electrical and Electronics Engineering Department|Istanbul|TR|AWR|University|On Maintenance|9474|Yeditepe University
 9475|novero GmbH - Bochum|Bochum|DE|AWR-APL|Regional Office|Off Maintenance|10937|Novero GmbH
-9478|Anacom Eletr(nica Ltda.|SP|BR|NI-BR|Enterprise|Ex-Customer|9478|Anacom Eletr?nica Ltda.
+9478|Anacom Eletrônica Ltda.|SP|BR|NI-BR|Enterprise|Ex-Customer|9478|Anacom Eletr?nica Ltda.
 9479|RDT Equipment & Systems|Tel Aviv|IL|AWR-IL|Enterprise|Ex-Customer|9479|RDT Equipment & Systems
 9480|Harris Corporation - Broadcast Division (may-14)|OH|US|AWR-NE|Regional Office|Off Maintenance|9044|Harris Corporation Headquarters
 9481|CardioMEMS|GA|US|AWR-SE|Enterprise|Ex-Customer|9481|CardioMEMS
@@ -3370,7 +3370,7 @@ custid|custname|city|country|territory|type|status|parentid|pname
 9539|Laird Technologies - Beijing (oct-12)|Beijing|CN|AWR-TSMC|Regional Office|Off Maintenance|9541|Laird Technologies, Inc.
 9540|QuinStar Technology, Inc.|CA|US|AWR-SW|Enterprise|On Maintenance|9540|QuinStar Technology, Inc.
 9542|Microwave Power, Inc.|CA|US|AWR-NW|Enterprise|Off Maintenance|9542|Microwave Power, Inc.
-9543|Deutsches Zentrum fnr Luft- und Raumfahrt (DLR)|Bremen|DE|AWR-DE|Enterprise|Off Maintenance|9543|Deutsches Zentrum f?r Luft- und Raumfahrt (DLR)
+9543|Deutsches Zentrum für Luft- und Raumfahrt (DLR)|Bremen|DE|AWR-DE|Enterprise|Off Maintenance|9543|Deutsches Zentrum f?r Luft- und Raumfahrt (DLR)
 9544|AeroAntenna Technology, Inc.|CA|US|AWR-SW|Enterprise|On Maintenance|9544|AeroAntenna Technology, Inc.
 9545|San Diego State University - Department of Electrical and Computer Engineering|CA|US|AWR-NI|University|On Maintenance|9545|San Diego State University
 9546|University of Central Florida - Department of Electrical Engineering|FL|US|AWR-NI|University|On Maintenance|9546|University of Central Florida
@@ -3378,7 +3378,7 @@ custid|custname|city|country|territory|type|status|parentid|pname
 9549|Thales Communications Inc.|KS|US|WTA|Regional Office|On Maintenance|914|Thales
 955|Elexience (12-dec-04)|Cedex|FR|AWR-FR|Enterprise|Ex-Customer|955|Elexience (12-dec-04)
 9551|Askey Computer Corporation (feb-14)|Taipei|TW|AWR-TSMC|Enterprise|Off Maintenance|9551|Askey Computer Corporation (feb-14)
-9552|Tnrksat A.S.|Ankara|TR|ANE|Enterprise|Off Maintenance|9552|T?rksat A.S.
+9552|Türksat A.S.|Ankara|TR|ANE|Enterprise|Off Maintenance|9552|T?rksat A.S.
 9553|Orbis Oy - Oulu|Oulu|FI|AWR-APL|Regional Office|Ex-Customer|8422|Orbis Oy
 9555|Rohde & Schwarz Systems & Communications Asia Pte. Ltd. - Singapore|Singapore|SG|RSE|Rep|On Maintenance|9555|Rohde & Schwarz Systems & Communications Asia Pte. Ltd.
 9561|FIRST RF Corporation - Engineering and Production|CO|US|AWR-SW|Enterprise|On Maintenance|9561|FIRST RF Corporation
@@ -3400,7 +3400,7 @@ custid|custname|city|country|territory|type|status|parentid|pname
 9579|Ericsson Power Modules - Kista|Stockholm|SE|AWR-SC|Site|On Maintenance|1050|LM Ericsson
 9581|TriQuint Semiconductor - CO|CO|US|AWR-SW|Regional Office|Ex-Customer|665|TriQuint Semiconductor
 9582|Electrosys S.p.A.|Orvieto|IT|MED|Enterprise|On Maintenance|9582|Electrosys S.p.A.
-9583|University of JaTn - Departamento de Ingenierfa de Telecomunicaci=n|(JaTn)|ES|AWR-NI|University|Ex-Customer|9583|University of Ja?n
+9583|University of Jaén - Departamento de Ingeniería de Telecomunicación|(Jaén)|ES|AWR-NI|University|Ex-Customer|9583|University of Ja?n
 9585|Canon, Inc. - Yako Office|Kanagawa|JP|AWR-JP|Regional Office|Ex-Customer|5728|Canon, Inc.
 9591|NII KULON (dec-10)|Moscow|RU|ETR|Enterprise|Off Maintenance|9591|NII KULON (dec-10)
 9592|Valon Technology, LLC|CA|US|AWR-NW|Enterprise|Off Maintenance|9592|Valon Technology, LLC
@@ -3414,7 +3414,7 @@ custid|custname|city|country|territory|type|status|parentid|pname
 9602|EM Research, Inc.|NV|US|AWR-NW|Enterprise|Off Maintenance|9602|EM Research, Inc.
 9603|RF Micro Devices, Inc. - Irvine|CA|US|AWR-SW|Site|On Maintenance|541|RF Micro Devices, Inc.
 9604|Magna Electronics|Ottobrunn|DE|AWR-DE|Enterprise|Ex-Customer|9604|Magna Electronics
-9605|Jarno KyhSlS (dec-09)|Espoo|FI|AWR-APL|Enterprise|On Maintenance|9605|Jarno Kyh?l? (dec-09)
+9605|Jarno Kyhälä (dec-09)|Espoo|FI|AWR-APL|Enterprise|On Maintenance|9605|Jarno Kyh?l? (dec-09)
 9608|Kyocera Corporation|Kanagawa|JP|AWR-JP|Regional Office|Off Maintenance|10138|Kyocera Corporation
 9609|C-DOT Alcatel Lucent Research Centre Pvt. Ltd.|Tamil Nadu|IN|IDA|Regional Office|Off Maintenance|9021|Alcatel-Lucent
 9610|Comtech Xicom Technology, Inc.|CA|US|AWR-NW|Enterprise|On Maintenance|9610|Comtech Xicom Technology, Inc.
@@ -3444,7 +3444,7 @@ custid|custname|city|country|territory|type|status|parentid|pname
 9643|Yakutsky State University|Yakutsk|RU|AWR-NI|University|Ex-Customer|9643|Yakutsky State University
 9644|Transbit Ltd.|Warsaw|PL|RSO|Enterprise|On Maintenance|9644|Transbit Ltd.
 9645|Microsemi Corporation - San Diego|CA|US|AWR-SW|Regional Office|Ex-Customer|10569|Microsemi Corporation
-9647|Universidad Aut=noma Metropolitana Azcapotzalco|Mexico City|MX|AWR-NI|University|Ex-Customer|9647|Universidad Aut?noma Metropolitana Azcapotzalco
+9647|Universidad Autónoma Metropolitana Azcapotzalco|Mexico City|MX|AWR-NI|University|Ex-Customer|9647|Universidad Aut?noma Metropolitana Azcapotzalco
 9648|Technical Services Lab|FL|US|AWR-SE|Enterprise|Ex-Customer|9648|Technical Services Lab
 9649|The American University in Cairo - Electronics Engineering Department|Cairo|EG|AWR-NI|University|On Maintenance|9649|The American University in Cairo
 965|Bluetronics|Norrkoping|SE|AWR-SC|Enterprise|Out of Business|965|Bluetronics
