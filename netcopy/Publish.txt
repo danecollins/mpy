@@ -1,0 +1,1 @@
+timed_copy.py -> \\us-cam-argo\awr\Share\Users\dane\netcopy
