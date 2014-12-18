@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>internal data tools</title>
+
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <!-- Custom styles for this template -->
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+    <style>
+      html,
+      body {
+        height: 100%;
+        background-color: rgb(230,230,225);
+        color: rgb(90,50,20);
+      }
+      .container-fluid {
+        background-color: rgb(90,50,20);
+      }
+      .navbar-default .navbar-brand {
+        color: rgb(230,230,225);
+        text-shadow:;      
+      }
+      .navbar-default .navbar-brand:hover {
+        color: rgb(254,243,161);
+        test-shadow:;
+      }
+      .navbar-default .navbar-nav>li>a{
+        color: rgb(230,230,225);
+        font-size: 16px;
+      }
+      .navbar-default .navbar-nav>li>a:hover{
+        color: rgb(254,243,161);   
+      }
+      #slideshow {
+          background-color: #FFFFFF;
+          margin: 50px auto; 
+          position: relative; 
+          width: 925px; 
+          height: 500px; 
+          padding: 10px; 
+          box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+      }
+
+      #slideshow > div { 
+        
+          position: absolute; 
+          top: 10px; 
+          left: 10px; 
+          right: 10px; 
+          bottom: 10px; 
+      }
+    </style>
+  </head>
+
+  <body>
+ <nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">awr analytics</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Sales <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Opportunity Size</a></li>
+            <li><a href="#">Sales Resources</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+      <div class="container">
+        <div id="slideshow">
+          <div>
+            <img src="images/MWO_pcb.png" width="900">
+          </div> 
+          <div>
+            <img src="images/vss.png" width="900">
+          </div>
+          <div>
+            <img src="images/boxplot.png" width="900">
+          </div>
+          <div>
+            <img src="images/wait.png" width="900">
+          </div>
+        </div>
+    </div>
+      <hr>
+      <h2>Latest articles...</h2>
+    </div>
+      <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Products</h2>
+          <p>We have a wealth of data in our customer database (CDB) but it's not easy to analyze. Because the history goes so far back there is a lot of old information that makes it hard to feel confident about the data we get from it. In this first article in my infotainment (information entertainment) series I'll walk through the product information in CDB and highlight some of the interesting (and some less interesting) aspects of the data.</p>
+          <p><a class="btn" href="https://wiki.awrcorp.com/display/~dane/2014/10/14/Infotainment+-+Products">View details &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Biggest Customer</h2>
+          <p>While working on organizing our annualized bookings data I got curious about who our largest customers are. As with all data oriented questions, this is not as easy as it sounds.  How do you define the largest customer?  Revenue, bookings, annualized bookings, averaged bookings?</p>
+          <p><a class="btn" href="https://wiki.awrcorp.com/display/~dane/2014/10/16/Infotainment+-+Customer+Rankings">View details &raquo;</a></p>
+       </div>
+        <div class="col-md-4">
+          <h2>Sim Queue</h2>
+          <p>I've been working on generating statistics from the log files produced from the remote simulator queue. I've gathered the log files from our queue and generated the following statistics. I'd like to get some feedback on what type of statistics you think customers will want to see so please comment below.</p>
+          <p><a class="btn" href="https://wiki.awrcorp.com/display/~dane/2014/11/21/Simulation+Statistics+from+AWR+Simulator+Queue">View details &raquo;</a></p>
+        </div>
+      </div>
+
+      <hr>
+    </div>
+
+      <div class="footer">
+        <p>&copy; AWR Corporation 2014</p>
+      </div>
+
+    </div> <!-- /container -->
+
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+    <script>
+      $(function() {
+      
+        $("#slideshow > div:gt(0)").hide();
+    
+        setInterval(function() { 
+          $('#slideshow > div:first')
+            .fadeOut(1000)
+            .next()
+            .fadeIn(1000)
+            .end()
+            .appendTo('#slideshow');
+        },  3000);
+        
+      });
+    </script>
+  </body>
+</html>
