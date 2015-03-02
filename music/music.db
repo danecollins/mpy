@@ -1,0 +1,16 @@
+(lp0
+(imusiclib
+Artist
+p1
+(dp2
+S'nick'
+p3
+I00
+sS'albums'
+p4
+(lp5
+sS'name'
+p6
+S'my artist'
+p7
+sba.
