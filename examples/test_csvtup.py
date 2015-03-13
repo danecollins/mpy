@@ -48,7 +48,7 @@ class CSVtests(unittest.TestCase):
         assert rows[26].CY2013 == '53953.57'
 
     def test_cdb_account_dump(self):
-        rows = read_csv('csv/accounts.txt',ignore_after_header=1,delimiter='|',dialect='excel')
+        rows = read_csv('csv/accts_cdb.txt',ignore_after_header=1,delimiter='|',dialect='excel')
         assert len(rows) == 3500
         assert rows[3499].custid == '9999'
 

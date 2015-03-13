@@ -89,7 +89,16 @@ def read_csv(filename, encoding='utf-8',
         next(reader)  # just ignore header
         lineno += 1
 
-    CSVF = namedtuple('CSVF', fields)
+    # need to test field names (can't be a number)
+    names = []
+    for f in fields:
+        if f[0].isdigit():
+            x = '_' + f
+            print('changing field named %s to %s' % (f, x))
+            f = x
+        names.append(f)
+
+    CSVF = namedtuple('CSVF', names)
     number_of_fields = len(fields)
     dprint("number_of_fields={}".format(number_of_fields))
 
