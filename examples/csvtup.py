@@ -4,9 +4,13 @@ from __future__ import unicode_literals
 from collections import namedtuple
 import csv
 import sys
+import os
 
-debug_port = False
-# debug_port = sys.stdout
+if os.environ.get('csvtup_debug', '0') == '1':
+    print('CSVTUP: debug enabled')
+    debug_port = sys.stdout
+else:
+    debug_port = False
 
 
 def dprint(*args):
@@ -97,6 +101,8 @@ def read_csv(filename, encoding='utf-8',
             print('changing field named %s to %s' % (f, x))
             f = x
         names.append(f)
+
+    dprint('Tuple Fields:', names)
 
     CSVF = namedtuple('CSVF', names)
     number_of_fields = len(fields)
