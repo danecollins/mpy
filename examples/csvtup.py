@@ -117,14 +117,20 @@ def read_csv(filename, encoding='utf-8',
 
     for x in reader:
         lineno += 1
-        dprint(lineno)
         if ignore_after_blank and len(x) == 0:
             break
         if len(x) > 0:
             # only keep as many values as there are in the header
             x = x[0:number_of_fields]
-            rows.append(CSVF._make(x))
+            try:
+                rows.append(CSVF._make(x))
+            except Exception as e:
+                print(e)
+                print("vector is: {}".format(x))
+                print("line number is {}".format(lineno))
+
     fp.close()
+    dprint('Returning %d rows' % len(rows))
     return(rows)
 
 
