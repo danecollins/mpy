@@ -59,7 +59,8 @@ if Old_Version:
 
 
 def read_csv(filename, encoding='utf-8',
-             ignore_after_header=0, ignore_after_blank=True, fields=[],
+             ignore_after_header=0, ignore_after_blank=True,
+             fields=[], header=True,
              **kwargs):
 
     lineno = 0
@@ -90,8 +91,9 @@ def read_csv(filename, encoding='utf-8',
         fields = [x for x in fields if len(x) > 0]
         dprint("field names = {}".format(fields))
     else:
-        next(reader)  # just ignore header
-        lineno += 1
+        if header:
+            next(reader)  # just ignore header
+            lineno += 1
 
     # need to test field names (can't be a number)
     names = []
