@@ -60,10 +60,11 @@ if Old_Version:
 
 def read_csv(filename, encoding='utf-8',
              ignore_after_header=0, ignore_after_blank=True,
-             fields=[], header=True,
+             fields=[], header=True, max_rows=False,
              **kwargs):
 
     lineno = 0
+    num_rows = 0
 
     if Old_Version:
         # in 2.7 a character is a str not a byte. For CSV it must be a byte
@@ -118,7 +119,10 @@ def read_csv(filename, encoding='utf-8',
     dprint('Starting to read data at line {}'.format(lineno))
 
     for x in reader:
+        if max_rows and num_rows == max_rows:
+            break
         lineno += 1
+        num_rows += 1
         if ignore_after_blank and len(x) == 0:
             break
         if len(x) > 0:
