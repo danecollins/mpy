@@ -14,6 +14,8 @@ c = Counter()
 
 if len(sys.argv) != 4:
     print('\nUsage: python tracklist2tsv.py input output tag')
+    print('    to get input, select playlist tracks in spotify and copy/paste to text file')
+    print('    output file will be a tab separated file')
     exit(0)
 else:
     infn = sys.argv[1]
