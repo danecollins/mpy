@@ -44,6 +44,26 @@ tmp_bits.append('.ANA_001')
 tmp_bits.append('.ANA_100')
 matrix['MWO_186B'] = tmp_bits
 
+# ANO_449B
+tmp_bits = list(matrix['ANO_229'])
+tmp_bits.append('.XEM_001')
+tmp_bits.append('.XEM_100')
+tmp_bits.append('APL_100')
+matrix['ANO_449B'] = tmp_bits
+
+# MWO_227B
+tmp_bits = list(matrix['MWO_226'])
+tmp_bits.append('MOD_100')
+matrix['MWO_227B'] = tmp_bits
+
+# MWO_449B
+tmp_bits = list(matrix['MWO_228'])
+tmp_bits.append('.XEM_001')
+tmp_bits.append('.XEM_100')
+tmp_bits.append('APL_100')
+matrix['MWO_449B'] = tmp_bits
+
+
 # matrix['.EM ANA_001'] = matrix.pop('ANA_001')
 # matrix['.EM ANA_003'] = matrix.pop('ANA_003')
 # matrix['.EM ANA_100'] = matrix.pop('ANA_100')
